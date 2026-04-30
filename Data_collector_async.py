@@ -53,20 +53,20 @@ LOG_LEVEL    = os.getenv("LOG_LEVEL",    "INFO")
 MAX_RETRIES         = int(os.getenv("MAX_RETRIES",          "2"))
 RETRY_BACKOFF_BASE  = float(os.getenv("RETRY_BACKOFF_BASE", "3.0"))
 TEMPERATURE         = float(os.getenv("TEMPERATURE",        "0.0"))
-MAX_TOKENS          = int(os.getenv("MAX_TOKENS",           "8192"))
+MAX_TOKENS          = int(os.getenv("MAX_TOKENS",           "16384"))
 
 # Per-prompt token overrides — reasoning prompts need more headroom.
 # Keys are prompt stem names (without .txt). Missing keys use MAX_TOKENS.
 MAX_TOKENS_BY_PROMPT: Dict[str, int] = {
-    "reasoning_max":         12288,
-    "reasoning_min":         12288,
-    "reasoning_domain":      12288,
-    "reasoning_few_domain":  12288,
-    "fewshot_reasoning_max": 12288,
-    "fewshot_reasoning_min": 12288,
+    "reasoning_max":         24576,
+    "reasoning_min":         24576,
+    "reasoning_domain":      24576,
+    "reasoning_few_domain":  24576,
+    "fewshot_reasoning_max": 24576,
+    "fewshot_reasoning_min": 24576,
 }
 
-CONCURRENCY         = int(os.getenv("CONCURRENCY",          "2"))
+CONCURRENCY         = int(os.getenv("CONCURRENCY",          "4"))
 CHECKPOINT_EVERY    = int(os.getenv("CHECKPOINT_EVERY",     "10"))
 REQUEST_TIMEOUT_SEC = float(os.getenv("REQUEST_TIMEOUT_SECONDS", "0"))  # 0 = no timeout
 INTER_REQUEST_DELAY = float(os.getenv("INTER_REQUEST_DELAY",     "1.0"))
@@ -74,7 +74,7 @@ EARLY_STOP_FAILURES = int(os.getenv("EARLY_STOP_FAILURES",       "10"))
 
 # Tables exceeding this cell count are skipped entirely — too large for any model.
 # At 3000 cells (default): covers 95.2% of RealHeatBench, excludes only outliers.
-MAX_TABLE_CELLS = int(os.getenv("MAX_TABLE_CELLS", "3000"))
+MAX_TABLE_CELLS = int(os.getenv("MAX_TABLE_CELLS", "0"))  # 0 = no limit
 
 # FIX-1: chunk threshold based on total cells (rows × cols), not rows alone.
 # economy-table106: 95 rows × 27 cols = 2565 cells → exceeds 2000 → chunked.
@@ -94,24 +94,24 @@ FORMAT_RATIO  = os.getenv("FORMAT_RATIO", "50:50")      # "JSON:HTML"
 # EXPERIMENT PLAN
 # =========================
 EXPERIMENT_PLAN = [
-    # NOTE: pubtables and maximum_viewpoint are commented out —
-    # running MIN-only rerun with rewritten prompts.
-    # {
-    #     "name":      "pubtables_complex_top500",
-    #     "json_root": PROJECT_ROOT / "Get_500_Tables_from_PubTables" / "JSON_Complex_TOP500_normalized",
-    #     "html_root": PROJECT_ROOT / "Get_500_Tables_from_PubTables" / "JSON_Complex_TOP500_normalized_html",
-    #     "limit":     500,
-    #     "prompts":   ["zero_domain", "fewshot_domain", "reasoning_domain"],
-    # },
-    # {
-    #     "name":      "maximum_viewpoint",
-    #     "json_root": PROJECT_ROOT / "Convert_from_xlsx_to_Json" / "maximum_viewpoint_converted_json",
-    #     "html_root": PROJECT_ROOT / "Convert_from_json_to_html" / "maximum_viewpoint_converted_html",
-    #     "limit":     500,
-    #     "prompts":   ["zero_max", "fewshot_max", "reasoning_max"],
-    # },
     {
-        # MIN-strategy prompts — rewritten prompts, fresh run
+        # Domain prompts — tailored for biomedical PubTables content
+        "name":      "pubtables_complex_top500",
+        "json_root": PROJECT_ROOT / "Get_500_Tables_from_PubTables" / "JSON_Complex_TOP500_normalized",
+        "html_root": PROJECT_ROOT / "Get_500_Tables_from_PubTables" / "JSON_Complex_TOP500_normalized_html",
+        "limit":     500,
+        "prompts":   ["zero_domain", "fewshot_domain", "reasoning_domain"],
+    },
+    {
+        # MAX-strategy prompts — matches dataset annotation
+        "name":      "maximum_viewpoint",
+        "json_root": PROJECT_ROOT / "Convert_from_xlsx_to_Json" / "maximum_viewpoint_converted_json",
+        "html_root": PROJECT_ROOT / "Convert_from_json_to_html" / "maximum_viewpoint_converted_html",
+        "limit":     500,
+        "prompts":   ["zero_max", "fewshot_max", "reasoning_max"],
+    },
+    {
+        # MIN-strategy prompts — rewritten prompts
         "name":      "table_normalization",
         "json_root": PROJECT_ROOT / "Convert_from_xlsx_to_Json" / "table_normalization_converted_json",
         "html_root": PROJECT_ROOT / "Convert_from_json_to_html" / "table_normalization_converted_html",
