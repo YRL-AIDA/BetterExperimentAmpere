@@ -1020,7 +1020,12 @@ async def async_api_call(
 
             data_r   = resp.json()
             duration = time.time() - t0
-            raw      = data_r["choices"][0]["message"]["content"] or ""
+            _msg     = data_r["choices"][0]["message"]
+            raw      = _msg.get("content") or ""
+            # With --reasoning-parser qwen3, the server strips <think> and puts
+            # the chain-of-thought here; on a cap inside reasoning, content is
+            # empty and ALL budget shows up as reasoning_content.
+            reasoning = _msg.get("reasoning_content") or ""
 
             ok, parsed_hdrs, pe = parse_output(raw)
             usage      = data_r.get("usage") or {}
@@ -1034,14 +1039,19 @@ async def async_api_call(
                     and is_capped
                     and not output_complete):
 
-                if pe == "truncated_inside_think_block":
-                    # ── Capped INSIDE <think>: no answer yet. Three-tier escape.
+                if not parsed_hdrs:
+                    # ── Capped with NO parseable answer. Covers BOTH cases:
+                    #   - reasoning-parser ON  → content empty, all budget in
+                    #     reasoning_content (model never reached the answer)
+                    #   - reasoning-parser OFF → truncated inside <think>
+                    # Use whichever holds the partial reasoning as context.
+                    partial = raw.strip() or reasoning.strip()
                     # Step 2: ask the model to CONTINUE reasoning and wrap up.
                     logging.info(
                         f"Continuation step 2 (continue thinking): capped inside "
                         f"<think> at {comp_toks} tokens, asking to finish reasoning"
                     )
-                    cont_msgs = build_continue_thinking_messages(messages, raw)
+                    cont_msgs = build_continue_thinking_messages(messages, partial)
                     r2 = await async_api_call(
                         client, model, cont_msgs, max_tokens, _pass=2
                     )
@@ -1061,8 +1071,8 @@ async def async_api_call(
                             "Continuation step 3 (force answer, thinking OFF): still "
                             "no answer after continue, forcing direct answer emission"
                         )
-                        r2_raw   = r2.get("raw_response", "") or ""
-                        combined = (raw + "\n" + r2_raw).strip()
+                        r2_raw   = (r2.get("raw_response", "") or "")
+                        combined = (partial + "\n" + r2_raw).strip()
                         esc_msgs = build_force_answer_messages(messages, combined)
                         r3 = await async_api_call(
                             client, model, esc_msgs, max_tokens, _pass=2,
