@@ -38,6 +38,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
+import numpy as np
 
 logging.basicConfig(
     level=logging.INFO,
@@ -77,8 +78,16 @@ def find_checkpoints(run_dirs: List[Path]) -> List[Tuple[Path, Path]]:
         if not ckpt_dir.exists():
             logging.warning(f"No checkpoints/ in {rd}, skipping")
             continue
-        ckpts = sorted(ckpt_dir.glob("checkpoint_*.json"))
+        ckpts = [p for p in ckpt_dir.glob("checkpoint_*.json")
+                 if p.name != "checkpoint_latest.json"]
+        # Sort by modification time (filenames use dd.mm.yyyy which is NOT
+        # chronologically sortable as a string, e.g. 05.07 < 17.06).
+        ckpts = sorted(ckpts, key=lambda p: p.stat().st_mtime)
         if not ckpts:
+            # Fall back to checkpoint_latest.json if it is the only one present
+            latest = ckpt_dir / "checkpoint_latest.json"
+            if latest.exists():
+                found.append((rd, latest)); continue
             logging.warning(f"No checkpoint files in {ckpt_dir}, skipping")
             continue
         found.append((rd, ckpts[-1]))
@@ -171,16 +180,22 @@ def build_task_key(r: Dict) -> str:
     ])
 
 
-def merge_runs(df: pd.DataFrame) -> pd.DataFrame:
+def merge_runs(df: pd.DataFrame, strategy: str = "best") -> pd.DataFrame:
     """
     When multiple runs cover the same task (original + retry + capped_retry),
-    keep the BEST result per task key ranked by:
+    collapse to one record per task key.
+
+    strategy="best" (default): keep the BEST result per task key ranked by:
       1. api_success=True  > api_success=False
       2. parse_success=True > False
       3. f1 (highest wins)
       4. completion_capped=False > True  (prefer complete responses)
+    This replaces failed/capped originals with their successful retries. NOTE:
+    if the same *successful* task appears in several runs, best-of-N can bias
+    the aggregate metric upward — report the strategy used in the paper.
 
-    This ensures retried tasks replace their failed/capped originals.
+    strategy="latest": keep the most recently produced result per task key
+    (by timestamp). Unbiased, but a failed retry can overwrite a good original.
     """
     if df.empty:
         return df
@@ -188,18 +203,25 @@ def merge_runs(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df["_task_key"] = df.apply(build_task_key, axis=1)
 
-    # Score for ranking: higher = better
-    df["_api_ok"]   = pd.to_numeric(df.get("api_success",   False), errors="coerce").fillna(0)
-    df["_parse_ok"] = pd.to_numeric(df.get("parse_success", False), errors="coerce").fillna(0)
-    df["_f1"]       = pd.to_numeric(df.get("f1", 0),                errors="coerce").fillna(0)
-    df["_not_capped"] = 1 - pd.to_numeric(
-        df.get("completion_capped", False), errors="coerce").fillna(0)
-
-    # Sort so best result comes first for each task
-    df = df.sort_values(
-        ["_task_key", "_api_ok", "_parse_ok", "_f1", "_not_capped"],
-        ascending=[True, False, False, False, False]
-    )
+    if strategy == "latest" and "timestamp" in df.columns:
+        df["_ts"] = pd.to_datetime(df["timestamp"], errors="coerce")
+        df = df.sort_values(["_task_key", "_ts"], ascending=[True, False])
+        sort_cols = ["_task_key", "_ts"]
+    else:
+        if strategy == "latest":
+            logging.warning("strategy='latest' requested but no 'timestamp' "
+                            "column found; falling back to 'best'.")
+        # Score for ranking: higher = better
+        df["_api_ok"]   = pd.to_numeric(df.get("api_success",   False), errors="coerce").fillna(0)
+        df["_parse_ok"] = pd.to_numeric(df.get("parse_success", False), errors="coerce").fillna(0)
+        df["_f1"]       = pd.to_numeric(df.get("f1", 0),                errors="coerce").fillna(0)
+        df["_not_capped"] = 1 - pd.to_numeric(
+            df.get("completion_capped", False), errors="coerce").fillna(0)
+        df = df.sort_values(
+            ["_task_key", "_api_ok", "_parse_ok", "_f1", "_not_capped"],
+            ascending=[True, False, False, False, False]
+        )
+        sort_cols = ["_task_key", "_api_ok", "_parse_ok", "_f1", "_not_capped"]
 
     before = len(df)
     df = df.drop_duplicates(subset=["_task_key"], keep="first")
@@ -209,11 +231,10 @@ def merge_runs(df: pd.DataFrame) -> pd.DataFrame:
     if dupes > 0:
         logging.info(
             f"Merged {before} records → {after} unique tasks "
-            f"(replaced {dupes} duplicates with better retry results)"
+            f"(strategy='{strategy}', collapsed {dupes} duplicates)"
         )
 
-    df = df.drop(columns=["_task_key", "_api_ok", "_parse_ok", "_f1", "_not_capped"],
-                 errors="ignore")
+    df = df.drop(columns=["_task_key", "_ts"] + sort_cols, errors="ignore")
     return df.reset_index(drop=True)
 
 
@@ -351,6 +372,129 @@ def build_format_consistency(df: pd.DataFrame) -> pd.DataFrame:
 
     return pd.DataFrame(summary_rows)
 
+def bootstrap_ci(values, n_boot: int = 2000,
+                 alpha: float = 0.05, seed: int = 0):
+    """
+    Bootstrap confidence interval for the mean of `values`.
+    Returns (mean, ci_low, ci_high); (None, None, None) if no valid data.
+    """
+    vals = np.asarray([v for v in values if v == v], dtype=float)  # drop NaN
+    if len(vals) == 0:
+        return (None, None, None)
+    if len(vals) == 1:
+        return (float(vals[0]), float(vals[0]), float(vals[0]))
+    rng = np.random.default_rng(seed)
+    means = rng.choice(vals, size=(n_boot, len(vals)), replace=True).mean(axis=1)
+    lo, hi = np.percentile(means, [100 * alpha / 2, 100 * (1 - alpha / 2)])
+    return float(vals.mean()), float(lo), float(hi)
+
+
+def build_model_ci(df: pd.DataFrame, metric: str = "f1") -> pd.DataFrame:
+    """
+    Per-model mean of `metric` with a bootstrap 95% confidence interval.
+    Lets the paper report 'F1 = 0.42 [0.39, 0.45]' instead of a bare mean.
+    """
+    if "model_alias" not in df.columns or metric not in df.columns:
+        return pd.DataFrame()
+    rows = []
+    for model, sub in df.groupby("model_alias", dropna=False):
+        mean, lo, hi = bootstrap_ci(pd.to_numeric(sub[metric], errors="coerce").values)
+        rows.append({
+            "model_alias":      model,
+            "n":                len(sub),
+            f"{metric}_mean":   mean,
+            f"{metric}_ci_low": lo,
+            f"{metric}_ci_high":hi,
+        })
+    return pd.DataFrame(rows)
+
+
+def build_paired_model_comparison(df: pd.DataFrame,
+                                  metric: str = "f1") -> pd.DataFrame:
+    """
+    Paired comparison between every pair of models on the SAME tasks.
+
+    Requires that models were run on identical tables (use --table-seed).
+    For each model pair, computes the mean per-task difference of `metric`
+    together with a bootstrap 95% CI of that difference. `significant_95`
+    is True when the CI excludes zero (i.e. the difference is significant).
+
+    n_paired = number of tasks both models share; if this is unexpectedly
+    small, the models were NOT run on the same table set and the plain
+    independent means should be interpreted with caution.
+    """
+    needed = {"model_alias", "prompt_name", "source_group",
+              "source_stem", "table_index", "table_format"}
+    if not needed.issubset(df.columns) or metric not in df.columns:
+        return pd.DataFrame()
+
+    d = df.copy()
+    d["_pair_key"] = (d["prompt_name"].astype(str) + "|" +
+                      d["source_group"].astype(str) + "|" +
+                      d["source_stem"].astype(str) + "|" +
+                      d["table_index"].astype(str) + "|" +
+                      d["table_format"].astype(str))
+    wide = d.pivot_table(index="_pair_key", columns="model_alias",
+                         values=metric, aggfunc="mean")
+    models = list(wide.columns)
+    rows = []
+    for i in range(len(models)):
+        for j in range(i + 1, len(models)):
+            a, b = models[i], models[j]
+            sub = wide[[a, b]].dropna()
+            if len(sub) == 0:
+                continue
+            md, lo, hi = bootstrap_ci((sub[a] - sub[b]).values)
+            rows.append({
+                "model_a":        a,
+                "model_b":        b,
+                "n_paired":       len(sub),
+                f"{metric}_a_mean": float(sub[a].mean()),
+                f"{metric}_b_mean": float(sub[b].mean()),
+                "delta_mean":     md,
+                "delta_ci_low":   lo,
+                "delta_ci_high":  hi,
+                "significant_95": (lo is not None and (lo > 0 or hi < 0)),
+            })
+    return pd.DataFrame(rows)
+
+
+def build_continuation_stats(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Per-model truncation / completion statistics. Quantifies how often
+    responses hit the token ceiling (capped) versus finished cleanly
+    (output_complete = wrote a DONE marker), and — if the collector records
+    it — how often the continuation logic fired and rescued a capped task.
+
+    Recognised optional columns (gracefully skipped if absent):
+      completion_capped, output_complete, continuation_used, continuation_tier
+    """
+    if "model_alias" not in df.columns:
+        return pd.DataFrame()
+    rows = []
+    for model, sub in df.groupby("model_alias", dropna=False):
+        n = len(sub)
+        row = {"model_alias": model, "n": n}
+        capped = pd.to_numeric(sub.get("completion_capped", 0),
+                               errors="coerce").fillna(0)
+        row["capped_rate"] = float(capped.mean()) if n else None
+        if "output_complete" in sub.columns:
+            oc = pd.to_numeric(sub["output_complete"], errors="coerce").fillna(0)
+            row["output_complete_rate"] = float(oc.mean())
+        if "continuation_used" in sub.columns:
+            cu = pd.to_numeric(sub["continuation_used"], errors="coerce").fillna(0)
+            row["continuation_used_rate"] = float(cu.mean())
+            # F1 on tasks where continuation fired — shows the rescue effect
+            cont_rows = sub[cu == 1]
+            if len(cont_rows) and "f1" in cont_rows.columns:
+                row["continuation_f1_mean"] = float(
+                    pd.to_numeric(cont_rows["f1"], errors="coerce").mean())
+                row["continuation_zero_f1_rate"] = float(
+                    (pd.to_numeric(cont_rows["f1"], errors="coerce") == 0).mean())
+        rows.append(row)
+    return pd.DataFrame(rows)
+
+
 def build_model_summary(df: pd.DataFrame) -> pd.DataFrame:
     """One row per model — the main paper table."""
     return agg_group(df, ["model_alias"])
@@ -416,6 +560,16 @@ def build_model_type(df: pd.DataFrame) -> pd.DataFrame:
         if not tmp.empty:
             tmp.insert(1, "header_type", ht)
             frames.append(tmp)
+
+    # Soft spanning: counts a hit anywhere inside the span zone, not just the
+    # anchor cell. This is the fairer metric for multi-cell spanning headers.
+    if "spanning_soft_f1" in sub.columns and \
+            pd.to_numeric(sub["spanning_soft_f1"], errors="coerce").notna().any():
+        tmp = agg_group(sub, ["model_alias"], metric_prefix="spanning_soft")
+        if not tmp.empty:
+            tmp.insert(1, "header_type", "spanning_soft")
+            frames.append(tmp)
+
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
 
@@ -618,6 +772,17 @@ def main():
         "--models", nargs="+", default=None, metavar="ALIAS",
         help="Filter to specific model aliases (e.g. qwen30b llama8b).",
     )
+    parser.add_argument(
+        "--merge-strategy", choices=["best", "latest"], default="best",
+        help="How to collapse duplicate tasks across runs. "
+             "'best' = highest-quality result wins (replaces failed/capped "
+             "originals; can bias upward if successful tasks repeat). "
+             "'latest' = most recent result wins (unbiased).",
+    )
+    parser.add_argument(
+        "--metric", default="f1",
+        help="Metric used for per-model CIs and paired comparison.",
+    )
     args = parser.parse_args()
 
     # Resolve run directories
@@ -644,7 +809,7 @@ def main():
     df_raw = load_all_runs(run_dirs)
 
     # Merge: keep best result per task when retries exist
-    df = merge_runs(df_raw)
+    df = merge_runs(df_raw, strategy=args.merge_strategy)
     logging.info(
         f"After merge: {len(df)} unique tasks "
         f"(from {len(df_raw)} total records across {len(run_dirs)} runs)"
@@ -669,6 +834,9 @@ def main():
         "format_consistency":               build_format_consistency(df),
         "comparison_by_model_size":         build_model_size(df),
         "comparison_by_model_type":         build_model_type(df),
+        "model_ci":                         build_model_ci(df, metric=args.metric),
+        "paired_model_comparison":          build_paired_model_comparison(df, metric=args.metric),
+        "continuation_stats":               build_continuation_stats(df),
     }
 
     # Pivot tables for paper
@@ -716,6 +884,22 @@ def main():
                     f"P={float(row.get('precision_mean', 0)):.3f}  "
                     f"R={float(row.get('recall_mean', 0)):.3f}"
                 )
+
+    paired = views.get("paired_model_comparison", pd.DataFrame())
+    if not paired.empty:
+        print("\n" + "-" * 70)
+        print(f"PAIRED COMPARISON ({args.metric}, bootstrap 95% CI of difference)")
+        print("-" * 70)
+        for _, row in paired.iterrows():
+            sig = "  *SIGNIFICANT*" if row.get("significant_95") else ""
+            dlo, dhi = row.get("delta_ci_low"), row.get("delta_ci_high")
+            ci = (f"[{dlo:+.3f}, {dhi:+.3f}]"
+                  if dlo is not None and dhi is not None else "[n/a]")
+            print(
+                f"  {str(row['model_a']):<12} vs {str(row['model_b']):<12} "
+                f"n={int(row['n_paired']):4d}  "
+                f"Δ={float(row.get('delta_mean', 0)):+.3f} {ci}{sig}"
+            )
 
     print(f"\nFull analysis → {out_dir}/")
 

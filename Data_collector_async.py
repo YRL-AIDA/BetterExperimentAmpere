@@ -609,6 +609,31 @@ def needs_chunking(table_rows: int, table_cols: int) -> bool:
 
 # Absolute ceiling the vLLM server will accept
 MODEL_MAX_TOKENS   = int(os.getenv("MODEL_MAX_TOKENS",   "32768"))
+# Hard context window of the served model (prompt + completion must fit).
+# For small-context models (e.g. Qwen2.5 at 32768) this is used to shrink
+# completion budget on the fly so prompt + completion never exceed it.
+MODEL_CONTEXT_LIMIT = int(os.getenv("MODEL_CONTEXT_LIMIT", "32768"))
+# Safety margin subtracted when refitting max_tokens to the context window.
+CONTEXT_SAFETY_MARGIN = int(os.getenv("CONTEXT_SAFETY_MARGIN", "512"))
+# Minimum completion budget worth retrying with; below this the prompt itself
+# is too large and the task is marked failed instead of looping.
+MIN_COMPLETION_TOKENS = int(os.getenv("MIN_COMPLETION_TOKENS", "256"))
+
+
+def parse_context_overflow(error_msg: str) -> Optional[int]:
+    """
+    From a vLLM 'maximum context length' 400 error, extract the prompt
+    (messages) token count so we can refit max_tokens to the window.
+
+    vLLM phrasing: '... you requested N tokens (P in the messages, C in the
+    completion). ...'  We return P (prompt tokens), or None if not parseable.
+    """
+    if "context length" not in error_msg and "maximum context" not in error_msg:
+        return None
+    m = re.search(r"(\d+)\s+in the messages", error_msg)
+    if m:
+        return int(m.group(1))
+    return None
 # Two-pass generation: if first pass is capped, do a continuation pass
 # asking model to resume from where it stopped
 ENABLE_TWO_PASS    = os.getenv("ENABLE_TWO_PASS", "1") == "1"
@@ -889,6 +914,51 @@ def build_continuation_messages(
     ]
 
 
+def build_continue_thinking_messages(
+    original_messages: List[Dict[str, str]],
+    partial_response:  str,
+) -> List[Dict[str, str]]:
+    """
+    Continuation step 2 for thinking models that ran out of budget INSIDE
+    <think> (no </think>, nothing parseable yet).
+
+    Strategy: give the model another full budget to FINISH reasoning on its
+    own, then emit the answer. We do NOT force-close the thinking block here —
+    we just ask it to continue and wrap up. Often one more pass is enough.
+    """
+    continue_user = (
+        "Your previous response was cut off while you were still reasoning. "
+        "Continue your analysis, finish your reasoning, and then output the "
+        "final header cells in the format: row col | cell text "
+        "(one per line). When the list is complete, write DONE on its own line."
+    )
+    return original_messages + [
+        {"role": "assistant", "content": partial_response},
+        {"role": "user",      "content": continue_user},
+    ]
+
+
+def build_force_answer_messages(
+    original_messages: List[Dict[str, str]],
+    partial_response:  str,
+) -> List[Dict[str, str]]:
+    """
+    Continuation step 3 (last resort): the model STILL did not produce an
+    answer after being asked to continue. Now we force it to stop reasoning
+    and emit only the answer.
+    """
+    force_user = (
+        "Stop reasoning now. You have analysed enough. "
+        "Output ONLY the header cells immediately, one per line, in the format: "
+        "row col | cell text. Do not explain, do not think further. "
+        "When the list is complete, write DONE on its own line."
+    )
+    return original_messages + [
+        {"role": "assistant", "content": partial_response},
+        {"role": "user",      "content": force_user},
+    ]
+
+
 def extract_last_row(parsed_headers: List[Dict]) -> int:
     """Return the highest row index seen in parsed headers (0 if none)."""
     if not parsed_headers:
@@ -903,6 +973,20 @@ async def async_api_call(
     _pass:      int = 1,               # internal: 1 = first pass, 2 = continuation
 ) -> Dict[str, Any]:
     url     = f"{VLLM_BASE_URL}/chat/completions"
+
+    # Proactive clamp: if we can cheaply estimate prompt size, ensure
+    # prompt + max_tokens stays within the model context window.
+    # (Best-effort character heuristic; the reactive refit below is exact.)
+    approx_prompt_chars = sum(len(m.get("content", "")) for m in messages)
+    approx_prompt_toks  = approx_prompt_chars // 3   # ~3 chars/token, conservative
+    fit_budget = MODEL_CONTEXT_LIMIT - approx_prompt_toks - CONTEXT_SAFETY_MARGIN
+    if fit_budget > MIN_COMPLETION_TOKENS and max_tokens > fit_budget:
+        logging.debug(
+            f"Pre-clamp max_tokens {max_tokens} -> {fit_budget} "
+            f"(approx prompt ~{approx_prompt_toks} toks, window {MODEL_CONTEXT_LIMIT})"
+        )
+        max_tokens = fit_budget
+
     payload = {
         "model":       model,
         "messages":    messages,
@@ -938,40 +1022,94 @@ async def async_api_call(
             comp_toks  = usage.get("completion_tokens", 0) or 0
             is_capped  = comp_toks >= max_tokens
 
-            # ── TWO-PASS: if first pass was capped, request continuation ──────
+            # ── MULTI-PASS continuation: only from the first pass ─────────────
             output_complete = (pe == "done_marker")
             if (ENABLE_TWO_PASS
                     and _pass == 1
                     and is_capped
-                    and not output_complete  # skip second pass if DONE was written
-                    and ok
-                    and parsed_hdrs):
-                last_row = extract_last_row(parsed_hdrs)
-                cont_msgs = build_continuation_messages(messages, raw, last_row)
-                logging.debug(
-                    f"Two-pass continuation: first pass capped at {comp_toks} tokens, "
-                    f"last_row={last_row}, requesting continuation"
-                )
-                cont_result = await async_api_call(
-                    client, model, cont_msgs, max_tokens, _pass=2
-                )
-                if cont_result["api_success"] and cont_result["parse_success"]:
-                    # Merge: deduplicate by (row, col)
-                    seen_coords = {(h["row"], h["col"]) for h in parsed_hdrs}
-                    for h in cont_result["parsed_headers"]:
-                        key = (h["row"], h["col"])
-                        if key not in seen_coords:
-                            seen_coords.add(key)
-                            parsed_hdrs.append(h)
-                    parsed_hdrs.sort(key=lambda x: (x["row"], x["col"]))
-                    # Accumulate token usage
-                    cu = cont_result.get("tokens_used") or {}
-                    comp_toks  += cu.get("completion", 0) or 0
-                    duration   += cont_result.get("duration_sec", 0) or 0
-                    is_capped   = False  # continuation completed
-                    pe = pe or cont_result.get("parse_error", "")
-                else:
-                    logging.warning("Two-pass continuation failed, keeping first-pass result")
+                    and not output_complete):
+
+                if pe == "truncated_inside_think_block":
+                    # ── Capped INSIDE <think>: no answer yet. Three-tier escape.
+                    # Step 2: ask the model to CONTINUE reasoning and wrap up.
+                    logging.debug(
+                        f"Continuation step 2 (continue thinking): capped inside "
+                        f"<think> at {comp_toks} tokens, asking to finish reasoning"
+                    )
+                    cont_msgs = build_continue_thinking_messages(messages, raw)
+                    r2 = await async_api_call(
+                        client, model, cont_msgs, max_tokens, _pass=2
+                    )
+                    r2_ok = (r2["api_success"] and r2["parse_success"]
+                             and r2.get("parsed_headers"))
+                    if r2_ok:
+                        parsed_hdrs = r2["parsed_headers"]
+                        ok = True
+                        cu = r2.get("tokens_used") or {}
+                        comp_toks += cu.get("completion", 0) or 0
+                        duration  += r2.get("duration_sec", 0) or 0
+                        is_capped  = False
+                        pe = ""
+                    else:
+                        # Step 3 (last resort): force it to stop thinking now.
+                        logging.debug(
+                            "Continuation step 3 (force answer): still no answer "
+                            "after continue, forcing the model to stop reasoning"
+                        )
+                        r2_raw   = r2.get("raw_response", "") or ""
+                        combined = (raw + "\n" + r2_raw).strip()
+                        esc_msgs = build_force_answer_messages(messages, combined)
+                        r3 = await async_api_call(
+                            client, model, esc_msgs, max_tokens, _pass=2
+                        )
+                        # accumulate cost from step 2 regardless of outcome
+                        cu2 = r2.get("tokens_used") or {}
+                        comp_toks += cu2.get("completion", 0) or 0
+                        duration  += r2.get("duration_sec", 0) or 0
+                        if (r3["api_success"] and r3["parse_success"]
+                                and r3.get("parsed_headers")):
+                            parsed_hdrs = r3["parsed_headers"]
+                            ok = True
+                            cu3 = r3.get("tokens_used") or {}
+                            comp_toks += cu3.get("completion", 0) or 0
+                            duration  += r3.get("duration_sec", 0) or 0
+                            is_capped  = False
+                            pe = ""
+                        else:
+                            cu3 = r3.get("tokens_used") or {}
+                            comp_toks += cu3.get("completion", 0) or 0
+                            duration  += r3.get("duration_sec", 0) or 0
+                            logging.warning(
+                                "Three-tier continuation exhausted, keeping empty result"
+                            )
+
+                elif ok and parsed_hdrs:
+                    # ── Capped AFTER </think>: partial answer list. Continue it.
+                    last_row = extract_last_row(parsed_hdrs)
+                    cont_msgs = build_continuation_messages(messages, raw, last_row)
+                    logging.debug(
+                        f"Continuation (extend list): capped at {comp_toks} tokens, "
+                        f"last_row={last_row}, requesting continuation"
+                    )
+                    cont_result = await async_api_call(
+                        client, model, cont_msgs, max_tokens, _pass=2
+                    )
+                    if cont_result["api_success"] and cont_result["parse_success"]:
+                        # Merge: deduplicate by (row, col)
+                        seen_coords = {(h["row"], h["col"]) for h in parsed_hdrs}
+                        for h in cont_result["parsed_headers"]:
+                            key = (h["row"], h["col"])
+                            if key not in seen_coords:
+                                seen_coords.add(key)
+                                parsed_hdrs.append(h)
+                        parsed_hdrs.sort(key=lambda x: (x["row"], x["col"]))
+                        cu = cont_result.get("tokens_used") or {}
+                        comp_toks  += cu.get("completion", 0) or 0
+                        duration   += cont_result.get("duration_sec", 0) or 0
+                        is_capped   = False
+                        pe = pe or cont_result.get("parse_error", "")
+                    else:
+                        logging.warning("Continuation failed, keeping first-pass result")
             # ─────────────────────────────────────────────────────────────────
 
             return {
@@ -997,6 +1135,31 @@ async def async_api_call(
         except Exception as e:
             last_error = str(e)
             logging.warning(f"Attempt {attempt}/{MAX_RETRIES} failed: {last_error[:200]}")
+
+            # ── Context-overflow refit: shrink completion budget to fit window.
+            # vLLM tells us the exact prompt token count in the 400 message;
+            # use it so prompt + max_tokens fits, then retry immediately.
+            prompt_toks = parse_context_overflow(last_error)
+            if prompt_toks is not None:
+                refit = MODEL_CONTEXT_LIMIT - prompt_toks - CONTEXT_SAFETY_MARGIN
+                if refit >= MIN_COMPLETION_TOKENS and refit < max_tokens:
+                    logging.info(
+                        f"Context refit: prompt={prompt_toks} toks, "
+                        f"max_tokens {max_tokens} -> {refit} "
+                        f"(window {MODEL_CONTEXT_LIMIT}); retrying"
+                    )
+                    max_tokens          = refit
+                    payload["max_tokens"] = refit
+                    continue  # retry now with a budget that fits
+                else:
+                    # Prompt alone leaves no room — genuinely too large.
+                    logging.warning(
+                        f"Context refit impossible: prompt={prompt_toks} toks "
+                        f"leaves {refit} for completion (< {MIN_COMPLETION_TOKENS}); "
+                        f"marking failed"
+                    )
+                    break
+
             if attempt < MAX_RETRIES:
                 await asyncio.sleep(min(RETRY_BACKOFF_BASE ** attempt, 60.0))
 
