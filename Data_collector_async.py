@@ -971,6 +971,7 @@ async def async_api_call(
     messages:   List[Dict[str, str]],
     max_tokens: int = MAX_TOKENS,
     _pass:      int = 1,               # internal: 1 = first pass, 2 = continuation
+    disable_thinking: bool = False,    # force enable_thinking=False (no <think>)
 ) -> Dict[str, Any]:
     url     = f"{VLLM_BASE_URL}/chat/completions"
 
@@ -994,6 +995,10 @@ async def async_api_call(
         "max_tokens":  max_tokens,
         # No guided decoding — free output, parser handles any format
     }
+    if disable_thinking:
+        # Qwen3/Qwen3.5: suppress the <think> block at the chat-template level so
+        # the model emits the answer directly and CANNOT cap inside reasoning.
+        payload["chat_template_kwargs"] = {"enable_thinking": False}
     hdrs = {
         "Content-Type":  "application/json",
         "Authorization": f"Bearer {VLLM_API_KEY}",
@@ -1032,7 +1037,7 @@ async def async_api_call(
                 if pe == "truncated_inside_think_block":
                     # ── Capped INSIDE <think>: no answer yet. Three-tier escape.
                     # Step 2: ask the model to CONTINUE reasoning and wrap up.
-                    logging.debug(
+                    logging.info(
                         f"Continuation step 2 (continue thinking): capped inside "
                         f"<think> at {comp_toks} tokens, asking to finish reasoning"
                     )
@@ -1052,15 +1057,16 @@ async def async_api_call(
                         pe = ""
                     else:
                         # Step 3 (last resort): force it to stop thinking now.
-                        logging.debug(
-                            "Continuation step 3 (force answer): still no answer "
-                            "after continue, forcing the model to stop reasoning"
+                        logging.info(
+                            "Continuation step 3 (force answer, thinking OFF): still "
+                            "no answer after continue, forcing direct answer emission"
                         )
                         r2_raw   = r2.get("raw_response", "") or ""
                         combined = (raw + "\n" + r2_raw).strip()
                         esc_msgs = build_force_answer_messages(messages, combined)
                         r3 = await async_api_call(
-                            client, model, esc_msgs, max_tokens, _pass=2
+                            client, model, esc_msgs, max_tokens, _pass=2,
+                            disable_thinking=True,   # <- no <think>: cannot cap in reasoning
                         )
                         # accumulate cost from step 2 regardless of outcome
                         cu2 = r2.get("tokens_used") or {}
