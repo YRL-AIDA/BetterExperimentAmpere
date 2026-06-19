@@ -620,19 +620,69 @@ CONTEXT_SAFETY_MARGIN = int(os.getenv("CONTEXT_SAFETY_MARGIN", "512"))
 MIN_COMPLETION_TOKENS = int(os.getenv("MIN_COMPLETION_TOKENS", "256"))
 
 
-def parse_context_overflow(error_msg: str) -> Optional[int]:
+def parse_context_overflow(error_msg: str) -> Tuple[Optional[int], Optional[int]]:
     """
-    From a vLLM 'maximum context length' 400 error, extract the prompt
-    (messages) token count so we can refit max_tokens to the window.
-
-    vLLM phrasing: '... you requested N tokens (P in the messages, C in the
-    completion). ...'  We return P (prompt tokens), or None if not parseable.
+    From a vLLM 'maximum context length' 400 error, extract
+      (prompt_tokens, server_max_context)
+    each None if not found. Handles BOTH known vLLM phrasings:
+      - old (0.7.x): '... you requested N tokens (P in the messages, C in the completion).'
+      - new (0.22.x): '... maximum context length is C tokens. However, you requested
+        O output tokens and your prompt contains at least P input tokens ...'
     """
     if "context length" not in error_msg and "maximum context" not in error_msg:
-        return None
-    m = re.search(r"(\d+)\s+in the messages", error_msg)
+        return (None, None)
+
+    prompt_toks = None
+    for pat in (r"(\d+)\s+in the messages",
+                r"prompt contains at least (\d+)\s+input tokens",
+                r"(\d+)\s+input tokens"):
+        m = re.search(pat, error_msg)
+        if m:
+            prompt_toks = int(m.group(1)); break
+
+    server_ctx = None
+    m = re.search(r"maximum context length is (\d+)", error_msg)
     if m:
-        return int(m.group(1))
+        server_ctx = int(m.group(1))
+
+    return (prompt_toks, server_ctx)
+
+
+async def detect_context_limit(client: httpx.AsyncClient) -> Optional[int]:
+    """Read the served model's max_model_len from /v1/models (the source of truth)."""
+    try:
+        r = await client.get(f"{VLLM_BASE_URL}/models")
+        if r.status_code == 200:
+            for m in r.json().get("data", []):
+                ml = m.get("max_model_len")
+                if ml:
+                    return int(ml)
+    except Exception:
+        pass
+    return None
+
+
+async def count_prompt_tokens(client: httpx.AsyncClient, model: str,
+                              messages: List[Dict[str, str]]) -> Optional[int]:
+    """
+    Exact prompt token count via vLLM's /tokenize endpoint, using the server's
+    real chat template (so it matches what generation will actually see).
+    Returns None if the endpoint is unavailable (caller falls back to a heuristic).
+    """
+    try:
+        r = await client.post(
+            f"{VLLM_BASE_URL}/tokenize",
+            json={"model": model, "messages": messages, "add_generation_prompt": True},
+            headers={"Authorization": f"Bearer {VLLM_API_KEY}"},
+        )
+        if r.status_code == 200:
+            j = r.json()
+            if j.get("count") is not None:
+                return int(j["count"])
+            if "tokens" in j:
+                return len(j["tokens"])
+    except Exception:
+        pass
     return None
 # Two-pass generation: if first pass is capped, do a continuation pass
 # asking model to resume from where it stopped
@@ -973,18 +1023,36 @@ async def async_api_call(
     _pass:      int = 1,               # internal: 1 = first pass, 2 = continuation
     disable_thinking: bool = False,    # force enable_thinking=False (no <think>)
 ) -> Dict[str, Any]:
+    global MODEL_CONTEXT_LIMIT
     url     = f"{VLLM_BASE_URL}/chat/completions"
 
-    # Proactive clamp: if we can cheaply estimate prompt size, ensure
-    # prompt + max_tokens stays within the model context window.
-    # (Best-effort character heuristic; the reactive refit below is exact.)
-    approx_prompt_chars = sum(len(m.get("content", "")) for m in messages)
-    approx_prompt_toks  = approx_prompt_chars // 3   # ~3 chars/token, conservative
-    fit_budget = MODEL_CONTEXT_LIMIT - approx_prompt_toks - CONTEXT_SAFETY_MARGIN
-    if fit_budget > MIN_COMPLETION_TOKENS and max_tokens > fit_budget:
+    # ── Exact pre-flight budget control: never send prompt+max_tokens > window.
+    # Count prompt tokens via the server's /tokenize (real chat template). Fall
+    # back to a char heuristic only if the endpoint is unavailable.
+    prompt_toks = await count_prompt_tokens(client, model, messages)
+    if prompt_toks is None:
+        prompt_toks = sum(len(m.get("content", "")) for m in messages) // 3
+    fit_budget = MODEL_CONTEXT_LIMIT - prompt_toks - CONTEXT_SAFETY_MARGIN
+
+    if fit_budget < MIN_COMPLETION_TOKENS:
+        # Prompt alone (almost) fills the window — sending is pointless.
+        logging.warning(
+            f"Prompt too large: {prompt_toks} toks vs window {MODEL_CONTEXT_LIMIT} "
+            f"leaves only {fit_budget} for completion; skipping request"
+        )
+        return {
+            "api_success": False, "raw_response": "", "parse_success": False,
+            "parsed_headers": [], "parse_error": "", "duration_sec": None,
+            "retry_attempts": 0, "max_tokens_used": max_tokens, "tokens_used": None,
+            "error_type": "context_length_exceeded",
+            "error_message": f"prompt {prompt_toks} toks exceeds usable window "
+                             f"{MODEL_CONTEXT_LIMIT}",
+        }
+
+    if max_tokens > fit_budget:
         logging.debug(
-            f"Pre-clamp max_tokens {max_tokens} -> {fit_budget} "
-            f"(approx prompt ~{approx_prompt_toks} toks, window {MODEL_CONTEXT_LIMIT})"
+            f"Clamp max_tokens {max_tokens} -> {fit_budget} "
+            f"(prompt={prompt_toks} toks, window={MODEL_CONTEXT_LIMIT})"
         )
         max_tokens = fit_budget
 
@@ -1155,7 +1223,16 @@ async def async_api_call(
             # ── Context-overflow refit: shrink completion budget to fit window.
             # vLLM tells us the exact prompt token count in the 400 message;
             # use it so prompt + max_tokens fits, then retry immediately.
-            prompt_toks = parse_context_overflow(last_error)
+            prompt_toks, server_ctx = parse_context_overflow(last_error)
+            # Self-correct the stored window if the server reports a smaller one
+            # than we believe (e.g. vLLM was restarted with a different
+            # --max-model-len than our auto-detected/env value).
+            if server_ctx is not None and server_ctx != MODEL_CONTEXT_LIMIT:
+                logging.warning(
+                    f"Server context window is {server_ctx} (stored "
+                    f"{MODEL_CONTEXT_LIMIT}); correcting stored value"
+                )
+                MODEL_CONTEXT_LIMIT = server_ctx
             if prompt_toks is not None:
                 refit = MODEL_CONTEXT_LIMIT - prompt_toks - CONTEXT_SAFETY_MARGIN
                 if refit >= MIN_COMPLETION_TOKENS and refit < max_tokens:
@@ -1267,6 +1344,7 @@ class ResponseCollector:
         root.addHandler(fh)
 
     async def _check_server(self) -> bool:
+        global MODEL_CONTEXT_LIMIT
         base = VLLM_BASE_URL.rstrip("/").removesuffix("/v1")
         candidates = [
             f"{base}/health",
@@ -1274,6 +1352,22 @@ class ResponseCollector:
             f"{VLLM_BASE_URL}/models",
         ]
         async with httpx.AsyncClient(timeout=10.0) as c:
+            # Auto-detect the real context window from the server and store it,
+            # so we never depend on a manually-set MODEL_CONTEXT_LIMIT that may
+            # be stale after a vLLM restart with a different --max-model-len.
+            detected = await detect_context_limit(c)
+            if detected:
+                if detected != MODEL_CONTEXT_LIMIT:
+                    logging.info(
+                        f"Detected server context window: {detected} tokens "
+                        f"(was {MODEL_CONTEXT_LIMIT}); using detected value"
+                    )
+                MODEL_CONTEXT_LIMIT = detected
+            else:
+                logging.warning(
+                    f"Could not auto-detect context window; using "
+                    f"MODEL_CONTEXT_LIMIT={MODEL_CONTEXT_LIMIT}"
+                )
             for url in candidates:
                 try:
                     r = await c.get(url)
@@ -1754,6 +1848,63 @@ class ResponseCollector:
                 await asyncio.sleep(INTER_REQUEST_DELAY)
         return result
 
+    def _render_row_range(self, obj: Dict, kind: str,
+                          s: int, e: int) -> Tuple[str, int]:
+        """Render rows [s,e) of a table object to a compact JSON string."""
+        if kind == "cells":
+            co, off = chunk_cells_table(obj, s, e)
+        elif kind == "matrix":
+            co, off = chunk_matrix_table(obj, s, e)
+        else:
+            co, off = (chunk_cells_table(obj, s, e) if "cells" in obj
+                       else chunk_matrix_table(obj, s, e))
+        repr_str = json.dumps(sanitize_for_prompt(co),
+                              ensure_ascii=False, separators=(",", ":"))
+        return repr_str, off
+
+    async def _make_token_fitted_chunks(
+        self, client: httpx.AsyncClient,
+        prompt_config: Dict, table_record: Dict,
+        target_input_tokens: int,
+    ) -> List[Tuple[str, int, str]]:
+        """
+        Split a JSON table into row-chunks whose RENDERED prompt fits
+        target_input_tokens. Measures each candidate range with the server
+        tokenizer and recursively halves any range that is still too large
+        (handles verbose cells and wide tables that cell-count chunking misses).
+        A single row that still overflows is accepted as-is (cannot split rows
+        further) — the per-request answer-budget clamp keeps it from 400-ing.
+        Returns list of (chunk_json, row_offset, chunk_info).
+        """
+        obj   = json.loads(table_record["table_json"])
+        kind  = table_record["table_kind"]
+        nrows = table_record["table_rows"]
+        ovl   = max(0, min(CHUNK_OVERLAP, 5))
+
+        chunks: List[Tuple[str, int, str]] = []
+        stack: List[Tuple[int, int]] = [(0, nrows)]
+        guard = 0
+        while stack:
+            guard += 1
+            if guard > 5000:           # safety against pathological inputs
+                break
+            s, e = stack.pop()
+            repr_str, off = self._render_row_range(obj, kind, s, e)
+            info = (f"Chunk covering rows {off}..{e-1} of a large table. "
+                    f"Row 0 in this chunk = row {off} in the full table (0-based).")
+            msgs = self._prepare_messages(prompt_config, repr_str, "json", info)
+            toks = await count_prompt_tokens(client, MODEL_NAME, msgs)
+            fits = (toks is None) or (toks <= target_input_tokens)
+            if fits or (e - s) <= 1:
+                chunks.append((repr_str, off, info))
+            else:
+                mid = (s + e) // 2
+                # right half overlaps slightly so a header at the seam isn't lost
+                stack.append((max(s, mid - ovl), e))
+                stack.append((s, mid))
+        chunks.sort(key=lambda c: c[1])
+        return chunks
+
     async def _process_one(self, client: httpx.AsyncClient,
                             semaphore: asyncio.Semaphore,
                             prompt_idx: int, prompt_config: Dict,
@@ -1777,33 +1928,47 @@ class ResponseCollector:
         table_repr = (table_record.get("table_html") or table_record["table_json"]
                       if table_format == "html" else table_record["table_json"])
 
-        # FIX-1: cell-count based chunking
-        do_chunk = needs_chunking(table_record["table_rows"], table_record["table_cols"])
-
-        if not do_chunk:
-            msgs = self._prepare_messages(prompt_config, table_repr, table_format)
-            ar   = await self._call_one(client, semaphore, msgs, mt)
-            return self._make_result(prompt_idx, prompt_config, table_record,
-                                     ar, table_format)
-
-        # HTML: send full file, no JSON chunking
+        # ── HTML: send whole file (row-wise JSON chunking doesn't apply).
+        #    async_api_call clamps the answer budget so it fits the window.
         if table_format == "html":
             msgs = self._prepare_messages(prompt_config, table_repr, table_format)
             ar   = await self._call_one(client, semaphore, msgs, mt)
             return self._make_result(prompt_idx, prompt_config, table_record,
                                      ar, table_format)
 
-        # JSON chunked
-        chunks = make_chunks(table_record["table_json"],
-                             table_record["table_rows"],
-                             table_record["table_kind"],
-                             table_cols=table_record["table_cols"])
-        chunk_rows_used = _adaptive_chunk_rows(table_record["table_cols"])
+        # ── JSON: decide chunking by ACTUAL prompt tokens, not cell count.
+        # Each chunk must leave room for the answer: prompt ≤ window − answer − margin.
+        target_input = max(1024, MODEL_CONTEXT_LIMIT - mt - CONTEXT_SAFETY_MARGIN)
+        full_msgs = self._prepare_messages(prompt_config, table_repr, "json")
+        full_toks = await count_prompt_tokens(client, MODEL_NAME, full_msgs)
+
+        if full_toks is not None and full_toks <= target_input:
+            # Whole table fits in one request.
+            ar = await self._call_one(client, semaphore, full_msgs, mt)
+            return self._make_result(prompt_idx, prompt_config, table_record,
+                                     ar, table_format)
+
+        # Too large (or tokenizer unavailable) → split into fitting chunks.
+        if full_toks is None:
+            # Fallback: tokenizer endpoint unavailable → cell-based chunking.
+            raw_chunks = make_chunks(table_record["table_json"],
+                                     table_record["table_rows"],
+                                     table_record["table_kind"],
+                                     table_cols=table_record["table_cols"])
+            chunks = [
+                (rep, off, f"Chunk of a large table. Row 0 here = row {off} "
+                           f"in the full table (0-based).")
+                for rep, off in raw_chunks
+            ]
+        else:
+            chunks = await self._make_token_fitted_chunks(
+                client, prompt_config, table_record, target_input)
+
         logging.info(
             f"Chunking {table_record['source_stem']} "
-            f"({table_record['table_rows']}×{table_record['table_cols']}"
-            f" = {table_record['table_rows']*table_record['table_cols']} cells)"
-            f" → {len(chunks)} chunks ({chunk_rows_used} rows/chunk)"
+            f"({table_record['table_rows']}×{table_record['table_cols']}, "
+            f"~{full_toks if full_toks is not None else '?'} prompt toks) "
+            f"→ {len(chunks)} token-fitted chunks (input budget {target_input})"
         )
 
         chunk_results: List[Tuple[List[Dict], int]] = []
@@ -1811,11 +1976,9 @@ class ResponseCollector:
         any_fail  = False
         raw_parts = []
 
-        for ci, (chunk_repr, offset) in enumerate(chunks):
+        for ci, (chunk_repr, offset, info) in enumerate(chunks):
             if self._abort:
                 any_fail = True; break
-            info = (f"Chunk {ci+1}/{len(chunks)} of a large table. "
-                    f"Row 0 in this chunk = row {offset} in the full table (0-based).")
             msgs = self._prepare_messages(prompt_config, chunk_repr, "json", info)
             ar   = await self._call_one(client, semaphore, msgs, mt)
 
