@@ -46,22 +46,36 @@ async def detect_context_limit(client: httpx.AsyncClient, cfg: Config) -> Option
     return None
 
 
+def _server_root(cfg: Config) -> str:
+    return cfg.vllm_base_url.rstrip("/").removesuffix("/v1")
+
+
 async def count_prompt_tokens(client: httpx.AsyncClient, cfg: Config,
                               messages: List[Dict[str, str]]) -> Optional[int]:
-    try:
-        r = await client.post(
-            f"{cfg.vllm_base_url}/tokenize",
-            json={"model": cfg.model_name, "messages": messages, "add_generation_prompt": True},
-            headers={"Authorization": f"Bearer {cfg.vllm_api_key}"},
-        )
-        if r.status_code == 200:
-            j = r.json()
-            if j.get("count") is not None:
-                return int(j["count"])
-            if "tokens" in j:
-                return len(j["tokens"])
-    except Exception:
-        pass
+    cached = getattr(cfg, "_tokenize_url", None)
+    if cached == "":
+        return None
+    payload = {"model": cfg.model_name, "messages": messages, "add_generation_prompt": True}
+    hdrs = {"Authorization": f"Bearer {cfg.vllm_api_key}"}
+    base = cfg.vllm_base_url.rstrip("/")
+    candidates = [cached] if cached else [f"{_server_root(cfg)}/tokenize", f"{base}/tokenize"]
+    for url in candidates:
+        try:
+            r = await client.post(url, json=payload, headers=hdrs)
+            if r.status_code == 200:
+                j = r.json()
+                cfg._tokenize_url = url
+                if j.get("count") is not None:
+                    return int(j["count"])
+                if "tokens" in j:
+                    return len(j["tokens"])
+                return None
+        except Exception:
+            continue
+    if not cached:
+        cfg._tokenize_url = ""
+        logging.warning("Tokenizer endpoint not found at /tokenize or /v1/tokenize; "
+                        "falling back to char-based token estimates for this run")
     return None
 
 
@@ -106,8 +120,6 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
         prompt_toks = await count_prompt_tokens(client, cfg, messages)
     if prompt_toks is None:
         prompt_toks = sum(len(m.get("content", "")) for m in messages) // 3
-        logging.warning("Tokenizer endpoint unavailable; using a rough char-based token "
-                        "estimate for budget — token-dependent fields may be approximate")
 
     fit = budget.fit_budget(prompt_toks)
     if fit <= 0:
@@ -179,6 +191,8 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
                                         raw, reasoning, parsed, ok, result)
             return result
 
+        except asyncio.CancelledError:
+            raise
         except Exception as e:
             last_error = str(e)
             logging.warning(f"Attempt {attempt}/{cfg.max_retries} failed: {last_error[:200]}")
