@@ -6,20 +6,20 @@ Cell A2 | value='[In thousands]' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_hea
 Cell A4 | value='Industry and sex' | fill=FFFFFF00 | rows=[3, 4, 5] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B4 | value='2023' | fill=00000000 | rows=[3] | cols=[1, 2, 3, 4, 5, 6] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='Total
-employed' | fill=FFFFFF00 | rows=[4, 5] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C5 | value='Wage and salary workers(1)' | fill=FFFFFF00 | rows=[4] | cols=[2, 3, 4] | col_header=True | row_header=False | metadata=False
+employed' | fill=00000000 | rows=[4, 5] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C5 | value='Wage and salary workers(1)' | fill=00000000 | rows=[4] | cols=[2, 3, 4] | col_header=False | row_header=False | metadata=False
 Cell F5 | value='Self-
 employed
 workers,
 unincor-
-porated' | fill=FFFFFF00 | rows=[4, 5] | cols=[5] | col_header=True | row_header=False | metadata=False
+porated' | fill=00000000 | rows=[4, 5] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G5 | value='Unpaid
 family
-workers' | fill=FFFFFF00 | rows=[4, 5] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell C6 | value='Total' | fill=FFFFFF00 | rows=[5] | cols=[2] | col_header=True | row_header=False | metadata=False
+workers' | fill=00000000 | rows=[4, 5] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell C6 | value='Total' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='Private
-industries' | fill=FFFFFF00 | rows=[5] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E6 | value='Government' | fill=FFFFFF00 | rows=[5] | cols=[4] | col_header=True | row_header=False | metadata=False
+industries' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E6 | value='Government' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell A8 | value='TOTAL' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='Total, nonagricultural industries' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='158772' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False

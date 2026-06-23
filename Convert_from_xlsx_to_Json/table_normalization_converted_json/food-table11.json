@@ -64,7 +64,7 @@
         ],
         "xml_text_content": "Nominal sales per capita",
         "pdf_text_content": "Nominal sales per capita",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -91,7 +91,7 @@
         ],
         "xml_text_content": "Constant-dollar sales per capita (1988=100)",
         "pdf_text_content": "Constant-dollar sales per capita (1988=100)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

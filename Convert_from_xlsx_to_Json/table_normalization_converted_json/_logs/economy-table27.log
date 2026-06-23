@@ -11,10 +11,10 @@ Cell H6 | value='2024-Q2' | fill=FF0549AB | rows=[5] | cols=[7] | col_header=Fal
 Cell I6 | value='2024-Q3' | fill=FF0549AB | rows=[5] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='Combined transaction' | fill=FFFFFF00 | rows=[6] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C7 | value='Combined unit of measure' | fill=FFFFFF00 | rows=[6] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell B8 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[7] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B9 | value='Unit of measure: National currency' | fill=FF00B0F0 | rows=[8] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B10 | value='Price base: Chain linked volume' | fill=FF00B0F0 | rows=[9] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B11 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[10] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B8 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[7] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B9 | value='Unit of measure: National currency' | fill=00000000 | rows=[8] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B10 | value='Price base: Chain linked volume' | fill=00000000 | rows=[9] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B11 | value='Transformation: Non transformed data' | fill=00000000 | rows=[10] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B12 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[11] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C12 | value='2015, Millions, Euro' | fill=FFE2F2FB | rows=[11] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E12 | value='95210.2' | fill=00000000 | rows=[11] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -140,10 +140,10 @@ Cell E32 | value='16184.1' | fill=00000000 | rows=[31] | cols=[4] | col_header=F
 Cell F32 | value='16261.5' | fill=00000000 | rows=[31] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G32 | value='16242' | fill=00000000 | rows=[31] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H32 | value='16219.2' | fill=00000000 | rows=[31] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B33 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[32] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B34 | value='Unit of measure: National currency' | fill=FF00B0F0 | rows=[33] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B35 | value='Price base: Chain linked volume (rebased)' | fill=FF00B0F0 | rows=[34] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B36 | value='Transformation: Annual levels' | fill=FF00B0F0 | rows=[35] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B33 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[32] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B34 | value='Unit of measure: National currency' | fill=00000000 | rows=[33] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B35 | value='Price base: Chain linked volume (rebased)' | fill=00000000 | rows=[34] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B36 | value='Transformation: Annual levels' | fill=00000000 | rows=[35] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B37 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[36] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C37 | value='2020, Millions, Euro' | fill=FFE2F2FB | rows=[36] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E37 | value='414986.3' | fill=00000000 | rows=[36] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -189,10 +189,10 @@ Cell F45 | value='206349.5' | fill=00000000 | rows=[44] | cols=[5] | col_header=
 Cell G45 | value='206260.4' | fill=00000000 | rows=[44] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H45 | value='205299' | fill=00000000 | rows=[44] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I45 | value='208699.8' | fill=00000000 | rows=[44] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B46 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[45] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B47 | value='Unit of measure: National currency' | fill=FF00B0F0 | rows=[46] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B48 | value='Price base: Current prices' | fill=FF00B0F0 | rows=[47] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B49 | value='Transformation: Annual levels' | fill=FF00B0F0 | rows=[48] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B46 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[45] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B47 | value='Unit of measure: National currency' | fill=00000000 | rows=[46] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B48 | value='Price base: Current prices' | fill=00000000 | rows=[47] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B49 | value='Transformation: Annual levels' | fill=00000000 | rows=[48] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B50 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[49] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C50 | value='Millions, Euro' | fill=FFE2F2FB | rows=[49] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E50 | value='474321.5' | fill=00000000 | rows=[49] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -238,10 +238,10 @@ Cell F58 | value='259861.6' | fill=00000000 | rows=[57] | cols=[5] | col_header=
 Cell G58 | value='254686.5' | fill=00000000 | rows=[57] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H58 | value='257144.4' | fill=00000000 | rows=[57] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I58 | value='258520.9' | fill=00000000 | rows=[57] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B59 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[58] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B60 | value='Unit of measure: National currency' | fill=FF00B0F0 | rows=[59] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B61 | value='Price base: Current prices' | fill=FF00B0F0 | rows=[60] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B62 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[61] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B59 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[58] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B60 | value='Unit of measure: National currency' | fill=00000000 | rows=[59] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B61 | value='Price base: Current prices' | fill=00000000 | rows=[60] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B62 | value='Transformation: Non transformed data' | fill=00000000 | rows=[61] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B63 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[62] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C63 | value='Millions, Euro' | fill=FFE2F2FB | rows=[62] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E63 | value='118580.4' | fill=00000000 | rows=[62] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -390,10 +390,10 @@ Cell E87 | value='770.5' | fill=00000000 | rows=[86] | cols=[4] | col_header=Fal
 Cell F87 | value='30.5' | fill=00000000 | rows=[86] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G87 | value='-1316.4' | fill=00000000 | rows=[86] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H87 | value='-1025.3' | fill=00000000 | rows=[86] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B88 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[87] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B89 | value='Unit of measure: US dollars, PPP converted' | fill=FF00B0F0 | rows=[88] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B90 | value='Price base: Chain linked volume (rebased)' | fill=FF00B0F0 | rows=[89] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B91 | value='Transformation: Annual levels' | fill=FF00B0F0 | rows=[90] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B88 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[87] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B89 | value='Unit of measure: US dollars, PPP converted' | fill=00000000 | rows=[88] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B90 | value='Price base: Chain linked volume (rebased)' | fill=00000000 | rows=[89] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B91 | value='Transformation: Annual levels' | fill=00000000 | rows=[90] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B92 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[91] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C92 | value='2020, Millions, US dollar' | fill=FFE2F2FB | rows=[91] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E92 | value='569410.9' | fill=00000000 | rows=[91] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -439,10 +439,10 @@ Cell F100 | value='283136.3' | fill=00000000 | rows=[99] | cols=[5] | col_header
 Cell G100 | value='283013.9' | fill=00000000 | rows=[99] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H100 | value='281694.8' | fill=00000000 | rows=[99] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I100 | value='286361.1' | fill=00000000 | rows=[99] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B101 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[100] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B102 | value='Unit of measure: US dollars, PPP converted' | fill=FF00B0F0 | rows=[101] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B103 | value='Price base: Current prices' | fill=FF00B0F0 | rows=[102] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B104 | value='Transformation: Annual levels' | fill=FF00B0F0 | rows=[103] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B101 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[100] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B102 | value='Unit of measure: US dollars, PPP converted' | fill=00000000 | rows=[101] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B103 | value='Price base: Current prices' | fill=00000000 | rows=[102] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B104 | value='Transformation: Annual levels' | fill=00000000 | rows=[103] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B105 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[104] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C105 | value='Millions, US dollar' | fill=FFE2F2FB | rows=[104] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E105 | value='671025.8' | fill=00000000 | rows=[104] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -482,40 +482,40 @@ Cell E113 | value='375312.5' | fill=00000000 | rows=[112] | cols=[4] | col_heade
 Cell F113 | value='367293.5' | fill=00000000 | rows=[112] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G113 | value='359485.6' | fill=00000000 | rows=[112] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H113 | value='362223.9' | fill=00000000 | rows=[112] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B114 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[113] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B115 | value='Unit of measure: US dollars per person, PPP converted' | fill=FF00B0F0 | rows=[114] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B116 | value='Price base: Chain linked volume (rebased)' | fill=FF00B0F0 | rows=[115] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B117 | value='Transformation: Annual levels' | fill=FF00B0F0 | rows=[116] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B114 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[113] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B115 | value='Unit of measure: US dollars per person, PPP converted' | fill=00000000 | rows=[114] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B116 | value='Price base: Chain linked volume (rebased)' | fill=00000000 | rows=[115] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B117 | value='Transformation: Annual levels' | fill=00000000 | rows=[116] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B118 | value='Gross domestic product, per capita, Total economy' | fill=FFE2F2FB | rows=[117] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C118 | value='2020, Units, US dollar' | fill=FFE2F2FB | rows=[117] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E118 | value='62321.3' | fill=00000000 | rows=[117] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F118 | value='61876.9' | fill=00000000 | rows=[117] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G118 | value='61934' | fill=00000000 | rows=[117] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H118 | value='61838.3' | fill=00000000 | rows=[117] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B119 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[118] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B120 | value='Unit of measure: US dollars per person, PPP converted' | fill=FF00B0F0 | rows=[119] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B121 | value='Price base: Current prices' | fill=FF00B0F0 | rows=[120] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B122 | value='Transformation: Annual levels' | fill=FF00B0F0 | rows=[121] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B119 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[118] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B120 | value='Unit of measure: US dollars per person, PPP converted' | fill=00000000 | rows=[119] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B121 | value='Price base: Current prices' | fill=00000000 | rows=[120] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B122 | value='Transformation: Annual levels' | fill=00000000 | rows=[121] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B123 | value='Gross domestic product, per capita, Total economy' | fill=FFE2F2FB | rows=[122] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C123 | value='Units, US dollar' | fill=FFE2F2FB | rows=[122] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E123 | value='73443' | fill=00000000 | rows=[122] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F123 | value='73281.8' | fill=00000000 | rows=[122] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G123 | value='73485' | fill=00000000 | rows=[122] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H123 | value='73811.3' | fill=00000000 | rows=[122] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B124 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[123] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B125 | value='Unit of measure: National currency per US dollar' | fill=FF00B0F0 | rows=[124] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B126 | value='Price base: Current prices' | fill=FF00B0F0 | rows=[125] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B127 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[126] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B124 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[123] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B125 | value='Unit of measure: National currency per US dollar' | fill=00000000 | rows=[124] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B126 | value='Price base: Current prices' | fill=00000000 | rows=[125] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B127 | value='Transformation: Non transformed data' | fill=00000000 | rows=[126] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B128 | value='Purchasing Power Parities for GDP, Total economy' | fill=FFE2F2FB | rows=[127] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C128 | value='Units, Euro' | fill=FFE2F2FB | rows=[127] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E128 | value='0.70686' | fill=00000000 | rows=[127] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F128 | value='0.7075' | fill=00000000 | rows=[127] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G128 | value='0.70847' | fill=00000000 | rows=[127] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H128 | value='0.7099' | fill=00000000 | rows=[127] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B129 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[128] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B130 | value='Unit of measure: Percentage change' | fill=FF00B0F0 | rows=[129] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B131 | value='Price base: Chain linked volume' | fill=FF00B0F0 | rows=[130] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B132 | value='Transformation: Growth rate, period on period' | fill=FF00B0F0 | rows=[131] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B129 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[128] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B130 | value='Unit of measure: Percentage change' | fill=00000000 | rows=[129] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B131 | value='Price base: Chain linked volume' | fill=00000000 | rows=[130] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B132 | value='Transformation: Growth rate, period on period' | fill=00000000 | rows=[131] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B133 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[132] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C133 | value='Units' | fill=FFE2F2FB | rows=[132] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E133 | value='-0.790178768' | fill=00000000 | rows=[132] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -561,10 +561,10 @@ Cell F141 | value='-2.910087587' | fill=00000000 | rows=[140] | cols=[5] | col_h
 Cell G141 | value='-0.043207626' | fill=00000000 | rows=[140] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H141 | value='-0.466112979' | fill=00000000 | rows=[140] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I141 | value='1.656540539' | fill=00000000 | rows=[140] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B142 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[141] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B143 | value='Unit of measure: Percentage change' | fill=FF00B0F0 | rows=[142] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B144 | value='Price base: Chain linked volume' | fill=FF00B0F0 | rows=[143] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B145 | value='Transformation: Cumulative growth rate since base period' | fill=FF00B0F0 | rows=[144] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B142 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[141] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B143 | value='Unit of measure: Percentage change' | fill=00000000 | rows=[142] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B144 | value='Price base: Chain linked volume' | fill=00000000 | rows=[143] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B145 | value='Transformation: Cumulative growth rate since base period' | fill=00000000 | rows=[144] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B146 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[145] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C146 | value='2019-Q4, Units' | fill=FFE2F2FB | rows=[145] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E146 | value='2.432038628' | fill=00000000 | rows=[145] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -610,10 +610,10 @@ Cell F154 | value='2.931176785' | fill=00000000 | rows=[153] | cols=[5] | col_he
 Cell G154 | value='2.8867026669999998' | fill=00000000 | rows=[153] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H154 | value='2.407134393' | fill=00000000 | rows=[153] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I154 | value='4.103550088' | fill=00000000 | rows=[153] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B155 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[154] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B156 | value='Unit of measure: Percentage change' | fill=FF00B0F0 | rows=[155] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B157 | value='Price base: Chain linked volume' | fill=FF00B0F0 | rows=[156] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B158 | value='Transformation: Growth rate, over 1 year' | fill=FF00B0F0 | rows=[157] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B155 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[154] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B156 | value='Unit of measure: Percentage change' | fill=00000000 | rows=[155] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B157 | value='Price base: Chain linked volume' | fill=00000000 | rows=[156] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B158 | value='Transformation: Growth rate, over 1 year' | fill=00000000 | rows=[157] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B159 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[158] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C159 | value='Units' | fill=FFE2F2FB | rows=[158] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E159 | value='-1.848269864' | fill=00000000 | rows=[158] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -659,10 +659,10 @@ Cell F167 | value='-8.127080964' | fill=00000000 | rows=[166] | cols=[5] | col_h
 Cell G167 | value='-6.066070519' | fill=00000000 | rows=[166] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H167 | value='-5.889917247' | fill=00000000 | rows=[166] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I167 | value='-1.804245558' | fill=00000000 | rows=[166] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B168 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[167] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B169 | value='Unit of measure: Index' | fill=FF00B0F0 | rows=[168] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B170 | value='Price base: Chain linked volume (rebased)' | fill=FF00B0F0 | rows=[169] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B171 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[170] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B168 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[167] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B169 | value='Unit of measure: Index' | fill=00000000 | rows=[168] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B170 | value='Price base: Chain linked volume (rebased)' | fill=00000000 | rows=[169] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B171 | value='Transformation: Non transformed data' | fill=00000000 | rows=[170] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B172 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[171] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C172 | value='2020, Units' | fill=FFE2F2FB | rows=[171] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E172 | value='109.115640936' | fill=00000000 | rows=[171] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -708,10 +708,10 @@ Cell F180 | value='112.368183441' | fill=00000000 | rows=[179] | cols=[5] | col_
 Cell G180 | value='112.319631817' | fill=00000000 | rows=[179] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H180 | value='111.796095435' | fill=00000000 | rows=[179] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I180 | value='113.648043076' | fill=00000000 | rows=[179] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B181 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[180] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B182 | value='Unit of measure: Index' | fill=FF00B0F0 | rows=[181] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B183 | value='Price base: Deflator' | fill=FF00B0F0 | rows=[182] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B184 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[183] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B181 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[180] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B182 | value='Unit of measure: Index' | fill=00000000 | rows=[181] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B183 | value='Price base: Deflator' | fill=00000000 | rows=[182] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B184 | value='Transformation: Non transformed data' | fill=00000000 | rows=[183] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B185 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[184] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C185 | value='2015, Units' | fill=FFE2F2FB | rows=[184] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E185 | value='124.545832256' | fill=00000000 | rows=[184] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -768,10 +768,10 @@ Cell F193 | value='128.014347287' | fill=00000000 | rows=[192] | cols=[5] | col_
 Cell G193 | value='125.519199478' | fill=00000000 | rows=[192] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H193 | value='127.324024311' | fill=00000000 | rows=[192] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I193 | value='125.919676943' | fill=00000000 | rows=[192] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B194 | value='Adjustment: Calendar and seasonally adjusted' | fill=FF00B0F0 | rows=[193] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B195 | value='Unit of measure: Index' | fill=FF00B0F0 | rows=[194] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B196 | value='Price base: Deflator (rebased)' | fill=FF00B0F0 | rows=[195] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B197 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[196] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B194 | value='Adjustment: Calendar and seasonally adjusted' | fill=00000000 | rows=[193] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B195 | value='Unit of measure: Index' | fill=00000000 | rows=[194] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B196 | value='Price base: Deflator (rebased)' | fill=00000000 | rows=[195] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B197 | value='Transformation: Non transformed data' | fill=00000000 | rows=[196] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B198 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[197] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C198 | value='2020, Units' | fill=FFE2F2FB | rows=[197] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E198 | value='114.298112793' | fill=00000000 | rows=[197] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -817,10 +817,10 @@ Cell F206 | value='125.932727727' | fill=00000000 | rows=[205] | cols=[5] | col_
 Cell G206 | value='123.478153092' | fill=00000000 | rows=[205] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H206 | value='125.253629976' | fill=00000000 | rows=[205] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I206 | value='123.872118462' | fill=00000000 | rows=[205] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell B207 | value='Adjustment: Neither seasonally adjusted nor calendar adjusted' | fill=FF00B0F0 | rows=[206] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B208 | value='Unit of measure: National currency' | fill=FF00B0F0 | rows=[207] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B209 | value='Price base: Chain linked volume' | fill=FF00B0F0 | rows=[208] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B210 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[209] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B207 | value='Adjustment: Neither seasonally adjusted nor calendar adjusted' | fill=00000000 | rows=[206] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B208 | value='Unit of measure: National currency' | fill=00000000 | rows=[207] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B209 | value='Price base: Chain linked volume' | fill=00000000 | rows=[208] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B210 | value='Transformation: Non transformed data' | fill=00000000 | rows=[209] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B211 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[210] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C211 | value='2015, Millions, Euro' | fill=FFE2F2FB | rows=[210] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E211 | value='93480.1' | fill=00000000 | rows=[210] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -937,10 +937,10 @@ Cell E231 | value='17646.1' | fill=00000000 | rows=[230] | cols=[4] | col_header
 Cell F231 | value='16645.1' | fill=00000000 | rows=[230] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G231 | value='14636.4' | fill=00000000 | rows=[230] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H231 | value='15860' | fill=00000000 | rows=[230] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B232 | value='Adjustment: Neither seasonally adjusted nor calendar adjusted' | fill=FF00B0F0 | rows=[231] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B233 | value='Unit of measure: National currency' | fill=FF00B0F0 | rows=[232] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B234 | value='Price base: Current prices' | fill=FF00B0F0 | rows=[233] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B235 | value='Transformation: Non transformed data' | fill=FF00B0F0 | rows=[234] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
+Cell B232 | value='Adjustment: Neither seasonally adjusted nor calendar adjusted' | fill=00000000 | rows=[231] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B233 | value='Unit of measure: National currency' | fill=00000000 | rows=[232] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B234 | value='Price base: Current prices' | fill=00000000 | rows=[233] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell B235 | value='Transformation: Non transformed data' | fill=00000000 | rows=[234] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell B236 | value='Gross domestic product, Total economy' | fill=FFE2F2FB | rows=[235] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C236 | value='Millions, Euro' | fill=FFE2F2FB | rows=[235] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E236 | value='116201.4' | fill=00000000 | rows=[235] | cols=[4] | col_header=False | row_header=False | metadata=False

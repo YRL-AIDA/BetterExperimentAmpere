@@ -6,7 +6,7 @@ Cell D1 | value='Unit' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True |
 Cell E1 | value='Unit Price' | fill=FFFFFF00 | rows=[0] | cols=[4] | col_header=True | row_header=False | metadata=False
 Cell F1 | value='Tax' | fill=FFFFFF00 | rows=[0] | cols=[5] | col_header=True | row_header=False | metadata=False
 Cell G1 | value='Total' | fill=FFFFFF00 | rows=[0] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell A2 | value='Section' | fill=None | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A2 | value='Section' | fill=FF00B050 | rows=[1] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B2 | value='Main House' | fill=None | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Flashing' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='Step flashing' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -53,7 +53,7 @@ Cell G8 | value='189.7615' | fill=00000000 | rows=[7] | cols=[6] | col_header=Fa
 Cell A9 | value='Total' | fill=FF00B0F0 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell F9 | value='7.91775' | fill=FF00B0F0 | rows=[8] | cols=[5] | col_header=False | row_header=False | metadata=True
 Cell G9 | value='469.59775' | fill=FF00B0F0 | rows=[8] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell A10 | value='Section' | fill=None | rows=[9] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A10 | value='Section' | fill=FF00B050 | rows=[9] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B10 | value='Shed' | fill=None | rows=[9] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A11 | value='Flashing' | fill=00000000 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B11 | value='R&R Chimney flashing - small (24" x 24")' | fill=00000000 | rows=[10] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -72,7 +72,7 @@ Cell G12 | value='79.287' | fill=00000000 | rows=[11] | cols=[6] | col_header=Fa
 Cell A13 | value='Total' | fill=FF00B0F0 | rows=[12] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell F13 | value='5.53' | fill=FF00B0F0 | rows=[12] | cols=[5] | col_header=False | row_header=False | metadata=True
 Cell G13 | value='568' | fill=FF00B0F0 | rows=[12] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell A15 | value='Grand Total' | fill=FF00B0F0 | rows=[14] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell F15 | value='13.45' | fill=FF00B0F0 | rows=[14] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G15 | value='1037.6' | fill=FF00B0F0 | rows=[14] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell A15 | value='Grand Total' | fill=FF00B050 | rows=[14] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell F15 | value='13.45' | fill=00000000 | rows=[14] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G15 | value='1037.6' | fill=00000000 | rows=[14] | cols=[6] | col_header=False | row_header=False | metadata=False
 

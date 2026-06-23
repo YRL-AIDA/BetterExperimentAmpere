@@ -17,7 +17,7 @@ Cell M6 | value='2021' | fill=FF0549AB | rows=[5] | cols=[12] | col_header=False
 Cell B7 | value='Stocks and flows' | fill=FFFFFF00 | rows=[6] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell B8 | value='Resource: Crude oil' | fill=FFB7DEF6 | rows=[7] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='Combined unit of measure: Barrels, Billions' | fill=FFB7DEF6 | rows=[8] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B10 | value='Opening stock' | fill=FF00B050 | rows=[9] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B10 | value='Opening stock' | fill=00000000 | rows=[9] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D10 | value='3.746210836' | fill=00000000 | rows=[9] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E10 | value='3.79275543' | fill=00000000 | rows=[9] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F10 | value='3.942452908' | fill=00000000 | rows=[9] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -28,7 +28,7 @@ Cell J10 | value='4.228639263' | fill=00000000 | rows=[9] | cols=[9] | col_heade
 Cell K10 | value='4.853217396' | fill=00000000 | rows=[9] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L10 | value='4.632445065' | fill=00000000 | rows=[9] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M10 | value='4.643766723' | fill=00000000 | rows=[9] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B11 | value='Total additions to stock' | fill=FF00B050 | rows=[10] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B11 | value='Total additions to stock' | fill=00000000 | rows=[10] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D11 | value='0.525199135' | fill=00000000 | rows=[10] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E11 | value='0.65414024' | fill=00000000 | rows=[10] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F11 | value='0.339020759' | fill=00000000 | rows=[10] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -39,7 +39,7 @@ Cell J11 | value='1.089395092' | fill=00000000 | rows=[10] | cols=[9] | col_head
 Cell K11 | value='0.255366286' | fill=00000000 | rows=[10] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L11 | value='0.449721415' | fill=00000000 | rows=[10] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M11 | value='0.445947529' | fill=00000000 | rows=[10] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B12 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[11] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B12 | value='·  Upward reappraisals' | fill=00000000 | rows=[11] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D12 | value='0.525199135' | fill=00000000 | rows=[11] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E12 | value='0.65414024' | fill=00000000 | rows=[11] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F12 | value='0.339020759' | fill=00000000 | rows=[11] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -50,7 +50,7 @@ Cell J12 | value='1.089395092' | fill=00000000 | rows=[11] | cols=[9] | col_head
 Cell K12 | value='0.255366286' | fill=00000000 | rows=[11] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L12 | value='0.449721415' | fill=00000000 | rows=[11] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M12 | value='0.445947529' | fill=00000000 | rows=[11] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B13 | value='Total reductions in stock' | fill=FF00B050 | rows=[12] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B13 | value='Total reductions in stock' | fill=00000000 | rows=[12] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D13 | value='0.478654541' | fill=00000000 | rows=[12] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E13 | value='0.504442762' | fill=00000000 | rows=[12] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F13 | value='0.510732572' | fill=00000000 | rows=[12] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -61,7 +61,7 @@ Cell J13 | value='0.464816959' | fill=00000000 | rows=[12] | cols=[9] | col_head
 Cell K13 | value='0.476138617' | fill=00000000 | rows=[12] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L13 | value='0.438399757' | fill=00000000 | rows=[12] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M13 | value='0.435254852' | fill=00000000 | rows=[12] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B14 | value='·  Extractions' | fill=FF00B050 | rows=[13] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B14 | value='·  Extractions' | fill=00000000 | rows=[13] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D14 | value='0.478654541' | fill=00000000 | rows=[13] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E14 | value='0.504442762' | fill=00000000 | rows=[13] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F14 | value='0.510732572' | fill=00000000 | rows=[13] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -72,7 +72,7 @@ Cell J14 | value='0.464816959' | fill=00000000 | rows=[13] | cols=[9] | col_head
 Cell K14 | value='0.476138617' | fill=00000000 | rows=[13] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L14 | value='0.438399757' | fill=00000000 | rows=[13] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M14 | value='0.435254852' | fill=00000000 | rows=[13] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B15 | value='Closing stock' | fill=FF00B050 | rows=[14] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B15 | value='Closing stock' | fill=00000000 | rows=[14] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D15 | value='3.79275543' | fill=00000000 | rows=[14] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E15 | value='3.942452908' | fill=00000000 | rows=[14] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F15 | value='3.770741095' | fill=00000000 | rows=[14] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -83,7 +83,7 @@ Cell J15 | value='4.853217396' | fill=00000000 | rows=[14] | cols=[9] | col_head
 Cell K15 | value='4.632445065' | fill=00000000 | rows=[14] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L15 | value='4.643766723' | fill=00000000 | rows=[14] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M15 | value='4.6544594' | fill=00000000 | rows=[14] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B16 | value='Discrepancies' | fill=FF00B050 | rows=[15] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B16 | value='Discrepancies' | fill=00000000 | rows=[15] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D16 | value='0' | fill=00000000 | rows=[15] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E16 | value='0' | fill=00000000 | rows=[15] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F16 | value='0' | fill=00000000 | rows=[15] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -96,7 +96,7 @@ Cell L16 | value='0' | fill=00000000 | rows=[15] | cols=[11] | col_header=False 
 Cell M16 | value='0' | fill=00000000 | rows=[15] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B17 | value='Resource: Natural gas' | fill=FFB7DEF6 | rows=[16] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B18 | value='Combined unit of measure: Cubic metres, Billions' | fill=FFB7DEF6 | rows=[17] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B19 | value='Opening stock' | fill=FF00B050 | rows=[18] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B19 | value='Opening stock' | fill=00000000 | rows=[18] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D19 | value='1903.1' | fill=00000000 | rows=[18] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E19 | value='1995.7' | fill=00000000 | rows=[18] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F19 | value='2024.3' | fill=00000000 | rows=[18] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -107,7 +107,7 @@ Cell J19 | value='2083' | fill=00000000 | rows=[18] | cols=[9] | col_header=Fals
 Cell K19 | value='2093.5' | fill=00000000 | rows=[18] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L19 | value='2471.3' | fill=00000000 | rows=[18] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M19 | value='2477.3' | fill=00000000 | rows=[18] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B20 | value='Total additions to stock' | fill=FF00B050 | rows=[19] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B20 | value='Total additions to stock' | fill=00000000 | rows=[19] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D20 | value='233.9' | fill=00000000 | rows=[19] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E20 | value='170' | fill=00000000 | rows=[19] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F20 | value='106.5' | fill=00000000 | rows=[19] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -118,7 +118,7 @@ Cell J20 | value='188.3' | fill=00000000 | rows=[19] | cols=[9] | col_header=Fal
 Cell K20 | value='549.3' | fill=00000000 | rows=[19] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L20 | value='172.9' | fill=00000000 | rows=[19] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M20 | value='179.4' | fill=00000000 | rows=[19] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B21 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[20] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B21 | value='·  Upward reappraisals' | fill=00000000 | rows=[20] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D21 | value='233.9' | fill=00000000 | rows=[20] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E21 | value='170' | fill=00000000 | rows=[20] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F21 | value='106.5' | fill=00000000 | rows=[20] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -129,7 +129,7 @@ Cell J21 | value='188.3' | fill=00000000 | rows=[20] | cols=[9] | col_header=Fal
 Cell K21 | value='549.3' | fill=00000000 | rows=[20] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L21 | value='172.9' | fill=00000000 | rows=[20] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M21 | value='179.4' | fill=00000000 | rows=[20] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B22 | value='Total reductions in stock' | fill=FF00B050 | rows=[21] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B22 | value='Total reductions in stock' | fill=00000000 | rows=[21] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D22 | value='141.3' | fill=00000000 | rows=[21] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E22 | value='141.4' | fill=00000000 | rows=[21] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F22 | value='147.1' | fill=00000000 | rows=[21] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -140,7 +140,7 @@ Cell J22 | value='177.8' | fill=00000000 | rows=[21] | cols=[9] | col_header=Fal
 Cell K22 | value='171.5' | fill=00000000 | rows=[21] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L22 | value='166.9' | fill=00000000 | rows=[21] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M22 | value='173.5' | fill=00000000 | rows=[21] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B23 | value='·  Extractions' | fill=FF00B050 | rows=[22] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B23 | value='·  Extractions' | fill=00000000 | rows=[22] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D23 | value='141.3' | fill=00000000 | rows=[22] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E23 | value='141.4' | fill=00000000 | rows=[22] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F23 | value='147.1' | fill=00000000 | rows=[22] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -151,7 +151,7 @@ Cell J23 | value='177.8' | fill=00000000 | rows=[22] | cols=[9] | col_header=Fal
 Cell K23 | value='171.5' | fill=00000000 | rows=[22] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L23 | value='166.9' | fill=00000000 | rows=[22] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M23 | value='173.5' | fill=00000000 | rows=[22] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B24 | value='Closing stock' | fill=FF00B050 | rows=[23] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B24 | value='Closing stock' | fill=00000000 | rows=[23] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D24 | value='1995.7' | fill=00000000 | rows=[23] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E24 | value='2024.3' | fill=00000000 | rows=[23] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F24 | value='1983.7' | fill=00000000 | rows=[23] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -162,7 +162,7 @@ Cell J24 | value='2093.5' | fill=00000000 | rows=[23] | cols=[9] | col_header=Fa
 Cell K24 | value='2471.3' | fill=00000000 | rows=[23] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L24 | value='2477.3' | fill=00000000 | rows=[23] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M24 | value='2483.2' | fill=00000000 | rows=[23] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B25 | value='Discrepancies' | fill=FF00B050 | rows=[24] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B25 | value='Discrepancies' | fill=00000000 | rows=[24] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D25 | value='0' | fill=00000000 | rows=[24] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E25 | value='0' | fill=00000000 | rows=[24] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F25 | value='0' | fill=00000000 | rows=[24] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -175,7 +175,7 @@ Cell L25 | value='0' | fill=00000000 | rows=[24] | cols=[11] | col_header=False 
 Cell M25 | value='0' | fill=00000000 | rows=[24] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B26 | value='Resource: Iron-Ore' | fill=FFB7DEF6 | rows=[25] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B27 | value='Combined unit of measure: Tonnes, Billions' | fill=FFB7DEF6 | rows=[26] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B28 | value='Opening stock' | fill=FF00B050 | rows=[27] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B28 | value='Opening stock' | fill=00000000 | rows=[27] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D28 | value='3.123' | fill=00000000 | rows=[27] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E28 | value='3.283' | fill=00000000 | rows=[27] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F28 | value='3.559' | fill=00000000 | rows=[27] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -186,21 +186,21 @@ Cell J28 | value='2.902' | fill=00000000 | rows=[27] | cols=[9] | col_header=Fal
 Cell K28 | value='3.523' | fill=00000000 | rows=[27] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L28 | value='3.468' | fill=00000000 | rows=[27] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M28 | value='3.409' | fill=00000000 | rows=[27] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B29 | value='Total additions to stock' | fill=FF00B050 | rows=[28] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B29 | value='Total additions to stock' | fill=00000000 | rows=[28] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D29 | value='0.199' | fill=00000000 | rows=[28] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E29 | value='0.318' | fill=00000000 | rows=[28] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F29 | value='0.625' | fill=00000000 | rows=[28] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell H29 | value='0.001' | fill=00000000 | rows=[28] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell J29 | value='0.674' | fill=00000000 | rows=[28] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K29 | value='0.001' | fill=00000000 | rows=[28] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell B30 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[29] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B30 | value='·  Upward reappraisals' | fill=00000000 | rows=[29] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D30 | value='0.199' | fill=00000000 | rows=[29] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E30 | value='0.318' | fill=00000000 | rows=[29] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F30 | value='0.625' | fill=00000000 | rows=[29] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell H30 | value='0.001' | fill=00000000 | rows=[29] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell J30 | value='0.674' | fill=00000000 | rows=[29] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K30 | value='0.001' | fill=00000000 | rows=[29] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell B31 | value='Total reductions in stock' | fill=FF00B050 | rows=[30] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B31 | value='Total reductions in stock' | fill=00000000 | rows=[30] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D31 | value='0.0394' | fill=00000000 | rows=[30] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E31 | value='0.042' | fill=00000000 | rows=[30] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F31 | value='0.043' | fill=00000000 | rows=[30] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -211,7 +211,7 @@ Cell J31 | value='0.053' | fill=00000000 | rows=[30] | cols=[9] | col_header=Fal
 Cell K31 | value='0.056' | fill=00000000 | rows=[30] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L31 | value='0.059' | fill=00000000 | rows=[30] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M31 | value='0.0579' | fill=00000000 | rows=[30] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B32 | value='·  Extractions' | fill=FF00B050 | rows=[31] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B32 | value='·  Extractions' | fill=00000000 | rows=[31] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D32 | value='0.0394' | fill=00000000 | rows=[31] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E32 | value='0.042' | fill=00000000 | rows=[31] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F32 | value='0.043' | fill=00000000 | rows=[31] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -222,12 +222,12 @@ Cell J32 | value='0.053' | fill=00000000 | rows=[31] | cols=[9] | col_header=Fal
 Cell K32 | value='0.056' | fill=00000000 | rows=[31] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L32 | value='0.0586' | fill=00000000 | rows=[31] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M32 | value='0.0575' | fill=00000000 | rows=[31] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B33 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[32] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B33 | value='·  Downward reappraisals' | fill=00000000 | rows=[32] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell G33 | value='1.09' | fill=00000000 | rows=[32] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell I33 | value='0.014' | fill=00000000 | rows=[32] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell L33 | value='0' | fill=00000000 | rows=[32] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M33 | value='0' | fill=00000000 | rows=[32] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B34 | value='Closing stock' | fill=FF00B050 | rows=[33] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B34 | value='Closing stock' | fill=00000000 | rows=[33] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D34 | value='3.283' | fill=00000000 | rows=[33] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E34 | value='3.559' | fill=00000000 | rows=[33] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F34 | value='4.141' | fill=00000000 | rows=[33] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -238,7 +238,7 @@ Cell J34 | value='3.523' | fill=00000000 | rows=[33] | cols=[9] | col_header=Fal
 Cell K34 | value='3.468' | fill=00000000 | rows=[33] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L34 | value='3.409' | fill=00000000 | rows=[33] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M34 | value='3.3511' | fill=00000000 | rows=[33] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B35 | value='Discrepancies' | fill=FF00B050 | rows=[34] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B35 | value='Discrepancies' | fill=00000000 | rows=[34] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D35 | value='0' | fill=00000000 | rows=[34] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E35 | value='0' | fill=00000000 | rows=[34] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F35 | value='0' | fill=00000000 | rows=[34] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -251,7 +251,7 @@ Cell L35 | value='0' | fill=00000000 | rows=[34] | cols=[11] | col_header=False 
 Cell M35 | value='0' | fill=00000000 | rows=[34] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B36 | value='Resource: Copper' | fill=FFB7DEF6 | rows=[35] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B37 | value='Combined unit of measure: Tonnes, Millions' | fill=FFB7DEF6 | rows=[36] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B38 | value='Opening stock' | fill=FF00B050 | rows=[37] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B38 | value='Opening stock' | fill=00000000 | rows=[37] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D38 | value='10.57' | fill=00000000 | rows=[37] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E38 | value='10.364' | fill=00000000 | rows=[37] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F38 | value='10.777' | fill=00000000 | rows=[37] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -262,7 +262,7 @@ Cell J38 | value='8.984' | fill=00000000 | rows=[37] | cols=[9] | col_header=Fal
 Cell K38 | value='8.115' | fill=00000000 | rows=[37] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L38 | value='7.348' | fill=00000000 | rows=[37] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M38 | value='7.001' | fill=00000000 | rows=[37] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B39 | value='Total additions to stock' | fill=FF00B050 | rows=[38] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B39 | value='Total additions to stock' | fill=00000000 | rows=[38] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D39 | value='0.3545' | fill=00000000 | rows=[38] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E39 | value='1.0339' | fill=00000000 | rows=[38] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F39 | value='0.092' | fill=00000000 | rows=[38] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -270,7 +270,7 @@ Cell G39 | value='0.42' | fill=00000000 | rows=[38] | cols=[6] | col_header=Fals
 Cell I39 | value='0.4631' | fill=00000000 | rows=[38] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell L39 | value='0.232' | fill=00000000 | rows=[38] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M39 | value='1.1606' | fill=00000000 | rows=[38] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B40 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[39] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B40 | value='·  Upward reappraisals' | fill=00000000 | rows=[39] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D40 | value='0.3545' | fill=00000000 | rows=[39] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E40 | value='1.0339' | fill=00000000 | rows=[39] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F40 | value='0.092' | fill=00000000 | rows=[39] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -278,7 +278,7 @@ Cell G40 | value='0.42' | fill=00000000 | rows=[39] | cols=[6] | col_header=Fals
 Cell I40 | value='0.4631' | fill=00000000 | rows=[39] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell L40 | value='0.232' | fill=00000000 | rows=[39] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M40 | value='1.1606' | fill=00000000 | rows=[39] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B41 | value='Total reductions in stock' | fill=FF00B050 | rows=[40] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B41 | value='Total reductions in stock' | fill=00000000 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D41 | value='0.5605' | fill=00000000 | rows=[40] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E41 | value='0.6209' | fill=00000000 | rows=[40] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F41 | value='0.6545' | fill=00000000 | rows=[40] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -289,7 +289,7 @@ Cell J41 | value='0.869' | fill=00000000 | rows=[40] | cols=[9] | col_header=Fal
 Cell K41 | value='0.767' | fill=00000000 | rows=[40] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L41 | value='0.579' | fill=00000000 | rows=[40] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M41 | value='0.5416' | fill=00000000 | rows=[40] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B42 | value='·  Extractions' | fill=FF00B050 | rows=[41] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B42 | value='·  Extractions' | fill=00000000 | rows=[41] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D42 | value='0.5605' | fill=00000000 | rows=[41] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E42 | value='0.6209' | fill=00000000 | rows=[41] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F42 | value='0.6545' | fill=00000000 | rows=[41] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -300,11 +300,11 @@ Cell J42 | value='0.5275' | fill=00000000 | rows=[41] | cols=[9] | col_header=Fa
 Cell K42 | value='0.5572' | fill=00000000 | rows=[41] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L42 | value='0.579' | fill=00000000 | rows=[41] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M42 | value='0.5416' | fill=00000000 | rows=[41] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B43 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[42] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B43 | value='·  Downward reappraisals' | fill=00000000 | rows=[42] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell H43 | value='0.1286' | fill=00000000 | rows=[42] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell J43 | value='0.3415' | fill=00000000 | rows=[42] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K43 | value='0.2098' | fill=00000000 | rows=[42] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell B44 | value='Closing stock' | fill=FF00B050 | rows=[43] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B44 | value='Closing stock' | fill=00000000 | rows=[43] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D44 | value='10.364' | fill=00000000 | rows=[43] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E44 | value='10.777' | fill=00000000 | rows=[43] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F44 | value='10.2145' | fill=00000000 | rows=[43] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -315,7 +315,7 @@ Cell J44 | value='8.115' | fill=00000000 | rows=[43] | cols=[9] | col_header=Fal
 Cell K44 | value='7.348' | fill=00000000 | rows=[43] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L44 | value='7.001' | fill=00000000 | rows=[43] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M44 | value='7.62' | fill=00000000 | rows=[43] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B45 | value='Discrepancies' | fill=FF00B050 | rows=[44] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B45 | value='Discrepancies' | fill=00000000 | rows=[44] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D45 | value='0' | fill=00000000 | rows=[44] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E45 | value='0' | fill=00000000 | rows=[44] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F45 | value='0' | fill=00000000 | rows=[44] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -328,7 +328,7 @@ Cell L45 | value='0' | fill=00000000 | rows=[44] | cols=[11] | col_header=False 
 Cell M45 | value='0' | fill=00000000 | rows=[44] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B46 | value='Resource: Zinc' | fill=FFB7DEF6 | rows=[45] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B47 | value='Combined unit of measure: Tonnes, Millions' | fill=FFB7DEF6 | rows=[46] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B48 | value='Opening stock' | fill=FF00B050 | rows=[47] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B48 | value='Opening stock' | fill=00000000 | rows=[47] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D48 | value='4.807' | fill=00000000 | rows=[47] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E48 | value='4.163' | fill=00000000 | rows=[47] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F48 | value='3.532' | fill=00000000 | rows=[47] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -339,15 +339,15 @@ Cell J48 | value='2.286' | fill=00000000 | rows=[47] | cols=[9] | col_header=Fal
 Cell K48 | value='1.913' | fill=00000000 | rows=[47] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L48 | value='2.18' | fill=00000000 | rows=[47] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M48 | value='1.63' | fill=00000000 | rows=[47] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B49 | value='Total additions to stock' | fill=FF00B050 | rows=[48] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B49 | value='Total additions to stock' | fill=00000000 | rows=[48] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell G49 | value='0.3122' | fill=00000000 | rows=[48] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell I49 | value='0.3603' | fill=00000000 | rows=[48] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell K49 | value='0.5364' | fill=00000000 | rows=[48] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell B50 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[49] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B50 | value='·  Upward reappraisals' | fill=00000000 | rows=[49] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell G50 | value='0.3122' | fill=00000000 | rows=[49] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell I50 | value='0.3603' | fill=00000000 | rows=[49] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell K50 | value='0.5364' | fill=00000000 | rows=[49] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell B51 | value='Total reductions in stock' | fill=FF00B050 | rows=[50] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B51 | value='Total reductions in stock' | fill=00000000 | rows=[50] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D51 | value='0.644' | fill=00000000 | rows=[50] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E51 | value='0.631' | fill=00000000 | rows=[50] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F51 | value='0.5596' | fill=00000000 | rows=[50] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -358,7 +358,7 @@ Cell J51 | value='0.373' | fill=00000000 | rows=[50] | cols=[9] | col_header=Fal
 Cell K51 | value='0.2694' | fill=00000000 | rows=[50] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L51 | value='0.55' | fill=00000000 | rows=[50] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M51 | value='0.392' | fill=00000000 | rows=[50] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B52 | value='·  Extractions' | fill=FF00B050 | rows=[51] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B52 | value='·  Extractions' | fill=00000000 | rows=[51] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D52 | value='0.6015' | fill=00000000 | rows=[51] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E52 | value='0.4123' | fill=00000000 | rows=[51] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F52 | value='0.3226' | fill=00000000 | rows=[51] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -369,7 +369,7 @@ Cell J52 | value='0.2692' | fill=00000000 | rows=[51] | cols=[9] | col_header=Fa
 Cell K52 | value='0.2694' | fill=00000000 | rows=[51] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L52 | value='0.2475' | fill=00000000 | rows=[51] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M52 | value='0.3102' | fill=00000000 | rows=[51] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B53 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[52] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B53 | value='·  Downward reappraisals' | fill=00000000 | rows=[52] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D53 | value='0.0425' | fill=00000000 | rows=[52] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E53 | value='0.2187' | fill=00000000 | rows=[52] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F53 | value='0.237' | fill=00000000 | rows=[52] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -377,7 +377,7 @@ Cell H53 | value='0.477' | fill=00000000 | rows=[52] | cols=[7] | col_header=Fal
 Cell J53 | value='0.1038' | fill=00000000 | rows=[52] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell L53 | value='0.3025' | fill=00000000 | rows=[52] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M53 | value='0.0818' | fill=00000000 | rows=[52] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B54 | value='Closing stock' | fill=FF00B050 | rows=[53] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B54 | value='Closing stock' | fill=00000000 | rows=[53] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D54 | value='4.163' | fill=00000000 | rows=[53] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E54 | value='3.532' | fill=00000000 | rows=[53] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F54 | value='2.9724' | fill=00000000 | rows=[53] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -388,7 +388,7 @@ Cell J54 | value='1.913' | fill=00000000 | rows=[53] | cols=[9] | col_header=Fal
 Cell K54 | value='2.18' | fill=00000000 | rows=[53] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L54 | value='1.63' | fill=00000000 | rows=[53] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M54 | value='1.238' | fill=00000000 | rows=[53] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B55 | value='Discrepancies' | fill=FF00B050 | rows=[54] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B55 | value='Discrepancies' | fill=00000000 | rows=[54] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D55 | value='0' | fill=00000000 | rows=[54] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E55 | value='0' | fill=00000000 | rows=[54] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F55 | value='0' | fill=00000000 | rows=[54] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -401,7 +401,7 @@ Cell L55 | value='0' | fill=00000000 | rows=[54] | cols=[11] | col_header=False 
 Cell M55 | value='0' | fill=00000000 | rows=[54] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B56 | value='Resource: Lead' | fill=FFB7DEF6 | rows=[55] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B57 | value='Combined unit of measure: Tonnes, Millions' | fill=FFB7DEF6 | rows=[56] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B58 | value='Opening stock' | fill=FF00B050 | rows=[57] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B58 | value='Opening stock' | fill=00000000 | rows=[57] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D58 | value='0.247' | fill=00000000 | rows=[57] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E58 | value='0.126' | fill=00000000 | rows=[57] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F58 | value='0.116' | fill=00000000 | rows=[57] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -412,17 +412,17 @@ Cell J58 | value='0.165' | fill=00000000 | rows=[57] | cols=[9] | col_header=Fal
 Cell K58 | value='0.118' | fill=00000000 | rows=[57] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L58 | value='0.203' | fill=00000000 | rows=[57] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M58 | value='0.176' | fill=00000000 | rows=[57] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B59 | value='Total additions to stock' | fill=FF00B050 | rows=[58] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B59 | value='Total additions to stock' | fill=00000000 | rows=[58] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E59 | value='0.0129' | fill=00000000 | rows=[58] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell I59 | value='0.1385' | fill=00000000 | rows=[58] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell K59 | value='0.1065' | fill=00000000 | rows=[58] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell M59 | value='0.0251' | fill=00000000 | rows=[58] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B60 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[59] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B60 | value='·  Upward reappraisals' | fill=00000000 | rows=[59] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E60 | value='0.0129' | fill=00000000 | rows=[59] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell I60 | value='0.1385' | fill=00000000 | rows=[59] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell K60 | value='0.1065' | fill=00000000 | rows=[59] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell M60 | value='0.0251' | fill=00000000 | rows=[59] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B61 | value='Total reductions in stock' | fill=FF00B050 | rows=[60] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B61 | value='Total reductions in stock' | fill=00000000 | rows=[60] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D61 | value='0.121' | fill=00000000 | rows=[60] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E61 | value='0.0229' | fill=00000000 | rows=[60] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F61 | value='0.028' | fill=00000000 | rows=[60] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -432,7 +432,7 @@ Cell I61 | value='0.0135' | fill=00000000 | rows=[60] | cols=[8] | col_header=Fa
 Cell J61 | value='0.047' | fill=00000000 | rows=[60] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K61 | value='0.0215' | fill=00000000 | rows=[60] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell M61 | value='0.0701' | fill=00000000 | rows=[60] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B62 | value='·  Extractions' | fill=FF00B050 | rows=[61] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B62 | value='·  Extractions' | fill=00000000 | rows=[61] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D62 | value='0.062' | fill=00000000 | rows=[61] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E62 | value='0.0229' | fill=00000000 | rows=[61] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F62 | value='0.0036' | fill=00000000 | rows=[61] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -442,13 +442,13 @@ Cell I62 | value='0.0135' | fill=00000000 | rows=[61] | cols=[8] | col_header=Fa
 Cell J62 | value='0.0191' | fill=00000000 | rows=[61] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K62 | value='0.0215' | fill=00000000 | rows=[61] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell M62 | value='0.0701' | fill=00000000 | rows=[61] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B63 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[62] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B63 | value='·  Downward reappraisals' | fill=00000000 | rows=[62] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D63 | value='0.059' | fill=00000000 | rows=[62] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell F63 | value='0.0244' | fill=00000000 | rows=[62] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G63 | value='0.0013' | fill=00000000 | rows=[62] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H63 | value='0.031' | fill=00000000 | rows=[62] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell J63 | value='0.0279' | fill=00000000 | rows=[62] | cols=[9] | col_header=False | row_header=False | metadata=False
-Cell B64 | value='Closing stock' | fill=FF00B050 | rows=[63] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B64 | value='Closing stock' | fill=00000000 | rows=[63] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D64 | value='0.126' | fill=00000000 | rows=[63] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E64 | value='0.116' | fill=00000000 | rows=[63] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F64 | value='0.088' | fill=00000000 | rows=[63] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -459,7 +459,7 @@ Cell J64 | value='0.118' | fill=00000000 | rows=[63] | cols=[9] | col_header=Fal
 Cell K64 | value='0.203' | fill=00000000 | rows=[63] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L64 | value='0.176' | fill=00000000 | rows=[63] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M64 | value='0.131' | fill=00000000 | rows=[63] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B65 | value='Discrepancies' | fill=FF00B050 | rows=[64] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B65 | value='Discrepancies' | fill=00000000 | rows=[64] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D65 | value='0' | fill=00000000 | rows=[64] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E65 | value='0' | fill=00000000 | rows=[64] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F65 | value='0' | fill=00000000 | rows=[64] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -472,7 +472,7 @@ Cell L65 | value='-0.027' | fill=00000000 | rows=[64] | cols=[11] | col_header=F
 Cell M65 | value='0' | fill=00000000 | rows=[64] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B66 | value='Resource: Nickel' | fill=FFB7DEF6 | rows=[65] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B67 | value='Combined unit of measure: Tonnes, Millions' | fill=FFB7DEF6 | rows=[66] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B68 | value='Opening stock' | fill=FF00B050 | rows=[67] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B68 | value='Opening stock' | fill=00000000 | rows=[67] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D68 | value='2.936' | fill=00000000 | rows=[67] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E68 | value='2.617' | fill=00000000 | rows=[67] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F68 | value='2.682' | fill=00000000 | rows=[67] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -483,21 +483,21 @@ Cell J68 | value='2.79' | fill=00000000 | rows=[67] | cols=[9] | col_header=Fals
 Cell K68 | value='2.296' | fill=00000000 | rows=[67] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L68 | value='2.236' | fill=00000000 | rows=[67] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M68 | value='1.977' | fill=00000000 | rows=[67] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B69 | value='Total additions to stock' | fill=FF00B050 | rows=[68] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B69 | value='Total additions to stock' | fill=00000000 | rows=[68] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E69 | value='0.283' | fill=00000000 | rows=[68] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell G69 | value='0.6634' | fill=00000000 | rows=[68] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H69 | value='0.1092' | fill=00000000 | rows=[68] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I69 | value='0.3924' | fill=00000000 | rows=[68] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell K69 | value='0.116' | fill=00000000 | rows=[68] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell M69 | value='0.0656' | fill=00000000 | rows=[68] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B70 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[69] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B70 | value='·  Upward reappraisals' | fill=00000000 | rows=[69] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E70 | value='0.283' | fill=00000000 | rows=[69] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell G70 | value='0.6634' | fill=00000000 | rows=[69] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H70 | value='0.1092' | fill=00000000 | rows=[69] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I70 | value='0.3924' | fill=00000000 | rows=[69] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell K70 | value='0.116' | fill=00000000 | rows=[69] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell M70 | value='0.0656' | fill=00000000 | rows=[69] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B71 | value='Total reductions in stock' | fill=FF00B050 | rows=[70] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B71 | value='Total reductions in stock' | fill=00000000 | rows=[70] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D71 | value='0.319' | fill=00000000 | rows=[70] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E71 | value='0.218' | fill=00000000 | rows=[70] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F71 | value='0.395' | fill=00000000 | rows=[70] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -508,7 +508,7 @@ Cell J71 | value='0.494' | fill=00000000 | rows=[70] | cols=[9] | col_header=Fal
 Cell K71 | value='0.176' | fill=00000000 | rows=[70] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L71 | value='0.259' | fill=00000000 | rows=[70] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M71 | value='0.1336' | fill=00000000 | rows=[70] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B72 | value='·  Extractions' | fill=FF00B050 | rows=[71] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B72 | value='·  Extractions' | fill=00000000 | rows=[71] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D72 | value='0.204' | fill=00000000 | rows=[71] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E72 | value='0.218' | fill=00000000 | rows=[71] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F72 | value='0.2182' | fill=00000000 | rows=[71] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -519,12 +519,12 @@ Cell J72 | value='0.1758' | fill=00000000 | rows=[71] | cols=[9] | col_header=Fa
 Cell K72 | value='0.176' | fill=00000000 | rows=[71] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L72 | value='0.1581' | fill=00000000 | rows=[71] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M72 | value='0.1336' | fill=00000000 | rows=[71] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B73 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[72] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B73 | value='·  Downward reappraisals' | fill=00000000 | rows=[72] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D73 | value='0.115' | fill=00000000 | rows=[72] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell F73 | value='0.1768' | fill=00000000 | rows=[72] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell J73 | value='0.3182' | fill=00000000 | rows=[72] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell L73 | value='0.1009' | fill=00000000 | rows=[72] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell B74 | value='Closing stock' | fill=FF00B050 | rows=[73] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B74 | value='Closing stock' | fill=00000000 | rows=[73] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D74 | value='2.617' | fill=00000000 | rows=[73] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E74 | value='2.682' | fill=00000000 | rows=[73] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F74 | value='2.287' | fill=00000000 | rows=[73] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -535,7 +535,7 @@ Cell J74 | value='2.296' | fill=00000000 | rows=[73] | cols=[9] | col_header=Fal
 Cell K74 | value='2.236' | fill=00000000 | rows=[73] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L74 | value='1.977' | fill=00000000 | rows=[73] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M74 | value='1.909' | fill=00000000 | rows=[73] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B75 | value='Discrepancies' | fill=FF00B050 | rows=[74] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B75 | value='Discrepancies' | fill=00000000 | rows=[74] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D75 | value='0' | fill=00000000 | rows=[74] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E75 | value='0' | fill=00000000 | rows=[74] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F75 | value='0' | fill=00000000 | rows=[74] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -548,7 +548,7 @@ Cell L75 | value='0' | fill=00000000 | rows=[74] | cols=[11] | col_header=False 
 Cell M75 | value='0' | fill=00000000 | rows=[74] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B76 | value='Resource: Gold' | fill=FFB7DEF6 | rows=[75] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B77 | value='Combined unit of measure: Tonnes, Units' | fill=FFB7DEF6 | rows=[76] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B78 | value='Opening stock' | fill=FF00B050 | rows=[77] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B78 | value='Opening stock' | fill=00000000 | rows=[77] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D78 | value='2044' | fill=00000000 | rows=[77] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E78 | value='2148' | fill=00000000 | rows=[77] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F78 | value='2140' | fill=00000000 | rows=[77] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -559,7 +559,7 @@ Cell J78 | value='2578' | fill=00000000 | rows=[77] | cols=[9] | col_header=Fals
 Cell K78 | value='2597' | fill=00000000 | rows=[77] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L78 | value='2359' | fill=00000000 | rows=[77] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M78 | value='2659' | fill=00000000 | rows=[77] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B79 | value='Total additions to stock' | fill=FF00B050 | rows=[78] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B79 | value='Total additions to stock' | fill=00000000 | rows=[78] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D79 | value='210.4' | fill=00000000 | rows=[78] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E79 | value='123.4' | fill=00000000 | rows=[78] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F79 | value='81.4' | fill=00000000 | rows=[78] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -569,7 +569,7 @@ Cell I79 | value='833.6' | fill=00000000 | rows=[78] | cols=[8] | col_header=Fal
 Cell J79 | value='210.9' | fill=00000000 | rows=[78] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell L79 | value='478.1' | fill=00000000 | rows=[78] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M79 | value='272.5' | fill=00000000 | rows=[78] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B80 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[79] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B80 | value='·  Upward reappraisals' | fill=00000000 | rows=[79] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D80 | value='210.4' | fill=00000000 | rows=[79] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E80 | value='123.4' | fill=00000000 | rows=[79] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F80 | value='81.4' | fill=00000000 | rows=[79] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -579,7 +579,7 @@ Cell I80 | value='833.6' | fill=00000000 | rows=[79] | cols=[8] | col_header=Fal
 Cell J80 | value='210.9' | fill=00000000 | rows=[79] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell L80 | value='478.1' | fill=00000000 | rows=[79] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M80 | value='272.5' | fill=00000000 | rows=[79] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B81 | value='Total reductions in stock' | fill=FF00B050 | rows=[80] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B81 | value='Total reductions in stock' | fill=00000000 | rows=[80] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D81 | value='106.4' | fill=00000000 | rows=[80] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E81 | value='131.4' | fill=00000000 | rows=[80] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F81 | value='151.5' | fill=00000000 | rows=[80] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -590,7 +590,7 @@ Cell J81 | value='191.9' | fill=00000000 | rows=[80] | cols=[9] | col_header=Fal
 Cell K81 | value='238' | fill=00000000 | rows=[80] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L81 | value='178.1' | fill=00000000 | rows=[80] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M81 | value='222.5' | fill=00000000 | rows=[80] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B82 | value='·  Extractions' | fill=FF00B050 | rows=[81] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B82 | value='·  Extractions' | fill=00000000 | rows=[81] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D82 | value='106.4' | fill=00000000 | rows=[81] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E82 | value='131.4' | fill=00000000 | rows=[81] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F82 | value='151.5' | fill=00000000 | rows=[81] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -601,9 +601,9 @@ Cell J82 | value='191.9' | fill=00000000 | rows=[81] | cols=[9] | col_header=Fal
 Cell K82 | value='190.7' | fill=00000000 | rows=[81] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L82 | value='178.1' | fill=00000000 | rows=[81] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M82 | value='222.5' | fill=00000000 | rows=[81] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B83 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[82] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B83 | value='·  Downward reappraisals' | fill=00000000 | rows=[82] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell K83 | value='47.3' | fill=00000000 | rows=[82] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell B84 | value='Closing stock' | fill=FF00B050 | rows=[83] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B84 | value='Closing stock' | fill=00000000 | rows=[83] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D84 | value='2148' | fill=00000000 | rows=[83] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E84 | value='2140' | fill=00000000 | rows=[83] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F84 | value='2069.9' | fill=00000000 | rows=[83] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -614,7 +614,7 @@ Cell J84 | value='2597' | fill=00000000 | rows=[83] | cols=[9] | col_header=Fals
 Cell K84 | value='2359' | fill=00000000 | rows=[83] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L84 | value='2659' | fill=00000000 | rows=[83] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M84 | value='2709' | fill=00000000 | rows=[83] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B85 | value='Discrepancies' | fill=FF00B050 | rows=[84] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B85 | value='Discrepancies' | fill=00000000 | rows=[84] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D85 | value='0' | fill=00000000 | rows=[84] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E85 | value='0' | fill=00000000 | rows=[84] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F85 | value='0' | fill=00000000 | rows=[84] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -627,7 +627,7 @@ Cell L85 | value='0' | fill=00000000 | rows=[84] | cols=[11] | col_header=False 
 Cell M85 | value='0' | fill=00000000 | rows=[84] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell B86 | value='Resource: Silver' | fill=FFB7DEF6 | rows=[85] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell B87 | value='Combined unit of measure: Tonnes, Thousands' | fill=FFB7DEF6 | rows=[86] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] | col_header=False | row_header=False | metadata=False
-Cell B88 | value='Opening stock' | fill=FF00B050 | rows=[87] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B88 | value='Opening stock' | fill=00000000 | rows=[87] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D88 | value='6.953' | fill=00000000 | rows=[87] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E88 | value='5.598' | fill=00000000 | rows=[87] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F88 | value='5.013' | fill=00000000 | rows=[87] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -638,7 +638,7 @@ Cell J88 | value='5.074' | fill=00000000 | rows=[87] | cols=[9] | col_header=Fal
 Cell K88 | value='4.865' | fill=00000000 | rows=[87] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L88 | value='4.48' | fill=00000000 | rows=[87] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M88 | value='5.223' | fill=00000000 | rows=[87] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B89 | value='Total additions to stock' | fill=FF00B050 | rows=[88] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B89 | value='Total additions to stock' | fill=00000000 | rows=[88] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E89 | value='0.035' | fill=00000000 | rows=[88] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F89 | value='0.9572' | fill=00000000 | rows=[88] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G89 | value='0.2181' | fill=00000000 | rows=[88] | cols=[6] | col_header=False | row_header=False | metadata=False
@@ -646,7 +646,7 @@ Cell I89 | value='1.814' | fill=00000000 | rows=[88] | cols=[8] | col_header=Fal
 Cell J89 | value='0.1495' | fill=00000000 | rows=[88] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K89 | value='0.0138' | fill=00000000 | rows=[88] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L89 | value='1.0679' | fill=00000000 | rows=[88] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell B90 | value='·  Upward reappraisals' | fill=FF00B050 | rows=[89] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B90 | value='·  Upward reappraisals' | fill=00000000 | rows=[89] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E90 | value='0.035' | fill=00000000 | rows=[89] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F90 | value='0.9572' | fill=00000000 | rows=[89] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G90 | value='0.2181' | fill=00000000 | rows=[89] | cols=[6] | col_header=False | row_header=False | metadata=False
@@ -654,7 +654,7 @@ Cell I90 | value='1.814' | fill=00000000 | rows=[89] | cols=[8] | col_header=Fal
 Cell J90 | value='0.1495' | fill=00000000 | rows=[89] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K90 | value='0.0138' | fill=00000000 | rows=[89] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L90 | value='1.0679' | fill=00000000 | rows=[89] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell B91 | value='Total reductions in stock' | fill=FF00B050 | rows=[90] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B91 | value='Total reductions in stock' | fill=00000000 | rows=[90] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D91 | value='1.355' | fill=00000000 | rows=[90] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E91 | value='0.62' | fill=00000000 | rows=[90] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F91 | value='0.472' | fill=00000000 | rows=[90] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -665,7 +665,7 @@ Cell J91 | value='0.3585' | fill=00000000 | rows=[90] | cols=[9] | col_header=Fa
 Cell K91 | value='0.3988' | fill=00000000 | rows=[90] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L91 | value='0.3249' | fill=00000000 | rows=[90] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M91 | value='1.026' | fill=00000000 | rows=[90] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B92 | value='·  Extractions' | fill=FF00B050 | rows=[91] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B92 | value='·  Extractions' | fill=00000000 | rows=[91] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D92 | value='0.657' | fill=00000000 | rows=[91] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E92 | value='0.62' | fill=00000000 | rows=[91] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F92 | value='0.472' | fill=00000000 | rows=[91] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -676,11 +676,11 @@ Cell J92 | value='0.3585' | fill=00000000 | rows=[91] | cols=[9] | col_header=Fa
 Cell K92 | value='0.3988' | fill=00000000 | rows=[91] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L92 | value='0.3249' | fill=00000000 | rows=[91] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M92 | value='0.325' | fill=00000000 | rows=[91] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B93 | value='·  Downward reappraisals' | fill=FF00B050 | rows=[92] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B93 | value='·  Downward reappraisals' | fill=00000000 | rows=[92] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D93 | value='0.698' | fill=00000000 | rows=[92] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell H93 | value='1.3343' | fill=00000000 | rows=[92] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell M93 | value='0.701' | fill=00000000 | rows=[92] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B94 | value='Closing stock' | fill=FF00B050 | rows=[93] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B94 | value='Closing stock' | fill=00000000 | rows=[93] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D94 | value='5.598' | fill=00000000 | rows=[93] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E94 | value='5.013' | fill=00000000 | rows=[93] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F94 | value='5.4982' | fill=00000000 | rows=[93] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -691,7 +691,7 @@ Cell J94 | value='4.865' | fill=00000000 | rows=[93] | cols=[9] | col_header=Fal
 Cell K94 | value='4.48' | fill=00000000 | rows=[93] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L94 | value='5.223' | fill=00000000 | rows=[93] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M94 | value='4.197' | fill=00000000 | rows=[93] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B95 | value='Discrepancies' | fill=FF00B050 | rows=[94] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell B95 | value='Discrepancies' | fill=00000000 | rows=[94] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D95 | value='0' | fill=00000000 | rows=[94] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E95 | value='0' | fill=00000000 | rows=[94] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F95 | value='0' | fill=00000000 | rows=[94] | cols=[5] | col_header=False | row_header=False | metadata=False

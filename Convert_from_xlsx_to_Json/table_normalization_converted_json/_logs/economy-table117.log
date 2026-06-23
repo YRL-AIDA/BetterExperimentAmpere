@@ -15,7 +15,7 @@ Cell F2 | value='outturn' | fill=00000000 | rows=[1] | cols=[5] | col_header=Fal
 Cell G2 | value='plans' | fill=00000000 | rows=[1] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H2 | value='plans' | fill=00000000 | rows=[1] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I2 | value='plans' | fill=00000000 | rows=[1] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A3 | value='CURRENT EXPENDITURE' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A3 | value='CURRENT EXPENDITURE' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A4 | value='Resource DEL' | fill=00000000 | rows=[3] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A5 | value='Resource DEL excluding depreciation(1)' | fill=00000000 | rows=[4] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='288321' | fill=00000000 | rows=[4] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -35,15 +35,15 @@ Cell F6 | value='18852' | fill=00000000 | rows=[5] | cols=[5] | col_header=False
 Cell G6 | value='18100' | fill=00000000 | rows=[5] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H6 | value='18100' | fill=00000000 | rows=[5] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I6 | value='19200' | fill=00000000 | rows=[5] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A7 | value='Total resource DEL' | fill=FF00B050 | rows=[6] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B7 | value='300105' | fill=31 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C7 | value='313275' | fill=31 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D7 | value='333172' | fill=31 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E7 | value='345844' | fill=31 | rows=[6] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F7 | value='340711' | fill=31 | rows=[6] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G7 | value='345300' | fill=31 | rows=[6] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H7 | value='348300' | fill=31 | rows=[6] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I7 | value='346300' | fill=31 | rows=[6] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A7 | value='Total resource DEL' | fill=FF00B0F0 | rows=[6] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B7 | value='300105' | fill=FF00B0F0 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C7 | value='313275' | fill=FF00B0F0 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D7 | value='333172' | fill=FF00B0F0 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E7 | value='345844' | fill=FF00B0F0 | rows=[6] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F7 | value='340711' | fill=FF00B0F0 | rows=[6] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G7 | value='345300' | fill=FF00B0F0 | rows=[6] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H7 | value='348300' | fill=FF00B0F0 | rows=[6] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I7 | value='346300' | fill=FF00B0F0 | rows=[6] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A8 | value='Resource departmental AME' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='Social security benefits' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='140109' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -126,15 +126,15 @@ Cell F17 | value='200' | fill=00000000 | rows=[16] | cols=[5] | col_header=False
 Cell G17 | value='4848' | fill=00000000 | rows=[16] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H17 | value='6176' | fill=00000000 | rows=[16] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I17 | value='6663' | fill=00000000 | rows=[16] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A18 | value='Total resource departmental AME' | fill=31 | rows=[17] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell B18 | value='218151' | fill=31 | rows=[17] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C18 | value='270173' | fill=31 | rows=[17] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D18 | value='217223' | fill=31 | rows=[17] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E18 | value='166869' | fill=31 | rows=[17] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F18 | value='251056' | fill=31 | rows=[17] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G18 | value='274523' | fill=31 | rows=[17] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H18 | value='261933' | fill=31 | rows=[17] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I18 | value='267202' | fill=31 | rows=[17] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A18 | value='Total resource departmental AME' | fill=FF00B0F0 | rows=[17] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B18 | value='218151' | fill=FF00B0F0 | rows=[17] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C18 | value='270173' | fill=FF00B0F0 | rows=[17] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D18 | value='217223' | fill=FF00B0F0 | rows=[17] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E18 | value='166869' | fill=FF00B0F0 | rows=[17] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F18 | value='251056' | fill=FF00B0F0 | rows=[17] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G18 | value='274523' | fill=FF00B0F0 | rows=[17] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H18 | value='261933' | fill=FF00B0F0 | rows=[17] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I18 | value='267202' | fill=FF00B0F0 | rows=[17] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A19 | value='Resource other AME' | fill=00000000 | rows=[18] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A20 | value='Net expenditure transfers to the EU' | fill=00000000 | rows=[19] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B20 | value='5392' | fill=00000000 | rows=[19] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -172,24 +172,24 @@ Cell F23 | value='-27497' | fill=00000000 | rows=[22] | cols=[5] | col_header=Fa
 Cell G23 | value='-34760' | fill=00000000 | rows=[22] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H23 | value='-20305' | fill=00000000 | rows=[22] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I23 | value='-20005' | fill=00000000 | rows=[22] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A24 | value='Total resource other AME' | fill=FF00B050 | rows=[23] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B24 | value='17910' | fill=31 | rows=[23] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C24 | value='-18719' | fill=31 | rows=[23] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D24 | value='51909' | fill=31 | rows=[23] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E24 | value='118651' | fill=31 | rows=[23] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F24 | value='53921' | fill=31 | rows=[23] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G24 | value='44834' | fill=31 | rows=[23] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H24 | value='63229' | fill=31 | rows=[23] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I24 | value='72831' | fill=31 | rows=[23] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A25 | value='Total resource AME' | fill=FF00B050 | rows=[24] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B25 | value='236060' | fill=31 | rows=[24] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C25 | value='251453' | fill=31 | rows=[24] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D25 | value='269132' | fill=31 | rows=[24] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E25 | value='285520' | fill=31 | rows=[24] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F25 | value='304977' | fill=31 | rows=[24] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G25 | value='319357' | fill=31 | rows=[24] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H25 | value='325162' | fill=31 | rows=[24] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I25 | value='340033' | fill=31 | rows=[24] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A24 | value='Total resource other AME' | fill=FF00B0F0 | rows=[23] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B24 | value='17910' | fill=FF00B0F0 | rows=[23] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C24 | value='-18719' | fill=FF00B0F0 | rows=[23] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D24 | value='51909' | fill=FF00B0F0 | rows=[23] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E24 | value='118651' | fill=FF00B0F0 | rows=[23] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F24 | value='53921' | fill=FF00B0F0 | rows=[23] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G24 | value='44834' | fill=FF00B0F0 | rows=[23] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H24 | value='63229' | fill=FF00B0F0 | rows=[23] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I24 | value='72831' | fill=FF00B0F0 | rows=[23] | cols=[8] | col_header=False | row_header=False | metadata=True
+Cell A25 | value='Total resource AME' | fill=FF00B0F0 | rows=[24] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B25 | value='236060' | fill=FF00B0F0 | rows=[24] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C25 | value='251453' | fill=FF00B0F0 | rows=[24] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D25 | value='269132' | fill=FF00B0F0 | rows=[24] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E25 | value='285520' | fill=FF00B0F0 | rows=[24] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F25 | value='304977' | fill=FF00B0F0 | rows=[24] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G25 | value='319357' | fill=FF00B0F0 | rows=[24] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H25 | value='325162' | fill=FF00B0F0 | rows=[24] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I25 | value='340033' | fill=FF00B0F0 | rows=[24] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A26 | value='Public sector current expenditure' | fill=FF00B050 | rows=[25] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B26 | value='536165' | fill=31 | rows=[25] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C26 | value='564728' | fill=31 | rows=[25] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -199,17 +199,17 @@ Cell F26 | value='645688' | fill=31 | rows=[25] | cols=[5] | col_header=False | 
 Cell G26 | value='664600' | fill=31 | rows=[25] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H26 | value='673600' | fill=31 | rows=[25] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I26 | value='686400' | fill=31 | rows=[25] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A27 | value='CAPITAL EXPENDITURE' | fill=FFFFFF00 | rows=[26] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A27 | value='CAPITAL EXPENDITURE' | fill=00000000 | rows=[26] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A28 | value='Capital DEL' | fill=00000000 | rows=[27] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell A29 | value='Total capital DEL' | fill=FF00B050 | rows=[28] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B29 | value='44821' | fill=31 | rows=[28] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C29 | value='48511' | fill=31 | rows=[28] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D29 | value='56959' | fill=31 | rows=[28] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E29 | value='49815' | fill=31 | rows=[28] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F29 | value='42156' | fill=31 | rows=[28] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G29 | value='43800' | fill=31 | rows=[28] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H29 | value='40900' | fill=31 | rows=[28] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I29 | value='41300' | fill=31 | rows=[28] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A29 | value='Total capital DEL' | fill=FF00B0F0 | rows=[28] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B29 | value='44821' | fill=FF00B0F0 | rows=[28] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C29 | value='48511' | fill=FF00B0F0 | rows=[28] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D29 | value='56959' | fill=FF00B0F0 | rows=[28] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E29 | value='49815' | fill=FF00B0F0 | rows=[28] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F29 | value='42156' | fill=FF00B0F0 | rows=[28] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G29 | value='43800' | fill=FF00B0F0 | rows=[28] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H29 | value='40900' | fill=FF00B0F0 | rows=[28] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I29 | value='41300' | fill=FF00B0F0 | rows=[28] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A30 | value='Capital departmental AME' | fill=00000000 | rows=[29] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A31 | value='National lottery' | fill=00000000 | rows=[30] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B31 | value='713' | fill=00000000 | rows=[30] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -256,15 +256,15 @@ Cell F35 | value='967' | fill=00000000 | rows=[34] | cols=[5] | col_header=False
 Cell G35 | value='2829' | fill=00000000 | rows=[34] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H35 | value='2834' | fill=00000000 | rows=[34] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I35 | value='2735' | fill=00000000 | rows=[34] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A36 | value='Total capital departmental AME' | fill=FF00B050 | rows=[35] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B36 | value='6005' | fill=31 | rows=[35] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C36 | value='90866' | fill=31 | rows=[35] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D36 | value='47694' | fill=31 | rows=[35] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E36 | value='3802' | fill=31 | rows=[35] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F36 | value='3488' | fill=31 | rows=[35] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G36 | value='10198' | fill=31 | rows=[35] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H36 | value='12100' | fill=31 | rows=[35] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I36 | value='13888' | fill=31 | rows=[35] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A36 | value='Total capital departmental AME' | fill=FF00B0F0 | rows=[35] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B36 | value='6005' | fill=FF00B0F0 | rows=[35] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C36 | value='90866' | fill=FF00B0F0 | rows=[35] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D36 | value='47694' | fill=FF00B0F0 | rows=[35] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E36 | value='3802' | fill=FF00B0F0 | rows=[35] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F36 | value='3488' | fill=FF00B0F0 | rows=[35] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G36 | value='10198' | fill=FF00B0F0 | rows=[35] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H36 | value='12100' | fill=FF00B0F0 | rows=[35] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I36 | value='13888' | fill=FF00B0F0 | rows=[35] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A37 | value='Capital other AME' | fill=00000000 | rows=[36] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A38 | value='Locally financed expenditure' | fill=00000000 | rows=[37] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B38 | value='2120' | fill=00000000 | rows=[37] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -293,24 +293,24 @@ Cell F40 | value='-16201' | fill=00000000 | rows=[39] | cols=[5] | col_header=Fa
 Cell G40 | value='-46780' | fill=00000000 | rows=[39] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H40 | value='-17187' | fill=00000000 | rows=[39] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I40 | value='-18411' | fill=00000000 | rows=[39] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A41 | value='Total capital other AME' | fill=FF00B050 | rows=[40] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B41 | value='-4055' | fill=31 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C41 | value='-74359' | fill=31 | rows=[40] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D41 | value='-36808' | fill=31 | rows=[40] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E41 | value='4653' | fill=31 | rows=[40] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F41 | value='3556' | fill=31 | rows=[40] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G41 | value='-35269' | fill=31 | rows=[40] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H41 | value='-6532' | fill=31 | rows=[40] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I41 | value='-8256' | fill=31 | rows=[40] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A42 | value='Total capital AME' | fill=FF00B050 | rows=[41] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B42 | value='1951' | fill=31 | rows=[41] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C42 | value='16506' | fill=31 | rows=[41] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D42 | value='10887' | fill=31 | rows=[41] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E42 | value='8455' | fill=31 | rows=[41] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F42 | value='7044' | fill=31 | rows=[41] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G42 | value='-25071' | fill=31 | rows=[41] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H42 | value='5568' | fill=31 | rows=[41] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I42 | value='5632' | fill=31 | rows=[41] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A41 | value='Total capital other AME' | fill=FF00B0F0 | rows=[40] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B41 | value='-4055' | fill=FF00B0F0 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C41 | value='-74359' | fill=FF00B0F0 | rows=[40] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D41 | value='-36808' | fill=FF00B0F0 | rows=[40] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E41 | value='4653' | fill=FF00B0F0 | rows=[40] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F41 | value='3556' | fill=FF00B0F0 | rows=[40] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G41 | value='-35269' | fill=FF00B0F0 | rows=[40] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H41 | value='-6532' | fill=FF00B0F0 | rows=[40] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I41 | value='-8256' | fill=FF00B0F0 | rows=[40] | cols=[8] | col_header=False | row_header=False | metadata=True
+Cell A42 | value='Total capital AME' | fill=FF00B0F0 | rows=[41] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B42 | value='1951' | fill=FF00B0F0 | rows=[41] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C42 | value='16506' | fill=FF00B0F0 | rows=[41] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D42 | value='10887' | fill=FF00B0F0 | rows=[41] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E42 | value='8455' | fill=FF00B0F0 | rows=[41] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F42 | value='7044' | fill=FF00B0F0 | rows=[41] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G42 | value='-25071' | fill=FF00B0F0 | rows=[41] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H42 | value='5568' | fill=FF00B0F0 | rows=[41] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I42 | value='5632' | fill=FF00B0F0 | rows=[41] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A43 | value='Public sector gross investment (5)' | fill=FF00B050 | rows=[42] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B43 | value='46772' | fill=31 | rows=[42] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C43 | value='65017' | fill=31 | rows=[42] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -348,33 +348,33 @@ Cell G46 | value='683400' | fill=31 | rows=[45] | cols=[6] | col_header=False | 
 Cell H46 | value='720000' | fill=31 | rows=[45] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I46 | value='733500' | fill=31 | rows=[45] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell A47 | value='of which:' | fill=FF00B0F0 | rows=[46] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell A48 | value='Total DEL (6)' | fill=FF00B050 | rows=[47] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B48 | value='333142' | fill=00000000 | rows=[47] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C48 | value='349396' | fill=00000000 | rows=[47] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D48 | value='376288' | fill=00000000 | rows=[47] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E48 | value='375061' | fill=00000000 | rows=[47] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F48 | value='364015' | fill=00000000 | rows=[47] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G48 | value='371000' | fill=00000000 | rows=[47] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H48 | value='371100' | fill=00000000 | rows=[47] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I48 | value='368300' | fill=00000000 | rows=[47] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A49 | value='Departmental AME' | fill=FF00B050 | rows=[48] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B49 | value='224156' | fill=00000000 | rows=[48] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C49 | value='361039' | fill=00000000 | rows=[48] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D49 | value='264918' | fill=00000000 | rows=[48] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E49 | value='170671' | fill=00000000 | rows=[48] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F49 | value='254544' | fill=00000000 | rows=[48] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G49 | value='284721' | fill=00000000 | rows=[48] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H49 | value='274032' | fill=00000000 | rows=[48] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I49 | value='281090' | fill=00000000 | rows=[48] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A50 | value='Other AME' | fill=FF00B050 | rows=[49] | cols=[0] | col_header=False | row_header=True | metadata=False
-Cell B50 | value='25639' | fill=00000000 | rows=[49] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C50 | value='-80690' | fill=00000000 | rows=[49] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D50 | value='28944' | fill=00000000 | rows=[49] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E50 | value='143902' | fill=00000000 | rows=[49] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F50 | value='76329' | fill=00000000 | rows=[49] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G50 | value='27665' | fill=00000000 | rows=[49] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H50 | value='74797' | fill=00000000 | rows=[49] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I50 | value='83775' | fill=00000000 | rows=[49] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell A48 | value='Total DEL (6)' | fill=FF00B0F0 | rows=[47] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B48 | value='333142' | fill=FF00B0F0 | rows=[47] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C48 | value='349396' | fill=FF00B0F0 | rows=[47] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D48 | value='376288' | fill=FF00B0F0 | rows=[47] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E48 | value='375061' | fill=FF00B0F0 | rows=[47] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F48 | value='364015' | fill=FF00B0F0 | rows=[47] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G48 | value='371000' | fill=FF00B0F0 | rows=[47] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H48 | value='371100' | fill=FF00B0F0 | rows=[47] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I48 | value='368300' | fill=FF00B0F0 | rows=[47] | cols=[8] | col_header=False | row_header=False | metadata=True
+Cell A49 | value='Departmental AME' | fill=FF00B0F0 | rows=[48] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B49 | value='224156' | fill=FF00B0F0 | rows=[48] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C49 | value='361039' | fill=FF00B0F0 | rows=[48] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D49 | value='264918' | fill=FF00B0F0 | rows=[48] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E49 | value='170671' | fill=FF00B0F0 | rows=[48] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F49 | value='254544' | fill=FF00B0F0 | rows=[48] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G49 | value='284721' | fill=FF00B0F0 | rows=[48] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H49 | value='274032' | fill=FF00B0F0 | rows=[48] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I49 | value='281090' | fill=FF00B0F0 | rows=[48] | cols=[8] | col_header=False | row_header=False | metadata=True
+Cell A50 | value='Other AME' | fill=FF00B0F0 | rows=[49] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B50 | value='25639' | fill=FF00B0F0 | rows=[49] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C50 | value='-80690' | fill=FF00B0F0 | rows=[49] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D50 | value='28944' | fill=FF00B0F0 | rows=[49] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E50 | value='143902' | fill=FF00B0F0 | rows=[49] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F50 | value='76329' | fill=FF00B0F0 | rows=[49] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G50 | value='27665' | fill=FF00B0F0 | rows=[49] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H50 | value='74797' | fill=FF00B0F0 | rows=[49] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I50 | value='83775' | fill=FF00B0F0 | rows=[49] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell A51 | value='(1) As part of the Spending Review 2010 DEL was presented less depreciation. This is continued in this table to allow comparison' | fill=FF00B0F0 | rows=[50] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=True
 Cell A52 | value='(2) Tax credits include working tax credits, stakeholder pension credits and Child Tax Credits. Child allowances paid as part of Income Support and Jobseekers' Allowance are shown within social security benefits. Tax credits include elements that are treated as negative tax in National Accounts, see Box 1.A.' | fill=FF00B0F0 | rows=[51] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=True
 Cell A53 | value='(3) The main pension schemes are reported under FRS17 accounting requirements, the reconciliation to National Accounts is explained in Annex D. In the 2010 Budget Statement it was announced that the Government would use the CPI rather than the RPI for the indexation of public service pensions. This change has been recognised as a negative past service c ost in 2010-11 in accordance with IAS19.' | fill=FF00B0F0 | rows=[52] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=True

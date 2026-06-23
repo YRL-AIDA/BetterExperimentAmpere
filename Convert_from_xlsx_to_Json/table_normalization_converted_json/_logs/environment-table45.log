@@ -6,9 +6,9 @@ Cell D3 | value='MARCH' | fill=00000000 | rows=[2] | cols=[3] | col_header=False
 Cell E3 | value='APRIL' | fill=00000000 | rows=[2] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F3 | value='MAY' | fill=00000000 | rows=[2] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G3 | value='JUNE' | fill=00000000 | rows=[2] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H3 | value='AVG JAN-MARCH' | fill=FFFFFF00 | rows=[2] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I3 | value='AVG APRIL-JUNE' | fill=FFFFFF00 | rows=[2] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J3 | value='AVG JAN-JUNE' | fill=FFFFFF00 | rows=[2] | cols=[9] | col_header=True | row_header=False | metadata=False
+Cell H3 | value='AVG JAN-MARCH' | fill=00000000 | rows=[2] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I3 | value='AVG APRIL-JUNE' | fill=00000000 | rows=[2] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J3 | value='AVG JAN-JUNE' | fill=00000000 | rows=[2] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K3 | value='MAX PERMISSIBLE LIMIT' | fill=FFFFFF00 | rows=[2] | cols=[10] | col_header=True | row_header=False | metadata=False
 Cell A4 | value='OORGAUM' | fill=00000000 | rows=[3] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B4 | value='30' | fill=00000000 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -58,9 +58,9 @@ Cell D11 | value='SEP' | fill=00000000 | rows=[10] | cols=[3] | col_header=False
 Cell E11 | value='OCT' | fill=00000000 | rows=[10] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F11 | value='NOV' | fill=00000000 | rows=[10] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G11 | value='DEC' | fill=00000000 | rows=[10] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H11 | value='AVG JUL-SEP' | fill=FFFFFF00 | rows=[10] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I11 | value='AVG OCT-DEC' | fill=FFFFFF00 | rows=[10] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J11 | value='AVG JUL-DEC' | fill=FFFFFF00 | rows=[10] | cols=[9] | col_header=True | row_header=False | metadata=False
+Cell H11 | value='AVG JUL-SEP' | fill=00000000 | rows=[10] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I11 | value='AVG OCT-DEC' | fill=00000000 | rows=[10] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J11 | value='AVG JUL-DEC' | fill=00000000 | rows=[10] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K11 | value='MAX PERMISSIBLE LIMIT' | fill=FFFFFF00 | rows=[10] | cols=[10] | col_header=True | row_header=False | metadata=False
 Cell A12 | value='OORGAUM' | fill=00000000 | rows=[11] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B12 | value='41' | fill=00000000 | rows=[11] | cols=[1] | col_header=False | row_header=False | metadata=False

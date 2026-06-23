@@ -16,8 +16,8 @@ Cell F5 | value='Jan.
 2023' | fill=00000000 | rows=[4] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G5 | value='Dec.
 2024' | fill=00000000 | rows=[4] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell A8 | value='0' | fill=FF00B0F0 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B8 | value='Expenditure category' | fill=FF00B0F0 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell A8 | value='0' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B8 | value='Expenditure category' | fill=00000000 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='0' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='All items' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C9 | value='100' | fill=00000000 | rows=[8] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -179,8 +179,8 @@ Cell D31 | value='201.339' | fill=00000000 | rows=[30] | cols=[3] | col_header=F
 Cell E31 | value='202.937' | fill=00000000 | rows=[30] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F31 | value='6' | fill=00000000 | rows=[30] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G31 | value='0.8' | fill=00000000 | rows=[30] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell A33 | value='0' | fill=FF00B0F0 | rows=[32] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B33 | value='Commodity and service group' | fill=FF00B0F0 | rows=[32] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell A33 | value='0' | fill=00000000 | rows=[32] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B33 | value='Commodity and service group' | fill=00000000 | rows=[32] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A34 | value='0' | fill=00000000 | rows=[33] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B34 | value='Services' | fill=00000000 | rows=[33] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C34 | value='62.251' | fill=00000000 | rows=[33] | cols=[2] | col_header=False | row_header=False | metadata=False

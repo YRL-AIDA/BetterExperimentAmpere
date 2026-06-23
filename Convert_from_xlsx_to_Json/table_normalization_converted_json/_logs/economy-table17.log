@@ -8,7 +8,7 @@ Cell D5 | value='£million' | fill=31 | rows=[4] | cols=[3, 4] | col_header=Fals
 Cell G5 | value='Common Areas of Spend' | fill=FFFFFF00 | rows=[4] | cols=[6, 7] | col_header=True | row_header=False | metadata=False
 Cell I5 | value='Q4 2011-12' | fill=31 | rows=[4] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J5 | value='Q3 2011-12' | fill=31 | rows=[4] | cols=[9] | col_header=False | row_header=False | metadata=False
-Cell L5 | value='Input Indicators' | fill=FFFFFF00 | rows=[4] | cols=[11] | col_header=True | row_header=False | metadata=False
+Cell L5 | value='Input Indicators' | fill=00000000 | rows=[4] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M5 | value='Current' | fill=FFFFFF00 | rows=[4] | cols=[12] | col_header=True | row_header=False | metadata=False
 Cell N5 | value='Previous' | fill=FFFFFF00 | rows=[4] | cols=[13] | col_header=True | row_header=False | metadata=False
 Cell P5 | value='Whole Department Family - Workforce Size' | fill=FFFFFF00 | rows=[4] | cols=[15, 16] | col_header=True | row_header=False | metadata=False
@@ -89,7 +89,7 @@ Cell E12 | value='224.9' | fill=None | rows=[11] | cols=[4] | col_header=False |
 Cell H12 | value='Price of standard box of A4 white copier paper (£/2500 sheets)' | fill=31 | rows=[11] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I12 | value='11.39' | fill=None | rows=[11] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J12 | value='11.39' | fill=None | rows=[11] | cols=[9] | col_header=False | row_header=False | metadata=False
-Cell L12 | value='Impact Indicators' | fill=FFFFFF00 | rows=[11] | cols=[11] | col_header=True | row_header=False | metadata=False
+Cell L12 | value='Impact Indicators' | fill=00000000 | rows=[11] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M12 | value='Current' | fill=FFFFFF00 | rows=[11] | cols=[12] | col_header=True | row_header=False | metadata=False
 Cell N12 | value='Previous' | fill=FFFFFF00 | rows=[11] | cols=[13] | col_header=True | row_header=False | metadata=False
 Cell Q12 | value='Non-departmental public bodies' | fill=31 | rows=[11] | cols=[16] | col_header=False | row_header=False | metadata=False
@@ -244,7 +244,7 @@ Cell E24 | value='61.3' | fill=None | rows=[23] | cols=[4] | col_header=False | 
 Cell H24 | value='Debtor Days' | fill=31 | rows=[23] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I24 | value='9.28' | fill=None | rows=[23] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J24 | value='5.76' | fill=None | rows=[23] | cols=[9] | col_header=False | row_header=False | metadata=False
-Cell L24 | value='Other Data Sets' | fill=FFFFFF00 | rows=[23] | cols=[11] | col_header=True | row_header=False | metadata=False
+Cell L24 | value='Other Data Sets' | fill=00000000 | rows=[23] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M24 | value='Current' | fill=FFFFFF00 | rows=[23] | cols=[12] | col_header=True | row_header=False | metadata=False
 Cell N24 | value='Previous' | fill=FFFFFF00 | rows=[23] | cols=[13] | col_header=True | row_header=False | metadata=False
 Cell Q24 | value='Women' | fill=31 | rows=[23] | cols=[16] | col_header=False | row_header=False | metadata=False
@@ -295,7 +295,7 @@ Cell B28 | value='D: Identity & Passports' | fill=None | rows=[27] | cols=[1, 2]
 Cell D28 | value='-1.802' | fill=None | rows=[27] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E28 | value='3.4' | fill=None | rows=[27] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell G28 | value='Major Projects (Top 5)' | fill=FFFFFF00 | rows=[27] | cols=[6, 7, 8] | col_header=True | row_header=False | metadata=False
-Cell J28 | value='Cost' | fill=31 | rows=[27] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell J28 | value='Cost' | fill=FFFFFF00 | rows=[27] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell L28 | value='4 Number of hits that the Police.uk has received (current= January 2011 - June 2012, previous= January 2011 - March 2012)' | fill=31 | rows=[27] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M28 | value='484765704' | fill=None | rows=[27] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N28 | value='469678632' | fill=None | rows=[27] | cols=[13] | col_header=False | row_header=False | metadata=False
@@ -355,7 +355,7 @@ Cell J33 | value='453' | fill=None | rows=[32] | cols=[9] | col_header=False | r
 Cell L33 | value='Total number of actions ongoing' | fill=31 | rows=[32] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M33 | value='21' | fill=None | rows=[32] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N33 | value='36' | fill=None | rows=[32] | cols=[13] | col_header=False | row_header=False | metadata=False
-Cell P33 | value='Engagement Index (%)' | fill=31 | rows=[32] | cols=[15, 16] | col_header=False | row_header=False | metadata=False
+Cell P33 | value='Engagement Index (%)' | fill=FF00B050 | rows=[32] | cols=[15, 16] | col_header=False | row_header=True | metadata=False
 Cell R33 | value='58' | fill=None | rows=[32] | cols=[17] | col_header=False | row_header=False | metadata=False
 Cell S33 | value='57' | fill=None | rows=[32] | cols=[18] | col_header=False | row_header=False | metadata=False
 Cell G34 | value='£m whole life cost of ALL major projects' | fill=31 | rows=[33] | cols=[6, 7, 8] | col_header=False | row_header=False | metadata=False

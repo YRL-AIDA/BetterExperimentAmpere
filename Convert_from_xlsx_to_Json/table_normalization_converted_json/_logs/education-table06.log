@@ -2,22 +2,22 @@
 Cell B1 | value='Participation' | fill=00000000 | rows=[0] | cols=[1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=False
 Cell J1 | value='Achievement' | fill=00000000 | rows=[0] | cols=[9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=False
 Cell A2 | value='All Ages' | fill=00000000 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell B2 | value='General FE College incl Tertiary' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C2 | value='Sixth form college' | fill=FFFFFF00 | rows=[1] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D2 | value='Special colleges' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='Other Public Funded' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F2 | value='Schools' | fill=FFFFFF00 | rows=[1] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G2 | value='Private Sector Public Funded' | fill=FFFFFF00 | rows=[1] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H2 | value='Unknown' | fill=FFFFFF00 | rows=[1] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I2 | value='Total' | fill=FFFFFF00 | rows=[1] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J2 | value='General FE College incl Tertiary' | fill=FFFFFF00 | rows=[1] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K2 | value='Sixth form college' | fill=FFFFFF00 | rows=[1] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L2 | value='Special colleges' | fill=FFFFFF00 | rows=[1] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M2 | value='Other Public Funded' | fill=FFFFFF00 | rows=[1] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N2 | value='Schools' | fill=FFFFFF00 | rows=[1] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O2 | value='Private Sector Public Funded' | fill=FFFFFF00 | rows=[1] | cols=[14] | col_header=True | row_header=False | metadata=False
-Cell P2 | value='Unknown' | fill=FFFFFF00 | rows=[1] | cols=[15] | col_header=True | row_header=False | metadata=False
-Cell Q2 | value='Total' | fill=FFFFFF00 | rows=[1] | cols=[16] | col_header=True | row_header=False | metadata=False
+Cell B2 | value='General FE College incl Tertiary' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C2 | value='Sixth form college' | fill=00000000 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D2 | value='Special colleges' | fill=00000000 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='Other Public Funded' | fill=00000000 | rows=[1] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F2 | value='Schools' | fill=00000000 | rows=[1] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G2 | value='Private Sector Public Funded' | fill=00000000 | rows=[1] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H2 | value='Unknown' | fill=00000000 | rows=[1] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I2 | value='Total' | fill=00000000 | rows=[1] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J2 | value='General FE College incl Tertiary' | fill=00000000 | rows=[1] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K2 | value='Sixth form college' | fill=00000000 | rows=[1] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L2 | value='Special colleges' | fill=00000000 | rows=[1] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M2 | value='Other Public Funded' | fill=00000000 | rows=[1] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N2 | value='Schools' | fill=00000000 | rows=[1] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O2 | value='Private Sector Public Funded' | fill=00000000 | rows=[1] | cols=[14] | col_header=False | row_header=False | metadata=False
+Cell P2 | value='Unknown' | fill=00000000 | rows=[1] | cols=[15] | col_header=False | row_header=False | metadata=False
+Cell Q2 | value='Total' | fill=00000000 | rows=[1] | cols=[16] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='of which EnglishR' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='504220' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='23300' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False

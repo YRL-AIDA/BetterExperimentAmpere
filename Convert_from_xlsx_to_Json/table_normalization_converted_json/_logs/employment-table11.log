@@ -8,14 +8,14 @@ Cell B4 | value='2023' | fill=00000000 | rows=[3] | cols=[1, 2, 3, 4, 5, 6] | co
 Cell B5 | value='Total
 employed' | fill=FFFFFF00 | rows=[4, 5] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C5 | value='Percent of total employed' | fill=FFFFFF00 | rows=[4] | cols=[2, 3, 4, 5, 6] | col_header=True | row_header=False | metadata=False
-Cell C6 | value='Women' | fill=FFFFFF00 | rows=[5] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D6 | value='White' | fill=FFFFFF00 | rows=[5] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell C6 | value='Women' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D6 | value='White' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E6 | value='Black or
 African
-American' | fill=FFFFFF00 | rows=[5] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F6 | value='Asian' | fill=FFFFFF00 | rows=[5] | cols=[5] | col_header=True | row_header=False | metadata=False
+American' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F6 | value='Asian' | fill=00000000 | rows=[5] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G6 | value='Hispanic
-or Latino' | fill=FFFFFF00 | rows=[5] | cols=[6] | col_header=True | row_header=False | metadata=False
+or Latino' | fill=00000000 | rows=[5] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell A8 | value='Total, 16 years and over' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B8 | value='161037' | fill=00000000 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C8 | value='46.9' | fill=00000000 | rows=[7] | cols=[2] | col_header=False | row_header=False | metadata=False

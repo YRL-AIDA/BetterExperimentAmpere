@@ -3,14 +3,14 @@ Cell C1 | value='SO2' | fill=00000000 | rows=[0] | cols=[2, 3, 4, 5] | col_heade
 Cell G1 | value='CO' | fill=00000000 | rows=[0] | cols=[6, 7, 8, 9] | col_header=False | row_header=False | metadata=False
 Cell K1 | value='NOX' | fill=00000000 | rows=[0] | cols=[10, 11, 12, 13] | col_header=False | row_header=False | metadata=False
 Cell O1 | value='CO2' | fill=00000000 | rows=[0] | cols=[14, 15, 16, 17] | col_header=False | row_header=False | metadata=False
-Cell C2 | value='inlet' | fill=FFFFFF00 | rows=[1] | cols=[2, 3] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='outlet' | fill=FFFFFF00 | rows=[1] | cols=[4, 5] | col_header=True | row_header=False | metadata=False
-Cell G2 | value='inlet' | fill=FFFFFF00 | rows=[1] | cols=[6, 7] | col_header=True | row_header=False | metadata=False
-Cell I2 | value='outlet' | fill=FFFFFF00 | rows=[1] | cols=[8, 9] | col_header=True | row_header=False | metadata=False
-Cell K2 | value='inlet' | fill=FFFFFF00 | rows=[1] | cols=[10, 11] | col_header=True | row_header=False | metadata=False
-Cell M2 | value='outlet' | fill=FFFFFF00 | rows=[1] | cols=[12, 13] | col_header=True | row_header=False | metadata=False
-Cell O2 | value='inlet' | fill=FFFFFF00 | rows=[1] | cols=[14, 15] | col_header=True | row_header=False | metadata=False
-Cell Q2 | value='outlet' | fill=FFFFFF00 | rows=[1] | cols=[16, 17] | col_header=True | row_header=False | metadata=False
+Cell C2 | value='inlet' | fill=00000000 | rows=[1] | cols=[2, 3] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='outlet' | fill=00000000 | rows=[1] | cols=[4, 5] | col_header=False | row_header=False | metadata=False
+Cell G2 | value='inlet' | fill=00000000 | rows=[1] | cols=[6, 7] | col_header=False | row_header=False | metadata=False
+Cell I2 | value='outlet' | fill=00000000 | rows=[1] | cols=[8, 9] | col_header=False | row_header=False | metadata=False
+Cell K2 | value='inlet' | fill=00000000 | rows=[1] | cols=[10, 11] | col_header=False | row_header=False | metadata=False
+Cell M2 | value='outlet' | fill=00000000 | rows=[1] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
+Cell O2 | value='inlet' | fill=00000000 | rows=[1] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
+Cell Q2 | value='outlet' | fill=00000000 | rows=[1] | cols=[16, 17] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Material' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B3 | value='Blend' | fill=FFFFFF00 | rows=[2] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C3 | value='average (lb/MMBtu)' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False

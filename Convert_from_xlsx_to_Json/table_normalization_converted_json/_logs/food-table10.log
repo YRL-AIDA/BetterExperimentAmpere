@@ -1,13 +1,13 @@
 === food-table10.xlsx ===
 Cell B1 | value='Household final users' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell M1 | value='All purchasers' | fill=00000000 | rows=[0] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell B2 | value='Nominal food expenditure share of disposable personal income (percentage)' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='Share of nominal food expenditures (percentage)' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell G2 | value='Nominal expenditures per household (U.S. dollars)' | fill=FFFFFF00 | rows=[1] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell J2 | value='Constant-U.S.-dollar expenditures per household (1988=100)' | fill=FFFFFF00 | rows=[1] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell M2 | value='Share of nominal food expenditures (percentage)' | fill=FFFFFF00 | rows=[1] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell O2 | value='Nominal expenditures per capita (U.S. dollars)' | fill=FFFFFF00 | rows=[1] | cols=[14] | col_header=True | row_header=False | metadata=False
-Cell R2 | value='Constant-U.S.-dollar expenditures per capita (1988=100)' | fill=FFFFFF00 | rows=[1] | cols=[17] | col_header=True | row_header=False | metadata=False
+Cell B2 | value='Nominal food expenditure share of disposable personal income (percentage)' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='Share of nominal food expenditures (percentage)' | fill=00000000 | rows=[1] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell G2 | value='Nominal expenditures per household (U.S. dollars)' | fill=00000000 | rows=[1] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell J2 | value='Constant-U.S.-dollar expenditures per household (1988=100)' | fill=00000000 | rows=[1] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell M2 | value='Share of nominal food expenditures (percentage)' | fill=00000000 | rows=[1] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell O2 | value='Nominal expenditures per capita (U.S. dollars)' | fill=00000000 | rows=[1] | cols=[14] | col_header=False | row_header=False | metadata=False
+Cell R2 | value='Constant-U.S.-dollar expenditures per capita (1988=100)' | fill=00000000 | rows=[1] | cols=[17] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Year' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B3 | value='FAH' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='FAFH' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False

@@ -70,8 +70,8 @@ Cell T7 | value='0.6' | fill=00000000 | rows=[6] | cols=[19] | col_header=False 
 Cell U7 | value='3.2' | fill=00000000 | rows=[6] | cols=[20] | col_header=False | row_header=False | metadata=False
 Cell V7 | value='1.2' | fill=00000000 | rows=[6] | cols=[21] | col_header=False | row_header=False | metadata=False
 Cell W7 | value='0.6' | fill=00000000 | rows=[6] | cols=[22] | col_header=False | row_header=False | metadata=False
-Cell A9 | value='0' | fill=FF00B0F0 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B9 | value='Region and area size(2)' | fill=FF00B0F0 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell A9 | value='0' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B9 | value='Region and area size(2)' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A11 | value='1' | fill=00000000 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B11 | value='Northeast' | fill=00000000 | rows=[10] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C11 | value='M' | fill=00000000 | rows=[10] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -555,8 +555,8 @@ Cell T34 | value='0.9' | fill=00000000 | rows=[33] | cols=[19] | col_header=Fals
 Cell U34 | value='3.5' | fill=00000000 | rows=[33] | cols=[20] | col_header=False | row_header=False | metadata=False
 Cell V34 | value='1.2' | fill=00000000 | rows=[33] | cols=[21] | col_header=False | row_header=False | metadata=False
 Cell W34 | value='0.5' | fill=00000000 | rows=[33] | cols=[22] | col_header=False | row_header=False | metadata=False
-Cell A36 | value='0' | fill=FF00B0F0 | rows=[35] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B36 | value='Size classes' | fill=FF00B0F0 | rows=[35] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell A36 | value='0' | fill=00000000 | rows=[35] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B36 | value='Size classes' | fill=00000000 | rows=[35] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A38 | value='1' | fill=00000000 | rows=[37] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B38 | value='Size Class A(5)' | fill=00000000 | rows=[37] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C38 | value='M' | fill=00000000 | rows=[37] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -603,8 +603,8 @@ Cell T39 | value='0.7' | fill=00000000 | rows=[38] | cols=[19] | col_header=Fals
 Cell U39 | value='3' | fill=00000000 | rows=[38] | cols=[20] | col_header=False | row_header=False | metadata=False
 Cell V39 | value='1.2' | fill=00000000 | rows=[38] | cols=[21] | col_header=False | row_header=False | metadata=False
 Cell W39 | value='0.6' | fill=00000000 | rows=[38] | cols=[22] | col_header=False | row_header=False | metadata=False
-Cell A41 | value='0' | fill=FF00B0F0 | rows=[40] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B41 | value='Selected local areas' | fill=FF00B0F0 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell A41 | value='0' | fill=00000000 | rows=[40] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B41 | value='Selected local areas' | fill=00000000 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A43 | value='1' | fill=00000000 | rows=[42] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B43 | value='Chicago-Naperville-Elgin, IL-IN-WI' | fill=00000000 | rows=[42] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C43 | value='M' | fill=00000000 | rows=[42] | cols=[2] | col_header=False | row_header=False | metadata=False

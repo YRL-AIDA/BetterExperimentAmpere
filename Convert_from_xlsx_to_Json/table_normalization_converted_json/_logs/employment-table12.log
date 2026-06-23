@@ -23,7 +23,7 @@ years' | fill=00000000 | rows=[4] | cols=[7] | col_header=False | row_header=Fal
 Cell I5 | value='65 years
 and over' | fill=00000000 | rows=[4] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J5 | value='Median
- age' | fill=00000000 | rows=[4] | cols=[9] | col_header=False | row_header=False | metadata=False
+ age' | fill=FFFFFF00 | rows=[4] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell A7 | value='Total employed' | fill=00000000 | rows=[6] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='161037' | fill=00000000 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='5647' | fill=00000000 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False

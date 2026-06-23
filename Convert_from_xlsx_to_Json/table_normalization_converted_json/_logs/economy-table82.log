@@ -1,15 +1,15 @@
 === economy-table82.xlsx ===
 Cell A1 | value='Type of Property' | fill=FFFFFF00 | rows=[0, 1] | cols=[0] | col_header=True | row_header=True | metadata=False
 Cell C1 | value='Heirs rate
-second floor' | fill=FFFFFF00 | rows=[0] | cols=[2, 3] | col_header=True | row_header=False | metadata=False
+second floor' | fill=00000000 | rows=[0] | cols=[2, 3] | col_header=False | row_header=False | metadata=False
 Cell E1 | value='Heirs rate
-third floor' | fill=FFFFFF00 | rows=[0] | cols=[4, 5] | col_header=True | row_header=False | metadata=False
+third floor' | fill=00000000 | rows=[0] | cols=[4, 5] | col_header=False | row_header=False | metadata=False
 Cell B2 | value='Heirs rate
-first floor' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C2 | value='Internal heirs' | fill=FFFFFF00 | rows=[1] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D2 | value='Heirs foreigner' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='Internal heirs' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F2 | value='Heirs foreigner' | fill=FFFFFF00 | rows=[1] | cols=[5] | col_header=True | row_header=False | metadata=False
+first floor' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C2 | value='Internal heirs' | fill=00000000 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D2 | value='Heirs foreigner' | fill=00000000 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='Internal heirs' | fill=00000000 | rows=[1] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F2 | value='Heirs foreigner' | fill=00000000 | rows=[1] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Paragraph 1 of Article 17 bank accounts' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='0.03' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='0.06' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False

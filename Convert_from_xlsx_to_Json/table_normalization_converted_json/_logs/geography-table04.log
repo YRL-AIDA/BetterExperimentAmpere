@@ -32,14 +32,14 @@ Cell J3 | value='Lith Code' | fill=FFFFFF00 | rows=[2] | cols=[9] | col_header=T
 Cell D4 | value='Report Reference' | fill=FFFFFF00 | rows=[3] | cols=[3] | col_header=True | row_header=False | metadata=False
 Cell I4 | value='Strat Code' | fill=FFFFFF00 | rows=[3] | cols=[8] | col_header=True | row_header=False | metadata=False
 Cell J4 | value='Lith Code' | fill=FFFFFF00 | rows=[3] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K4 | value='RQD' | fill=00000000 | rows=[3] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell L4 | value='Jn' | fill=00000000 | rows=[3] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell M4 | value='Jr' | fill=00000000 | rows=[3] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell N4 | value='Ja' | fill=00000000 | rows=[3] | cols=[13] | col_header=False | row_header=False | metadata=False
-Cell O4 | value='Jw' | fill=00000000 | rows=[3] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell P4 | value='SRF' | fill=00000000 | rows=[3] | cols=[15] | col_header=False | row_header=False | metadata=False
-Cell Q4 | value='Q'' | fill=00000000 | rows=[3] | cols=[16] | col_header=False | row_header=False | metadata=False
-Cell R4 | value='Q' | fill=00000000 | rows=[3] | cols=[17] | col_header=False | row_header=False | metadata=False
+Cell K4 | value='RQD' | fill=FFFFFF00 | rows=[3] | cols=[10] | col_header=True | row_header=False | metadata=False
+Cell L4 | value='Jn' | fill=FFFFFF00 | rows=[3] | cols=[11] | col_header=True | row_header=False | metadata=False
+Cell M4 | value='Jr' | fill=FFFFFF00 | rows=[3] | cols=[12] | col_header=True | row_header=False | metadata=False
+Cell N4 | value='Ja' | fill=FFFFFF00 | rows=[3] | cols=[13] | col_header=True | row_header=False | metadata=False
+Cell O4 | value='Jw' | fill=FFFFFF00 | rows=[3] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell P4 | value='SRF' | fill=FFFFFF00 | rows=[3] | cols=[15] | col_header=True | row_header=False | metadata=False
+Cell Q4 | value='Q'' | fill=FFFFFF00 | rows=[3] | cols=[16] | col_header=True | row_header=False | metadata=False
+Cell R4 | value='Q' | fill=FFFFFF00 | rows=[3] | cols=[17] | col_header=True | row_header=False | metadata=False
 Cell A5 | value='2016-04-27 00:00:00' | fill=00000000 | rows=[4] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='SCUD' | fill=None | rows=[4] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C5 | value='SCUDS' | fill=00000000 | rows=[4] | cols=[2] | col_header=False | row_header=False | metadata=False

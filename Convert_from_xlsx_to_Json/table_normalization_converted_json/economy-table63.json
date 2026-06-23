@@ -25,7 +25,7 @@
         "pdf_text_content": "Druckers",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -37,7 +37,7 @@
         ],
         "xml_text_content": "Café",
         "pdf_text_content": "Café",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },

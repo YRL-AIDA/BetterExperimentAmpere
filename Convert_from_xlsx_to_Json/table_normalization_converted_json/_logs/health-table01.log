@@ -3,9 +3,9 @@ Cell A5 | value='Total Cases' | fill=FF00B0F0 | rows=[4] | cols=[0, 1, 2, 3] | c
 Cell A6 | value='Highest' | fill=00000000 | rows=[5] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell C6 | value='Least' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell A7 | value='States' | fill=FFFFFF00 | rows=[6] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B7 | value='Cases' | fill=FFFFFF00 | rows=[6] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B7 | value='Cases' | fill=00000000 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='States' | fill=FFFFFF00 | rows=[6] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D7 | value='Cases' | fill=FFFFFF00 | rows=[6] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell D7 | value='Cases' | fill=00000000 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A8 | value='Maharashtra' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B8 | value='6623344' | fill=00000000 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C8 | value='Andaman Nicobar' | fill=00000000 | rows=[7] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -30,9 +30,9 @@ Cell A14 | value='Recovered' | fill=FF00B0F0 | rows=[13] | cols=[0, 1, 2, 3] | c
 Cell A15 | value='Highest' | fill=00000000 | rows=[14] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell C15 | value='Least' | fill=00000000 | rows=[14] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell A16 | value='States' | fill=FFFFFF00 | rows=[15] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B16 | value='Recovered %' | fill=FFFFFF00 | rows=[15] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B16 | value='Recovered %' | fill=00000000 | rows=[15] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C16 | value='States' | fill=FFFFFF00 | rows=[15] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D16 | value='Recovered %' | fill=FFFFFF00 | rows=[15] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell D16 | value='Recovered %' | fill=00000000 | rows=[15] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A17 | value='Daman and Diu' | fill=00000000 | rows=[16] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B17 | value='99.96' | fill=00000000 | rows=[16] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C17 | value='Mizoram' | fill=00000000 | rows=[16] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -57,9 +57,9 @@ Cell A22 | value='Death' | fill=FF00B0F0 | rows=[21] | cols=[0, 1, 2, 3] | col_h
 Cell A23 | value='Highest' | fill=00000000 | rows=[22] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell C23 | value='Least' | fill=00000000 | rows=[22] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell A24 | value='States' | fill=FFFFFF00 | rows=[23] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B24 | value='Death %' | fill=FFFFFF00 | rows=[23] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B24 | value='Death %' | fill=00000000 | rows=[23] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C24 | value='States' | fill=FFFFFF00 | rows=[23] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D24 | value='Death %' | fill=FFFFFF00 | rows=[23] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell D24 | value='Death %' | fill=00000000 | rows=[23] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A25 | value='Punjab' | fill=00000000 | rows=[24] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B25 | value='2.75' | fill=00000000 | rows=[24] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C25 | value='Daman and Diu' | fill=00000000 | rows=[24] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -84,9 +84,9 @@ Cell A31 | value='Active' | fill=FF00B0F0 | rows=[30] | cols=[0, 1, 2, 3] | col_
 Cell A32 | value='Highest' | fill=00000000 | rows=[31] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell C32 | value='Least' | fill=00000000 | rows=[31] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell A33 | value='States' | fill=FFFFFF00 | rows=[32] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B33 | value='Active %' | fill=FFFFFF00 | rows=[32] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B33 | value='Active %' | fill=00000000 | rows=[32] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C33 | value='States' | fill=FFFFFF00 | rows=[32] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D33 | value='Active %' | fill=FFFFFF00 | rows=[32] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell D33 | value='Active %' | fill=00000000 | rows=[32] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A34 | value='Mizoram' | fill=00000000 | rows=[33] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B34 | value='4.39' | fill=00000000 | rows=[33] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C34 | value='Lakshadweep' | fill=00000000 | rows=[33] | cols=[2] | col_header=False | row_header=False | metadata=False

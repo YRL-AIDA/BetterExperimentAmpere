@@ -8,10 +8,10 @@ Cell D5 | value='X' | fill=FFFFFF00 | rows=[4, 5] | cols=[3] | col_header=True |
 Cell E5 | value='Height in mm' | fill=FFFFFF00 | rows=[4, 5] | cols=[4] | col_header=True | row_header=False | metadata=False
 Cell F5 | value='M/2' | fill=FFFFFF00 | rows=[4, 5] | cols=[5] | col_header=True | row_header=False | metadata=False
 Cell G5 | value='Price' | fill=FFFFFF00 | rows=[4, 5] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H5 | value='Corner Notch's' | fill=FFFFFF00 | rows=[4] | cols=[7, 8] | col_header=True | row_header=False | metadata=False
-Cell J5 | value='Cut - Outs' | fill=FFFFFF00 | rows=[4] | cols=[9, 10] | col_header=True | row_header=False | metadata=False
-Cell L5 | value='Holes 6 -15 mm' | fill=FFFFFF00 | rows=[4] | cols=[11, 12] | col_header=True | row_header=False | metadata=False
-Cell N5 | value='Holes 16 -38 mm' | fill=FFFFFF00 | rows=[4] | cols=[13, 14] | col_header=True | row_header=False | metadata=False
+Cell H5 | value='Corner Notch's' | fill=00000000 | rows=[4] | cols=[7, 8] | col_header=False | row_header=False | metadata=False
+Cell J5 | value='Cut - Outs' | fill=00000000 | rows=[4] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
+Cell L5 | value='Holes 6 -15 mm' | fill=00000000 | rows=[4] | cols=[11, 12] | col_header=False | row_header=False | metadata=False
+Cell N5 | value='Holes 16 -38 mm' | fill=00000000 | rows=[4] | cols=[13, 14] | col_header=False | row_header=False | metadata=False
 Cell Q5 | value='Total' | fill=FFFFFF00 | rows=[4, 5] | cols=[16] | col_header=True | row_header=False | metadata=False
 Cell H6 | value='quanity' | fill=FFFFFF00 | rows=[5] | cols=[7] | col_header=True | row_header=False | metadata=False
 Cell I6 | value='price' | fill=FFFFFF00 | rows=[5] | cols=[8] | col_header=True | row_header=False | metadata=False

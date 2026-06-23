@@ -1,9 +1,9 @@
 === economy-table31.xlsx ===
-Cell B1 | value='Shared' | fill=FFFFFF00 | rows=[0] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='Tor' | fill=FFFFFF00 | rows=[0] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D1 | value='Mary' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell B1 | value='Shared' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C1 | value='Tor' | fill=00000000 | rows=[0] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D1 | value='Mary' | fill=00000000 | rows=[0] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell F1 | value='"+/-"' | fill=FFFFFF00 | rows=[0] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell A3 | value='Dairy' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A3 | value='Dairy' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A4 | value='Butter M' | fill=00000000 | rows=[3] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell D4 | value='14.99' | fill=00000000 | rows=[3] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell F4 | value='14.99' | fill=00000000 | rows=[3] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -28,7 +28,7 @@ Cell B10 | value='22.98' | fill=00000000 | rows=[9] | cols=[1] | col_header=Fals
 Cell F10 | value='22.98' | fill=00000000 | rows=[9] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell A11 | value='Chop Sticks' | fill=00000000 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell F11 | value='0' | fill=00000000 | rows=[10] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell A12 | value='Beverage' | fill=FFFFFF00 | rows=[11] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A12 | value='Beverage' | fill=00000000 | rows=[11] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A13 | value='Coffee Fltr' | fill=00000000 | rows=[12] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell C13 | value='12.78' | fill=00000000 | rows=[12] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell F13 | value='12.78' | fill=00000000 | rows=[12] | cols=[5] | col_header=False | row_header=False | metadata=False
@@ -50,7 +50,7 @@ Cell A19 | value='Pop M' | fill=00000000 | rows=[18] | cols=[0] | col_header=Fal
 Cell F19 | value='0' | fill=00000000 | rows=[18] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell A20 | value='Water' | fill=00000000 | rows=[19] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell F20 | value='0' | fill=00000000 | rows=[19] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell A21 | value='House' | fill=FFFFFF00 | rows=[20] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A21 | value='House' | fill=00000000 | rows=[20] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A22 | value='Chef Knife' | fill=00000000 | rows=[21] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A23 | value='HP Ink' | fill=00000000 | rows=[22] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A24 | value='Chop Sticks' | fill=00000000 | rows=[23] | cols=[0] | col_header=False | row_header=False | metadata=False

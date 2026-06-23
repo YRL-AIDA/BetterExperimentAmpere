@@ -260,15 +260,15 @@ Cell F31 | value='-' | fill=00000000 | rows=[30] | cols=[5] | col_header=False |
 Cell G31 | value='-868' | fill=00000000 | rows=[30] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H31 | value='-' | fill=00000000 | rows=[30] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I31 | value='-' | fill=00000000 | rows=[30] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A32 | value='Total DEL (2)' | fill=FF00B0F0 | rows=[31] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B32 | value='333142' | fill=FF00B0F0 | rows=[31] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell C32 | value='349396' | fill=FF00B0F0 | rows=[31] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D32 | value='376288' | fill=FF00B0F0 | rows=[31] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E32 | value='375061' | fill=FF00B0F0 | rows=[31] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell F32 | value='364015' | fill=FF00B0F0 | rows=[31] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G32 | value='371000' | fill=FF00B0F0 | rows=[31] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H32 | value='371200' | fill=FF00B0F0 | rows=[31] | cols=[7] | col_header=False | row_header=False | metadata=True
-Cell I32 | value='368500' | fill=FF00B0F0 | rows=[31] | cols=[8] | col_header=False | row_header=False | metadata=True
+Cell A32 | value='Total DEL (2)' | fill=FF00B050 | rows=[31] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell B32 | value='333142' | fill=00000000 | rows=[31] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C32 | value='349396' | fill=00000000 | rows=[31] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D32 | value='376288' | fill=00000000 | rows=[31] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E32 | value='375061' | fill=00000000 | rows=[31] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F32 | value='364015' | fill=00000000 | rows=[31] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G32 | value='371000' | fill=00000000 | rows=[31] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H32 | value='371200' | fill=00000000 | rows=[31] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I32 | value='368500' | fill=00000000 | rows=[31] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell A34 | value='(1) The departmental breakdown in this table is consistent with the Budget 2012 presentation not the PESA departmental groups in Annex B.' | fill=FF00B0F0 | rows=[33] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A35 | value='(2) Total DEL is given by resource DEL excluding depreciation plus capital DEL.' | fill=FF00B0F0 | rows=[34] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A36 | value='(3) Departmental budgets in 2012-13 include £0.6 billion RDEL excluding depreciation and £0.2 billion capital DEL carried forward from 2011-12 through the system of Budget Exchange, which was voted at Main Estimates. These increases will be offset at Supplementary Estimates and so are excluded from spending totals.' | fill=FF00B0F0 | rows=[35] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=True

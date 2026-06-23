@@ -25,7 +25,7 @@
         ],
         "xml_text_content": "Product 1",
         "pdf_text_content": "Product 1",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -40,7 +40,7 @@
         ],
         "xml_text_content": "Product 2",
         "pdf_text_content": "Product 2",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -55,7 +55,7 @@
         ],
         "xml_text_content": "Product 3",
         "pdf_text_content": "Product 3",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -70,7 +70,7 @@
         ],
         "xml_text_content": "Product 4",
         "pdf_text_content": "Product 4",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

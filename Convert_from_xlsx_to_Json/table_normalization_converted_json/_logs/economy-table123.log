@@ -14,7 +14,7 @@ Cell L1 | value='2014-09-01 00:00:00' | fill=00000000 | rows=[0] | cols=[11] | c
 Cell M1 | value='2014-10-01 00:00:00' | fill=00000000 | rows=[0] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N1 | value='2014-11-01 00:00:00' | fill=00000000 | rows=[0] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O1 | value='2014-12-01 00:00:00' | fill=00000000 | rows=[0] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell P1 | value='Total' | fill=00000000 | rows=[0] | cols=[15] | col_header=False | row_header=False | metadata=False
+Cell P1 | value='Total' | fill=FFFFFF00 | rows=[0] | cols=[15] | col_header=True | row_header=False | metadata=False
 Cell A2 | value='Sales' | fill=00000000 | rows=[1, 2, 3] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B2 | value='Internal' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D2 | value='40' | fill=00000000 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False

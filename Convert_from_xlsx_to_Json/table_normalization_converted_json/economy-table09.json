@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Total bankruptcies",
         "pdf_text_content": "Total bankruptcies",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -140,7 +140,7 @@
         ],
         "xml_text_content": "Creditors' petitions (No.) [note 2]",
         "pdf_text_content": "Creditors' petitions (No.) [note 2]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -166,7 +166,7 @@
         ],
         "xml_text_content": "Creditors' petitions (%)",
         "pdf_text_content": "Creditors' petitions (%)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -192,7 +192,7 @@
         ],
         "xml_text_content": "Debtors' applications (No.) [note 3]",
         "pdf_text_content": "Debtors' applications (No.) [note 3]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -218,7 +218,7 @@
         ],
         "xml_text_content": "Debtors' applications (%)",
         "pdf_text_content": "Debtors' applications (%)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

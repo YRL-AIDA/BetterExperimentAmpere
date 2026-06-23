@@ -3408,8 +3408,8 @@
         "xml_text_content": "Total DEL (2)",
         "pdf_text_content": "Total DEL (2)",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3422,7 +3422,7 @@
         "pdf_text_content": "333142",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3435,7 +3435,7 @@
         "pdf_text_content": "349396",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3448,7 +3448,7 @@
         "pdf_text_content": "376288",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3461,7 +3461,7 @@
         "pdf_text_content": "375061",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3474,7 +3474,7 @@
         "pdf_text_content": "364015",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3487,7 +3487,7 @@
         "pdf_text_content": "371000",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3500,7 +3500,7 @@
         "pdf_text_content": "371200",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3513,7 +3513,7 @@
         "pdf_text_content": "368500",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

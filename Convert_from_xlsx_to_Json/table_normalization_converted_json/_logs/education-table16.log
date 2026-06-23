@@ -1,28 +1,28 @@
 === education-table16.xlsx ===
-Cell A1 | value='MUSA ILIASU COLLEGE, KANO.' | fill=FF00B0F0 | rows=[0] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] | col_header=True | row_header=True | metadata=True
+Cell A1 | value='MUSA ILIASU COLLEGE, KANO.' | fill=00000000 | rows=[0] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] | col_header=True | row_header=True | metadata=False
 Cell A2 | value='CONTINUOUS ASSESSMENT/EXAMINATION' | fill=FF00B0F0 | rows=[1] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] | col_header=False | row_header=False | metadata=True
-Cell B3 | value='1st Term' | fill=FF00B0F0 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell B3 | value='1st Term' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='Session:' | fill=FF00B050 | rows=[2] | cols=[2] | col_header=False | row_header=True | metadata=False
 Cell D3 | value='2013/2014' | fill=00000000 | rows=[2] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell F3 | value='Class:' | fill=FF00B050 | rows=[2] | cols=[5] | col_header=False | row_header=True | metadata=False
-Cell G3 | value='JSS 1A' | fill=FF00B050 | rows=[2] | cols=[6] | col_header=False | row_header=True | metadata=False
+Cell G3 | value='JSS 1A' | fill=00000000 | rows=[2] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell K3 | value='Subject:' | fill=FF00B050 | rows=[2] | cols=[10] | col_header=False | row_header=True | metadata=False
 Cell M3 | value='COMPUTER SCIENCE' | fill=00000000 | rows=[2] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell A4 | value='S/N' | fill=FFFFFF00 | rows=[3] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B4 | value='NAMES' | fill=FFFFFF00 | rows=[3] | cols=[1, 2, 3] | col_header=True | row_header=False | metadata=False
-Cell E4 | value='TEST 1' | fill=FFFFFF00 | rows=[3] | cols=[4] | col_header=True | row_header=False | metadata=False
+Cell E4 | value='TEST 1' | fill=00000000 | rows=[3] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F4 | value='ASSIGNMENT' | fill=FFFFFF00 | rows=[3] | cols=[5] | col_header=True | row_header=False | metadata=False
 Cell G4 | value='TOTAL' | fill=FFFFFF00 | rows=[3] | cols=[6] | col_header=True | row_header=False | metadata=False
 Cell H4 | value='POSITION' | fill=FFFFFF00 | rows=[3] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I4 | value='TEST 2' | fill=FFFFFF00 | rows=[3] | cols=[8] | col_header=True | row_header=False | metadata=False
+Cell I4 | value='TEST 2' | fill=00000000 | rows=[3] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J4 | value='ASSIGNMENT' | fill=FFFFFF00 | rows=[3] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell K4 | value='TOTAL' | fill=FFFFFF00 | rows=[3] | cols=[10] | col_header=True | row_header=False | metadata=False
 Cell L4 | value='POSITION' | fill=FFFFFF00 | rows=[3] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M4 | value='TOTAL' | fill=FFFFFF00 | rows=[3] | cols=[12] | col_header=True | row_header=False | metadata=False
+Cell M4 | value='TOTAL' | fill=00000000 | rows=[3] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N4 | value='POSITION' | fill=FFFFFF00 | rows=[3] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O4 | value='EXAM' | fill=FFFFFF00 | rows=[3] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell O4 | value='EXAM' | fill=00000000 | rows=[3] | cols=[14] | col_header=False | row_header=False | metadata=False
 Cell P4 | value='POSITION' | fill=FFFFFF00 | rows=[3] | cols=[15] | col_header=True | row_header=False | metadata=False
-Cell Q4 | value='TOTAL' | fill=FFFFFF00 | rows=[3] | cols=[16] | col_header=True | row_header=False | metadata=False
+Cell Q4 | value='TOTAL' | fill=00000000 | rows=[3] | cols=[16] | col_header=False | row_header=False | metadata=False
 Cell R4 | value='POSITION' | fill=FFFFFF00 | rows=[3] | cols=[17] | col_header=True | row_header=False | metadata=False
 Cell E5 | value='15' | fill=00000000 | rows=[4] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F5 | value='5' | fill=00000000 | rows=[4] | cols=[5] | col_header=False | row_header=False | metadata=False

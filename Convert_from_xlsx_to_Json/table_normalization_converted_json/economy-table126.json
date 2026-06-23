@@ -12,7 +12,7 @@
         "pdf_text_content": "Employee:",
         "is_column_header": true,
         "is_projected_row_header": true,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -37,9 +37,9 @@
         ],
         "xml_text_content": "Dates:",
         "pdf_text_content": "Dates:",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -52,7 +52,7 @@
         "pdf_text_content": "MBurger",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -66,7 +66,7 @@
         "pdf_text_content": "Feb-01-15 - Feb-07-15",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4182,8 +4182,8 @@
         "xml_text_content": "Totals:",
         "pdf_text_content": "Totals:",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4196,7 +4196,7 @@
         "pdf_text_content": "9727.5",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4209,7 +4209,7 @@
         "pdf_text_content": "2279.825",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       }
     ],
     "structure_id": "economy-table126",

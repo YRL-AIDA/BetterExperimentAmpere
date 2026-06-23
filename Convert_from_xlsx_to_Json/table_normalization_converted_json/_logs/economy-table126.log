@@ -1,9 +1,9 @@
 === economy-table126.xlsx ===
-Cell A1 | value='Employee:' | fill=FF00B0F0 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=True
+Cell A1 | value='Employee:' | fill=FFFFFF00 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=False
 Cell D1 | value='DRL Construction' | fill=FF00B0F0 | rows=[0] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell K1 | value='Dates:' | fill=FF00B0F0 | rows=[0] | cols=[10, 11] | col_header=False | row_header=False | metadata=True
-Cell A2 | value='MBurger' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell K2 | value='Feb-01-15 - Feb-07-15' | fill=FF00B0F0 | rows=[1] | cols=[10, 11] | col_header=False | row_header=False | metadata=True
+Cell K1 | value='Dates:' | fill=FFFFFF00 | rows=[0] | cols=[10, 11] | col_header=True | row_header=False | metadata=False
+Cell A2 | value='MBurger' | fill=00000000 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell K2 | value='Feb-01-15 - Feb-07-15' | fill=00000000 | rows=[1] | cols=[10, 11] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Date' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B3 | value='Ticket Number' | fill=FFFFFF00 | rows=[2] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C3 | value='Truck Number' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False
@@ -318,7 +318,7 @@ Cell I30 | value='1.75' | fill=00000000 | rows=[29] | cols=[8] | col_header=Fals
 Cell J30 | value='0' | fill=00000000 | rows=[29] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K30 | value='262.5' | fill=00000000 | rows=[29] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell L30 | value='60.375' | fill=00000000 | rows=[29] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell I31 | value='Totals:' | fill=FF00B0F0 | rows=[30] | cols=[8] | col_header=False | row_header=False | metadata=True
-Cell K31 | value='9727.5' | fill=FF00B0F0 | rows=[30] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell L31 | value='2279.825' | fill=FF00B0F0 | rows=[30] | cols=[11] | col_header=False | row_header=False | metadata=True
+Cell I31 | value='Totals:' | fill=FF00B050 | rows=[30] | cols=[8] | col_header=False | row_header=True | metadata=False
+Cell K31 | value='9727.5' | fill=00000000 | rows=[30] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L31 | value='2279.825' | fill=00000000 | rows=[30] | cols=[11] | col_header=False | row_header=False | metadata=False
 

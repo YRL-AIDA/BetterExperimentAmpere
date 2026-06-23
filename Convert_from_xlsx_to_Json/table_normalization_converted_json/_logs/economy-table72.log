@@ -42,15 +42,15 @@ Cell B19 | value='15000' | fill=FFFFC000 | rows=[18] | cols=[1] | col_header=Fal
 Cell C19 | value='10000' | fill=FFFFC000 | rows=[18] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E19 | value='10000' | fill=FFFFC000 | rows=[18] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell A27 | value='John' | fill=00000000 | rows=[26] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell C27 | value='Howard' | fill=FFFFFF00 | rows=[26] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell E27 | value='Howard' | fill=FFFFFF00 | rows=[26] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell C28 | value='Frankston' | fill=FFFFFF00 | rows=[27] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell E28 | value='Frankston' | fill=FFFFFF00 | rows=[27] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell C29 | value='Sold April' | fill=FFFFFF00 | rows=[28] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell E29 | value='Sold April' | fill=FFFFFF00 | rows=[28] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell C30 | value='12900' | fill=FFFFFF00 | rows=[29] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell E30 | value='12900' | fill=FFFFFF00 | rows=[29] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell A34 | value='Total planned for week' | fill=00000000 | rows=[33] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell C27 | value='Howard' | fill=FFFFC000 | rows=[26] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell E27 | value='Howard' | fill=FFFFC000 | rows=[26] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell C28 | value='Frankston' | fill=FFFFC000 | rows=[27] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell E28 | value='Frankston' | fill=FFFFC000 | rows=[27] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell C29 | value='Sold April' | fill=FFFFC000 | rows=[28] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell E29 | value='Sold April' | fill=FFFFC000 | rows=[28] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell C30 | value='12900' | fill=FFFFC000 | rows=[29] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell E30 | value='12900' | fill=FFFFC000 | rows=[29] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell A34 | value='Total planned for week' | fill=FF00B050 | rows=[33] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B34 | value='33000' | fill=00000000 | rows=[33] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C34 | value='22900' | fill=00000000 | rows=[33] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D34 | value='18000' | fill=00000000 | rows=[33] | cols=[3] | col_header=False | row_header=False | metadata=False

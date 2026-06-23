@@ -29,7 +29,7 @@
         "pdf_text_content": "MUSA ILIASU COLLEGE, KANO.",
         "is_column_header": true,
         "is_projected_row_header": true,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -72,7 +72,7 @@
         "pdf_text_content": "1st Term",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -123,7 +123,7 @@
         "xml_text_content": "JSS 1A",
         "pdf_text_content": "JSS 1A",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -189,7 +189,7 @@
         ],
         "xml_text_content": "TEST 1",
         "pdf_text_content": "TEST 1",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -241,7 +241,7 @@
         ],
         "xml_text_content": "TEST 2",
         "pdf_text_content": "TEST 2",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -293,7 +293,7 @@
         ],
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -319,7 +319,7 @@
         ],
         "xml_text_content": "EXAM",
         "pdf_text_content": "EXAM",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -345,7 +345,7 @@
         ],
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

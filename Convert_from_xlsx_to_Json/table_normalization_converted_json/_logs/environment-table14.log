@@ -2,8 +2,8 @@
 Cell A1 | value='June 2008 Agricultural and Horticultural Survey - England' | fill=FF00B0F0 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=True
 Cell A2 | value='E-Mail enquiries here' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A4 | value='Region & County/Unitary Authority' | fill=FFFFFF00 | rows=[3] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B4 | value='SHEEP' | fill=FFFFFF00 | rows=[3] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell Z4 | value='POULTRY3' | fill=FFFFFF00 | rows=[3] | cols=[25] | col_header=True | row_header=False | metadata=False
+Cell B4 | value='SHEEP' | fill=00000000 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell Z4 | value='POULTRY3' | fill=00000000 | rows=[3] | cols=[25] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='Ewes' | fill=46 | rows=[4] | cols=[1, 2, 3] | col_header=False | row_header=False | metadata=False
 Cell E5 | value='Other Breeding Sheep' | fill=46 | rows=[4] | cols=[4, 5, 6] | col_header=False | row_header=False | metadata=False
 Cell H5 | value='Total Breeding Ewes' | fill=46 | rows=[4] | cols=[7, 8, 9] | col_header=False | row_header=False | metadata=False

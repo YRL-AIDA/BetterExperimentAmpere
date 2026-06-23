@@ -56,7 +56,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -76,7 +76,7 @@
         ],
         "xml_text_content": "Personal and Community Development Learning",
         "pdf_text_content": "Personal and Community Development Learning",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -96,7 +96,7 @@
         ],
         "xml_text_content": "Neighbourhood Learning in Deprived Communities",
         "pdf_text_content": "Neighbourhood Learning in Deprived Communities",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -116,7 +116,7 @@
         ],
         "xml_text_content": "Family English, Maths and Language",
         "pdf_text_content": "Family English, Maths and Language",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -136,7 +136,7 @@
         ],
         "xml_text_content": "Wider Family Learning",
         "pdf_text_content": "Wider Family Learning",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

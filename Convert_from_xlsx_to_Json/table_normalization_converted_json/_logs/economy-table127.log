@@ -1,8 +1,8 @@
 === economy-table127.xlsx ===
-Cell A1 | value='Showroom:' | fill=FF00B0F0 | rows=[0] | cols=[0, 1, 2] | col_header=True | row_header=True | metadata=True
-Cell D1 | value='Metropolitan' | fill=FF00B0F0 | rows=[0] | cols=[3, 4] | col_header=False | row_header=False | metadata=True
-Cell A2 | value='Date :' | fill=FF00B0F0 | rows=[1] | cols=[0, 1, 2] | col_header=False | row_header=False | metadata=True
-Cell D2 | value='2014-09-02 00:00:00' | fill=FF00B0F0 | rows=[1] | cols=[3, 4, 5] | col_header=False | row_header=False | metadata=True
+Cell A1 | value='Showroom:' | fill=FF00B050 | rows=[0] | cols=[0, 1, 2] | col_header=True | row_header=True | metadata=False
+Cell D1 | value='Metropolitan' | fill=00000000 | rows=[0] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
+Cell A2 | value='Date :' | fill=FF00B050 | rows=[1] | cols=[0, 1, 2] | col_header=False | row_header=True | metadata=False
+Cell D2 | value='2014-09-02 00:00:00' | fill=00000000 | rows=[1] | cols=[3, 4, 5] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Year' | fill=FFFFFF00 | rows=[2, 3] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B3 | value='Q1' | fill=00000000 | rows=[2] | cols=[1, 2, 3] | col_header=False | row_header=False | metadata=False
 Cell E3 | value='Q2' | fill=00000000 | rows=[2] | cols=[4, 5, 6] | col_header=False | row_header=False | metadata=False

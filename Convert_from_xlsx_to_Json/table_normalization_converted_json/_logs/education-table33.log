@@ -1,5 +1,5 @@
 === education-table33.xlsx ===
-Cell L1 | value='SESSION-2014-15' | fill=FF00B0F0 | rows=[0] | cols=[11, 12, 13, 14] | col_header=False | row_header=False | metadata=True
+Cell L1 | value='SESSION-2014-15' | fill=00000000 | rows=[0] | cols=[11, 12, 13, 14] | col_header=False | row_header=False | metadata=False
 Cell A2 | value='NAME' | fill=FF00B050 | rows=[1] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
 Cell C2 | value='AMARJEET' | fill=00000000 | rows=[1] | cols=[2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell J2 | value='FATHER'S NAME' | fill=FF00B050 | rows=[1] | cols=[9, 10, 11] | col_header=False | row_header=True | metadata=False
@@ -36,7 +36,7 @@ Cell I8 | value='75' | fill=00000000 | rows=[7] | cols=[8] | col_header=False | 
 Cell J8 | value='0' | fill=00000000 | rows=[7] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
 Cell L8 | value='100' | fill=00000000 | rows=[7] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M8 | value='14' | fill=00000000 | rows=[7] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell O8 | value='DISCIPLINE' | fill=FF00B050 | rows=[7] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
+Cell O8 | value='DISCIPLINE' | fill=00000000 | rows=[7] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='ENGLISH' | fill=00000000 | rows=[8] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
 Cell C9 | value='10' | fill=00000000 | rows=[8] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D9 | value='6' | fill=00000000 | rows=[8] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
@@ -46,7 +46,7 @@ Cell I9 | value='75' | fill=00000000 | rows=[8] | cols=[8] | col_header=False | 
 Cell J9 | value='0' | fill=00000000 | rows=[8] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
 Cell L9 | value='100' | fill=00000000 | rows=[8] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M9 | value='13' | fill=00000000 | rows=[8] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell O9 | value='REGULARITY' | fill=FF00B050 | rows=[8] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
+Cell O9 | value='REGULARITY' | fill=00000000 | rows=[8] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
 Cell A10 | value='MATH' | fill=00000000 | rows=[9] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
 Cell C10 | value='10' | fill=00000000 | rows=[9] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D10 | value='7' | fill=00000000 | rows=[9] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
@@ -56,7 +56,7 @@ Cell I10 | value='75' | fill=00000000 | rows=[9] | cols=[8] | col_header=False |
 Cell J10 | value='0' | fill=00000000 | rows=[9] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
 Cell L10 | value='100' | fill=00000000 | rows=[9] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M10 | value='15' | fill=00000000 | rows=[9] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell O10 | value='PUNCTUALITY' | fill=FF00B050 | rows=[9] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
+Cell O10 | value='PUNCTUALITY' | fill=00000000 | rows=[9] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
 Cell A11 | value='SCIENCE' | fill=00000000 | rows=[10] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
 Cell C11 | value='10' | fill=00000000 | rows=[10] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D11 | value='9' | fill=00000000 | rows=[10] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
@@ -66,7 +66,7 @@ Cell I11 | value='75' | fill=00000000 | rows=[10] | cols=[8] | col_header=False 
 Cell J11 | value='0' | fill=00000000 | rows=[10] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
 Cell L11 | value='100' | fill=00000000 | rows=[10] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M11 | value='17' | fill=00000000 | rows=[10] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell O11 | value='CLEANLINESS' | fill=FF00B050 | rows=[10] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
+Cell O11 | value='CLEANLINESS' | fill=00000000 | rows=[10] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
 Cell A12 | value='SOCIAL STUDY' | fill=00000000 | rows=[11] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
 Cell C12 | value='10' | fill=00000000 | rows=[11] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D12 | value='9' | fill=00000000 | rows=[11] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
@@ -76,7 +76,7 @@ Cell I12 | value='75' | fill=00000000 | rows=[11] | cols=[8] | col_header=False 
 Cell J12 | value='0' | fill=00000000 | rows=[11] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
 Cell L12 | value='100' | fill=00000000 | rows=[11] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M12 | value='17' | fill=00000000 | rows=[11] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell O12 | value='SPORTS' | fill=FF00B050 | rows=[11] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
+Cell O12 | value='SPORTS' | fill=00000000 | rows=[11] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
 Cell A13 | value='DRAWING' | fill=00000000 | rows=[12] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
 Cell C13 | value='10' | fill=00000000 | rows=[12] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D13 | value='6' | fill=00000000 | rows=[12] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
@@ -86,25 +86,25 @@ Cell I13 | value='75' | fill=00000000 | rows=[12] | cols=[8] | col_header=False 
 Cell J13 | value='0' | fill=00000000 | rows=[12] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
 Cell L13 | value='100' | fill=00000000 | rows=[12] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M13 | value='13' | fill=00000000 | rows=[12] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell O13 | value='OTHER ACTIVITIES' | fill=FF00B050 | rows=[12] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
+Cell O13 | value='OTHER ACTIVITIES' | fill=00000000 | rows=[12] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
 Cell A14 | value='ANY OTHER' | fill=00000000 | rows=[13] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
 Cell L14 | value='0' | fill=00000000 | rows=[13] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M14 | value='0' | fill=00000000 | rows=[13] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
-Cell A15 | value='TOTAL' | fill=00000000 | rows=[14] | cols=[0, 1] | col_header=False | row_header=False | metadata=False
+Cell A15 | value='TOTAL' | fill=FF00B050 | rows=[14] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
 Cell C15 | value='60' | fill=00000000 | rows=[14] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D15 | value='42' | fill=00000000 | rows=[14] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
 Cell F15 | value='90' | fill=00000000 | rows=[14] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G15 | value='47' | fill=00000000 | rows=[14] | cols=[6, 7] | col_header=False | row_header=False | metadata=False
 Cell I15 | value='450' | fill=00000000 | rows=[14] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J15 | value='0' | fill=00000000 | rows=[14] | cols=[9, 10] | col_header=False | row_header=False | metadata=False
-Cell L15 | value='600' | fill=00000000 | rows=[14] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell M15 | value='89' | fill=00000000 | rows=[14] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
+Cell L15 | value='600' | fill=FF00B0F0 | rows=[14] | cols=[11] | col_header=False | row_header=False | metadata=True
+Cell M15 | value='89' | fill=FF00B0F0 | rows=[14] | cols=[12, 13] | col_header=False | row_header=False | metadata=True
 Cell O15 | value='PERCENTAGE MARKS' | fill=FF00B050 | rows=[14] | cols=[14, 15] | col_header=False | row_header=True | metadata=False
 Cell Q15 | value='15 %' | fill=00000000 | rows=[14] | cols=[16, 17, 18, 19] | col_header=False | row_header=False | metadata=False
-Cell A16 | value='ATTENDANCE' | fill=FF00B050 | rows=[15] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
-Cell A17 | value='RESULT' | fill=FF00B050 | rows=[16] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
-Cell L17 | value='PASS' | fill=00000000 | rows=[16] | cols=[11, 12, 13] | col_header=False | row_header=False | metadata=False
-Cell A18 | value='SIGNATURE CLASS TEACHER' | fill=FF00B050 | rows=[17] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
-Cell A19 | value='SIGNATURE PRINCIPAL' | fill=FF00B050 | rows=[18] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
-Cell A20 | value='SIGNATURE PARENTS' | fill=FF00B050 | rows=[19] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
+Cell A16 | value='ATTENDANCE' | fill=FF00B0F0 | rows=[15] | cols=[0, 1] | col_header=False | row_header=False | metadata=True
+Cell A17 | value='RESULT' | fill=FF00B0F0 | rows=[16] | cols=[0, 1] | col_header=False | row_header=False | metadata=True
+Cell L17 | value='PASS' | fill=FF00B0F0 | rows=[16] | cols=[11, 12, 13] | col_header=False | row_header=False | metadata=True
+Cell A18 | value='SIGNATURE CLASS TEACHER' | fill=FF00B0F0 | rows=[17] | cols=[0, 1] | col_header=False | row_header=False | metadata=True
+Cell A19 | value='SIGNATURE PRINCIPAL' | fill=FF00B0F0 | rows=[18] | cols=[0, 1] | col_header=False | row_header=False | metadata=True
+Cell A20 | value='SIGNATURE PARENTS' | fill=FF00B0F0 | rows=[19] | cols=[0, 1] | col_header=False | row_header=False | metadata=True
 

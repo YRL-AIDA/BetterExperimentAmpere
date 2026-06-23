@@ -17,7 +17,7 @@ Cell L6 | value='Changes to product or service design (percentage)' | fill=00000
 Cell M6 | value='Market research (percentage)' | fill=00000000 | rows=[5] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N6 | value='Changes to marketing methods (percentage)' | fill=00000000 | rows=[5] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O6 | value='Launch advertising (percentage)' | fill=00000000 | rows=[5] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A7 | value='All' | fill=FF00B050 | rows=[6] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell A7 | value='All' | fill=00000000 | rows=[6] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='16' | fill=00000000 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='5.3' | fill=00000000 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D7 | value='34.4' | fill=00000000 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=False
@@ -32,7 +32,7 @@ Cell L7 | value='5.7' | fill=00000000 | rows=[6] | cols=[11] | col_header=False 
 Cell M7 | value='3.3' | fill=00000000 | rows=[6] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N7 | value='6.1' | fill=00000000 | rows=[6] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O7 | value='6.1' | fill=00000000 | rows=[6] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A8 | value='Employment size group' | fill=FFFFFF00 | rows=[7] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A8 | value='Employment size group' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='10 to 49' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='14.1' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C9 | value='4.9' | fill=00000000 | rows=[8] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -108,7 +108,7 @@ Cell L13 | value='5.6' | fill=00000000 | rows=[12] | cols=[11] | col_header=Fals
 Cell M13 | value='3.2' | fill=00000000 | rows=[12] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N13 | value='6.1' | fill=00000000 | rows=[12] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O13 | value='6' | fill=00000000 | rows=[12] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A14 | value='Country' | fill=FFFFFF00 | rows=[13] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A14 | value='Country' | fill=00000000 | rows=[13] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A15 | value='England' | fill=00000000 | rows=[14] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B15 | value='16.5' | fill=00000000 | rows=[14] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C15 | value='5.4' | fill=00000000 | rows=[14] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -169,7 +169,7 @@ Cell L18 | value='3.3' | fill=00000000 | rows=[17] | cols=[11] | col_header=Fals
 Cell M18 | value='2.2' | fill=00000000 | rows=[17] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N18 | value='3.6' | fill=00000000 | rows=[17] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O18 | value='4.7' | fill=00000000 | rows=[17] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A19 | value='English Region' | fill=FFFFFF00 | rows=[18] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A19 | value='English Region' | fill=00000000 | rows=[18] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A20 | value='North East' | fill=00000000 | rows=[19] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B20 | value='14.5' | fill=00000000 | rows=[19] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C20 | value='4.1' | fill=00000000 | rows=[19] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -305,7 +305,7 @@ Cell L28 | value='5.6' | fill=00000000 | rows=[27] | cols=[11] | col_header=Fals
 Cell M28 | value='3.2' | fill=00000000 | rows=[27] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N28 | value='6.6' | fill=00000000 | rows=[27] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O28 | value='6.1' | fill=00000000 | rows=[27] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A29 | value='Broad sectors' | fill=FFFFFF00 | rows=[28] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A29 | value='Broad sectors' | fill=00000000 | rows=[28] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A30 | value='Primary Sector' | fill=00000000 | rows=[29] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B30 | value='14.5' | fill=00000000 | rows=[29] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C30 | value='3.6' | fill=00000000 | rows=[29] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -411,7 +411,7 @@ Cell L36 | value='3.9' | fill=00000000 | rows=[35] | cols=[11] | col_header=Fals
 Cell M36 | value='2.1' | fill=00000000 | rows=[35] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N36 | value='4.7' | fill=00000000 | rows=[35] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O36 | value='4.2' | fill=00000000 | rows=[35] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A37 | value='Production / construction or distribution / service industry' | fill=FFFFFF00 | rows=[36] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A37 | value='Production / construction or distribution / service industry' | fill=00000000 | rows=[36] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A38 | value='Production and construction industries' | fill=00000000 | rows=[37] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B38 | value='22.9' | fill=00000000 | rows=[37] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C38 | value='7' | fill=00000000 | rows=[37] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -442,7 +442,7 @@ Cell L39 | value='5.3' | fill=00000000 | rows=[38] | cols=[11] | col_header=Fals
 Cell M39 | value='3.3' | fill=00000000 | rows=[38] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N39 | value='6.1' | fill=00000000 | rows=[38] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O39 | value='6.1' | fill=00000000 | rows=[38] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A40 | value='Sampling sectors' | fill=FFFFFF00 | rows=[39] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A40 | value='Sampling sectors' | fill=00000000 | rows=[39] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A41 | value='Mining and Quarrying' | fill=00000000 | rows=[40] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B41 | value='14.2' | fill=00000000 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C41 | value='[c]' | fill=00000000 | rows=[40] | cols=[2] | col_header=False | row_header=False | metadata=False

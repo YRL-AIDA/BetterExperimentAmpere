@@ -19,7 +19,7 @@ Cell E4 | value='15th' | fill=16 | rows=[3] | cols=[4] | col_header=False | row_
 Cell F4 | value='16th' | fill=16 | rows=[3] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G4 | value='17th' | fill=16 | rows=[3] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H4 | value='18th' | fill=16 | rows=[3] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell A5 | value='Café's' | fill=00000000 | rows=[4] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell A5 | value='Café's' | fill=FFFFFF00 | rows=[4] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
 Cell A6 | value='Touchwood' | fill=00000000 | rows=[5] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B6 | value='1487' | fill=00000000 | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C6 | value='1479' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -350,7 +350,7 @@ Cell H35 | value='27793' | fill=FF00B0F0 | rows=[34] | cols=[7] | col_header=Fal
 Cell I35 | value='238845' | fill=FF00B0F0 | rows=[34] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell J35 | value='247100' | fill=FF00B0F0 | rows=[34] | cols=[9] | col_header=False | row_header=False | metadata=True
 Cell K35 | value='-8255' | fill=FF00B0F0 | rows=[34] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell A36 | value='Café's' | fill=00000000 | rows=[35] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell A36 | value='Café's' | fill=FFFFFF00 | rows=[35] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
 Cell A37 | value='Queensway' | fill=00000000 | rows=[36] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B37 | value='1112' | fill=00000000 | rows=[36] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C37 | value='1571' | fill=00000000 | rows=[36] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -1330,7 +1330,7 @@ Cell H125 | value='149555.76' | fill=FF00B0F0 | rows=[124] | cols=[7] | col_head
 Cell I125 | value='921848.15' | fill=FF00B0F0 | rows=[124] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell J125 | value='1054250' | fill=FF00B0F0 | rows=[124] | cols=[9] | col_header=False | row_header=False | metadata=True
 Cell K125 | value='-132401.85' | fill=FF00B0F0 | rows=[124] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell A126 | value='Concessions' | fill=00000000 | rows=[125] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell A126 | value='Concessions' | fill=FFFFFF00 | rows=[125] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
 Cell A127 | value='Manchester Fort' | fill=00000000 | rows=[126] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B127 | value='402.63' | fill=00000000 | rows=[126] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C127 | value='305' | fill=00000000 | rows=[126] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -1386,7 +1386,7 @@ Cell H131 | value='3017' | fill=FF00B0F0 | rows=[130] | cols=[7] | col_header=Fa
 Cell I131 | value='15582.63' | fill=FF00B0F0 | rows=[130] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell J131 | value='26500' | fill=FF00B0F0 | rows=[130] | cols=[9] | col_header=False | row_header=False | metadata=True
 Cell K131 | value='-10917.37' | fill=FF00B0F0 | rows=[130] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell A132 | value='Café's' | fill=00000000 | rows=[131] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell A132 | value='Café's' | fill=FFFFFF00 | rows=[131] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
 Cell A133 | value='Belgravia' | fill=00000000 | rows=[132] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B133 | value='2223' | fill=00000000 | rows=[132] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C133 | value='2153' | fill=00000000 | rows=[132] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -1442,7 +1442,7 @@ Cell H137 | value='14693' | fill=FF00B0F0 | rows=[136] | cols=[7] | col_header=F
 Cell I137 | value='85307' | fill=FF00B0F0 | rows=[136] | cols=[8] | col_header=False | row_header=False | metadata=True
 Cell J137 | value='89600' | fill=FF00B0F0 | rows=[136] | cols=[9] | col_header=False | row_header=False | metadata=True
 Cell K137 | value='-4293' | fill=FF00B0F0 | rows=[136] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell A138 | value='Café's' | fill=00000000 | rows=[137] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell A138 | value='Café's' | fill=FFFFFF00 | rows=[137] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
 Cell A139 | value='Sheffield - Campo Lane (SFD)' | fill=00000000 | rows=[138] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B139 | value='470' | fill=00000000 | rows=[138] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C139 | value='433' | fill=00000000 | rows=[138] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -1696,29 +1696,29 @@ Cell H161 | value='0' | fill=00000000 | rows=[160] | cols=[7] | col_header=False
 Cell I161 | value='4174' | fill=00000000 | rows=[160] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J161 | value='4800' | fill=00000000 | rows=[160] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K161 | value='-626' | fill=00000000 | rows=[160] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell A162 | value='Totals' | fill=00000000 | rows=[161] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell B162 | value='36950' | fill=00000000 | rows=[161] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C162 | value='42011' | fill=00000000 | rows=[161] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D162 | value='43862' | fill=00000000 | rows=[161] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E162 | value='43115' | fill=00000000 | rows=[161] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F162 | value='42816' | fill=00000000 | rows=[161] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G162 | value='1126' | fill=00000000 | rows=[161] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H162 | value='0' | fill=00000000 | rows=[161] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I162 | value='209880' | fill=00000000 | rows=[161] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell J162 | value='227800' | fill=00000000 | rows=[161] | cols=[9] | col_header=False | row_header=False | metadata=False
-Cell K162 | value='-17920' | fill=00000000 | rows=[161] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell A163 | value='Total All Café's' | fill=FF00B0F0 | rows=[162] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B163 | value='184009.29' | fill=FF00B0F0 | rows=[162] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell C163 | value='191094.92' | fill=FF00B0F0 | rows=[162] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D163 | value='195378.06' | fill=FF00B0F0 | rows=[162] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E163 | value='194912.09' | fill=FF00B0F0 | rows=[162] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell F163 | value='222354.81' | fill=FF00B0F0 | rows=[162] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G163 | value='288654.85' | fill=FF00B0F0 | rows=[162] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H163 | value='195058.76' | fill=FF00B0F0 | rows=[162] | cols=[7] | col_header=False | row_header=False | metadata=True
-Cell I163 | value='1471462.78' | fill=FF00B0F0 | rows=[162] | cols=[8] | col_header=False | row_header=False | metadata=True
-Cell J163 | value='1645250' | fill=FF00B0F0 | rows=[162] | cols=[9] | col_header=False | row_header=False | metadata=True
-Cell K163 | value='-173787.22' | fill=FF00B0F0 | rows=[162] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell A164 | value='Other Income' | fill=00000000 | rows=[163] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell A162 | value='Totals' | fill=FF00B0F0 | rows=[161] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell B162 | value='36950' | fill=FF00B0F0 | rows=[161] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell C162 | value='42011' | fill=FF00B0F0 | rows=[161] | cols=[2] | col_header=False | row_header=False | metadata=True
+Cell D162 | value='43862' | fill=FF00B0F0 | rows=[161] | cols=[3] | col_header=False | row_header=False | metadata=True
+Cell E162 | value='43115' | fill=FF00B0F0 | rows=[161] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell F162 | value='42816' | fill=FF00B0F0 | rows=[161] | cols=[5] | col_header=False | row_header=False | metadata=True
+Cell G162 | value='1126' | fill=FF00B0F0 | rows=[161] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell H162 | value='0' | fill=FF00B0F0 | rows=[161] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell I162 | value='209880' | fill=FF00B0F0 | rows=[161] | cols=[8] | col_header=False | row_header=False | metadata=True
+Cell J162 | value='227800' | fill=FF00B0F0 | rows=[161] | cols=[9] | col_header=False | row_header=False | metadata=True
+Cell K162 | value='-17920' | fill=FF00B0F0 | rows=[161] | cols=[10] | col_header=False | row_header=False | metadata=True
+Cell A163 | value='Total All Café's' | fill=FF00B050 | rows=[162] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell B163 | value='184009.29' | fill=00000000 | rows=[162] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C163 | value='191094.92' | fill=00000000 | rows=[162] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D163 | value='195378.06' | fill=00000000 | rows=[162] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E163 | value='194912.09' | fill=00000000 | rows=[162] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F163 | value='222354.81' | fill=00000000 | rows=[162] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G163 | value='288654.85' | fill=00000000 | rows=[162] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H163 | value='195058.76' | fill=00000000 | rows=[162] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I163 | value='1471462.78' | fill=00000000 | rows=[162] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J163 | value='1645250' | fill=00000000 | rows=[162] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K163 | value='-173787.22' | fill=00000000 | rows=[162] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell A164 | value='Other Income' | fill=FFFFFF00 | rows=[163] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
 Cell A165 | value='Whole Head Office' | fill=00000000 | rows=[164] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B165 | value='0' | fill=00000000 | rows=[164] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C165 | value='0' | fill=00000000 | rows=[164] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -1796,16 +1796,16 @@ Cell H171 | value='9501.77' | fill=00000000 | rows=[170] | cols=[7] | col_header
 Cell I171 | value='85908.4' | fill=00000000 | rows=[170] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J171 | value='87000' | fill=00000000 | rows=[170] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell K171 | value='-1091.6' | fill=00000000 | rows=[170] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell A172 | value='Total All Business' | fill=FF00B0F0 | rows=[171] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B172 | value='194725.47' | fill=FF00B0F0 | rows=[171] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell C172 | value='202071.92' | fill=FF00B0F0 | rows=[171] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D172 | value='208117.06' | fill=FF00B0F0 | rows=[171] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E172 | value='207915.79' | fill=FF00B0F0 | rows=[171] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell F172 | value='235271.31' | fill=FF00B0F0 | rows=[171] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G172 | value='304709.1' | fill=FF00B0F0 | rows=[171] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H172 | value='204560.53' | fill=FF00B0F0 | rows=[171] | cols=[7] | col_header=False | row_header=False | metadata=True
-Cell I172 | value='1557371.18' | fill=FF00B0F0 | rows=[171] | cols=[8] | col_header=False | row_header=False | metadata=True
-Cell J172 | value='1732250' | fill=FF00B0F0 | rows=[171] | cols=[9] | col_header=False | row_header=False | metadata=True
-Cell K172 | value='-174878.82' | fill=FF00B0F0 | rows=[171] | cols=[10] | col_header=False | row_header=False | metadata=True
+Cell A172 | value='Total All Business' | fill=FF00B050 | rows=[171] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell B172 | value='194725.47' | fill=00000000 | rows=[171] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C172 | value='202071.92' | fill=00000000 | rows=[171] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D172 | value='208117.06' | fill=00000000 | rows=[171] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E172 | value='207915.79' | fill=00000000 | rows=[171] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F172 | value='235271.31' | fill=00000000 | rows=[171] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G172 | value='304709.1' | fill=00000000 | rows=[171] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H172 | value='204560.53' | fill=00000000 | rows=[171] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I172 | value='1557371.18' | fill=00000000 | rows=[171] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J172 | value='1732250' | fill=00000000 | rows=[171] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K172 | value='-174878.82' | fill=00000000 | rows=[171] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell F249 | value='♦' | fill=00000000 | rows=[248] | cols=[5] | col_header=False | row_header=False | metadata=False
 

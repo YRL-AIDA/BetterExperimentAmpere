@@ -44,7 +44,7 @@ Cell F9 | value='10319' | fill=00000000 | rows=[8] | cols=[5] | col_header=False
 Cell G9 | value='10731' | fill=00000000 | rows=[8] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H9 | value='5006' | fill=00000000 | rows=[8] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I9 | value='5243' | fill=00000000 | rows=[8] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A11 | value='OCCUPATION' | fill=FFFFFF00 | rows=[10] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A11 | value='OCCUPATION' | fill=00000000 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A12 | value='Management, professional, and related occupations' | fill=00000000 | rows=[11] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B12 | value='68099' | fill=00000000 | rows=[11] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C12 | value='70275' | fill=00000000 | rows=[11] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -306,7 +306,7 @@ Cell F40 | value='2406' | fill=00000000 | rows=[39] | cols=[5] | col_header=Fals
 Cell G40 | value='2351' | fill=00000000 | rows=[39] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H40 | value='518' | fill=00000000 | rows=[39] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I40 | value='513' | fill=00000000 | rows=[39] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A42 | value='CLASS OF WORKER' | fill=FFFFFF00 | rows=[41] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A42 | value='CLASS OF WORKER' | fill=00000000 | rows=[41] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A43 | value='Agriculture' | fill=00000000 | rows=[42] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A44 | value='Wage and salary workers(1)' | fill=00000000 | rows=[43] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B44 | value='1514' | fill=00000000 | rows=[43] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -399,7 +399,7 @@ Cell F54 | value='1' | fill=00000000 | rows=[53] | cols=[5] | col_header=False |
 Cell G54 | value='3' | fill=00000000 | rows=[53] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H54 | value='5' | fill=00000000 | rows=[53] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I54 | value='3' | fill=00000000 | rows=[53] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A56 | value='FULL- OR PART-TIME STATUS(2)' | fill=FFFFFF00 | rows=[55] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A56 | value='FULL- OR PART-TIME STATUS(2)' | fill=00000000 | rows=[55] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A57 | value='Full-time workers' | fill=00000000 | rows=[56] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B57 | value='132245' | fill=00000000 | rows=[56] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C57 | value='134056' | fill=00000000 | rows=[56] | cols=[2] | col_header=False | row_header=False | metadata=False

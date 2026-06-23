@@ -1,13 +1,13 @@
 === environment-table09.xlsx ===
 Cell A1 | value='Table 4f: Average Weekly Expenditure on all Goods and on Fuel, Light and Power (£/wk) - UK figures' | fill=FF00B0F0 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=True
-Cell B4 | value='Contemporary prices' | fill=FFFFFF00 | rows=[3] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell D4 | value='2009 prices' | fill=FFFFFF00 | rows=[3] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell F4 | value='% on fuel, light & power' | fill=FFFFFF00 | rows=[3] | cols=[5] | col_header=True | row_header=False | metadata=False
+Cell B4 | value='Contemporary prices' | fill=00000000 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell D4 | value='2009 prices' | fill=00000000 | rows=[3] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell F4 | value='% on fuel, light & power' | fill=00000000 | rows=[3] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell A6 | value='Year' | fill=FFFFFF00 | rows=[5] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B6 | value='All goods (£)' | fill=FFFFFF00 | rows=[5] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C6 | value='Fuel, light & power (£)' | fill=FFFFFF00 | rows=[5] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D6 | value='All goods (£)' | fill=FFFFFF00 | rows=[5] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E6 | value='Fuel, light & power (£)' | fill=FFFFFF00 | rows=[5] | cols=[4] | col_header=True | row_header=False | metadata=False
+Cell B6 | value='All goods (£)' | fill=00000000 | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C6 | value='Fuel, light & power (£)' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D6 | value='All goods (£)' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E6 | value='Fuel, light & power (£)' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell A7 | value='1970' | fill=00000000 | rows=[6] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='28.57' | fill=24 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='1.79' | fill=25 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False

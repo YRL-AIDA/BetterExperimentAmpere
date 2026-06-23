@@ -1,23 +1,23 @@
 === food-table12.xlsx ===
 Cell B1 | value='Food at home' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell H1 | value='Food away from home' | fill=00000000 | rows=[0] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell B2 | value='Nominal' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='Constant dollar (1988=100)' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell H2 | value='Nominal' | fill=FFFFFF00 | rows=[1] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell K2 | value='Constant dollar (1988=100)' | fill=FFFFFF00 | rows=[1] | cols=[10] | col_header=True | row_header=False | metadata=False
+Cell B2 | value='Nominal' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='Constant dollar (1988=100)' | fill=00000000 | rows=[1] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell H2 | value='Nominal' | fill=00000000 | rows=[1] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell K2 | value='Constant dollar (1988=100)' | fill=00000000 | rows=[1] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Year' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B3 | value='Households' | fill=FFFFFF00 | rows=[2] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C3 | value='Government' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D3 | value='Home production' | fill=FFFFFF00 | rows=[2] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E3 | value='Households' | fill=FFFFFF00 | rows=[2] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F3 | value='Government' | fill=FFFFFF00 | rows=[2] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G3 | value='Home production' | fill=FFFFFF00 | rows=[2] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H3 | value='Households' | fill=FFFFFF00 | rows=[2] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I3 | value='Government' | fill=FFFFFF00 | rows=[2] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J3 | value='Businesses' | fill=FFFFFF00 | rows=[2] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K3 | value='Households' | fill=FFFFFF00 | rows=[2] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L3 | value='Government' | fill=FFFFFF00 | rows=[2] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M3 | value='Businesses' | fill=FFFFFF00 | rows=[2] | cols=[12] | col_header=True | row_header=False | metadata=False
+Cell B3 | value='Households' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C3 | value='Government' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D3 | value='Home production' | fill=00000000 | rows=[2] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E3 | value='Households' | fill=00000000 | rows=[2] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F3 | value='Government' | fill=00000000 | rows=[2] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G3 | value='Home production' | fill=00000000 | rows=[2] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H3 | value='Households' | fill=00000000 | rows=[2] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I3 | value='Government' | fill=00000000 | rows=[2] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J3 | value='Businesses' | fill=00000000 | rows=[2] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K3 | value='Households' | fill=00000000 | rows=[2] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L3 | value='Government' | fill=00000000 | rows=[2] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M3 | value='Businesses' | fill=00000000 | rows=[2] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell A4 | value='1997' | fill=00000000 | rows=[3] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B4 | value='351807.63' | fill=00000000 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C4 | value='23677.15' | fill=00000000 | rows=[3] | cols=[2] | col_header=False | row_header=False | metadata=False

@@ -7,15 +7,15 @@ Cell B2 | value='Time' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True |
 Cell C2 | value='League' | fill=FFFFFF00 | rows=[1] | cols=[2] | col_header=True | row_header=False | metadata=False
 Cell D2 | value='Home Team' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
 Cell E2 | value='Away Team' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F2 | value='Home' | fill=FFFFFF00 | rows=[1] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G2 | value='Draw' | fill=FFFFFF00 | rows=[1] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H2 | value='Away' | fill=FFFFFF00 | rows=[1] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I2 | value='Home' | fill=FFFFFF00 | rows=[1] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J2 | value='Draw' | fill=FFFFFF00 | rows=[1] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K2 | value='Away' | fill=FFFFFF00 | rows=[1] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L2 | value='Home' | fill=FFFFFF00 | rows=[1] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M2 | value='Draw' | fill=FFFFFF00 | rows=[1] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N2 | value='Away' | fill=FFFFFF00 | rows=[1] | cols=[13] | col_header=True | row_header=False | metadata=False
+Cell F2 | value='Home' | fill=00000000 | rows=[1] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G2 | value='Draw' | fill=00000000 | rows=[1] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H2 | value='Away' | fill=00000000 | rows=[1] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I2 | value='Home' | fill=00000000 | rows=[1] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J2 | value='Draw' | fill=00000000 | rows=[1] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K2 | value='Away' | fill=00000000 | rows=[1] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L2 | value='Home' | fill=00000000 | rows=[1] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M2 | value='Draw' | fill=00000000 | rows=[1] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N2 | value='Away' | fill=00000000 | rows=[1] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='2015-08-08 00:00:00' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='2015-08-08 12:45:00' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='English Premier League' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False

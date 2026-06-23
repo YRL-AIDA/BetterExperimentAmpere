@@ -106,7 +106,7 @@
         ],
         "xml_text_content": "Women",
         "pdf_text_content": "Women",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -119,7 +119,7 @@
         ],
         "xml_text_content": "White",
         "pdf_text_content": "White",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -132,7 +132,7 @@
         ],
         "xml_text_content": "Black or\nAfrican\nAmerican",
         "pdf_text_content": "Black or\nAfrican\nAmerican",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -145,7 +145,7 @@
         ],
         "xml_text_content": "Asian",
         "pdf_text_content": "Asian",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -158,7 +158,7 @@
         ],
         "xml_text_content": "Hispanic\nor Latino",
         "pdf_text_content": "Hispanic\nor Latino",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

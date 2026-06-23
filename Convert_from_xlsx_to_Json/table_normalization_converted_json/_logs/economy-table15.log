@@ -15,7 +15,7 @@ Cell A8 | value='Date:' | fill=FF00B050 | rows=[7] | cols=[0] | col_header=False
 Cell B8 | value='2009, 2008, 2007, 2006, 2005' | fill=9 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='Update cycle:' | fill=FF00B050 | rows=[8] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B9 | value='Continuously through the year' | fill=9 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell A11 | value='Turnover per head in the sports sector: sub-sector by region in 2005 and 2009 (£ thousands)' | fill=9 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A11 | value='Turnover per head in the sports sector: sub-sector by region in 2005 and 2009 (£ thousands)' | fill=FF00B0F0 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell B12 | value='East Midlands' | fill=9 | rows=[11] | cols=[1, 2] | col_header=False | row_header=False | metadata=False
 Cell D12 | value='East of England' | fill=9 | rows=[11] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
 Cell F12 | value='London' | fill=9 | rows=[11] | cols=[5, 6] | col_header=False | row_header=False | metadata=False
@@ -89,7 +89,7 @@ Cell R15 | value='80.1992110453649' | fill=9 | rows=[14] | cols=[17] | col_heade
 Cell S15 | value='*' | fill=9 | rows=[14] | cols=[18] | col_header=False | row_header=False | metadata=False
 Cell T15 | value='107.341908531223' | fill=9 | rows=[14] | cols=[19] | col_header=False | row_header=False | metadata=False
 Cell U15 | value='*' | fill=9 | rows=[14] | cols=[20] | col_header=False | row_header=False | metadata=False
-Cell A17 | value='Total' | fill=9 | rows=[16] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A17 | value='Total' | fill=FF00B050 | rows=[16] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B17 | value='48.7290663352493' | fill=9 | rows=[16] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C17 | value='43.9425220509838' | fill=9 | rows=[16] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D17 | value='34.853917762786' | fill=9 | rows=[16] | cols=[3] | col_header=False | row_header=False | metadata=False

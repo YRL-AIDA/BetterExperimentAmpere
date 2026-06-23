@@ -361,9 +361,9 @@
         ],
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -727,7 +727,7 @@
         "pdf_text_content": "46",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1091,7 +1091,7 @@
         "pdf_text_content": "46",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1455,7 +1455,7 @@
         "pdf_text_content": "79",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1819,7 +1819,7 @@
         "pdf_text_content": "46",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2183,7 +2183,7 @@
         "pdf_text_content": "63",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2547,7 +2547,7 @@
         "pdf_text_content": "49",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2911,7 +2911,7 @@
         "pdf_text_content": "26",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3275,7 +3275,7 @@
         "pdf_text_content": "73",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3639,7 +3639,7 @@
         "pdf_text_content": "69",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4003,7 +4003,7 @@
         "pdf_text_content": "43",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4367,7 +4367,7 @@
         "pdf_text_content": "48",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4731,7 +4731,7 @@
         "pdf_text_content": "39",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5095,7 +5095,7 @@
         "pdf_text_content": "48",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5459,7 +5459,7 @@
         "pdf_text_content": "17",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5823,7 +5823,7 @@
         "pdf_text_content": "56",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6187,7 +6187,7 @@
         "pdf_text_content": "57",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6551,7 +6551,7 @@
         "pdf_text_content": "61",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6915,7 +6915,7 @@
         "pdf_text_content": "62",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7279,7 +7279,7 @@
         "pdf_text_content": "86",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7643,7 +7643,7 @@
         "pdf_text_content": "32",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8007,7 +8007,7 @@
         "pdf_text_content": "76",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8371,7 +8371,7 @@
         "pdf_text_content": "39",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8735,7 +8735,7 @@
         "pdf_text_content": "53",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9099,7 +9099,7 @@
         "pdf_text_content": "71",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9463,7 +9463,7 @@
         "pdf_text_content": "63",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9827,7 +9827,7 @@
         "pdf_text_content": "48",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10191,7 +10191,7 @@
         "pdf_text_content": "68",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10555,7 +10555,7 @@
         "pdf_text_content": "62",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10919,7 +10919,7 @@
         "pdf_text_content": "58",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -11283,7 +11283,7 @@
         "pdf_text_content": "40",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -11647,7 +11647,7 @@
         "pdf_text_content": "18",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12011,7 +12011,7 @@
         "pdf_text_content": "67",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12375,7 +12375,7 @@
         "pdf_text_content": "71",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12712,7 +12712,7 @@
         "xml_text_content": "CAI",
         "pdf_text_content": "CAI",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -13037,7 +13037,7 @@
         "xml_text_content": "Trad",
         "pdf_text_content": "Trad",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {

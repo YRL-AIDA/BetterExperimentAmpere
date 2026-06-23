@@ -17,7 +17,7 @@ Cell H5 | value='% change 09/10 to 10/11' | fill=FFFFFF00 | rows=[4] | cols=[7] 
 Cell I5 | value='Full Year' | fill=FFFFFF00 | rows=[4] | cols=[8] | col_header=True | row_header=False | metadata=False
 Cell J5 | value='% change 10/11 to 11/12' | fill=FFFFFF00 | rows=[4] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell A6 | value='Participation' | fill=9 | rows=[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell B6 | value='Total Learners' | fill=00000000 | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell B6 | value='Total Learners' | fill=FF00B050 | rows=[5] | cols=[1] | col_header=False | row_header=True | metadata=False
 Cell C6 | value='1312100' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='1449800' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E6 | value='1430600' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -135,7 +135,7 @@ Cell H18 | value='-0.006' | fill=9 | rows=[17] | cols=[7] | col_header=False | r
 Cell I18 | value='7700' | fill=9 | rows=[17] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J18 | value='-0.256' | fill=9 | rows=[17] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell A19 | value='Achievement' | fill=9 | rows=[18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell B19 | value='Total Learners' | fill=00000000 | rows=[18] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell B19 | value='Total Learners' | fill=FF00B050 | rows=[18] | cols=[1] | col_header=False | row_header=True | metadata=False
 Cell C19 | value='812600' | fill=00000000 | rows=[18] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D19 | value='965900' | fill=00000000 | rows=[18] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E19 | value='952400' | fill=00000000 | rows=[18] | cols=[4] | col_header=False | row_header=False | metadata=False

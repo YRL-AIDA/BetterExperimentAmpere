@@ -1,5 +1,5 @@
 === education-table34.xlsx ===
-Cell B1 | value='08:30 to 2:00' | fill=FF00B0F0 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell B1 | value='08:30 to 2:00' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D1 | value='High School - Time Table' | fill=FF00B0F0 | rows=[0] | cols=[3, 4, 5] | col_header=False | row_header=False | metadata=True
 Cell A2 | value='Periods -->
 & Class' | fill=FF00B050 | rows=[1] | cols=[0] | col_header=False | row_header=True | metadata=False

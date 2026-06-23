@@ -14629,8 +14629,8 @@ Cell AN347 | value='1.8' | fill=00000000 | rows=[346] | cols=[39] | col_header=F
 Cell AP347 | value='1.61' | fill=00000000 | rows=[346] | cols=[41] | col_header=False | row_header=False | metadata=False
 Cell AQ347 | value='S-Feb. 2023' | fill=00000000 | rows=[346] | cols=[42] | col_header=False | row_header=False | metadata=False
 Cell AR347 | value='7.1' | fill=00000000 | rows=[346] | cols=[43] | col_header=False | row_header=False | metadata=False
-Cell A349 | value='0' | fill=FF00B0F0 | rows=[348] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B349 | value='Special aggregate indexes' | fill=FF00B0F0 | rows=[348] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell A349 | value='0' | fill=00000000 | rows=[348] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B349 | value='Special aggregate indexes' | fill=00000000 | rows=[348] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell A351 | value='1' | fill=00000000 | rows=[350] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B351 | value='All items less food' | fill=00000000 | rows=[350] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C351 | value='86.58' | fill=00000000 | rows=[350] | cols=[2] | col_header=False | row_header=False | metadata=False

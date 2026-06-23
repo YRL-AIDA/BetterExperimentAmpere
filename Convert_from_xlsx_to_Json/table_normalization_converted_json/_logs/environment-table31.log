@@ -129,21 +129,21 @@ Cell L14 | value='53' | fill=00000000 | rows=[13] | cols=[11] | col_header=False
 Cell M14 | value='308' | fill=00000000 | rows=[13] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N14 | value='1001505' | fill=00000000 | rows=[13] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O14 | value='0.26405029243127276' | fill=00000000 | rows=[13] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A16 | value='Total' | fill=FF00B0F0 | rows=[15] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell B16 | value='468' | fill=FF00B0F0 | rows=[15] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell C16 | value='253' | fill=FF00B0F0 | rows=[15] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D16 | value='332' | fill=FF00B0F0 | rows=[15] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E16 | value='373' | fill=FF00B0F0 | rows=[15] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell F16 | value='211' | fill=FF00B0F0 | rows=[15] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G16 | value='128' | fill=FF00B0F0 | rows=[15] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H16 | value='109' | fill=FF00B0F0 | rows=[15] | cols=[7] | col_header=False | row_header=False | metadata=True
-Cell I16 | value='655' | fill=FF00B0F0 | rows=[15] | cols=[8] | col_header=False | row_header=False | metadata=True
-Cell J16 | value='2529' | fill=FF00B0F0 | rows=[15] | cols=[9] | col_header=False | row_header=False | metadata=True
-Cell K16 | value='14' | fill=FF00B0F0 | rows=[15] | cols=[10] | col_header=False | row_header=False | metadata=True
-Cell L16 | value='622' | fill=FF00B0F0 | rows=[15] | cols=[11] | col_header=False | row_header=False | metadata=True
-Cell M16 | value='3165' | fill=FF00B0F0 | rows=[15] | cols=[12] | col_header=False | row_header=False | metadata=True
-Cell N16 | value='3792857' | fill=FF00B0F0 | rows=[15] | cols=[13] | col_header=False | row_header=False | metadata=True
-Cell O16 | value='1' | fill=FF00B0F0 | rows=[15] | cols=[14] | col_header=False | row_header=False | metadata=True
+Cell A16 | value='Total' | fill=00000000 | rows=[15] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell B16 | value='468' | fill=00000000 | rows=[15] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C16 | value='253' | fill=00000000 | rows=[15] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D16 | value='332' | fill=00000000 | rows=[15] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E16 | value='373' | fill=00000000 | rows=[15] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F16 | value='211' | fill=00000000 | rows=[15] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G16 | value='128' | fill=00000000 | rows=[15] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H16 | value='109' | fill=00000000 | rows=[15] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I16 | value='655' | fill=00000000 | rows=[15] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J16 | value='2529' | fill=00000000 | rows=[15] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K16 | value='14' | fill=00000000 | rows=[15] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L16 | value='622' | fill=00000000 | rows=[15] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M16 | value='3165' | fill=00000000 | rows=[15] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N16 | value='3792857' | fill=00000000 | rows=[15] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O16 | value='1' | fill=00000000 | rows=[15] | cols=[14] | col_header=False | row_header=False | metadata=False
 Cell A18 | value='(1)  Some licence-holders hold more than one licence; these figures are compiled by numbers of project licences, not by numbers of actual licence-holders.' | fill=FF00B0F0 | rows=[17] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A20 | value='(2) Only procedures on adult or free-living animals (including neonatal and juvenile mammals, and newly-hatched birds) are counted.' | fill=FF00B0F0 | rows=[19] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A21 | value='Details of procedures on immature forms (e.g. larvae, embryos, fish fry) are collected but not counted.' | fill=FF00B0F0 | rows=[20] | cols=[0] | col_header=False | row_header=False | metadata=True

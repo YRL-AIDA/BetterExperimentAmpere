@@ -305,9 +305,9 @@ Cell E39 | value='1' | fill=00000000 | rows=[38] | cols=[4] | col_header=False |
 Cell F39 | value='44R' | fill=00000000 | rows=[38] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G39 | value='1' | fill=00000000 | rows=[38] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H39 | value='1' | fill=00000000 | rows=[38] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell A40 | value='TOTAL' | fill=FF00B0F0 | rows=[39] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell D40 | value='42' | fill=FF00B0F0 | rows=[39] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E40 | value='25' | fill=FF00B0F0 | rows=[39] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell G40 | value='42' | fill=FF00B0F0 | rows=[39] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H40 | value='18' | fill=FF00B0F0 | rows=[39] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell A40 | value='TOTAL' | fill=FF00B050 | rows=[39] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell D40 | value='42' | fill=00000000 | rows=[39] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E40 | value='25' | fill=00000000 | rows=[39] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell G40 | value='42' | fill=00000000 | rows=[39] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H40 | value='18' | fill=00000000 | rows=[39] | cols=[7] | col_header=False | row_header=False | metadata=False
 

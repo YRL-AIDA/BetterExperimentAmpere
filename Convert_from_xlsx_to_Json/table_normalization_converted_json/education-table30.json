@@ -257,9 +257,9 @@
         ],
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -467,7 +467,7 @@
         "pdf_text_content": "21",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -675,7 +675,7 @@
         "pdf_text_content": "19",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -883,7 +883,7 @@
         "pdf_text_content": "24",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1091,7 +1091,7 @@
         "pdf_text_content": "7",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1299,7 +1299,7 @@
         "pdf_text_content": "4",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1507,7 +1507,7 @@
         "pdf_text_content": "3",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1715,7 +1715,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1923,7 +1923,7 @@
         "pdf_text_content": "17",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2131,7 +2131,7 @@
         "pdf_text_content": "24",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2339,7 +2339,7 @@
         "pdf_text_content": "14",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2547,7 +2547,7 @@
         "pdf_text_content": "19",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2755,7 +2755,7 @@
         "pdf_text_content": "17",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2963,7 +2963,7 @@
         "pdf_text_content": "10",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3171,7 +3171,7 @@
         "pdf_text_content": "26",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3379,7 +3379,7 @@
         "pdf_text_content": "26",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3587,7 +3587,7 @@
         "pdf_text_content": "4",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3795,7 +3795,7 @@
         "pdf_text_content": "24",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4003,7 +4003,7 @@
         "pdf_text_content": "31",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4211,7 +4211,7 @@
         "pdf_text_content": "15",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4419,7 +4419,7 @@
         "pdf_text_content": "16",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4627,7 +4627,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4835,7 +4835,7 @@
         "pdf_text_content": "27",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5043,7 +5043,7 @@
         "pdf_text_content": "6",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5251,7 +5251,7 @@
         "pdf_text_content": "16",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5459,7 +5459,7 @@
         "pdf_text_content": "12",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5667,7 +5667,7 @@
         "pdf_text_content": "5",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5875,7 +5875,7 @@
         "pdf_text_content": "-2",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6083,7 +6083,7 @@
         "pdf_text_content": "13",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6291,7 +6291,7 @@
         "pdf_text_content": "18",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6499,7 +6499,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6707,7 +6707,7 @@
         "pdf_text_content": "18",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6915,7 +6915,7 @@
         "pdf_text_content": "16",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7123,7 +7123,7 @@
         "pdf_text_content": "18",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7331,7 +7331,7 @@
         "pdf_text_content": "14",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7539,7 +7539,7 @@
         "pdf_text_content": "23",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7747,7 +7747,7 @@
         "pdf_text_content": "10",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7955,7 +7955,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8163,7 +8163,7 @@
         "pdf_text_content": "1",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8371,7 +8371,7 @@
         "pdf_text_content": "5",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8579,7 +8579,7 @@
         "pdf_text_content": "-1",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8787,7 +8787,7 @@
         "pdf_text_content": "28",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9020,7 +9020,7 @@
         "xml_text_content": "CAI",
         "pdf_text_content": "CAI",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -9241,7 +9241,7 @@
         "xml_text_content": "Blended",
         "pdf_text_content": "Blended",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {

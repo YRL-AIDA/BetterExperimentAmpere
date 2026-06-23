@@ -14,16 +14,16 @@ Cell N2 | value='Price' | fill=FFFFFF00 | rows=[1] | cols=[13, 14] | col_header=
 Cell A3 | value='Product Name' | fill=FFFFFF00 | rows=[2] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B3 | value='Blank Size (in)' | fill=FFFFFF00 | rows=[2] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C3 | value='Width Ratio' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D3 | value='Galvalume' | fill=FFFFFF00 | rows=[2] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E3 | value='Painted' | fill=FFFFFF00 | rows=[2] | cols=[4] | col_header=True | row_header=False | metadata=False
+Cell D3 | value='Galvalume' | fill=00000000 | rows=[2] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E3 | value='Painted' | fill=00000000 | rows=[2] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F3 | value='Feet' | fill=FFFFFF00 | rows=[2] | cols=[5] | col_header=True | row_header=False | metadata=False
 Cell G3 | value='Inches' | fill=FFFFFF00 | rows=[2] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H3 | value='Galvalume' | fill=FFFFFF00 | rows=[2] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I3 | value='Painted' | fill=FFFFFF00 | rows=[2] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell L3 | value='Galvalume' | fill=FFFFFF00 | rows=[2] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M3 | value='Painted' | fill=FFFFFF00 | rows=[2] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N3 | value='Galvalume' | fill=FFFFFF00 | rows=[2] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O3 | value='Painted' | fill=FFFFFF00 | rows=[2] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell H3 | value='Galvalume' | fill=00000000 | rows=[2] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I3 | value='Painted' | fill=00000000 | rows=[2] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell L3 | value='Galvalume' | fill=00000000 | rows=[2] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M3 | value='Painted' | fill=00000000 | rows=[2] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N3 | value='Galvalume' | fill=00000000 | rows=[2] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O3 | value='Painted' | fill=00000000 | rows=[2] | cols=[14] | col_header=False | row_header=False | metadata=False
 Cell A4 | value='W - Valley' | fill=00000000 | rows=[3] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B4 | value='21' | fill=00000000 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C4 | value='0.51219512195122' | fill=00000000 | rows=[3] | cols=[2] | col_header=False | row_header=False | metadata=False

@@ -1,14 +1,14 @@
 === economy-table99.xlsx ===
 Cell A1 | value='Table 3: Number of buildings and final customers' | fill=FF00B0F0 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=True
-Cell B5 | value='Residential' | fill=FFFFFF00 | rows=[4] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C5 | value='Commercial' | fill=FFFFFF00 | rows=[4] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D5 | value='Retail' | fill=FFFFFF00 | rows=[4] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E5 | value='Light Industrial' | fill=FFFFFF00 | rows=[4] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F5 | value='Industrial' | fill=FFFFFF00 | rows=[4] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G5 | value='Education' | fill=FFFFFF00 | rows=[4] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H5 | value='Public' | fill=FFFFFF00 | rows=[4] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I5 | value='Other' | fill=FFFFFF00 | rows=[4] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J5 | value='Total' | fill=FFFFFF00 | rows=[4] | cols=[9] | col_header=True | row_header=False | metadata=False
+Cell B5 | value='Residential' | fill=00000000 | rows=[4] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C5 | value='Commercial' | fill=00000000 | rows=[4] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D5 | value='Retail' | fill=00000000 | rows=[4] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E5 | value='Light Industrial' | fill=00000000 | rows=[4] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F5 | value='Industrial' | fill=00000000 | rows=[4] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G5 | value='Education' | fill=00000000 | rows=[4] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H5 | value='Public' | fill=00000000 | rows=[4] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I5 | value='Other' | fill=00000000 | rows=[4] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J5 | value='Total' | fill=00000000 | rows=[4] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell A8 | value='Number of Buildings' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='England' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='54247' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False

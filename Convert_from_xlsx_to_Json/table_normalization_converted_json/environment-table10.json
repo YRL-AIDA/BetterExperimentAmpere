@@ -23,7 +23,7 @@
         ],
         "xml_text_content": "Solid",
         "pdf_text_content": "Solid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Gas",
         "pdf_text_content": "Gas",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Electric",
         "pdf_text_content": "Electric",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Oil",
         "pdf_text_content": "Oil",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Renewables",
         "pdf_text_content": "Renewables",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "All fuels",
         "pdf_text_content": "All fuels",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

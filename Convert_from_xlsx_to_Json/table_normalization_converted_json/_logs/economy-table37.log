@@ -95,8 +95,8 @@ Cell B22 | value='Taylor' | fill=00000000 | rows=[21] | cols=[1] | col_header=Fa
 Cell C22 | value='20' | fill=00000000 | rows=[21] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D22 | value='28' | fill=00000000 | rows=[21] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E22 | value='1072.3999999999999' | fill=00000000 | rows=[21] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell A23 | value='Grand Total' | fill=FF00B0F0 | rows=[22] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell C23 | value='200' | fill=FF00B0F0 | rows=[22] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D23 | value='441' | fill=FF00B0F0 | rows=[22] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E23 | value='17092.42' | fill=FF00B0F0 | rows=[22] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell A23 | value='Grand Total' | fill=FF00B050 | rows=[22] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell C23 | value='200' | fill=00000000 | rows=[22] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D23 | value='441' | fill=00000000 | rows=[22] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E23 | value='17092.42' | fill=00000000 | rows=[22] | cols=[4] | col_header=False | row_header=False | metadata=False
 

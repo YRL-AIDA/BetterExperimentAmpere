@@ -69,8 +69,8 @@ Cell D10 | value='SA' | fill=00000000 | rows=[9] | cols=[3] | col_header=False |
 Cell E10 | value='0' | fill=00000000 | rows=[9] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F10 | value='2000' | fill=00000000 | rows=[9] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G10 | value='200' | fill=00000000 | rows=[9] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell A11 | value='TOTAL' | fill=FF00B0F0 | rows=[10] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell E11 | value='52200' | fill=FF00B0F0 | rows=[10] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell F11 | value='5500' | fill=FF00B0F0 | rows=[10] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G11 | value='46700' | fill=FF00B0F0 | rows=[10] | cols=[6] | col_header=False | row_header=False | metadata=True
+Cell A11 | value='TOTAL' | fill=FF00B050 | rows=[10] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell E11 | value='52200' | fill=00000000 | rows=[10] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F11 | value='5500' | fill=00000000 | rows=[10] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G11 | value='46700' | fill=00000000 | rows=[10] | cols=[6] | col_header=False | row_header=False | metadata=False
 

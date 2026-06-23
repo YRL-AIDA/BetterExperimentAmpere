@@ -1,6 +1,6 @@
 === employment-table14.xlsx ===
 Cell A1 | value='Category' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[0] | col_header=True | row_header=True | metadata=False
-Cell B1 | value='Hispanic or Latino ethnicity' | fill=00000000 | rows=[0] | cols=[1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=False
+Cell B1 | value='Hispanic or Latino ethnicity' | fill=FFFFFF00 | rows=[0] | cols=[1, 2, 3, 4, 5, 6, 7, 8] | col_header=True | row_header=False | metadata=False
 Cell B2 | value='Total(1)' | fill=00000000 | rows=[1] | cols=[1, 2] | col_header=False | row_header=False | metadata=False
 Cell D2 | value='Mexican' | fill=00000000 | rows=[1] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
 Cell F2 | value='Puerto Rican' | fill=00000000 | rows=[1] | cols=[5, 6] | col_header=False | row_header=False | metadata=False
@@ -40,7 +40,7 @@ Cell F7 | value='1114' | fill=00000000 | rows=[6] | cols=[5] | col_header=False 
 Cell G7 | value='1163' | fill=00000000 | rows=[6] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H7 | value='591' | fill=00000000 | rows=[6] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I7 | value='599' | fill=00000000 | rows=[6] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A9 | value='OCCUPATION' | fill=FFFFFF00 | rows=[8] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A9 | value='OCCUPATION' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A10 | value='Management, professional, and related occupations' | fill=00000000 | rows=[9] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B10 | value='7414' | fill=00000000 | rows=[9] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C10 | value='7884' | fill=00000000 | rows=[9] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -302,7 +302,7 @@ Cell F38 | value='238' | fill=00000000 | rows=[37] | cols=[5] | col_header=False
 Cell G38 | value='239' | fill=00000000 | rows=[37] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H38 | value='169' | fill=00000000 | rows=[37] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I38 | value='171' | fill=00000000 | rows=[37] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A40 | value='CLASS OF WORKER(2)' | fill=FFFFFF00 | rows=[39] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A40 | value='CLASS OF WORKER(2)' | fill=00000000 | rows=[39] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A41 | value='Agriculture' | fill=00000000 | rows=[40] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A42 | value='Wage and salary workers(3)' | fill=00000000 | rows=[41] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B42 | value='535' | fill=00000000 | rows=[41] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -377,7 +377,7 @@ Cell F50 | value='88' | fill=00000000 | rows=[49] | cols=[5] | col_header=False 
 Cell G50 | value='88' | fill=00000000 | rows=[49] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H50 | value='97' | fill=00000000 | rows=[49] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I50 | value='82' | fill=00000000 | rows=[49] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A52 | value='FULL- OR PART-TIME STATUS(4)' | fill=FFFFFF00 | rows=[51] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A52 | value='FULL- OR PART-TIME STATUS(4)' | fill=00000000 | rows=[51] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A53 | value='Full-time workers' | fill=00000000 | rows=[52] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B53 | value='24581' | fill=00000000 | rows=[52] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C53 | value='25318' | fill=00000000 | rows=[52] | cols=[2] | col_header=False | row_header=False | metadata=False

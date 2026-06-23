@@ -4,7 +4,7 @@ ANNUAL AVERAGES
 6. Employment status of the Hispanic or Latino population by sex, age, and detailed ethnic group' | fill=FF00B0F0 | rows=[0] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8] | col_header=True | row_header=True | metadata=True
 Cell A2 | value='[Numbers in thousands]' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A4 | value='Employment status, sex, and age' | fill=FFFFFF00 | rows=[3, 4, 5] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B4 | value='Hispanic or Latino ethnicity' | fill=00000000 | rows=[3] | cols=[1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=False
+Cell B4 | value='Hispanic or Latino ethnicity' | fill=FFFFFF00 | rows=[3] | cols=[1, 2, 3, 4, 5, 6, 7, 8] | col_header=True | row_header=False | metadata=False
 Cell B5 | value='Total(1)' | fill=00000000 | rows=[4] | cols=[1, 2] | col_header=False | row_header=False | metadata=False
 Cell D5 | value='Mexican' | fill=00000000 | rows=[4] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
 Cell F5 | value='Puerto Rican' | fill=00000000 | rows=[4] | cols=[5, 6] | col_header=False | row_header=False | metadata=False

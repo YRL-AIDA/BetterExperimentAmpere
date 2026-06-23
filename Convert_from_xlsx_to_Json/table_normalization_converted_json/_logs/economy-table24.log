@@ -2,108 +2,108 @@
 Cell B1 | value='Africa's Development Dynamics (AfDD) - all tables, all indicators' | fill=FF00B0F0 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=True
 Cell B2 | value='Frequency of observation: Annual' | fill=FF00B0F0 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=True
 Cell B3 | value='Time period: 2023' | fill=FF00B0F0 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell B5 | value='Table identifier' | fill=FFFFFF00 | rows=[4] | cols=[1, 2] | col_header=True | row_header=False | metadata=False
-Cell D5 | value='Table 01 - Indicators of growth, employment and inequality' | fill=FFFFFF00 | rows=[4] | cols=[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] | col_header=True | row_header=False | metadata=False
-Cell O5 | value='Table 05 - Demographic estimates' | fill=FFFFFF00 | rows=[4] | cols=[14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26] | col_header=True | row_header=False | metadata=False
-Cell AB5 | value='Table 06 - Basic education indicators' | fill=FFFFFF00 | rows=[4] | cols=[27, 28, 29, 30, 31, 32, 33, 34] | col_header=True | row_header=False | metadata=False
-Cell AJ5 | value='Table 07 - Labour force characteristics' | fill=FFFFFF00 | rows=[4] | cols=[35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53] | col_header=True | row_header=False | metadata=False
-Cell B6 | value='Combined measure' | fill=FFFFFF00 | rows=[5] | cols=[1, 2] | col_header=True | row_header=False | metadata=False
-Cell D6 | value='Population' | fill=FFFFFF00 | rows=[5] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E6 | value='Gross domestic product' | fill=FFFFFF00 | rows=[5] | cols=[4, 5, 6] | col_header=True | row_header=False | metadata=False
-Cell H6 | value='Growth rate of real gross domestic product' | fill=FFFFFF00 | rows=[5] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I6 | value='Inflation, average consumer prices' | fill=FFFFFF00 | rows=[5] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J6 | value='Gini coefficient (World Bank estimate)' | fill=FFFFFF00 | rows=[5] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K6 | value='Population in extreme poverty ($2.15 a day)' | fill=FFFFFF00 | rows=[5] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L6 | value='Human development index (HDI)' | fill=FFFFFF00 | rows=[5] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M6 | value='Inequality-adjusted HDI (IHDI)' | fill=FFFFFF00 | rows=[5] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N6 | value='Population with access to electricity' | fill=FFFFFF00 | rows=[5] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O6 | value='Population' | fill=FFFFFF00 | rows=[5] | cols=[14] | col_header=True | row_header=False | metadata=False
-Cell P6 | value='Population, Urban area' | fill=FFFFFF00 | rows=[5] | cols=[15] | col_header=True | row_header=False | metadata=False
-Cell Q6 | value='Population, Rural area' | fill=FFFFFF00 | rows=[5] | cols=[16] | col_header=True | row_header=False | metadata=False
-Cell R6 | value='Population living in urban agglomerations of 300,000 to 1 million inhabitants' | fill=FFFFFF00 | rows=[5] | cols=[17] | col_header=True | row_header=False | metadata=False
-Cell S6 | value='Number of urban agglomerations of 300,000 to 1 million inhabitants' | fill=FFFFFF00 | rows=[5] | cols=[18] | col_header=True | row_header=False | metadata=False
-Cell T6 | value='Population living in urban agglomerations of over 1 million inhabitants' | fill=FFFFFF00 | rows=[5] | cols=[19] | col_header=True | row_header=False | metadata=False
-Cell U6 | value='Number of urban agglomerations of over 1 million inhabitants' | fill=FFFFFF00 | rows=[5] | cols=[20] | col_header=True | row_header=False | metadata=False
-Cell V6 | value='Old-age dependency ratio' | fill=FFFFFF00 | rows=[5] | cols=[21] | col_header=True | row_header=False | metadata=False
-Cell W6 | value='Child dependency ratio' | fill=FFFFFF00 | rows=[5] | cols=[22] | col_header=True | row_header=False | metadata=False
-Cell X6 | value='Total dependency ratio' | fill=FFFFFF00 | rows=[5] | cols=[23] | col_header=True | row_header=False | metadata=False
-Cell Y6 | value='Population with access to electricity' | fill=FFFFFF00 | rows=[5] | cols=[24] | col_header=True | row_header=False | metadata=False
-Cell Z6 | value='Population with access to electricity, Urban area' | fill=FFFFFF00 | rows=[5] | cols=[25] | col_header=True | row_header=False | metadata=False
-Cell AA6 | value='Population with access to electricity, Rural area' | fill=FFFFFF00 | rows=[5] | cols=[26] | col_header=True | row_header=False | metadata=False
-Cell AB6 | value='Youth literacy rate, Female' | fill=FFFFFF00 | rows=[5] | cols=[27] | col_header=True | row_header=False | metadata=False
-Cell AC6 | value='Youth literacy rate, Male' | fill=FFFFFF00 | rows=[5] | cols=[28] | col_header=True | row_header=False | metadata=False
-Cell AD6 | value='Youth literacy rate' | fill=FFFFFF00 | rows=[5] | cols=[29] | col_header=True | row_header=False | metadata=False
-Cell AE6 | value='Youth literacy rate, population 15-24 years, adjusted gender parity index (GPIA)' | fill=FFFFFF00 | rows=[5] | cols=[30] | col_header=True | row_header=False | metadata=False
-Cell AF6 | value='Adult literacy rate, Female' | fill=FFFFFF00 | rows=[5] | cols=[31] | col_header=True | row_header=False | metadata=False
-Cell AG6 | value='Adult literacy rate, Male' | fill=FFFFFF00 | rows=[5] | cols=[32] | col_header=True | row_header=False | metadata=False
-Cell AH6 | value='Adult literacy rate' | fill=FFFFFF00 | rows=[5] | cols=[33] | col_header=True | row_header=False | metadata=False
-Cell AI6 | value='Adult literacy rate, population 15+ years, adjusted gender parity index (GPIA)' | fill=FFFFFF00 | rows=[5] | cols=[34] | col_header=True | row_header=False | metadata=False
-Cell AJ6 | value='Employment, Female' | fill=FFFFFF00 | rows=[5] | cols=[35] | col_header=True | row_header=False | metadata=False
-Cell AK6 | value='Employment, Male' | fill=FFFFFF00 | rows=[5] | cols=[36] | col_header=True | row_header=False | metadata=False
-Cell AL6 | value='Employment' | fill=FFFFFF00 | rows=[5] | cols=[37] | col_header=True | row_header=False | metadata=False
-Cell AM6 | value='Employment' | fill=FFFFFF00 | rows=[5] | cols=[38] | col_header=True | row_header=False | metadata=False
-Cell AN6 | value='Workers aged 15+ in vulnerable employment' | fill=FFFFFF00 | rows=[5] | cols=[39, 40] | col_header=True | row_header=False | metadata=False
-Cell AP6 | value='Workers aged 15+ classified as employees' | fill=FFFFFF00 | rows=[5] | cols=[41, 42] | col_header=True | row_header=False | metadata=False
-Cell AR6 | value='Workers aged 15+ classified as employers' | fill=FFFFFF00 | rows=[5] | cols=[43, 44] | col_header=True | row_header=False | metadata=False
-Cell AT6 | value='Workers aged 15+ classified as own-account workers' | fill=FFFFFF00 | rows=[5] | cols=[45, 46] | col_header=True | row_header=False | metadata=False
-Cell AV6 | value='Workers aged 15+ classified as contributing family workers' | fill=FFFFFF00 | rows=[5] | cols=[47, 48] | col_header=True | row_header=False | metadata=False
-Cell AX6 | value='Informal employment, Female' | fill=FFFFFF00 | rows=[5] | cols=[49] | col_header=True | row_header=False | metadata=False
-Cell AY6 | value='Informal employment, Male' | fill=FFFFFF00 | rows=[5] | cols=[50] | col_header=True | row_header=False | metadata=False
-Cell AZ6 | value='Informal employment' | fill=FFFFFF00 | rows=[5] | cols=[51] | col_header=True | row_header=False | metadata=False
-Cell BA6 | value='Unemployment' | fill=FFFFFF00 | rows=[5] | cols=[52] | col_header=True | row_header=False | metadata=False
-Cell BB6 | value='Population outside the labour force' | fill=FFFFFF00 | rows=[5] | cols=[53] | col_header=True | row_header=False | metadata=False
-Cell B7 | value='Unit of measure' | fill=FFFFFF00 | rows=[6] | cols=[1, 2] | col_header=True | row_header=False | metadata=False
-Cell D7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E7 | value='US dollar' | fill=FFFFFF00 | rows=[6] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F7 | value='US dollars, PPP converted' | fill=FFFFFF00 | rows=[6] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G7 | value='US dollars per person, PPP converted' | fill=FFFFFF00 | rows=[6] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H7 | value='Percent per annum' | fill=FFFFFF00 | rows=[6] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I7 | value='Index' | fill=FFFFFF00 | rows=[6] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J7 | value='0-1 scale' | fill=FFFFFF00 | rows=[6] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K7 | value='Percentage of population' | fill=FFFFFF00 | rows=[6] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L7 | value='Index' | fill=FFFFFF00 | rows=[6] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M7 | value='Index' | fill=FFFFFF00 | rows=[6] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N7 | value='Percentage of population' | fill=FFFFFF00 | rows=[6] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[14] | col_header=True | row_header=False | metadata=False
-Cell P7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[15] | col_header=True | row_header=False | metadata=False
-Cell Q7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[16] | col_header=True | row_header=False | metadata=False
-Cell R7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[17] | col_header=True | row_header=False | metadata=False
-Cell S7 | value='Units' | fill=FFFFFF00 | rows=[6] | cols=[18] | col_header=True | row_header=False | metadata=False
-Cell T7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[19] | col_header=True | row_header=False | metadata=False
-Cell U7 | value='Units' | fill=FFFFFF00 | rows=[6] | cols=[20] | col_header=True | row_header=False | metadata=False
-Cell V7 | value='Percentage of population aged 15-64 years' | fill=FFFFFF00 | rows=[6] | cols=[21] | col_header=True | row_header=False | metadata=False
-Cell W7 | value='Percentage of population aged 15-64 years' | fill=FFFFFF00 | rows=[6] | cols=[22] | col_header=True | row_header=False | metadata=False
-Cell X7 | value='Percentage of population aged 15-64 years' | fill=FFFFFF00 | rows=[6] | cols=[23] | col_header=True | row_header=False | metadata=False
-Cell Y7 | value='Percentage of population' | fill=FFFFFF00 | rows=[6] | cols=[24] | col_header=True | row_header=False | metadata=False
-Cell Z7 | value='Percentage of population' | fill=FFFFFF00 | rows=[6] | cols=[25] | col_header=True | row_header=False | metadata=False
-Cell AA7 | value='Percentage of population' | fill=FFFFFF00 | rows=[6] | cols=[26] | col_header=True | row_header=False | metadata=False
-Cell AB7 | value='Percentage of population in the same subgroup' | fill=FFFFFF00 | rows=[6] | cols=[27] | col_header=True | row_header=False | metadata=False
-Cell AC7 | value='Percentage of population in the same subgroup' | fill=FFFFFF00 | rows=[6] | cols=[28] | col_header=True | row_header=False | metadata=False
-Cell AD7 | value='Percentage of population in the same subgroup' | fill=FFFFFF00 | rows=[6] | cols=[29] | col_header=True | row_header=False | metadata=False
-Cell AE7 | value='Index' | fill=FFFFFF00 | rows=[6] | cols=[30] | col_header=True | row_header=False | metadata=False
-Cell AF7 | value='Percentage of population in the same subgroup' | fill=FFFFFF00 | rows=[6] | cols=[31] | col_header=True | row_header=False | metadata=False
-Cell AG7 | value='Percentage of population in the same subgroup' | fill=FFFFFF00 | rows=[6] | cols=[32] | col_header=True | row_header=False | metadata=False
-Cell AH7 | value='Percentage of population in the same subgroup' | fill=FFFFFF00 | rows=[6] | cols=[33] | col_header=True | row_header=False | metadata=False
-Cell AI7 | value='Index' | fill=FFFFFF00 | rows=[6] | cols=[34] | col_header=True | row_header=False | metadata=False
-Cell AJ7 | value='Percentage of population aged 15 years or over' | fill=FFFFFF00 | rows=[6] | cols=[35] | col_header=True | row_header=False | metadata=False
-Cell AK7 | value='Percentage of population aged 15 years or over' | fill=FFFFFF00 | rows=[6] | cols=[36] | col_header=True | row_header=False | metadata=False
-Cell AL7 | value='Percentage of population aged 15 years or over' | fill=FFFFFF00 | rows=[6] | cols=[37] | col_header=True | row_header=False | metadata=False
-Cell AM7 | value='Percentage of population aged 25-54 years' | fill=FFFFFF00 | rows=[6] | cols=[38] | col_header=True | row_header=False | metadata=False
-Cell AN7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[39] | col_header=True | row_header=False | metadata=False
-Cell AO7 | value='Percentage of employment' | fill=FFFFFF00 | rows=[6] | cols=[40] | col_header=True | row_header=False | metadata=False
-Cell AP7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[41] | col_header=True | row_header=False | metadata=False
-Cell AQ7 | value='Percentage of workers' | fill=FFFFFF00 | rows=[6] | cols=[42] | col_header=True | row_header=False | metadata=False
-Cell AR7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[43] | col_header=True | row_header=False | metadata=False
-Cell AS7 | value='Percentage of workers' | fill=FFFFFF00 | rows=[6] | cols=[44] | col_header=True | row_header=False | metadata=False
-Cell AT7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[45] | col_header=True | row_header=False | metadata=False
-Cell AU7 | value='Percentage of workers' | fill=FFFFFF00 | rows=[6] | cols=[46] | col_header=True | row_header=False | metadata=False
-Cell AV7 | value='Persons' | fill=FFFFFF00 | rows=[6] | cols=[47] | col_header=True | row_header=False | metadata=False
-Cell AW7 | value='Percentage of workers' | fill=FFFFFF00 | rows=[6] | cols=[48] | col_header=True | row_header=False | metadata=False
-Cell AX7 | value='Percentage of employment' | fill=FFFFFF00 | rows=[6] | cols=[49] | col_header=True | row_header=False | metadata=False
-Cell AY7 | value='Percentage of employment' | fill=FFFFFF00 | rows=[6] | cols=[50] | col_header=True | row_header=False | metadata=False
-Cell AZ7 | value='Percentage of employment' | fill=FFFFFF00 | rows=[6] | cols=[51] | col_header=True | row_header=False | metadata=False
-Cell BA7 | value='Percentage of population aged 25-54 years' | fill=FFFFFF00 | rows=[6] | cols=[52] | col_header=True | row_header=False | metadata=False
-Cell BB7 | value='Percentage of population aged 25-54 years' | fill=FFFFFF00 | rows=[6] | cols=[53] | col_header=True | row_header=False | metadata=False
+Cell B5 | value='Table identifier' | fill=FF00B050 | rows=[4] | cols=[1, 2] | col_header=False | row_header=True | metadata=False
+Cell D5 | value='Table 01 - Indicators of growth, employment and inequality' | fill=00000000 | rows=[4] | cols=[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] | col_header=False | row_header=False | metadata=False
+Cell O5 | value='Table 05 - Demographic estimates' | fill=00000000 | rows=[4] | cols=[14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26] | col_header=False | row_header=False | metadata=False
+Cell AB5 | value='Table 06 - Basic education indicators' | fill=00000000 | rows=[4] | cols=[27, 28, 29, 30, 31, 32, 33, 34] | col_header=False | row_header=False | metadata=False
+Cell AJ5 | value='Table 07 - Labour force characteristics' | fill=00000000 | rows=[4] | cols=[35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53] | col_header=False | row_header=False | metadata=False
+Cell B6 | value='Combined measure' | fill=FF00B050 | rows=[5] | cols=[1, 2] | col_header=False | row_header=True | metadata=False
+Cell D6 | value='Population' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E6 | value='Gross domestic product' | fill=00000000 | rows=[5] | cols=[4, 5, 6] | col_header=False | row_header=False | metadata=False
+Cell H6 | value='Growth rate of real gross domestic product' | fill=00000000 | rows=[5] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I6 | value='Inflation, average consumer prices' | fill=00000000 | rows=[5] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J6 | value='Gini coefficient (World Bank estimate)' | fill=00000000 | rows=[5] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K6 | value='Population in extreme poverty ($2.15 a day)' | fill=00000000 | rows=[5] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L6 | value='Human development index (HDI)' | fill=00000000 | rows=[5] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M6 | value='Inequality-adjusted HDI (IHDI)' | fill=00000000 | rows=[5] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N6 | value='Population with access to electricity' | fill=00000000 | rows=[5] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O6 | value='Population' | fill=00000000 | rows=[5] | cols=[14] | col_header=False | row_header=False | metadata=False
+Cell P6 | value='Population, Urban area' | fill=00000000 | rows=[5] | cols=[15] | col_header=False | row_header=False | metadata=False
+Cell Q6 | value='Population, Rural area' | fill=00000000 | rows=[5] | cols=[16] | col_header=False | row_header=False | metadata=False
+Cell R6 | value='Population living in urban agglomerations of 300,000 to 1 million inhabitants' | fill=00000000 | rows=[5] | cols=[17] | col_header=False | row_header=False | metadata=False
+Cell S6 | value='Number of urban agglomerations of 300,000 to 1 million inhabitants' | fill=00000000 | rows=[5] | cols=[18] | col_header=False | row_header=False | metadata=False
+Cell T6 | value='Population living in urban agglomerations of over 1 million inhabitants' | fill=00000000 | rows=[5] | cols=[19] | col_header=False | row_header=False | metadata=False
+Cell U6 | value='Number of urban agglomerations of over 1 million inhabitants' | fill=00000000 | rows=[5] | cols=[20] | col_header=False | row_header=False | metadata=False
+Cell V6 | value='Old-age dependency ratio' | fill=00000000 | rows=[5] | cols=[21] | col_header=False | row_header=False | metadata=False
+Cell W6 | value='Child dependency ratio' | fill=00000000 | rows=[5] | cols=[22] | col_header=False | row_header=False | metadata=False
+Cell X6 | value='Total dependency ratio' | fill=00000000 | rows=[5] | cols=[23] | col_header=False | row_header=False | metadata=False
+Cell Y6 | value='Population with access to electricity' | fill=00000000 | rows=[5] | cols=[24] | col_header=False | row_header=False | metadata=False
+Cell Z6 | value='Population with access to electricity, Urban area' | fill=00000000 | rows=[5] | cols=[25] | col_header=False | row_header=False | metadata=False
+Cell AA6 | value='Population with access to electricity, Rural area' | fill=00000000 | rows=[5] | cols=[26] | col_header=False | row_header=False | metadata=False
+Cell AB6 | value='Youth literacy rate, Female' | fill=00000000 | rows=[5] | cols=[27] | col_header=False | row_header=False | metadata=False
+Cell AC6 | value='Youth literacy rate, Male' | fill=00000000 | rows=[5] | cols=[28] | col_header=False | row_header=False | metadata=False
+Cell AD6 | value='Youth literacy rate' | fill=00000000 | rows=[5] | cols=[29] | col_header=False | row_header=False | metadata=False
+Cell AE6 | value='Youth literacy rate, population 15-24 years, adjusted gender parity index (GPIA)' | fill=00000000 | rows=[5] | cols=[30] | col_header=False | row_header=False | metadata=False
+Cell AF6 | value='Adult literacy rate, Female' | fill=00000000 | rows=[5] | cols=[31] | col_header=False | row_header=False | metadata=False
+Cell AG6 | value='Adult literacy rate, Male' | fill=00000000 | rows=[5] | cols=[32] | col_header=False | row_header=False | metadata=False
+Cell AH6 | value='Adult literacy rate' | fill=00000000 | rows=[5] | cols=[33] | col_header=False | row_header=False | metadata=False
+Cell AI6 | value='Adult literacy rate, population 15+ years, adjusted gender parity index (GPIA)' | fill=00000000 | rows=[5] | cols=[34] | col_header=False | row_header=False | metadata=False
+Cell AJ6 | value='Employment, Female' | fill=00000000 | rows=[5] | cols=[35] | col_header=False | row_header=False | metadata=False
+Cell AK6 | value='Employment, Male' | fill=00000000 | rows=[5] | cols=[36] | col_header=False | row_header=False | metadata=False
+Cell AL6 | value='Employment' | fill=00000000 | rows=[5] | cols=[37] | col_header=False | row_header=False | metadata=False
+Cell AM6 | value='Employment' | fill=00000000 | rows=[5] | cols=[38] | col_header=False | row_header=False | metadata=False
+Cell AN6 | value='Workers aged 15+ in vulnerable employment' | fill=00000000 | rows=[5] | cols=[39, 40] | col_header=False | row_header=False | metadata=False
+Cell AP6 | value='Workers aged 15+ classified as employees' | fill=00000000 | rows=[5] | cols=[41, 42] | col_header=False | row_header=False | metadata=False
+Cell AR6 | value='Workers aged 15+ classified as employers' | fill=00000000 | rows=[5] | cols=[43, 44] | col_header=False | row_header=False | metadata=False
+Cell AT6 | value='Workers aged 15+ classified as own-account workers' | fill=00000000 | rows=[5] | cols=[45, 46] | col_header=False | row_header=False | metadata=False
+Cell AV6 | value='Workers aged 15+ classified as contributing family workers' | fill=00000000 | rows=[5] | cols=[47, 48] | col_header=False | row_header=False | metadata=False
+Cell AX6 | value='Informal employment, Female' | fill=00000000 | rows=[5] | cols=[49] | col_header=False | row_header=False | metadata=False
+Cell AY6 | value='Informal employment, Male' | fill=00000000 | rows=[5] | cols=[50] | col_header=False | row_header=False | metadata=False
+Cell AZ6 | value='Informal employment' | fill=00000000 | rows=[5] | cols=[51] | col_header=False | row_header=False | metadata=False
+Cell BA6 | value='Unemployment' | fill=00000000 | rows=[5] | cols=[52] | col_header=False | row_header=False | metadata=False
+Cell BB6 | value='Population outside the labour force' | fill=00000000 | rows=[5] | cols=[53] | col_header=False | row_header=False | metadata=False
+Cell B7 | value='Unit of measure' | fill=FF00B050 | rows=[6] | cols=[1, 2] | col_header=False | row_header=True | metadata=False
+Cell D7 | value='Persons' | fill=00000000 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E7 | value='US dollar' | fill=00000000 | rows=[6] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F7 | value='US dollars, PPP converted' | fill=00000000 | rows=[6] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G7 | value='US dollars per person, PPP converted' | fill=00000000 | rows=[6] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H7 | value='Percent per annum' | fill=00000000 | rows=[6] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I7 | value='Index' | fill=00000000 | rows=[6] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J7 | value='0-1 scale' | fill=00000000 | rows=[6] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K7 | value='Percentage of population' | fill=00000000 | rows=[6] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L7 | value='Index' | fill=00000000 | rows=[6] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M7 | value='Index' | fill=00000000 | rows=[6] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N7 | value='Percentage of population' | fill=00000000 | rows=[6] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O7 | value='Persons' | fill=00000000 | rows=[6] | cols=[14] | col_header=False | row_header=False | metadata=False
+Cell P7 | value='Persons' | fill=00000000 | rows=[6] | cols=[15] | col_header=False | row_header=False | metadata=False
+Cell Q7 | value='Persons' | fill=00000000 | rows=[6] | cols=[16] | col_header=False | row_header=False | metadata=False
+Cell R7 | value='Persons' | fill=00000000 | rows=[6] | cols=[17] | col_header=False | row_header=False | metadata=False
+Cell S7 | value='Units' | fill=00000000 | rows=[6] | cols=[18] | col_header=False | row_header=False | metadata=False
+Cell T7 | value='Persons' | fill=00000000 | rows=[6] | cols=[19] | col_header=False | row_header=False | metadata=False
+Cell U7 | value='Units' | fill=00000000 | rows=[6] | cols=[20] | col_header=False | row_header=False | metadata=False
+Cell V7 | value='Percentage of population aged 15-64 years' | fill=00000000 | rows=[6] | cols=[21] | col_header=False | row_header=False | metadata=False
+Cell W7 | value='Percentage of population aged 15-64 years' | fill=00000000 | rows=[6] | cols=[22] | col_header=False | row_header=False | metadata=False
+Cell X7 | value='Percentage of population aged 15-64 years' | fill=00000000 | rows=[6] | cols=[23] | col_header=False | row_header=False | metadata=False
+Cell Y7 | value='Percentage of population' | fill=00000000 | rows=[6] | cols=[24] | col_header=False | row_header=False | metadata=False
+Cell Z7 | value='Percentage of population' | fill=00000000 | rows=[6] | cols=[25] | col_header=False | row_header=False | metadata=False
+Cell AA7 | value='Percentage of population' | fill=00000000 | rows=[6] | cols=[26] | col_header=False | row_header=False | metadata=False
+Cell AB7 | value='Percentage of population in the same subgroup' | fill=00000000 | rows=[6] | cols=[27] | col_header=False | row_header=False | metadata=False
+Cell AC7 | value='Percentage of population in the same subgroup' | fill=00000000 | rows=[6] | cols=[28] | col_header=False | row_header=False | metadata=False
+Cell AD7 | value='Percentage of population in the same subgroup' | fill=00000000 | rows=[6] | cols=[29] | col_header=False | row_header=False | metadata=False
+Cell AE7 | value='Index' | fill=00000000 | rows=[6] | cols=[30] | col_header=False | row_header=False | metadata=False
+Cell AF7 | value='Percentage of population in the same subgroup' | fill=00000000 | rows=[6] | cols=[31] | col_header=False | row_header=False | metadata=False
+Cell AG7 | value='Percentage of population in the same subgroup' | fill=00000000 | rows=[6] | cols=[32] | col_header=False | row_header=False | metadata=False
+Cell AH7 | value='Percentage of population in the same subgroup' | fill=00000000 | rows=[6] | cols=[33] | col_header=False | row_header=False | metadata=False
+Cell AI7 | value='Index' | fill=00000000 | rows=[6] | cols=[34] | col_header=False | row_header=False | metadata=False
+Cell AJ7 | value='Percentage of population aged 15 years or over' | fill=00000000 | rows=[6] | cols=[35] | col_header=False | row_header=False | metadata=False
+Cell AK7 | value='Percentage of population aged 15 years or over' | fill=00000000 | rows=[6] | cols=[36] | col_header=False | row_header=False | metadata=False
+Cell AL7 | value='Percentage of population aged 15 years or over' | fill=00000000 | rows=[6] | cols=[37] | col_header=False | row_header=False | metadata=False
+Cell AM7 | value='Percentage of population aged 25-54 years' | fill=00000000 | rows=[6] | cols=[38] | col_header=False | row_header=False | metadata=False
+Cell AN7 | value='Persons' | fill=00000000 | rows=[6] | cols=[39] | col_header=False | row_header=False | metadata=False
+Cell AO7 | value='Percentage of employment' | fill=00000000 | rows=[6] | cols=[40] | col_header=False | row_header=False | metadata=False
+Cell AP7 | value='Persons' | fill=00000000 | rows=[6] | cols=[41] | col_header=False | row_header=False | metadata=False
+Cell AQ7 | value='Percentage of workers' | fill=00000000 | rows=[6] | cols=[42] | col_header=False | row_header=False | metadata=False
+Cell AR7 | value='Persons' | fill=00000000 | rows=[6] | cols=[43] | col_header=False | row_header=False | metadata=False
+Cell AS7 | value='Percentage of workers' | fill=00000000 | rows=[6] | cols=[44] | col_header=False | row_header=False | metadata=False
+Cell AT7 | value='Persons' | fill=00000000 | rows=[6] | cols=[45] | col_header=False | row_header=False | metadata=False
+Cell AU7 | value='Percentage of workers' | fill=00000000 | rows=[6] | cols=[46] | col_header=False | row_header=False | metadata=False
+Cell AV7 | value='Persons' | fill=00000000 | rows=[6] | cols=[47] | col_header=False | row_header=False | metadata=False
+Cell AW7 | value='Percentage of workers' | fill=00000000 | rows=[6] | cols=[48] | col_header=False | row_header=False | metadata=False
+Cell AX7 | value='Percentage of employment' | fill=00000000 | rows=[6] | cols=[49] | col_header=False | row_header=False | metadata=False
+Cell AY7 | value='Percentage of employment' | fill=00000000 | rows=[6] | cols=[50] | col_header=False | row_header=False | metadata=False
+Cell AZ7 | value='Percentage of employment' | fill=00000000 | rows=[6] | cols=[51] | col_header=False | row_header=False | metadata=False
+Cell BA7 | value='Percentage of population aged 25-54 years' | fill=00000000 | rows=[6] | cols=[52] | col_header=False | row_header=False | metadata=False
+Cell BB7 | value='Percentage of population aged 25-54 years' | fill=00000000 | rows=[6] | cols=[53] | col_header=False | row_header=False | metadata=False
 Cell B8 | value='Reference area' | fill=FFFFFF00 | rows=[7] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell B9 | value='Southern Africa (African Union)' | fill=FFE2F2FB | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell D9 | value='197983.611' | fill=00000000 | rows=[8] | cols=[3] | col_header=False | row_header=False | metadata=False

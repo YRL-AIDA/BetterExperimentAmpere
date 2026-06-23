@@ -15,7 +15,7 @@
         "pdf_text_content": "SESSION-2014-15",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -568,7 +568,7 @@
         "xml_text_content": "DISCIPLINE",
         "pdf_text_content": "DISCIPLINE",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -704,7 +704,7 @@
         "xml_text_content": "REGULARITY",
         "pdf_text_content": "REGULARITY",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -840,7 +840,7 @@
         "xml_text_content": "PUNCTUALITY",
         "pdf_text_content": "PUNCTUALITY",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -976,7 +976,7 @@
         "xml_text_content": "CLEANLINESS",
         "pdf_text_content": "CLEANLINESS",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1112,7 +1112,7 @@
         "xml_text_content": "SPORTS",
         "pdf_text_content": "SPORTS",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1248,7 +1248,7 @@
         "xml_text_content": "OTHER ACTIVITIES",
         "pdf_text_content": "OTHER ACTIVITIES",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1303,7 +1303,7 @@
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -1398,7 +1398,7 @@
         "pdf_text_content": "600",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1412,7 +1412,7 @@
         "pdf_text_content": "89",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1455,8 +1455,8 @@
         "xml_text_content": "ATTENDANCE",
         "pdf_text_content": "ATTENDANCE",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1469,8 +1469,8 @@
         "xml_text_content": "RESULT",
         "pdf_text_content": "RESULT",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1485,7 +1485,7 @@
         "pdf_text_content": "PASS",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1498,8 +1498,8 @@
         "xml_text_content": "SIGNATURE CLASS TEACHER",
         "pdf_text_content": "SIGNATURE CLASS TEACHER",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1512,8 +1512,8 @@
         "xml_text_content": "SIGNATURE PRINCIPAL",
         "pdf_text_content": "SIGNATURE PRINCIPAL",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1526,8 +1526,8 @@
         "xml_text_content": "SIGNATURE PARENTS",
         "pdf_text_content": "SIGNATURE PARENTS",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       }
     ],
     "structure_id": "education-table33",

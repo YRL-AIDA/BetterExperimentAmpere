@@ -1,10 +1,10 @@
 === economy-table113.xlsx ===
 Cell A1 | value='Employees who Report to Manager 109' | fill=FF00B0F0 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=True
-Cell B2 | value='Present' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C2 | value='Level 3: Mgr 3 Name' | fill=FFFFFF00 | rows=[1] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D2 | value='Level 2: Mgr 2 Name' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='Level 1: Mgr1 Name' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F2 | value='Level 0: Employees' | fill=FFFFFF00 | rows=[1] | cols=[5] | col_header=True | row_header=False | metadata=False
+Cell B2 | value='Present' | fill=FF00B050 | rows=[1] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell C2 | value='Level 3: Mgr 3 Name' | fill=00000000 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D2 | value='Level 2: Mgr 2 Name' | fill=00000000 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='Level 1: Mgr1 Name' | fill=00000000 | rows=[1] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F2 | value='Level 0: Employees' | fill=00000000 | rows=[1] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G2 | value='ID' | fill=FFFFFF00 | rows=[1] | cols=[6] | col_header=True | row_header=False | metadata=False
 Cell H2 | value='Org Code' | fill=FFFFFF00 | rows=[1] | cols=[7] | col_header=True | row_header=False | metadata=False
 Cell I2 | value='Phone' | fill=FFFFFF00 | rows=[1] | cols=[8] | col_header=True | row_header=False | metadata=False

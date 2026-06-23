@@ -5,9 +5,9 @@ Cell C1 | value='Column3' | fill=FFFFFF00 | rows=[0] | cols=[2] | col_header=Tru
 Cell D1 | value='Column4' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True | row_header=False | metadata=False
 Cell E1 | value='Column5' | fill=FFFFFF00 | rows=[0] | cols=[4] | col_header=True | row_header=False | metadata=False
 Cell B2 | value='Total' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell B3 | value='Sales Team South' | fill=FFFFFF00 | rows=[2] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C3 | value='Customer Service' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D3 | value='Sales Team North' | fill=FFFFFF00 | rows=[2] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell B3 | value='Sales Team South' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C3 | value='Customer Service' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D3 | value='Sales Team North' | fill=00000000 | rows=[2] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell B4 | value='Untaxed Total' | fill=FFFFFF00 | rows=[3] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C4 | value='Untaxed Total' | fill=FFFFFF00 | rows=[3] | cols=[2] | col_header=True | row_header=False | metadata=False
 Cell D4 | value='Untaxed Total' | fill=FFFFFF00 | rows=[3] | cols=[3] | col_header=True | row_header=False | metadata=False

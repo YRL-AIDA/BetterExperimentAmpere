@@ -1388,7 +1388,7 @@
         "pdf_text_content": "–",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1401,7 +1401,7 @@
         "pdf_text_content": "–",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1414,7 +1414,7 @@
         "pdf_text_content": "–",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1479,7 +1479,7 @@
         "pdf_text_content": "–",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1492,7 +1492,7 @@
         "pdf_text_content": "–",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1505,7 +1505,7 @@
         "pdf_text_content": "–",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       }
     ],
     "structure_id": "employment-table21",

@@ -9,10 +9,10 @@ Cell A5 | value='Species of animal' | fill=FFFFFF00 | rows=[4] | cols=[0] | col_
 Cell B5 | value='Toxicology or other safety/efficacy evaluation' | fill=FFFFFF00 | rows=[4] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell J5 | value='Species of animal' | fill=FFFFFF00 | rows=[4] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell K5 | value='Toxicology or other safety/efficacy evaluation' | fill=FFFFFF00 | rows=[4] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell T5 | value='Total' | fill=FFFFFF00 | rows=[4] | cols=[19] | col_header=True | row_header=False | metadata=False
-Cell B6 | value='General safety/efficacy evaluation' | fill=FFFFFF00 | rows=[5] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell K6 | value='Pharmaceutical safety/efficacy evaluation' | fill=FFFFFF00 | rows=[5] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell O6 | value='Other purposes' | fill=FFFFFF00 | rows=[5] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell T5 | value='Total' | fill=00000000 | rows=[4] | cols=[19] | col_header=False | row_header=False | metadata=False
+Cell B6 | value='General safety/efficacy evaluation' | fill=00000000 | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell K6 | value='Pharmaceutical safety/efficacy evaluation' | fill=00000000 | rows=[5] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell O6 | value='Other purposes' | fill=00000000 | rows=[5] | cols=[14] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='Pollution' | fill=43 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='Agriculture' | fill=43 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D7 | value='Industry' | fill=43 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=False
@@ -465,10 +465,10 @@ Cell A36 | value='Species of animal' | fill=FFFFFF00 | rows=[35] | cols=[0] | co
 Cell B36 | value='Toxicology or other safety/efficacy evaluation' | fill=FFFFFF00 | rows=[35] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell J36 | value='Species of animal' | fill=FFFFFF00 | rows=[35] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell K36 | value='Toxicology or other safety/efficacy evaluation' | fill=FFFFFF00 | rows=[35] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell T36 | value='Total' | fill=FFFFFF00 | rows=[35] | cols=[19] | col_header=True | row_header=False | metadata=False
-Cell B37 | value='General safety/efficacy evaluation' | fill=FFFFFF00 | rows=[36] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell K37 | value='Pharmaceutical safety/efficacy evaluation' | fill=FFFFFF00 | rows=[36] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell O37 | value='Other purposes' | fill=FFFFFF00 | rows=[36] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell T36 | value='Total' | fill=00000000 | rows=[35] | cols=[19] | col_header=False | row_header=False | metadata=False
+Cell B37 | value='General safety/efficacy evaluation' | fill=00000000 | rows=[36] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell K37 | value='Pharmaceutical safety/efficacy evaluation' | fill=00000000 | rows=[36] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell O37 | value='Other purposes' | fill=00000000 | rows=[36] | cols=[14] | col_header=False | row_header=False | metadata=False
 Cell B38 | value='Pollution' | fill=43 | rows=[37] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C38 | value='Agriculture' | fill=43 | rows=[37] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D38 | value='Industry' | fill=43 | rows=[37] | cols=[3] | col_header=False | row_header=False | metadata=False

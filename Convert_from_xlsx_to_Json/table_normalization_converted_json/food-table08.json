@@ -57,7 +57,7 @@
         ],
         "xml_text_content": "Raw",
         "pdf_text_content": "Raw",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -71,7 +71,7 @@
         ],
         "xml_text_content": "Cooked",
         "pdf_text_content": "Cooked",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -100,7 +100,7 @@
         ],
         "xml_text_content": "(Grilled)",
         "pdf_text_content": "(Grilled)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -113,7 +113,7 @@
         ],
         "xml_text_content": "100g",
         "pdf_text_content": "100g",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -126,7 +126,7 @@
         ],
         "xml_text_content": "114g",
         "pdf_text_content": "114g",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -139,7 +139,7 @@
         ],
         "xml_text_content": "100g",
         "pdf_text_content": "100g",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -152,7 +152,7 @@
         ],
         "xml_text_content": "85g",
         "pdf_text_content": "85g",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

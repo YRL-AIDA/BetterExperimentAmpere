@@ -7,7 +7,7 @@ Cell E1 | value='CHECK #' | fill=FFFFFF00 | rows=[0] | cols=[4] | col_header=Tru
 Cell F1 | value='CREDIT ( + )' | fill=FFFFFF00 | rows=[0] | cols=[5] | col_header=True | row_header=False | metadata=False
 Cell G1 | value='BALANCE' | fill=FFFFFF00 | rows=[0] | cols=[6] | col_header=True | row_header=False | metadata=False
 Cell H1 | value='RECONCILE' | fill=FFFFFF00 | rows=[0] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell D2 | value='Carry Over Amount from Previous Month =' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell D2 | value='Carry Over Amount from Previous Month =' | fill=FF00B050 | rows=[1] | cols=[3] | col_header=False | row_header=True | metadata=False
 Cell G2 | value='8931.97' | fill=4 | rows=[1] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H2 | value='ü' | fill=4 | rows=[1] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='2016-12-01 00:00:00' | fill=00000000 | rows=[2, 3, 4, 5, 6, 7, 8] | cols=[0] | col_header=False | row_header=False | metadata=False

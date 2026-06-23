@@ -3,9 +3,9 @@ Cell A1 | value='Per capita sales of food for all purchasers with taxes and tips
 Cell A2 | value='(U.S. Dollars)' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A3 | value='Year' | fill=FFFFFF00 | rows=[2, 3] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B3 | value='State' | fill=FFFFFF00 | rows=[2, 3] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C3 | value='Nominal sales per capita' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False
+Cell C3 | value='Nominal sales per capita' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell E3 | value='Total nominal food sales per capita' | fill=00000000 | rows=[2, 3] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F3 | value='Constant-dollar sales per capita (1988=100)' | fill=FFFFFF00 | rows=[2] | cols=[5] | col_header=True | row_header=False | metadata=False
+Cell F3 | value='Constant-dollar sales per capita (1988=100)' | fill=00000000 | rows=[2] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell H3 | value='Total constant-dollar food sales per capita' | fill=00000000 | rows=[2, 3] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell C4 | value='FAH' | fill=00000000 | rows=[3] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D4 | value='FAFH' | fill=00000000 | rows=[3] | cols=[3] | col_header=False | row_header=False | metadata=False

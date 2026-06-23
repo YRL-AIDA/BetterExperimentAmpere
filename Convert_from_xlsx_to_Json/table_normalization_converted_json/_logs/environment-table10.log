@@ -1,11 +1,11 @@
 === environment-table10.xlsx ===
 Cell A1 | value='Year' | fill=FFFFFF00 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=False
-Cell B1 | value='Solid' | fill=FFFFFF00 | rows=[0] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='Gas' | fill=FFFFFF00 | rows=[0] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D1 | value='Electric' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E1 | value='Oil' | fill=FFFFFF00 | rows=[0] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F1 | value='Renewables' | fill=FFFFFF00 | rows=[0] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G1 | value='All fuels' | fill=FFFFFF00 | rows=[0] | cols=[6] | col_header=True | row_header=False | metadata=False
+Cell B1 | value='Solid' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C1 | value='Gas' | fill=00000000 | rows=[0] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D1 | value='Electric' | fill=00000000 | rows=[0] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E1 | value='Oil' | fill=00000000 | rows=[0] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F1 | value='Renewables' | fill=00000000 | rows=[0] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G1 | value='All fuels' | fill=00000000 | rows=[0] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell A2 | value='1970' | fill=00000000 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B2 | value='196.475516370534' | fill=58 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C2 | value='101.285493553738' | fill=58 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False

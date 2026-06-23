@@ -3,30 +3,30 @@ Cell B1 | value='Annual government non-financial accounts and key indicators (fo
 Cell B2 | value='Reference area: Italy' | fill=FF00B0F0 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=True
 Cell B3 | value='Valuation: Standard valuation based on SNA/ESA' | fill=FF00B0F0 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=True
 Cell B4 | value='Combined unit of measure: National currency, Current prices, Millions, Euro' | fill=FF00B0F0 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell B6 | value='Time period' | fill=FF92D050 | rows=[5] | cols=[1, 2] | col_header=False | row_header=False | metadata=False
+Cell B6 | value='Time period' | fill=FF00B050 | rows=[5] | cols=[1, 2] | col_header=False | row_header=True | metadata=False
 Cell D6 | value='2019' | fill=FF0549AB | rows=[5] | cols=[3, 4, 5] | col_header=False | row_header=False | metadata=False
 Cell G6 | value='2020' | fill=FF0549AB | rows=[5] | cols=[6, 7, 8] | col_header=False | row_header=False | metadata=False
 Cell J6 | value='2021' | fill=FF0549AB | rows=[5] | cols=[9, 10, 11] | col_header=False | row_header=False | metadata=False
 Cell M6 | value='2022' | fill=FF0549AB | rows=[5] | cols=[12, 13, 14] | col_header=False | row_header=False | metadata=False
 Cell P6 | value='2023' | fill=FF0549AB | rows=[5] | cols=[15, 16, 17] | col_header=False | row_header=False | metadata=False
-Cell B7 | value='Accounting entry' | fill=FFFFFF00 | rows=[6] | cols=[1, 2] | col_header=True | row_header=False | metadata=False
-Cell D7 | value='Balance (revenue minus expenditure)' | fill=FFFFFF00 | rows=[6] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E7 | value='Revenue' | fill=FFFFFF00 | rows=[6] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F7 | value='Expenditure' | fill=FFFFFF00 | rows=[6] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G7 | value='Balance (revenue minus expenditure)' | fill=FFFFFF00 | rows=[6] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H7 | value='Revenue' | fill=FFFFFF00 | rows=[6] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I7 | value='Expenditure' | fill=FFFFFF00 | rows=[6] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J7 | value='Balance (revenue minus expenditure)' | fill=FFFFFF00 | rows=[6] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K7 | value='Revenue' | fill=FFFFFF00 | rows=[6] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L7 | value='Expenditure' | fill=FFFFFF00 | rows=[6] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M7 | value='Balance (revenue minus expenditure)' | fill=FFFFFF00 | rows=[6] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N7 | value='Revenue' | fill=FFFFFF00 | rows=[6] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O7 | value='Expenditure' | fill=FFFFFF00 | rows=[6] | cols=[14] | col_header=True | row_header=False | metadata=False
-Cell P7 | value='Balance (revenue minus expenditure)' | fill=FFFFFF00 | rows=[6] | cols=[15] | col_header=True | row_header=False | metadata=False
-Cell Q7 | value='Revenue' | fill=FFFFFF00 | rows=[6] | cols=[16] | col_header=True | row_header=False | metadata=False
-Cell R7 | value='Expenditure' | fill=FFFFFF00 | rows=[6] | cols=[17] | col_header=True | row_header=False | metadata=False
+Cell B7 | value='Accounting entry' | fill=FF00B050 | rows=[6] | cols=[1, 2] | col_header=False | row_header=True | metadata=False
+Cell D7 | value='Balance (revenue minus expenditure)' | fill=00000000 | rows=[6] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E7 | value='Revenue' | fill=00000000 | rows=[6] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F7 | value='Expenditure' | fill=00000000 | rows=[6] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G7 | value='Balance (revenue minus expenditure)' | fill=00000000 | rows=[6] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H7 | value='Revenue' | fill=00000000 | rows=[6] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I7 | value='Expenditure' | fill=00000000 | rows=[6] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J7 | value='Balance (revenue minus expenditure)' | fill=00000000 | rows=[6] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K7 | value='Revenue' | fill=00000000 | rows=[6] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L7 | value='Expenditure' | fill=00000000 | rows=[6] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M7 | value='Balance (revenue minus expenditure)' | fill=00000000 | rows=[6] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N7 | value='Revenue' | fill=00000000 | rows=[6] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O7 | value='Expenditure' | fill=00000000 | rows=[6] | cols=[14] | col_header=False | row_header=False | metadata=False
+Cell P7 | value='Balance (revenue minus expenditure)' | fill=00000000 | rows=[6] | cols=[15] | col_header=False | row_header=False | metadata=False
+Cell Q7 | value='Revenue' | fill=00000000 | rows=[6] | cols=[16] | col_header=False | row_header=False | metadata=False
+Cell R7 | value='Expenditure' | fill=00000000 | rows=[6] | cols=[17] | col_header=False | row_header=False | metadata=False
 Cell B8 | value='Combined transaction' | fill=FFFFFF00 | rows=[7] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell B9 | value='Institutional sector: Total economy > General government' | fill=FF00B0F0 | rows=[8] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=True
+Cell B9 | value='Institutional sector: Total economy > General government' | fill=00000000 | rows=[8] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=False
 Cell B10 | value='Imputed social contributions from employers and households' | fill=FFE2F2FB | rows=[9] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E10 | value='4236' | fill=00000000 | rows=[9] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell H10 | value='4282' | fill=00000000 | rows=[9] | cols=[7] | col_header=False | row_header=False | metadata=False
@@ -586,7 +586,7 @@ Cell H93 | value='791669' | fill=00000000 | rows=[92] | cols=[7] | col_header=Fa
 Cell K93 | value='869213' | fill=00000000 | rows=[92] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell N93 | value='934972' | fill=00000000 | rows=[92] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell Q93 | value='992119' | fill=00000000 | rows=[92] | cols=[16] | col_header=False | row_header=False | metadata=False
-Cell B94 | value='Institutional sector: Central government' | fill=FF00B0F0 | rows=[93] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=True
+Cell B94 | value='Institutional sector: Central government' | fill=00000000 | rows=[93] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=False
 Cell B95 | value='Production account' | fill=FFE2F2FB | rows=[94] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell B96 | value='·  Output' | fill=FFE2F2FB | rows=[95] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E96 | value='154632' | fill=00000000 | rows=[95] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -1176,7 +1176,7 @@ Cell H188 | value='466648' | fill=00000000 | rows=[187] | cols=[7] | col_header=
 Cell K188 | value='521520' | fill=00000000 | rows=[187] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell N188 | value='561519' | fill=00000000 | rows=[187] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell Q188 | value='604340' | fill=00000000 | rows=[187] | cols=[16] | col_header=False | row_header=False | metadata=False
-Cell B189 | value='Institutional sector: Local government' | fill=FF00B0F0 | rows=[188] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=True
+Cell B189 | value='Institutional sector: Local government' | fill=00000000 | rows=[188] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=False
 Cell B190 | value='Production account' | fill=FFE2F2FB | rows=[189] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell B191 | value='·  Output' | fill=FFE2F2FB | rows=[190] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E191 | value='175000' | fill=00000000 | rows=[190] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -1766,7 +1766,7 @@ Cell H283 | value='254334' | fill=00000000 | rows=[282] | cols=[7] | col_header=
 Cell K283 | value='267489' | fill=00000000 | rows=[282] | cols=[10] | col_header=False | row_header=False | metadata=False
 Cell N283 | value='277748' | fill=00000000 | rows=[282] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell Q283 | value='295171' | fill=00000000 | rows=[282] | cols=[16] | col_header=False | row_header=False | metadata=False
-Cell B284 | value='Institutional sector: Social security funds' | fill=FF00B0F0 | rows=[283] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=True
+Cell B284 | value='Institutional sector: Social security funds' | fill=00000000 | rows=[283] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | col_header=False | row_header=False | metadata=False
 Cell B285 | value='Production account' | fill=FFE2F2FB | rows=[284] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell B286 | value='·  Output' | fill=FFE2F2FB | rows=[285] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell E286 | value='5915' | fill=00000000 | rows=[285] | cols=[4] | col_header=False | row_header=False | metadata=False

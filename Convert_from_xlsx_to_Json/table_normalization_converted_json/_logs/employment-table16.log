@@ -3,39 +3,39 @@ Cell A1 | value='Age and sex' | fill=FFFFFF00 | rows=[0, 1, 2, 3, 4] | cols=[0] 
 Cell B1 | value='2023' | fill=00000000 | rows=[0] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] | col_header=False | row_header=False | metadata=False
 Cell B2 | value='Agriculture and related industries' | fill=00000000 | rows=[1] | cols=[1, 2, 3, 4] | col_header=False | row_header=False | metadata=False
 Cell F2 | value='Nonagricultural industries' | fill=00000000 | rows=[1] | cols=[5, 6, 7, 8, 9, 10, 11, 12] | col_header=False | row_header=False | metadata=False
-Cell B3 | value='Total' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B3 | value='Total' | fill=00000000 | rows=[2, 3, 4] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='Wage and
 salary
-workers(1)' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[2] | col_header=True | row_header=False | metadata=False
+workers(1)' | fill=00000000 | rows=[2, 3, 4] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D3 | value='Self-
 employed
 workers,
 unincor-
-porated' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[3] | col_header=True | row_header=False | metadata=False
+porated' | fill=00000000 | rows=[2, 3, 4] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E3 | value='Unpaid
 family
-workers' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F3 | value='Total' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G3 | value='Wage and salary workers(1)' | fill=FFFFFF00 | rows=[2] | cols=[6, 7, 8, 9, 10] | col_header=True | row_header=False | metadata=False
+workers' | fill=00000000 | rows=[2, 3, 4] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F3 | value='Total' | fill=00000000 | rows=[2, 3, 4] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G3 | value='Wage and salary workers(1)' | fill=00000000 | rows=[2] | cols=[6, 7, 8, 9, 10] | col_header=False | row_header=False | metadata=False
 Cell L3 | value='Self-
 employed
 workers,
 unincor-
-porated' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[11] | col_header=True | row_header=False | metadata=False
+porated' | fill=00000000 | rows=[2, 3, 4] | cols=[11] | col_header=False | row_header=False | metadata=False
 Cell M3 | value='Unpaid
 family
-workers' | fill=FFFFFF00 | rows=[2, 3, 4] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell G4 | value='Total' | fill=FFFFFF00 | rows=[3, 4] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H4 | value='Private industries' | fill=FFFFFF00 | rows=[3] | cols=[7, 8, 9] | col_header=True | row_header=False | metadata=False
+workers' | fill=00000000 | rows=[2, 3, 4] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell G4 | value='Total' | fill=00000000 | rows=[3, 4] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H4 | value='Private industries' | fill=00000000 | rows=[3] | cols=[7, 8, 9] | col_header=False | row_header=False | metadata=False
 Cell K4 | value='Govern-
-ment' | fill=FFFFFF00 | rows=[3, 4] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell H5 | value='Total' | fill=FFFFFF00 | rows=[4] | cols=[7] | col_header=True | row_header=False | metadata=False
+ment' | fill=00000000 | rows=[3, 4] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell H5 | value='Total' | fill=00000000 | rows=[4] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I5 | value='Private
 household
-workers' | fill=FFFFFF00 | rows=[4] | cols=[8] | col_header=True | row_header=False | metadata=False
+workers' | fill=00000000 | rows=[4] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell J5 | value='Other
 private
-industries' | fill=FFFFFF00 | rows=[4] | cols=[9] | col_header=True | row_header=False | metadata=False
+industries' | fill=00000000 | rows=[4] | cols=[9] | col_header=False | row_header=False | metadata=False
 Cell A7 | value='Total, 16 years and over' | fill=00000000 | rows=[6] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='2264' | fill=00000000 | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='1531' | fill=00000000 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False

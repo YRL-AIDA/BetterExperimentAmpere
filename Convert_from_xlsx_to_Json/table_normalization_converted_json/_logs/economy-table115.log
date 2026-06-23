@@ -1,9 +1,9 @@
 === economy-table115.xlsx ===
-Cell B1 | value='Annual Returns on Investments in' | fill=FF00B0F0 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=True
+Cell B1 | value='Annual Returns on Investments in' | fill=FFFFFF00 | rows=[0] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell A2 | value='Year' | fill=FFFFFF00 | rows=[1] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B2 | value='Stocks' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C2 | value='T.Bills' | fill=FFFFFF00 | rows=[1] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D2 | value='T.Bonds' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell B2 | value='Stocks' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C2 | value='T.Bills' | fill=00000000 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D2 | value='T.Bonds' | fill=00000000 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='1928' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='0.4381' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='0.0308' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -332,9 +332,9 @@ Cell A84 | value='2009' | fill=00000000 | rows=[83] | cols=[0] | col_header=Fals
 Cell B84 | value='0.2646' | fill=00000000 | rows=[83] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C84 | value='-0.149' | fill=00000000 | rows=[83] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D84 | value='0.001' | fill=00000000 | rows=[83] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell B85 | value='stocks' | fill=FFFFFF00 | rows=[84] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C85 | value='tbills' | fill=FFFFFF00 | rows=[84] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D85 | value='tbonds' | fill=FFFFFF00 | rows=[84] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell B85 | value='stocks' | fill=00000000 | rows=[84] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C85 | value='tbills' | fill=00000000 | rows=[84] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D85 | value='tbonds' | fill=00000000 | rows=[84] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A86 | value='averages' | fill=FF00B050 | rows=[85] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B86 | value='0.1128' | fill=00000000 | rows=[85] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C86 | value='0.0428' | fill=00000000 | rows=[85] | cols=[2] | col_header=False | row_header=False | metadata=False

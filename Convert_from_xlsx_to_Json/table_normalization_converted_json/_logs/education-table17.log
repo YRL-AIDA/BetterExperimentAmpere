@@ -1,7 +1,7 @@
 === education-table17.xlsx ===
 Cell A1 | value='State' | fill=FFFFFF00 | rows=[0, 1] | cols=[0] | col_header=True | row_header=True | metadata=False
 Cell B1 | value='Total Students' | fill=FFFFFF00 | rows=[0, 1] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='Race/Ethnicity' | fill=FFFFFF00 | rows=[0] | cols=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] | col_header=True | row_header=False | metadata=False
+Cell C1 | value='Race/Ethnicity' | fill=00000000 | rows=[0] | cols=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] | col_header=False | row_header=False | metadata=False
 Cell Q1 | value='Students With Disabilities Served Under IDEA' | fill=00000000 | rows=[0, 1] | cols=[16, 17] | col_header=False | row_header=False | metadata=False
 Cell S1 | value='Students With Disabilities Served Only Under Section 504' | fill=00000000 | rows=[0, 1] | cols=[18, 19] | col_header=False | row_header=False | metadata=False
 Cell U1 | value='English Language Learners' | fill=00000000 | rows=[0, 1] | cols=[20, 21] | col_header=False | row_header=False | metadata=False
@@ -15,7 +15,6 @@ Cell I2 | value='Black or African American' | fill=00000000 | rows=[1] | cols=[8
 Cell K2 | value='White' | fill=00000000 | rows=[1] | cols=[10, 11] | col_header=False | row_header=False | metadata=False
 Cell M2 | value='Native Hawaiian or Other Pacific Islander' | fill=00000000 | rows=[1] | cols=[12, 13] | col_header=False | row_header=False | metadata=False
 Cell O2 | value='Two or more races' | fill=00000000 | rows=[1] | cols=[14, 15] | col_header=False | row_header=False | metadata=False
-Cell B3 | value='`' | fill=FFFFFF00 | rows=[2] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C3 | value='Number' | fill=FFFFFF00 | rows=[2] | cols=[2] | col_header=True | row_header=False | metadata=False
 Cell D3 | value='Percent' | fill=FFFFFF00 | rows=[2] | cols=[3] | col_header=True | row_header=False | metadata=False
 Cell E3 | value='Number' | fill=FFFFFF00 | rows=[2] | cols=[4] | col_header=True | row_header=False | metadata=False

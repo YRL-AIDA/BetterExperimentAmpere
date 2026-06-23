@@ -4382,7 +4382,7 @@
         "pdf_text_content": "Unemployment rates of tertiary-educated adults, by field of study, tertiary educational attainment, age group and gender",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       }
     ],
     "structure_id": "education-table14",

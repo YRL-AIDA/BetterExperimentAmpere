@@ -1,7 +1,7 @@
 === education-table25.xlsx ===
 Cell A1 | value='State' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[0] | col_header=True | row_header=True | metadata=False
 Cell B1 | value='Schools Reporting' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='Science Courses' | fill=00000000 | rows=[0] | cols=[2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
+Cell C1 | value='Science Courses' | fill=FFFFFF00 | rows=[0] | cols=[2, 3, 4, 5, 6, 7] | col_header=True | row_header=False | metadata=False
 Cell I1 | value='Number of Schools' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[8] | col_header=True | row_header=False | metadata=False
 Cell J1 | value='Percent of Schools Reporting' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[9] | col_header=True | row_header=False | metadata=False
 Cell C2 | value='Biology' | fill=00000000 | rows=[1] | cols=[2, 3] | col_header=False | row_header=False | metadata=False

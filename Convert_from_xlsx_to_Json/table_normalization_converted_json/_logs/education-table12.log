@@ -3,20 +3,20 @@ Cell A1 | value='Skills for Life Participation and Achievement by Level, Age and
 Cell B3 | value='Participation' | fill=00000000 | rows=[2] | cols=[1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=False
 Cell I3 | value='Achievement' | fill=00000000 | rows=[2] | cols=[8, 9, 10, 11, 12, 13, 14] | col_header=False | row_header=False | metadata=False
 Cell A4 | value='All Ages' | fill=FFFFFF00 | rows=[3] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B4 | value='General FE College incl Tertiary' | fill=FFFFFF00 | rows=[3] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C4 | value='Sixth form college' | fill=FFFFFF00 | rows=[3] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D4 | value='Special colleges' | fill=FFFFFF00 | rows=[3] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E4 | value='Other Public Funded' | fill=FFFFFF00 | rows=[3] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F4 | value='Schools' | fill=FFFFFF00 | rows=[3] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G4 | value='Private Sector Public Funded' | fill=FFFFFF00 | rows=[3] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H4 | value='Total' | fill=FFFFFF00 | rows=[3] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I4 | value='General FE College incl Tertiary' | fill=FFFFFF00 | rows=[3] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell J4 | value='Sixth form college' | fill=FFFFFF00 | rows=[3] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell K4 | value='Special colleges' | fill=FFFFFF00 | rows=[3] | cols=[10] | col_header=True | row_header=False | metadata=False
-Cell L4 | value='Other Public Funded' | fill=FFFFFF00 | rows=[3] | cols=[11] | col_header=True | row_header=False | metadata=False
-Cell M4 | value='Schools' | fill=FFFFFF00 | rows=[3] | cols=[12] | col_header=True | row_header=False | metadata=False
-Cell N4 | value='Private Sector Public Funded' | fill=FFFFFF00 | rows=[3] | cols=[13] | col_header=True | row_header=False | metadata=False
-Cell O4 | value='Total' | fill=FFFFFF00 | rows=[3] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell B4 | value='General FE College incl Tertiary' | fill=00000000 | rows=[3] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C4 | value='Sixth form college' | fill=00000000 | rows=[3] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D4 | value='Special colleges' | fill=00000000 | rows=[3] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E4 | value='Other Public Funded' | fill=00000000 | rows=[3] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F4 | value='Schools' | fill=00000000 | rows=[3] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G4 | value='Private Sector Public Funded' | fill=00000000 | rows=[3] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H4 | value='Total' | fill=00000000 | rows=[3] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I4 | value='General FE College incl Tertiary' | fill=00000000 | rows=[3] | cols=[8] | col_header=False | row_header=False | metadata=False
+Cell J4 | value='Sixth form college' | fill=00000000 | rows=[3] | cols=[9] | col_header=False | row_header=False | metadata=False
+Cell K4 | value='Special colleges' | fill=00000000 | rows=[3] | cols=[10] | col_header=False | row_header=False | metadata=False
+Cell L4 | value='Other Public Funded' | fill=00000000 | rows=[3] | cols=[11] | col_header=False | row_header=False | metadata=False
+Cell M4 | value='Schools' | fill=00000000 | rows=[3] | cols=[12] | col_header=False | row_header=False | metadata=False
+Cell N4 | value='Private Sector Public Funded' | fill=00000000 | rows=[3] | cols=[13] | col_header=False | row_header=False | metadata=False
+Cell O4 | value='Total' | fill=00000000 | rows=[3] | cols=[14] | col_header=False | row_header=False | metadata=False
 Cell A5 | value='of which EnglishR' | fill=00000000 | rows=[4] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='521060' | fill=00000000 | rows=[4] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C5 | value='17470' | fill=00000000 | rows=[4] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -62,7 +62,7 @@ Cell L7 | value='31490' | fill=00000000 | rows=[6] | cols=[11] | col_header=Fals
 Cell M7 | value='50' | fill=00000000 | rows=[6] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N7 | value='1290' | fill=00000000 | rows=[6] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O7 | value='119200' | fill=00000000 | rows=[6] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A8 | value='Total Learners' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A8 | value='Total Learners' | fill=FF00B050 | rows=[7] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B8 | value='770980' | fill=00000000 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C8 | value='30720' | fill=00000000 | rows=[7] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D8 | value='28780' | fill=00000000 | rows=[7] | cols=[3] | col_header=False | row_header=False | metadata=False
@@ -77,7 +77,7 @@ Cell L8 | value='123660' | fill=00000000 | rows=[7] | cols=[11] | col_header=Fal
 Cell M8 | value='610' | fill=00000000 | rows=[7] | cols=[12] | col_header=False | row_header=False | metadata=False
 Cell N8 | value='246850' | fill=00000000 | rows=[7] | cols=[13] | col_header=False | row_header=False | metadata=False
 Cell O8 | value='921700' | fill=00000000 | rows=[7] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell A10 | value='Total Learners' | fill=9 | rows=[9] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A10 | value='Total Learners' | fill=FF00B050 | rows=[9] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B10 | value='318190' | fill=9 | rows=[9] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C10 | value='5130' | fill=9 | rows=[9] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D10 | value='13510' | fill=9 | rows=[9] | cols=[3] | col_header=False | row_header=False | metadata=False

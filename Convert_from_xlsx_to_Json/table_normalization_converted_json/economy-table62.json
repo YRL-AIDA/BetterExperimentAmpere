@@ -293,7 +293,7 @@
         ],
         "xml_text_content": "Café's",
         "pdf_text_content": "Café's",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4606,7 +4606,7 @@
         ],
         "xml_text_content": "Café's",
         "pdf_text_content": "Café's",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -17356,7 +17356,7 @@
         ],
         "xml_text_content": "Concessions",
         "pdf_text_content": "Concessions",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -18094,7 +18094,7 @@
         ],
         "xml_text_content": "Café's",
         "pdf_text_content": "Café's",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -18832,7 +18832,7 @@
         ],
         "xml_text_content": "Café's",
         "pdf_text_content": "Café's",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -22136,7 +22136,7 @@
         "pdf_text_content": "Totals",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22149,7 +22149,7 @@
         "pdf_text_content": "36950",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22162,7 +22162,7 @@
         "pdf_text_content": "42011",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22175,7 +22175,7 @@
         "pdf_text_content": "43862",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22188,7 +22188,7 @@
         "pdf_text_content": "43115",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22201,7 +22201,7 @@
         "pdf_text_content": "42816",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22214,7 +22214,7 @@
         "pdf_text_content": "1126",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22227,7 +22227,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22240,7 +22240,7 @@
         "pdf_text_content": "209880",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22253,7 +22253,7 @@
         "pdf_text_content": "227800",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22266,7 +22266,7 @@
         "pdf_text_content": "-17920",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -22278,8 +22278,8 @@
         "xml_text_content": "Total All Café's",
         "pdf_text_content": "Total All Café's",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22292,7 +22292,7 @@
         "pdf_text_content": "184009.29",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22305,7 +22305,7 @@
         "pdf_text_content": "191094.92",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22318,7 +22318,7 @@
         "pdf_text_content": "195378.06",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22331,7 +22331,7 @@
         "pdf_text_content": "194912.09",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22344,7 +22344,7 @@
         "pdf_text_content": "222354.81",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22357,7 +22357,7 @@
         "pdf_text_content": "288654.85",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22370,7 +22370,7 @@
         "pdf_text_content": "195058.76",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22383,7 +22383,7 @@
         "pdf_text_content": "1471462.78",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22396,7 +22396,7 @@
         "pdf_text_content": "1645250",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22409,7 +22409,7 @@
         "pdf_text_content": "-173787.22",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -22430,7 +22430,7 @@
         ],
         "xml_text_content": "Other Income",
         "pdf_text_content": "Other Income",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -23445,8 +23445,8 @@
         "xml_text_content": "Total All Business",
         "pdf_text_content": "Total All Business",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23459,7 +23459,7 @@
         "pdf_text_content": "194725.47",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23472,7 +23472,7 @@
         "pdf_text_content": "202071.92",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23485,7 +23485,7 @@
         "pdf_text_content": "208117.06",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23498,7 +23498,7 @@
         "pdf_text_content": "207915.79",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23511,7 +23511,7 @@
         "pdf_text_content": "235271.31",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23524,7 +23524,7 @@
         "pdf_text_content": "304709.1",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23537,7 +23537,7 @@
         "pdf_text_content": "204560.53",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23550,7 +23550,7 @@
         "pdf_text_content": "1557371.18",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23563,7 +23563,7 @@
         "pdf_text_content": "1732250",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23576,7 +23576,7 @@
         "pdf_text_content": "-174878.82",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

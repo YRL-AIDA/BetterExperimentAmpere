@@ -324,10 +324,10 @@ Cell C55 | value='12' | fill=46 | rows=[54] | cols=[2] | col_header=False | row_
 Cell D55 | value='114003-40' | fill=46 | rows=[54] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E55 | value='0' | fill=9 | rows=[54] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell H55 | value='0' | fill=9 | rows=[54] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell A56 | value='TOTAL' | fill=FF00B0F0 | rows=[55] | cols=[0] | col_header=False | row_header=False | metadata=True
-Cell D56 | value='0' | fill=FF00B0F0 | rows=[55] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E56 | value='12258.3560606061' | fill=FF00B0F0 | rows=[55] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell F56 | value='3740' | fill=FF00B0F0 | rows=[55] | cols=[5] | col_header=False | row_header=False | metadata=True
-Cell G56 | value='4081.71' | fill=FF00B0F0 | rows=[55] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H56 | value='11916.6460606061' | fill=FF00B0F0 | rows=[55] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell A56 | value='TOTAL' | fill=FF00B050 | rows=[55] | cols=[0] | col_header=False | row_header=True | metadata=False
+Cell D56 | value='0' | fill=00000000 | rows=[55] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E56 | value='12258.3560606061' | fill=00000000 | rows=[55] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F56 | value='3740' | fill=00000000 | rows=[55] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G56 | value='4081.71' | fill=00000000 | rows=[55] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H56 | value='11916.6460606061' | fill=00000000 | rows=[55] | cols=[7] | col_header=False | row_header=False | metadata=False
 

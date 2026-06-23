@@ -7,27 +7,27 @@ Cell A4 | value='Characteristic' | fill=FFFFFF00 | rows=[3, 4, 5, 6] | cols=[0] 
 Cell B4 | value='2023' | fill=00000000 | rows=[3] | cols=[1, 2, 3, 4, 5, 6, 7, 8] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='Total
 at
-work' | fill=FFFFFF00 | rows=[4, 5, 6] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C5 | value='Worked 1 to 34 hours' | fill=FFFFFF00 | rows=[4] | cols=[2, 3, 4, 5] | col_header=True | row_header=False | metadata=False
+work' | fill=00000000 | rows=[4, 5, 6] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C5 | value='Worked 1 to 34 hours' | fill=00000000 | rows=[4] | cols=[2, 3, 4, 5] | col_header=False | row_header=False | metadata=False
 Cell G5 | value='Worked
 35 hours
-or more' | fill=FFFFFF00 | rows=[4, 5, 6] | cols=[6] | col_header=True | row_header=False | metadata=False
+or more' | fill=00000000 | rows=[4, 5, 6] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H5 | value='Average hours' | fill=FFFFFF00 | rows=[4] | cols=[7, 8] | col_header=True | row_header=False | metadata=False
-Cell C6 | value='Total' | fill=FFFFFF00 | rows=[5, 6] | cols=[2] | col_header=True | row_header=False | metadata=False
+Cell C6 | value='Total' | fill=00000000 | rows=[5, 6] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='For
 economic
-reasons' | fill=FFFFFF00 | rows=[5, 6] | cols=[3] | col_header=True | row_header=False | metadata=False
+reasons' | fill=00000000 | rows=[5, 6] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E6 | value='For noneconomic
-reasons' | fill=FFFFFF00 | rows=[5] | cols=[4, 5] | col_header=True | row_header=False | metadata=False
+reasons' | fill=00000000 | rows=[5] | cols=[4, 5] | col_header=False | row_header=False | metadata=False
 Cell H6 | value='Total
 at
 work' | fill=FFFFFF00 | rows=[5, 6] | cols=[7] | col_header=True | row_header=False | metadata=False
 Cell I6 | value='Persons who
 usually work
 full time' | fill=FFFFFF00 | rows=[5, 6] | cols=[8] | col_header=True | row_header=False | metadata=False
-Cell E7 | value='Usually work full time' | fill=FFFFFF00 | rows=[6] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F7 | value='Usually work part time' | fill=FFFFFF00 | rows=[6] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell A9 | value='AGE AND SEX' | fill=FFFFFF00 | rows=[8] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell E7 | value='Usually work full time' | fill=00000000 | rows=[6] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F7 | value='Usually work part time' | fill=00000000 | rows=[6] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell A9 | value='AGE AND SEX' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A10 | value='Total, 16 years and over' | fill=00000000 | rows=[9] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B10 | value='152987' | fill=00000000 | rows=[9] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C10 | value='34282' | fill=00000000 | rows=[9] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -271,7 +271,7 @@ Cell F38 | value='3808' | fill=00000000 | rows=[37] | cols=[5] | col_header=Fals
 Cell G38 | value='11100' | fill=00000000 | rows=[37] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H38 | value='35.7' | fill=00000000 | rows=[37] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I38 | value='41' | fill=00000000 | rows=[37] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A40 | value='RACE AND HISPANIC OR LATINO ETHNICITY' | fill=FFFFFF00 | rows=[39] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A40 | value='RACE AND HISPANIC OR LATINO ETHNICITY' | fill=00000000 | rows=[39] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A41 | value='White, 16 years and over' | fill=00000000 | rows=[40] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B41 | value='116643' | fill=00000000 | rows=[40] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C41 | value='26736' | fill=00000000 | rows=[40] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -380,7 +380,7 @@ Cell F52 | value='2450' | fill=00000000 | rows=[51] | cols=[5] | col_header=Fals
 Cell G52 | value='8882' | fill=00000000 | rows=[51] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H52 | value='35.8' | fill=00000000 | rows=[51] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell I52 | value='40.1' | fill=00000000 | rows=[51] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell A54 | value='MARITAL STATUS' | fill=FFFFFF00 | rows=[53] | cols=[0] | col_header=True | row_header=False | metadata=False
+Cell A54 | value='MARITAL STATUS' | fill=00000000 | rows=[53] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A55 | value='Men, 16 years and over' | fill=00000000 | rows=[54] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A56 | value='Married, spouse present(1)' | fill=00000000 | rows=[55] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B56 | value='43723' | fill=00000000 | rows=[55] | cols=[1] | col_header=False | row_header=False | metadata=False

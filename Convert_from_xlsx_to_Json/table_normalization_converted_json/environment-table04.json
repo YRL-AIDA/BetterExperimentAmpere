@@ -266,7 +266,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -409,7 +409,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -552,7 +552,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -695,7 +695,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -838,7 +838,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -981,7 +981,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1124,7 +1124,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1313,7 +1313,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1456,7 +1456,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1599,7 +1599,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1742,7 +1742,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -1885,7 +1885,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2028,7 +2028,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2171,7 +2171,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2360,7 +2360,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2503,7 +2503,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2594,7 +2594,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2685,7 +2685,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2828,7 +2828,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -2971,7 +2971,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3036,7 +3036,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3179,7 +3179,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3368,7 +3368,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3511,7 +3511,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3615,7 +3615,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3719,7 +3719,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -3862,7 +3862,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4005,7 +4005,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4057,7 +4057,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4200,7 +4200,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4389,7 +4389,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4532,7 +4532,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4584,7 +4584,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4636,7 +4636,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4779,7 +4779,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -4922,7 +4922,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5026,7 +5026,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5169,7 +5169,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5358,7 +5358,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5501,7 +5501,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5566,7 +5566,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5631,7 +5631,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5761,7 +5761,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5891,7 +5891,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -5969,7 +5969,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6112,7 +6112,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6301,7 +6301,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6444,7 +6444,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6535,7 +6535,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6626,7 +6626,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6769,7 +6769,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6912,7 +6912,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -6977,7 +6977,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7120,7 +7120,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7309,7 +7309,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7452,7 +7452,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7582,7 +7582,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7712,7 +7712,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7855,7 +7855,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -7998,7 +7998,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8024,7 +8024,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8167,7 +8167,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8356,7 +8356,7 @@
         "xml_text_content": "Opening stock",
         "pdf_text_content": "Opening stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8499,7 +8499,7 @@
         "xml_text_content": "Total additions to stock",
         "pdf_text_content": "Total additions to stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8603,7 +8603,7 @@
         "xml_text_content": "·  Upward reappraisals",
         "pdf_text_content": "·  Upward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8707,7 +8707,7 @@
         "xml_text_content": "Total reductions in stock",
         "pdf_text_content": "Total reductions in stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8850,7 +8850,7 @@
         "xml_text_content": "·  Extractions",
         "pdf_text_content": "·  Extractions",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -8993,7 +8993,7 @@
         "xml_text_content": "·  Downward reappraisals",
         "pdf_text_content": "·  Downward reappraisals",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -9045,7 +9045,7 @@
         "xml_text_content": "Closing stock",
         "pdf_text_content": "Closing stock",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -9188,7 +9188,7 @@
         "xml_text_content": "Discrepancies",
         "pdf_text_content": "Discrepancies",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {

@@ -7,20 +7,20 @@ Cell A4 | value='Reason for working less than 35 hours' | fill=FFFFFF00 | rows=[
 Cell B4 | value='2023' | fill=00000000 | rows=[3] | cols=[1, 2, 3, 4, 5, 6] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='All industries' | fill=00000000 | rows=[4] | cols=[1, 2, 3] | col_header=False | row_header=False | metadata=False
 Cell E5 | value='Nonagricultural industries' | fill=00000000 | rows=[4] | cols=[4, 5, 6] | col_header=False | row_header=False | metadata=False
-Cell B6 | value='Total' | fill=FFFFFF00 | rows=[5] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B6 | value='Total' | fill=00000000 | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C6 | value='Usually
 work
-full time' | fill=FFFFFF00 | rows=[5] | cols=[2] | col_header=True | row_header=False | metadata=False
+full time' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='Usually
 work
-part time' | fill=FFFFFF00 | rows=[5] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E6 | value='Total' | fill=FFFFFF00 | rows=[5] | cols=[4] | col_header=True | row_header=False | metadata=False
+part time' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E6 | value='Total' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F6 | value='Usually
 work
-full time' | fill=FFFFFF00 | rows=[5] | cols=[5] | col_header=True | row_header=False | metadata=False
+full time' | fill=00000000 | rows=[5] | cols=[5] | col_header=False | row_header=False | metadata=False
 Cell G6 | value='Usually
 work
-part time' | fill=FFFFFF00 | rows=[5] | cols=[6] | col_header=True | row_header=False | metadata=False
+part time' | fill=00000000 | rows=[5] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell A8 | value='Total, at work 1 to 34 hours' | fill=FF00B050 | rows=[7] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B8 | value='34869' | fill=00000000 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C8 | value='10377' | fill=00000000 | rows=[7] | cols=[2] | col_header=False | row_header=False | metadata=False

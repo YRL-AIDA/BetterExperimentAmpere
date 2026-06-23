@@ -1,7 +1,7 @@
 === education-table24.xlsx ===
 Cell A1 | value='State' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[0] | col_header=True | row_header=True | metadata=False
 Cell B1 | value='Schools Reporting' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='Mathematics  Courses' | fill=00000000 | rows=[0] | cols=[2, 3, 4, 5] | col_header=False | row_header=False | metadata=False
+Cell C1 | value='Mathematics  Courses' | fill=FFFFFF00 | rows=[0] | cols=[2, 3, 4, 5] | col_header=True | row_header=False | metadata=False
 Cell G1 | value='Number of Schools' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[6] | col_header=True | row_header=False | metadata=False
 Cell H1 | value='Percent of Schools Reporting' | fill=FFFFFF00 | rows=[0, 1, 2] | cols=[7] | col_header=True | row_header=False | metadata=False
 Cell C2 | value='Algebra I' | fill=00000000 | rows=[1] | cols=[2, 3] | col_header=False | row_header=False | metadata=False

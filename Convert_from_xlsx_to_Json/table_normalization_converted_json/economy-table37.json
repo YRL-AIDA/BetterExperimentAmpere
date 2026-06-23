@@ -1273,8 +1273,8 @@
         "xml_text_content": "Grand Total",
         "pdf_text_content": "Grand Total",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1287,7 +1287,7 @@
         "pdf_text_content": "200",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1300,7 +1300,7 @@
         "pdf_text_content": "441",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1313,7 +1313,7 @@
         "pdf_text_content": "17092.42",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       }
     ],
     "structure_id": "economy-table37",

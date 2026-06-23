@@ -74,10 +74,10 @@ Cell B21 | value='Q1' | fill=00000000 | rows=[20] | cols=[1] | col_header=False 
 Cell C21 | value='169513' | fill=00000000 | rows=[20] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D21 | value='71518' | fill=00000000 | rows=[20] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E21 | value='874379' | fill=00000000 | rows=[20] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell A22 | value='TOTAL' | fill=FF00B0F0 | rows=[21] | cols=[0, 1] | col_header=False | row_header=False | metadata=True
-Cell C22 | value='1530697' | fill=FF00B0F0 | rows=[21] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D22 | value='776880' | fill=FF00B0F0 | rows=[21] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E22 | value='874379' | fill=FF00B0F0 | rows=[21] | cols=[4] | col_header=False | row_header=False | metadata=True
+Cell A22 | value='TOTAL' | fill=FF00B050 | rows=[21] | cols=[0, 1] | col_header=False | row_header=True | metadata=False
+Cell C22 | value='1530697' | fill=00000000 | rows=[21] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D22 | value='776880' | fill=00000000 | rows=[21] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E22 | value='874379' | fill=00000000 | rows=[21] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell A24 | value='Notes:' | fill=FF00B0F0 | rows=[23] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A25 | value='This report includes information only about those borrowers who have self-identified themselves as interested in PSLF based on their submission of an ECF.' | fill=FF00B0F0 | rows=[24] | cols=[0, 1, 2, 3, 4] | col_header=False | row_header=False | metadata=True
 Cell A26 | value='Although no borrower will be eligible for forgiveness under this program until October 2017, the Department introduced a voluntary Employment Certification Form in January 2012 to help borrowers track their progress toward meeting PSLF requirements.' | fill=FF00B0F0 | rows=[25] | cols=[0, 1, 2, 3, 4] | col_header=False | row_header=False | metadata=True

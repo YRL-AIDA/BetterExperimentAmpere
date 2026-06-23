@@ -5,17 +5,17 @@ Cell C1 | value='N[1]' | fill=FFFFFF00 | rows=[0, 1, 2, 3] | cols=[2] | col_head
 Cell D1 | value='Lean and Fat' | fill=00000000 | rows=[0] | cols=[3, 4, 5, 6] | col_header=False | row_header=False | metadata=False
 Cell H1 | value='Lean Only' | fill=00000000 | rows=[0] | cols=[7, 8] | col_header=False | row_header=False | metadata=False
 Cell J1 | value='Source Code[1]' | fill=FFFFFF00 | rows=[0, 1, 2, 3] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell D2 | value='Raw' | fill=FFFFFF00 | rows=[1, 2] | cols=[3, 4] | col_header=True | row_header=False | metadata=False
-Cell F2 | value='Cooked' | fill=FFFFFF00 | rows=[1] | cols=[5, 6] | col_header=True | row_header=False | metadata=False
-Cell H2 | value='Cooked' | fill=FFFFFF00 | rows=[1] | cols=[7, 8] | col_header=True | row_header=False | metadata=False
-Cell F3 | value='(Grilled)' | fill=FFFFFF00 | rows=[2] | cols=[5, 6] | col_header=True | row_header=False | metadata=False
-Cell H3 | value='(Grilled)' | fill=FFFFFF00 | rows=[2] | cols=[7, 8] | col_header=True | row_header=False | metadata=False
-Cell D4 | value='100g' | fill=FFFFFF00 | rows=[3] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E4 | value='114g' | fill=FFFFFF00 | rows=[3] | cols=[4] | col_header=True | row_header=False | metadata=False
-Cell F4 | value='100g' | fill=FFFFFF00 | rows=[3] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G4 | value='85g' | fill=FFFFFF00 | rows=[3] | cols=[6] | col_header=True | row_header=False | metadata=False
-Cell H4 | value='100g' | fill=FFFFFF00 | rows=[3] | cols=[7] | col_header=True | row_header=False | metadata=False
-Cell I4 | value='85g' | fill=FFFFFF00 | rows=[3] | cols=[8] | col_header=True | row_header=False | metadata=False
+Cell D2 | value='Raw' | fill=00000000 | rows=[1, 2] | cols=[3, 4] | col_header=False | row_header=False | metadata=False
+Cell F2 | value='Cooked' | fill=00000000 | rows=[1] | cols=[5, 6] | col_header=False | row_header=False | metadata=False
+Cell H2 | value='Cooked' | fill=00000000 | rows=[1] | cols=[7, 8] | col_header=False | row_header=False | metadata=False
+Cell F3 | value='(Grilled)' | fill=00000000 | rows=[2] | cols=[5, 6] | col_header=False | row_header=False | metadata=False
+Cell H3 | value='(Grilled)' | fill=00000000 | rows=[2] | cols=[7, 8] | col_header=False | row_header=False | metadata=False
+Cell D4 | value='100g' | fill=00000000 | rows=[3] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E4 | value='114g' | fill=00000000 | rows=[3] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell F4 | value='100g' | fill=00000000 | rows=[3] | cols=[5] | col_header=False | row_header=False | metadata=False
+Cell G4 | value='85g' | fill=00000000 | rows=[3] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H4 | value='100g' | fill=00000000 | rows=[3] | cols=[7] | col_header=False | row_header=False | metadata=False
+Cell I4 | value='85g' | fill=00000000 | rows=[3] | cols=[8] | col_header=False | row_header=False | metadata=False
 Cell A5 | value='Water' | fill=00000000 | rows=[4] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='g' | fill=00000000 | rows=[4] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C5 | value='0/0/6' | fill=00000000 | rows=[4] | cols=[2] | col_header=False | row_header=False | metadata=False

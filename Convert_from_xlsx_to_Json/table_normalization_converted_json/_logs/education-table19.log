@@ -2,8 +2,8 @@
 Cell A2 | value='Number and percentage of public school students retained, by race/ethnicity, disability status, and English proficiency, by gender and grade: School Year 2011-12' | fill=FF00B0F0 | rows=[1] | cols=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] | col_header=False | row_header=False | metadata=True
 Cell A4 | value='Grade' | fill=FFFFFF00 | rows=[3, 4, 5] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B4 | value='Gender' | fill=FFFFFF00 | rows=[3, 4, 5] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C4 | value='Total Students' | fill=FFFFFF00 | rows=[3, 4] | cols=[2, 3] | col_header=True | row_header=False | metadata=False
-Cell E4 | value='Race/Ethnicity' | fill=FFFFFF00 | rows=[3] | cols=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] | col_header=True | row_header=False | metadata=False
+Cell C4 | value='Total Students' | fill=00000000 | rows=[3, 4] | cols=[2, 3] | col_header=False | row_header=False | metadata=False
+Cell E4 | value='Race/Ethnicity' | fill=00000000 | rows=[3] | cols=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17] | col_header=False | row_header=False | metadata=False
 Cell S4 | value='Students With Disabilities Served Under IDEA' | fill=00000000 | rows=[3, 4] | cols=[18, 19] | col_header=False | row_header=False | metadata=False
 Cell U4 | value='Students With Disabilities Served Only Under Section 504' | fill=00000000 | rows=[3, 4] | cols=[20, 21] | col_header=False | row_header=False | metadata=False
 Cell W4 | value='English Language Learners' | fill=00000000 | rows=[3, 4] | cols=[22, 23] | col_header=False | row_header=False | metadata=False

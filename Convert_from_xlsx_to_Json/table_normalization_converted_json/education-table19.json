@@ -80,7 +80,7 @@
         ],
         "xml_text_content": "Total Students",
         "pdf_text_content": "Total Students",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -106,7 +106,7 @@
         ],
         "xml_text_content": "Race/Ethnicity",
         "pdf_text_content": "Race/Ethnicity",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

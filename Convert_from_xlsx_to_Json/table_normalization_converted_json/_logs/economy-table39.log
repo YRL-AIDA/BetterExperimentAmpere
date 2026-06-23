@@ -1,8 +1,8 @@
 === economy-table39.xlsx ===
 Cell A1 | value='Client' | fill=FFFFFF00 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=False
 Cell B1 | value='Policy' | fill=FFFFFF00 | rows=[0] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='2016 Commission' | fill=FFFFFF00 | rows=[0] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D1 | value='2017 Commission' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell C1 | value='2016 Commission' | fill=00000000 | rows=[0] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D1 | value='2017 Commission' | fill=00000000 | rows=[0] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell A2 | value='Client 1' | fill=00000000 | rows=[1, 2, 3, 4] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B2 | value='WKF018956' | fill=00000000 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C2 | value='200' | fill=00000000 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False

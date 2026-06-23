@@ -50,8 +50,8 @@
         ],
         "xml_text_content": "Table identifier",
         "pdf_text_content": "Table identifier",
-        "is_column_header": true,
-        "is_projected_row_header": false,
+        "is_column_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -73,7 +73,7 @@
         ],
         "xml_text_content": "Table 01 - Indicators of growth, employment and inequality",
         "pdf_text_content": "Table 01 - Indicators of growth, employment and inequality",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -98,7 +98,7 @@
         ],
         "xml_text_content": "Table 05 - Demographic estimates",
         "pdf_text_content": "Table 05 - Demographic estimates",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -118,7 +118,7 @@
         ],
         "xml_text_content": "Table 06 - Basic education indicators",
         "pdf_text_content": "Table 06 - Basic education indicators",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -149,7 +149,7 @@
         ],
         "xml_text_content": "Table 07 - Labour force characteristics",
         "pdf_text_content": "Table 07 - Labour force characteristics",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -163,8 +163,8 @@
         ],
         "xml_text_content": "Combined measure",
         "pdf_text_content": "Combined measure",
-        "is_column_header": true,
-        "is_projected_row_header": false,
+        "is_column_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -176,7 +176,7 @@
         ],
         "xml_text_content": "Population",
         "pdf_text_content": "Population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -191,7 +191,7 @@
         ],
         "xml_text_content": "Gross domestic product",
         "pdf_text_content": "Gross domestic product",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -204,7 +204,7 @@
         ],
         "xml_text_content": "Growth rate of real gross domestic product",
         "pdf_text_content": "Growth rate of real gross domestic product",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -217,7 +217,7 @@
         ],
         "xml_text_content": "Inflation, average consumer prices",
         "pdf_text_content": "Inflation, average consumer prices",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -230,7 +230,7 @@
         ],
         "xml_text_content": "Gini coefficient (World Bank estimate)",
         "pdf_text_content": "Gini coefficient (World Bank estimate)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -243,7 +243,7 @@
         ],
         "xml_text_content": "Population in extreme poverty ($2.15 a day)",
         "pdf_text_content": "Population in extreme poverty ($2.15 a day)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -256,7 +256,7 @@
         ],
         "xml_text_content": "Human development index (HDI)",
         "pdf_text_content": "Human development index (HDI)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -269,7 +269,7 @@
         ],
         "xml_text_content": "Inequality-adjusted HDI (IHDI)",
         "pdf_text_content": "Inequality-adjusted HDI (IHDI)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -282,7 +282,7 @@
         ],
         "xml_text_content": "Population with access to electricity",
         "pdf_text_content": "Population with access to electricity",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -295,7 +295,7 @@
         ],
         "xml_text_content": "Population",
         "pdf_text_content": "Population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -308,7 +308,7 @@
         ],
         "xml_text_content": "Population, Urban area",
         "pdf_text_content": "Population, Urban area",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -321,7 +321,7 @@
         ],
         "xml_text_content": "Population, Rural area",
         "pdf_text_content": "Population, Rural area",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -334,7 +334,7 @@
         ],
         "xml_text_content": "Population living in urban agglomerations of 300,000 to 1 million inhabitants",
         "pdf_text_content": "Population living in urban agglomerations of 300,000 to 1 million inhabitants",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -347,7 +347,7 @@
         ],
         "xml_text_content": "Number of urban agglomerations of 300,000 to 1 million inhabitants",
         "pdf_text_content": "Number of urban agglomerations of 300,000 to 1 million inhabitants",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -360,7 +360,7 @@
         ],
         "xml_text_content": "Population living in urban agglomerations of over 1 million inhabitants",
         "pdf_text_content": "Population living in urban agglomerations of over 1 million inhabitants",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -373,7 +373,7 @@
         ],
         "xml_text_content": "Number of urban agglomerations of over 1 million inhabitants",
         "pdf_text_content": "Number of urban agglomerations of over 1 million inhabitants",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -386,7 +386,7 @@
         ],
         "xml_text_content": "Old-age dependency ratio",
         "pdf_text_content": "Old-age dependency ratio",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -399,7 +399,7 @@
         ],
         "xml_text_content": "Child dependency ratio",
         "pdf_text_content": "Child dependency ratio",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -412,7 +412,7 @@
         ],
         "xml_text_content": "Total dependency ratio",
         "pdf_text_content": "Total dependency ratio",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -425,7 +425,7 @@
         ],
         "xml_text_content": "Population with access to electricity",
         "pdf_text_content": "Population with access to electricity",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -438,7 +438,7 @@
         ],
         "xml_text_content": "Population with access to electricity, Urban area",
         "pdf_text_content": "Population with access to electricity, Urban area",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -451,7 +451,7 @@
         ],
         "xml_text_content": "Population with access to electricity, Rural area",
         "pdf_text_content": "Population with access to electricity, Rural area",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -464,7 +464,7 @@
         ],
         "xml_text_content": "Youth literacy rate, Female",
         "pdf_text_content": "Youth literacy rate, Female",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -477,7 +477,7 @@
         ],
         "xml_text_content": "Youth literacy rate, Male",
         "pdf_text_content": "Youth literacy rate, Male",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -490,7 +490,7 @@
         ],
         "xml_text_content": "Youth literacy rate",
         "pdf_text_content": "Youth literacy rate",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -503,7 +503,7 @@
         ],
         "xml_text_content": "Youth literacy rate, population 15-24 years, adjusted gender parity index (GPIA)",
         "pdf_text_content": "Youth literacy rate, population 15-24 years, adjusted gender parity index (GPIA)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -516,7 +516,7 @@
         ],
         "xml_text_content": "Adult literacy rate, Female",
         "pdf_text_content": "Adult literacy rate, Female",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -529,7 +529,7 @@
         ],
         "xml_text_content": "Adult literacy rate, Male",
         "pdf_text_content": "Adult literacy rate, Male",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -542,7 +542,7 @@
         ],
         "xml_text_content": "Adult literacy rate",
         "pdf_text_content": "Adult literacy rate",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -555,7 +555,7 @@
         ],
         "xml_text_content": "Adult literacy rate, population 15+ years, adjusted gender parity index (GPIA)",
         "pdf_text_content": "Adult literacy rate, population 15+ years, adjusted gender parity index (GPIA)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -568,7 +568,7 @@
         ],
         "xml_text_content": "Employment, Female",
         "pdf_text_content": "Employment, Female",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -581,7 +581,7 @@
         ],
         "xml_text_content": "Employment, Male",
         "pdf_text_content": "Employment, Male",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -594,7 +594,7 @@
         ],
         "xml_text_content": "Employment",
         "pdf_text_content": "Employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -607,7 +607,7 @@
         ],
         "xml_text_content": "Employment",
         "pdf_text_content": "Employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -621,7 +621,7 @@
         ],
         "xml_text_content": "Workers aged 15+ in vulnerable employment",
         "pdf_text_content": "Workers aged 15+ in vulnerable employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -635,7 +635,7 @@
         ],
         "xml_text_content": "Workers aged 15+ classified as employees",
         "pdf_text_content": "Workers aged 15+ classified as employees",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -649,7 +649,7 @@
         ],
         "xml_text_content": "Workers aged 15+ classified as employers",
         "pdf_text_content": "Workers aged 15+ classified as employers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -663,7 +663,7 @@
         ],
         "xml_text_content": "Workers aged 15+ classified as own-account workers",
         "pdf_text_content": "Workers aged 15+ classified as own-account workers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -677,7 +677,7 @@
         ],
         "xml_text_content": "Workers aged 15+ classified as contributing family workers",
         "pdf_text_content": "Workers aged 15+ classified as contributing family workers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -690,7 +690,7 @@
         ],
         "xml_text_content": "Informal employment, Female",
         "pdf_text_content": "Informal employment, Female",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -703,7 +703,7 @@
         ],
         "xml_text_content": "Informal employment, Male",
         "pdf_text_content": "Informal employment, Male",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -716,7 +716,7 @@
         ],
         "xml_text_content": "Informal employment",
         "pdf_text_content": "Informal employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -729,7 +729,7 @@
         ],
         "xml_text_content": "Unemployment",
         "pdf_text_content": "Unemployment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -742,7 +742,7 @@
         ],
         "xml_text_content": "Population outside the labour force",
         "pdf_text_content": "Population outside the labour force",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -756,8 +756,8 @@
         ],
         "xml_text_content": "Unit of measure",
         "pdf_text_content": "Unit of measure",
-        "is_column_header": true,
-        "is_projected_row_header": false,
+        "is_column_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -769,7 +769,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -782,7 +782,7 @@
         ],
         "xml_text_content": "US dollar",
         "pdf_text_content": "US dollar",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -795,7 +795,7 @@
         ],
         "xml_text_content": "US dollars, PPP converted",
         "pdf_text_content": "US dollars, PPP converted",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -808,7 +808,7 @@
         ],
         "xml_text_content": "US dollars per person, PPP converted",
         "pdf_text_content": "US dollars per person, PPP converted",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -821,7 +821,7 @@
         ],
         "xml_text_content": "Percent per annum",
         "pdf_text_content": "Percent per annum",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -834,7 +834,7 @@
         ],
         "xml_text_content": "Index",
         "pdf_text_content": "Index",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -847,7 +847,7 @@
         ],
         "xml_text_content": "0-1 scale",
         "pdf_text_content": "0-1 scale",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -860,7 +860,7 @@
         ],
         "xml_text_content": "Percentage of population",
         "pdf_text_content": "Percentage of population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -873,7 +873,7 @@
         ],
         "xml_text_content": "Index",
         "pdf_text_content": "Index",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -886,7 +886,7 @@
         ],
         "xml_text_content": "Index",
         "pdf_text_content": "Index",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -899,7 +899,7 @@
         ],
         "xml_text_content": "Percentage of population",
         "pdf_text_content": "Percentage of population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -912,7 +912,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -925,7 +925,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -938,7 +938,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -951,7 +951,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -964,7 +964,7 @@
         ],
         "xml_text_content": "Units",
         "pdf_text_content": "Units",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -977,7 +977,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -990,7 +990,7 @@
         ],
         "xml_text_content": "Units",
         "pdf_text_content": "Units",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1003,7 +1003,7 @@
         ],
         "xml_text_content": "Percentage of population aged 15-64 years",
         "pdf_text_content": "Percentage of population aged 15-64 years",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1016,7 +1016,7 @@
         ],
         "xml_text_content": "Percentage of population aged 15-64 years",
         "pdf_text_content": "Percentage of population aged 15-64 years",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1029,7 +1029,7 @@
         ],
         "xml_text_content": "Percentage of population aged 15-64 years",
         "pdf_text_content": "Percentage of population aged 15-64 years",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1042,7 +1042,7 @@
         ],
         "xml_text_content": "Percentage of population",
         "pdf_text_content": "Percentage of population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1055,7 +1055,7 @@
         ],
         "xml_text_content": "Percentage of population",
         "pdf_text_content": "Percentage of population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1068,7 +1068,7 @@
         ],
         "xml_text_content": "Percentage of population",
         "pdf_text_content": "Percentage of population",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1081,7 +1081,7 @@
         ],
         "xml_text_content": "Percentage of population in the same subgroup",
         "pdf_text_content": "Percentage of population in the same subgroup",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1094,7 +1094,7 @@
         ],
         "xml_text_content": "Percentage of population in the same subgroup",
         "pdf_text_content": "Percentage of population in the same subgroup",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1107,7 +1107,7 @@
         ],
         "xml_text_content": "Percentage of population in the same subgroup",
         "pdf_text_content": "Percentage of population in the same subgroup",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1120,7 +1120,7 @@
         ],
         "xml_text_content": "Index",
         "pdf_text_content": "Index",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1133,7 +1133,7 @@
         ],
         "xml_text_content": "Percentage of population in the same subgroup",
         "pdf_text_content": "Percentage of population in the same subgroup",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1146,7 +1146,7 @@
         ],
         "xml_text_content": "Percentage of population in the same subgroup",
         "pdf_text_content": "Percentage of population in the same subgroup",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1159,7 +1159,7 @@
         ],
         "xml_text_content": "Percentage of population in the same subgroup",
         "pdf_text_content": "Percentage of population in the same subgroup",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1172,7 +1172,7 @@
         ],
         "xml_text_content": "Index",
         "pdf_text_content": "Index",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1185,7 +1185,7 @@
         ],
         "xml_text_content": "Percentage of population aged 15 years or over",
         "pdf_text_content": "Percentage of population aged 15 years or over",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1198,7 +1198,7 @@
         ],
         "xml_text_content": "Percentage of population aged 15 years or over",
         "pdf_text_content": "Percentage of population aged 15 years or over",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1211,7 +1211,7 @@
         ],
         "xml_text_content": "Percentage of population aged 15 years or over",
         "pdf_text_content": "Percentage of population aged 15 years or over",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1224,7 +1224,7 @@
         ],
         "xml_text_content": "Percentage of population aged 25-54 years",
         "pdf_text_content": "Percentage of population aged 25-54 years",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1237,7 +1237,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1250,7 +1250,7 @@
         ],
         "xml_text_content": "Percentage of employment",
         "pdf_text_content": "Percentage of employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1263,7 +1263,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1276,7 +1276,7 @@
         ],
         "xml_text_content": "Percentage of workers",
         "pdf_text_content": "Percentage of workers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1289,7 +1289,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1302,7 +1302,7 @@
         ],
         "xml_text_content": "Percentage of workers",
         "pdf_text_content": "Percentage of workers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1315,7 +1315,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1328,7 +1328,7 @@
         ],
         "xml_text_content": "Percentage of workers",
         "pdf_text_content": "Percentage of workers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1341,7 +1341,7 @@
         ],
         "xml_text_content": "Persons",
         "pdf_text_content": "Persons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1354,7 +1354,7 @@
         ],
         "xml_text_content": "Percentage of workers",
         "pdf_text_content": "Percentage of workers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1367,7 +1367,7 @@
         ],
         "xml_text_content": "Percentage of employment",
         "pdf_text_content": "Percentage of employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1380,7 +1380,7 @@
         ],
         "xml_text_content": "Percentage of employment",
         "pdf_text_content": "Percentage of employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1393,7 +1393,7 @@
         ],
         "xml_text_content": "Percentage of employment",
         "pdf_text_content": "Percentage of employment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1406,7 +1406,7 @@
         ],
         "xml_text_content": "Percentage of population aged 25-54 years",
         "pdf_text_content": "Percentage of population aged 25-54 years",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1419,7 +1419,7 @@
         ],
         "xml_text_content": "Percentage of population aged 25-54 years",
         "pdf_text_content": "Percentage of population aged 25-54 years",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

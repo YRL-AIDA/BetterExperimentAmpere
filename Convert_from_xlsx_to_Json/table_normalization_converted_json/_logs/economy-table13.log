@@ -10,26 +10,26 @@ Cell P1 | value='West Midlands' | fill=9 | rows=[0] | cols=[15, 16] | col_header
 Cell R1 | value='Yorkshire and the Humber' | fill=9 | rows=[0] | cols=[17, 18] | col_header=False | row_header=False | metadata=False
 Cell T1 | value='England' | fill=9 | rows=[0] | cols=[19, 20] | col_header=False | row_header=False | metadata=False
 Cell A2 | value='Sector' | fill=FFFFFF00 | rows=[1] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B2 | value='Births' | fill=9 | rows=[1] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[2] | col_header=False | row_header=False | metadata=False
-Cell D2 | value='Births' | fill=9 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False
-Cell E2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[4] | col_header=False | row_header=False | metadata=False
-Cell F2 | value='Births' | fill=9 | rows=[1] | cols=[5] | col_header=False | row_header=False | metadata=False
-Cell G2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[6] | col_header=False | row_header=False | metadata=False
-Cell H2 | value='Births' | fill=9 | rows=[1] | cols=[7] | col_header=False | row_header=False | metadata=False
-Cell I2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[8] | col_header=False | row_header=False | metadata=False
-Cell J2 | value='Births' | fill=9 | rows=[1] | cols=[9] | col_header=False | row_header=False | metadata=False
-Cell K2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[10] | col_header=False | row_header=False | metadata=False
-Cell L2 | value='Births' | fill=9 | rows=[1] | cols=[11] | col_header=False | row_header=False | metadata=False
-Cell M2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[12] | col_header=False | row_header=False | metadata=False
-Cell N2 | value='Births' | fill=9 | rows=[1] | cols=[13] | col_header=False | row_header=False | metadata=False
-Cell O2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[14] | col_header=False | row_header=False | metadata=False
-Cell P2 | value='Births' | fill=9 | rows=[1] | cols=[15] | col_header=False | row_header=False | metadata=False
-Cell Q2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[16] | col_header=False | row_header=False | metadata=False
-Cell R2 | value='Births' | fill=9 | rows=[1] | cols=[17] | col_header=False | row_header=False | metadata=False
-Cell S2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[18] | col_header=False | row_header=False | metadata=False
-Cell T2 | value='Births' | fill=9 | rows=[1] | cols=[19] | col_header=False | row_header=False | metadata=False
-Cell U2 | value='2009 Stock' | fill=9 | rows=[1] | cols=[20] | col_header=False | row_header=False | metadata=False
+Cell B2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell C2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[2] | col_header=True | row_header=False | metadata=False
+Cell D2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell E2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[4] | col_header=True | row_header=False | metadata=False
+Cell F2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[5] | col_header=True | row_header=False | metadata=False
+Cell G2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[6] | col_header=True | row_header=False | metadata=False
+Cell H2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[7] | col_header=True | row_header=False | metadata=False
+Cell I2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[8] | col_header=True | row_header=False | metadata=False
+Cell J2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[9] | col_header=True | row_header=False | metadata=False
+Cell K2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[10] | col_header=True | row_header=False | metadata=False
+Cell L2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[11] | col_header=True | row_header=False | metadata=False
+Cell M2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[12] | col_header=True | row_header=False | metadata=False
+Cell N2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[13] | col_header=True | row_header=False | metadata=False
+Cell O2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[14] | col_header=True | row_header=False | metadata=False
+Cell P2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[15] | col_header=True | row_header=False | metadata=False
+Cell Q2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[16] | col_header=True | row_header=False | metadata=False
+Cell R2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[17] | col_header=True | row_header=False | metadata=False
+Cell S2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[18] | col_header=True | row_header=False | metadata=False
+Cell T2 | value='Births' | fill=FFFFFF00 | rows=[1] | cols=[19] | col_header=True | row_header=False | metadata=False
+Cell U2 | value='2009 Stock' | fill=FFFFFF00 | rows=[1] | cols=[20] | col_header=True | row_header=False | metadata=False
 Cell A3 | value='Creative' | fill=9 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='2964.52623650952' | fill=9 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='8361.85' | fill=9 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -114,7 +114,7 @@ Cell R6 | value='390.476615602418' | fill=9 | rows=[5] | cols=[17] | col_header=
 Cell S6 | value='1650' | fill=9 | rows=[5] | cols=[18] | col_header=False | row_header=False | metadata=False
 Cell T6 | value='2918.84922541611' | fill=9 | rows=[5] | cols=[19] | col_header=False | row_header=False | metadata=False
 Cell U6 | value='16950' | fill=9 | rows=[5] | cols=[20] | col_header=False | row_header=False | metadata=False
-Cell A8 | value='CASE' | fill=9 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A8 | value='CASE' | fill=FF00B050 | rows=[7] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B8 | value='3204.89445670467' | fill=9 | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C8 | value='9821.85' | fill=9 | rows=[7] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D8 | value='6858.7211284018' | fill=9 | rows=[7] | cols=[3] | col_header=False | row_header=False | metadata=False

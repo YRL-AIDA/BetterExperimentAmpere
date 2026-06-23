@@ -6,15 +6,15 @@ Cell A2 | value='[In thousands]' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_hea
 Cell A4 | value='Industry, sex, and race' | fill=FFFFFF00 | rows=[3, 4, 5] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B4 | value='2023' | fill=00000000 | rows=[3] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] | col_header=False | row_header=False | metadata=False
 Cell B5 | value='Total employed' | fill=00000000 | rows=[4, 5] | cols=[1] | col_header=False | row_header=False | metadata=False
-Cell C5 | value='Management, professional, and related occupations' | fill=FFFFFF00 | rows=[4] | cols=[2, 3] | col_header=True | row_header=False | metadata=False
+Cell C5 | value='Management, professional, and related occupations' | fill=00000000 | rows=[4] | cols=[2, 3] | col_header=False | row_header=False | metadata=False
 Cell E5 | value='Service
-occupations' | fill=FFFFFF00 | rows=[4] | cols=[4, 5] | col_header=True | row_header=False | metadata=False
+occupations' | fill=00000000 | rows=[4] | cols=[4, 5] | col_header=False | row_header=False | metadata=False
 Cell G5 | value='Sales and office
-occupations' | fill=FFFFFF00 | rows=[4] | cols=[6, 7] | col_header=True | row_header=False | metadata=False
+occupations' | fill=00000000 | rows=[4] | cols=[6, 7] | col_header=False | row_header=False | metadata=False
 Cell I5 | value='Natural resources,
 construction, and
-maintenance occupations' | fill=FFFFFF00 | rows=[4] | cols=[8, 9, 10] | col_header=True | row_header=False | metadata=False
-Cell L5 | value='Production, transportation, and material moving occupations' | fill=FFFFFF00 | rows=[4] | cols=[11, 12] | col_header=True | row_header=False | metadata=False
+maintenance occupations' | fill=00000000 | rows=[4] | cols=[8, 9, 10] | col_header=False | row_header=False | metadata=False
+Cell L5 | value='Production, transportation, and material moving occupations' | fill=00000000 | rows=[4] | cols=[11, 12] | col_header=False | row_header=False | metadata=False
 Cell C6 | value='Management, business, and financial operations occupations' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='Professional and related occupations' | fill=00000000 | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E6 | value='Protective service occupations' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False

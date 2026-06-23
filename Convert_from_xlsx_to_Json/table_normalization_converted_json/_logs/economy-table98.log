@@ -3,10 +3,10 @@ Cell A1 | value='Return to contents' | fill=FF00B0F0 | rows=[0] | cols=[0] | col
 Cell A2 | value='DA1 Channel through which the consumer purchased products that they experienced detriment with 
 
 Base: All detriment incidents in the UK in the 12 months to April 2021' | fill=FFFFFF00 | rows=[1, 2, 3] | cols=[0] | col_header=True | row_header=False | metadata=False
-Cell B2 | value='Total' | fill=FFFFFF00 | rows=[1, 2, 3] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C2 | value='Product type' | fill=FFFFFF00 | rows=[1] | cols=[2, 3] | col_header=True | row_header=False | metadata=False
-Cell E2 | value='Market cluster' | fill=FFFFFF00 | rows=[1] | cols=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] | col_header=True | row_header=False | metadata=False
-Cell P2 | value='Sector' | fill=FFFFFF00 | rows=[1] | cols=[15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58] | col_header=True | row_header=False | metadata=False
+Cell B2 | value='Total' | fill=00000000 | rows=[1, 2, 3] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C2 | value='Product type' | fill=00000000 | rows=[1] | cols=[2, 3] | col_header=False | row_header=False | metadata=False
+Cell E2 | value='Market cluster' | fill=00000000 | rows=[1] | cols=[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] | col_header=False | row_header=False | metadata=False
+Cell P2 | value='Sector' | fill=00000000 | rows=[1] | cols=[15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='Good' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D3 | value='Service' | fill=00000000 | rows=[2] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E3 | value='Fast-moving retail' | fill=00000000 | rows=[2] | cols=[4] | col_header=False | row_header=False | metadata=False
@@ -121,7 +121,7 @@ Cell BD4 | value='B3' | fill=00000000 | rows=[3] | cols=[55] | col_header=False 
 Cell BE4 | value='C3' | fill=00000000 | rows=[3] | cols=[56] | col_header=False | row_header=False | metadata=False
 Cell BF4 | value='D3' | fill=00000000 | rows=[3] | cols=[57] | col_header=False | row_header=False | metadata=False
 Cell BG4 | value='E3' | fill=00000000 | rows=[3] | cols=[58] | col_header=False | row_header=False | metadata=False
-Cell A5 | value='Unweighted total' | fill=FFFFFFFF | rows=[4] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A5 | value='Unweighted total' | fill=FF00B050 | rows=[4] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B5 | value='9388' | fill=FFFFFFFF | rows=[4] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C5 | value='3698' | fill=FFFFFFFF | rows=[4] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D5 | value='5690' | fill=FFFFFFFF | rows=[4] | cols=[3] | col_header=False | row_header=False | metadata=False
@@ -180,7 +180,7 @@ Cell BD5 | value='190' | fill=FFFFFFFF | rows=[4] | cols=[55] | col_header=False
 Cell BE5 | value='110' | fill=FFFFFFFF | rows=[4] | cols=[56] | col_header=False | row_header=False | metadata=False
 Cell BF5 | value='44' | fill=FFFFFFFF | rows=[4] | cols=[57] | col_header=False | row_header=False | metadata=False
 Cell BG5 | value='13' | fill=FFFFFFFF | rows=[4] | cols=[58] | col_header=False | row_header=False | metadata=False
-Cell A6 | value='Weighted total' | fill=FFFFFFFF | rows=[5] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A6 | value='Weighted total' | fill=FF00B050 | rows=[5] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B6 | value='27838' | fill=FFFFFFFF | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C6 | value='13275' | fill=FFFFFFFF | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='14563' | fill=FFFFFFFF | rows=[5] | cols=[3] | col_header=False | row_header=False | metadata=False

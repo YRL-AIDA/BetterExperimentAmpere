@@ -1,7 +1,7 @@
 === environment-table15.xlsx ===
 Cell A2 | value='Table 20  Scientific procedures by species of animal, 1988-2011' | fill=FF00B0F0 | rows=[1] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A4 | value='Great Britain' | fill=00000000 | rows=[3] | cols=[0] | col_header=False | row_header=False | metadata=False
-Cell W4 | value='Thousands of procedures' | fill=FFFFFF00 | rows=[3] | cols=[22] | col_header=True | row_header=False | metadata=False
+Cell W4 | value='Thousands of procedures' | fill=00000000 | rows=[3] | cols=[22] | col_header=False | row_header=False | metadata=False
 Cell A5 | value='Species of animal' | fill=FFFFFF00 | rows=[4] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B6 | value='1988' | fill=43 | rows=[5] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C6 | value='1989' | fill=43 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
@@ -327,7 +327,7 @@ Cell V18 | value='0' | fill=00000000 | rows=[17] | cols=[21] | col_header=False 
 Cell W18 | value='0' | fill=00000000 | rows=[17] | cols=[22] | col_header=False | row_header=False | metadata=False
 Cell X18 | value='0' | fill=00000000 | rows=[17] | cols=[23] | col_header=False | row_header=False | metadata=False
 Cell Y18 | value='0' | fill=00000000 | rows=[17] | cols=[24] | col_header=False | row_header=False | metadata=False
-Cell A19 | value='Total' | fill=43 | rows=[18] | cols=[0] | col_header=False | row_header=False | metadata=False
+Cell A19 | value='Total' | fill=FF00B050 | rows=[18] | cols=[0] | col_header=False | row_header=True | metadata=False
 Cell B19 | value='3480.3' | fill=43 | rows=[18] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C19 | value='3315.1' | fill=43 | rows=[18] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D19 | value='3207.1' | fill=43 | rows=[18] | cols=[3] | col_header=False | row_header=False | metadata=False

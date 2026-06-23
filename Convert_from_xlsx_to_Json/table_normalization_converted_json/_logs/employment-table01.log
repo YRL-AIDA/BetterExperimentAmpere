@@ -29,7 +29,7 @@ industries' | fill=FFFFFF00 | rows=[5] | cols=[7] | col_header=True | row_header
 Cell I6 | value='Number' | fill=FFFFFF00 | rows=[5] | cols=[8] | col_header=True | row_header=False | metadata=False
 Cell J6 | value='Percent of
 labor force' | fill=FFFFFF00 | rows=[5] | cols=[9] | col_header=True | row_header=False | metadata=False
-Cell A8 | value='Persons 16 years of age and over' | fill=FF00B0F0 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=True
+Cell A8 | value='Persons 16 years of age and over' | fill=00000000 | rows=[7] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell A9 | value='1953' | fill=00000000 | rows=[8] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B9 | value='107056' | fill=00000000 | rows=[8] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C9 | value='63015' | fill=00000000 | rows=[8] | cols=[2] | col_header=False | row_header=False | metadata=False

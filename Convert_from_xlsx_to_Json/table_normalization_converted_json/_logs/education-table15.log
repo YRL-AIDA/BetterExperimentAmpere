@@ -1,9 +1,9 @@
 === education-table15.xlsx ===
 Cell A1 | value='Name' | fill=FFFFFF00 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=False
-Cell B1 | value='Maths' | fill=FFFFFF00 | rows=[0] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C1 | value='English' | fill=FFFFFF00 | rows=[0] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D1 | value='Science' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E1 | value='History' | fill=FFFFFF00 | rows=[0] | cols=[4] | col_header=True | row_header=False | metadata=False
+Cell B1 | value='Maths' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
+Cell C1 | value='English' | fill=00000000 | rows=[0] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D1 | value='Science' | fill=00000000 | rows=[0] | cols=[3] | col_header=False | row_header=False | metadata=False
+Cell E1 | value='History' | fill=00000000 | rows=[0] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell A2 | value='2012' | fill=9 | rows=[1] | cols=[0, 1, 2, 3, 4] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Moore' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='30' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False

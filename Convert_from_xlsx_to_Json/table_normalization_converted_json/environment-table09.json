@@ -23,7 +23,7 @@
         ],
         "xml_text_content": "Contemporary prices",
         "pdf_text_content": "Contemporary prices",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "2009 prices",
         "pdf_text_content": "2009 prices",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "% on fuel, light & power",
         "pdf_text_content": "% on fuel, light & power",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "All goods (£)",
         "pdf_text_content": "All goods (£)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Fuel, light & power (£)",
         "pdf_text_content": "Fuel, light & power (£)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -101,7 +101,7 @@
         ],
         "xml_text_content": "All goods (£)",
         "pdf_text_content": "All goods (£)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Fuel, light & power (£)",
         "pdf_text_content": "Fuel, light & power (£)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

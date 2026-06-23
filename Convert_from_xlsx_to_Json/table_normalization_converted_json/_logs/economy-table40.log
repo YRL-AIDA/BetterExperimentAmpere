@@ -59,28 +59,28 @@ Cell AU2 | value='Orde Note No' | fill=FFFFFF00 | rows=[1] | cols=[46] | col_hea
 Cell AV2 | value='Invoice Date3' | fill=FFFFFF00 | rows=[1] | cols=[47] | col_header=True | row_header=False | metadata=False
 Cell AW2 | value='Invoice No' | fill=FFFFFF00 | rows=[1] | cols=[48] | col_header=True | row_header=False | metadata=False
 Cell AX2 | value='Cost' | fill=FFFFFF00 | rows=[1] | cols=[49] | col_header=True | row_header=False | metadata=False
-Cell AY2 | value='Microsoft OS' | fill=FFFFFF00 | rows=[1] | cols=[50] | col_header=True | row_header=False | metadata=False
-Cell AZ2 | value='MS Office' | fill=FFFFFF00 | rows=[1] | cols=[51] | col_header=True | row_header=False | metadata=False
-Cell BA2 | value='MS Project' | fill=FFFFFF00 | rows=[1] | cols=[52] | col_header=True | row_header=False | metadata=False
-Cell BB2 | value='MS Exchange' | fill=FFFFFF00 | rows=[1] | cols=[53] | col_header=True | row_header=False | metadata=False
-Cell BC2 | value='Win Server Cal' | fill=FFFFFF00 | rows=[1] | cols=[54] | col_header=True | row_header=False | metadata=False
-Cell BD2 | value='SQL' | fill=FFFFFF00 | rows=[1] | cols=[55] | col_header=True | row_header=False | metadata=False
-Cell BE2 | value='Adobe Standard' | fill=FFFFFF00 | rows=[1] | cols=[56] | col_header=True | row_header=False | metadata=False
-Cell BF2 | value='Office 365' | fill=FFFFFF00 | rows=[1] | cols=[57] | col_header=True | row_header=False | metadata=False
+Cell AY2 | value='Microsoft OS' | fill=00000000 | rows=[1] | cols=[50] | col_header=False | row_header=False | metadata=False
+Cell AZ2 | value='MS Office' | fill=00000000 | rows=[1] | cols=[51] | col_header=False | row_header=False | metadata=False
+Cell BA2 | value='MS Project' | fill=00000000 | rows=[1] | cols=[52] | col_header=False | row_header=False | metadata=False
+Cell BB2 | value='MS Exchange' | fill=00000000 | rows=[1] | cols=[53] | col_header=False | row_header=False | metadata=False
+Cell BC2 | value='Win Server Cal' | fill=00000000 | rows=[1] | cols=[54] | col_header=False | row_header=False | metadata=False
+Cell BD2 | value='SQL' | fill=00000000 | rows=[1] | cols=[55] | col_header=False | row_header=False | metadata=False
+Cell BE2 | value='Adobe Standard' | fill=00000000 | rows=[1] | cols=[56] | col_header=False | row_header=False | metadata=False
+Cell BF2 | value='Office 365' | fill=00000000 | rows=[1] | cols=[57] | col_header=False | row_header=False | metadata=False
 Cell BG2 | value='Supplier3' | fill=FFFFFF00 | rows=[1] | cols=[58] | col_header=True | row_header=False | metadata=False
 Cell BH2 | value='Order Note Date3' | fill=FFFFFF00 | rows=[1] | cols=[59] | col_header=True | row_header=False | metadata=False
 Cell BI2 | value='Order Note No' | fill=FFFFFF00 | rows=[1] | cols=[60] | col_header=True | row_header=False | metadata=False
 Cell BJ2 | value='Invoice Date2' | fill=FFFFFF00 | rows=[1] | cols=[61] | col_header=True | row_header=False | metadata=False
 Cell BK2 | value='Invoice No2' | fill=FFFFFF00 | rows=[1] | cols=[62] | col_header=True | row_header=False | metadata=False
 Cell BL2 | value='Cost2' | fill=FFFFFF00 | rows=[1] | cols=[63] | col_header=True | row_header=False | metadata=False
-Cell BM2 | value='Microsoft OS2' | fill=FFFFFF00 | rows=[1] | cols=[64] | col_header=True | row_header=False | metadata=False
-Cell BN2 | value='MS Office2' | fill=FFFFFF00 | rows=[1] | cols=[65] | col_header=True | row_header=False | metadata=False
-Cell BO2 | value='MS Project2' | fill=FFFFFF00 | rows=[1] | cols=[66] | col_header=True | row_header=False | metadata=False
-Cell BP2 | value='MS Exchange2' | fill=FFFFFF00 | rows=[1] | cols=[67] | col_header=True | row_header=False | metadata=False
-Cell BQ2 | value='Win Server Cal2' | fill=FFFFFF00 | rows=[1] | cols=[68] | col_header=True | row_header=False | metadata=False
-Cell BR2 | value='SQL0' | fill=FFFFFF00 | rows=[1] | cols=[69] | col_header=True | row_header=False | metadata=False
-Cell BS2 | value='Adobe Standard2' | fill=FFFFFF00 | rows=[1] | cols=[70] | col_header=True | row_header=False | metadata=False
-Cell BT2 | value='Office 3652' | fill=FFFFFF00 | rows=[1] | cols=[71] | col_header=True | row_header=False | metadata=False
+Cell BM2 | value='Microsoft OS2' | fill=00000000 | rows=[1] | cols=[64] | col_header=False | row_header=False | metadata=False
+Cell BN2 | value='MS Office2' | fill=00000000 | rows=[1] | cols=[65] | col_header=False | row_header=False | metadata=False
+Cell BO2 | value='MS Project2' | fill=00000000 | rows=[1] | cols=[66] | col_header=False | row_header=False | metadata=False
+Cell BP2 | value='MS Exchange2' | fill=00000000 | rows=[1] | cols=[67] | col_header=False | row_header=False | metadata=False
+Cell BQ2 | value='Win Server Cal2' | fill=00000000 | rows=[1] | cols=[68] | col_header=False | row_header=False | metadata=False
+Cell BR2 | value='SQL0' | fill=00000000 | rows=[1] | cols=[69] | col_header=False | row_header=False | metadata=False
+Cell BS2 | value='Adobe Standard2' | fill=00000000 | rows=[1] | cols=[70] | col_header=False | row_header=False | metadata=False
+Cell BT2 | value='Office 3652' | fill=00000000 | rows=[1] | cols=[71] | col_header=False | row_header=False | metadata=False
 Cell A3 | value='Samsung' | fill=00000000 | rows=[2] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell B3 | value='Monitor' | fill=00000000 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C3 | value='Hardware' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False

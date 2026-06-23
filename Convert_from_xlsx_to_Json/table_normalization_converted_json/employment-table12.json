@@ -184,7 +184,7 @@
         ],
         "xml_text_content": "Median\n age",
         "pdf_text_content": "Median\n age",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },

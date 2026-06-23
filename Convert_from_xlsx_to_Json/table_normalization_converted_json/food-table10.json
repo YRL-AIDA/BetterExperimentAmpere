@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Nominal food expenditure share of disposable personal income (percentage)",
         "pdf_text_content": "Nominal food expenditure share of disposable personal income (percentage)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Share of nominal food expenditures (percentage)",
         "pdf_text_content": "Share of nominal food expenditures (percentage)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Nominal expenditures per household (U.S. dollars)",
         "pdf_text_content": "Nominal expenditures per household (U.S. dollars)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Constant-U.S.-dollar expenditures per household (1988=100)",
         "pdf_text_content": "Constant-U.S.-dollar expenditures per household (1988=100)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Share of nominal food expenditures (percentage)",
         "pdf_text_content": "Share of nominal food expenditures (percentage)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -101,7 +101,7 @@
         ],
         "xml_text_content": "Nominal expenditures per capita (U.S. dollars)",
         "pdf_text_content": "Nominal expenditures per capita (U.S. dollars)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Constant-U.S.-dollar expenditures per capita (1988=100)",
         "pdf_text_content": "Constant-U.S.-dollar expenditures per capita (1988=100)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

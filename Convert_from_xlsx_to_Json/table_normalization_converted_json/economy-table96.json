@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Month-to-month August 2024 to September 2024",
         "pdf_text_content": "Month-to-month August 2024 to September 2024",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Year-over-year September 2023 to September 2024",
         "pdf_text_content": "Year-over-year September 2023 to September 2024",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Year-to-date avg. 2024 to avg. 2023",
         "pdf_text_content": "Year-to-date avg. 2024 to avg. 2023",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Annual 2022",
         "pdf_text_content": "Annual 2022",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Annual 2023",
         "pdf_text_content": "Annual 2023",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -101,7 +101,7 @@
         ],
         "xml_text_content": "20-year historical average \n (2004–2023)",
         "pdf_text_content": "20-year historical average \n (2004–2023)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Prediction Interval 20241",
         "pdf_text_content": "Prediction Interval 20241",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -127,7 +127,7 @@
         ],
         "xml_text_content": "Prediction Interval 20251",
         "pdf_text_content": "Prediction Interval 20251",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -244,7 +244,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -257,7 +257,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -270,7 +270,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -283,7 +283,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -296,7 +296,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -309,7 +309,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

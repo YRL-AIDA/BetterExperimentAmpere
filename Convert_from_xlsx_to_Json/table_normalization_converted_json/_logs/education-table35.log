@@ -1,8 +1,8 @@
 === education-table35.xlsx ===
 Cell A1 | value='Student Number' | fill=FFFFFF00 | rows=[0] | cols=[0] | col_header=True | row_header=True | metadata=False
-Cell B1 | value='School Subject' | fill=FFFFFF00 | rows=[0] | cols=[1] | col_header=True | row_header=False | metadata=False
+Cell B1 | value='School Subject' | fill=00000000 | rows=[0] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C1 | value='Mark' | fill=FFFFFF00 | rows=[0] | cols=[2] | col_header=True | row_header=False | metadata=False
-Cell D1 | value='University Subject' | fill=FFFFFF00 | rows=[0] | cols=[3] | col_header=True | row_header=False | metadata=False
+Cell D1 | value='University Subject' | fill=00000000 | rows=[0] | cols=[3] | col_header=False | row_header=False | metadata=False
 Cell E1 | value='Mark' | fill=FFFFFF00 | rows=[0] | cols=[4] | col_header=True | row_header=False | metadata=False
 Cell A2 | value='2346756' | fill=00000000 | rows=[1, 2, 3, 4, 5, 6, 7, 8, 9] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell D2 | value='Chemistry 171' | fill=00000000 | rows=[1] | cols=[3] | col_header=False | row_header=False | metadata=False

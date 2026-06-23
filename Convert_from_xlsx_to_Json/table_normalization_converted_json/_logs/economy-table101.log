@@ -7,11 +7,11 @@ Cell A4 | value='Some shorthand is used in this table, [r] = revised. See Notes 
 Cell A5 | value='Source: Insolvency Service' | fill=FF00B0F0 | rows=[4] | cols=[0] | col_header=False | row_header=False | metadata=True
 Cell A6 | value='Year' | fill=FFFFFF00 | rows=[5] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B6 | value='Quarter' | fill=FFFFFF00 | rows=[5] | cols=[1] | col_header=True | row_header=False | metadata=False
-Cell C6 | value='Total bankruptcies [note 8]' | fill=FFFFFF00 | rows=[5] | cols=[2] | col_header=True | row_header=False | metadata=False
+Cell C6 | value='Total bankruptcies [note 8]' | fill=00000000 | rows=[5] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell D6 | value='r_total_bankruptcies' | fill=FFFFFF00 | rows=[5] | cols=[3] | col_header=True | row_header=False | metadata=False
-Cell E6 | value='Creditors' petitions [note 2]' | fill=FFFFFF00 | rows=[5] | cols=[4] | col_header=True | row_header=False | metadata=False
+Cell E6 | value='Creditors' petitions [note 2]' | fill=00000000 | rows=[5] | cols=[4] | col_header=False | row_header=False | metadata=False
 Cell F6 | value='r_creditor' | fill=FFFFFF00 | rows=[5] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell G6 | value='Debtors' applications [note 3]' | fill=FFFFFF00 | rows=[5] | cols=[6] | col_header=True | row_header=False | metadata=False
+Cell G6 | value='Debtors' applications [note 3]' | fill=00000000 | rows=[5] | cols=[6] | col_header=False | row_header=False | metadata=False
 Cell H6 | value='r_debtor' | fill=FFFFFF00 | rows=[5] | cols=[7] | col_header=True | row_header=False | metadata=False
 Cell A7 | value='2013' | fill=00000000 | rows=[6] | cols=[0] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='24565' | fill=00000000 | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False

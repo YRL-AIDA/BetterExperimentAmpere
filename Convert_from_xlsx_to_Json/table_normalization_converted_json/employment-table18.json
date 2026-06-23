@@ -102,7 +102,7 @@
         ],
         "xml_text_content": "Management, professional, and related occupations",
         "pdf_text_content": "Management, professional, and related occupations",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -116,7 +116,7 @@
         ],
         "xml_text_content": "Service\noccupations",
         "pdf_text_content": "Service\noccupations",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -130,7 +130,7 @@
         ],
         "xml_text_content": "Sales and office\noccupations",
         "pdf_text_content": "Sales and office\noccupations",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -145,7 +145,7 @@
         ],
         "xml_text_content": "Natural resources,\nconstruction, and\nmaintenance occupations",
         "pdf_text_content": "Natural resources,\nconstruction, and\nmaintenance occupations",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -159,7 +159,7 @@
         ],
         "xml_text_content": "Production, transportation, and material moving occupations",
         "pdf_text_content": "Production, transportation, and material moving occupations",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

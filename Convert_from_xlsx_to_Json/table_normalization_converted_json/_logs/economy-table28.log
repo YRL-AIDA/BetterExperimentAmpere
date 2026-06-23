@@ -21,7 +21,7 @@ Cell C5 | value='Beneficiary' | fill=FFFFFF00 | rows=[4] | cols=[2] | col_header
 Cell D5 | value='Stage' | fill=FFFFFF00 | rows=[4] | cols=[3] | col_header=True | row_header=False | metadata=False
 Cell E5 | value='Fuel type' | fill=FFFFFF00 | rows=[4] | cols=[4] | col_header=True | row_header=False | metadata=False
 Cell F5 | value='Institutional sector' | fill=FFFFFF00 | rows=[4] | cols=[5] | col_header=True | row_header=False | metadata=False
-Cell B6 | value='Support mechanism: Tax expenditure' | fill=FF00B0F0 | rows=[5] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] | col_header=False | row_header=False | metadata=True
+Cell B6 | value='Support mechanism: Tax expenditure' | fill=00000000 | rows=[5] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] | col_header=False | row_header=False | metadata=False
 Cell B7 | value='Reduced Energy Tax Rate for Glasshouse Horticulture' | fill=FFE2F2FB | rows=[6] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C7 | value='Total' | fill=FFE2F2FB | rows=[6] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell B8 | value='Reduced Energy Tax Rate for Glasshouse Horticulture' | fill=FFE2F2FB | rows=[7] | cols=[1] | col_header=False | row_header=False | metadata=False
@@ -1177,7 +1177,7 @@ Cell R169 | value='959000000' | fill=00000000 | rows=[168] | cols=[17] | col_hea
 Cell S169 | value='1005000000' | fill=00000000 | rows=[168] | cols=[18] | col_header=False | row_header=False | metadata=False
 Cell T169 | value='1030000000' | fill=00000000 | rows=[168] | cols=[19] | col_header=False | row_header=False | metadata=False
 Cell U169 | value='1089000000' | fill=00000000 | rows=[168] | cols=[20] | col_header=False | row_header=False | metadata=False
-Cell B170 | value='Support mechanism: Budgetary transfer' | fill=FF00B0F0 | rows=[169] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] | col_header=False | row_header=False | metadata=True
+Cell B170 | value='Support mechanism: Budgetary transfer' | fill=00000000 | rows=[169] | cols=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] | col_header=False | row_header=False | metadata=False
 Cell B171 | value='EU ETS compensation' | fill=FFE2F2FB | rows=[170] | cols=[1] | col_header=False | row_header=False | metadata=False
 Cell C171 | value='Total' | fill=FFE2F2FB | rows=[170] | cols=[2] | col_header=False | row_header=False | metadata=False
 Cell B172 | value='EU ETS compensation' | fill=FFE2F2FB | rows=[171] | cols=[1] | col_header=False | row_header=False | metadata=False

@@ -1,14 +1,14 @@
 === economy-table120.xlsx ===
 Cell A1 | value='Customer Invoice Report' | fill=FF00B0F0 | rows=[0] | cols=[0, 1, 2, 3, 4, 5, 6, 7] | col_header=True | row_header=True | metadata=True
-Cell A2 | value='Room Seasons Ltd.' | fill=FF00B0F0 | rows=[1] | cols=[0, 1, 2, 3, 4, 5, 6, 7] | col_header=False | row_header=False | metadata=True
-Cell B3 | value='From' | fill=FF00B0F0 | rows=[2] | cols=[1] | col_header=False | row_header=False | metadata=True
-Cell C3 | value='2015-09-21' | fill=FF00B0F0 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=True
-Cell D3 | value='to' | fill=FF00B0F0 | rows=[2] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E3 | value='2015-09-28' | fill=FF00B0F0 | rows=[2] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell D4 | value='TOTAL' | fill=FF00B0F0 | rows=[3] | cols=[3] | col_header=False | row_header=False | metadata=True
-Cell E4 | value='411.5' | fill=FF00B0F0 | rows=[3] | cols=[4] | col_header=False | row_header=False | metadata=True
-Cell G4 | value='20' | fill=FF00B0F0 | rows=[3] | cols=[6] | col_header=False | row_header=False | metadata=True
-Cell H4 | value='20.575' | fill=FF00B0F0 | rows=[3] | cols=[7] | col_header=False | row_header=False | metadata=True
+Cell A2 | value='Room Seasons Ltd.' | fill=FFFFFF00 | rows=[1] | cols=[0, 1, 2, 3, 4, 5, 6, 7] | col_header=True | row_header=False | metadata=False
+Cell B3 | value='From' | fill=FF00B050 | rows=[2] | cols=[1] | col_header=False | row_header=True | metadata=False
+Cell C3 | value='2015-09-21' | fill=00000000 | rows=[2] | cols=[2] | col_header=False | row_header=False | metadata=False
+Cell D3 | value='to' | fill=FF00B050 | rows=[2] | cols=[3] | col_header=False | row_header=True | metadata=False
+Cell E3 | value='2015-09-28' | fill=00000000 | rows=[2] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell D4 | value='TOTAL' | fill=FF00B050 | rows=[3] | cols=[3] | col_header=False | row_header=True | metadata=False
+Cell E4 | value='411.5' | fill=00000000 | rows=[3] | cols=[4] | col_header=False | row_header=False | metadata=False
+Cell G4 | value='20' | fill=00000000 | rows=[3] | cols=[6] | col_header=False | row_header=False | metadata=False
+Cell H4 | value='20.575' | fill=00000000 | rows=[3] | cols=[7] | col_header=False | row_header=False | metadata=False
 Cell A5 | value='Reference' | fill=FFFFFF00 | rows=[4] | cols=[0] | col_header=True | row_header=False | metadata=False
 Cell B5 | value='To' | fill=FFFFFF00 | rows=[4] | cols=[1] | col_header=True | row_header=False | metadata=False
 Cell C5 | value='Invoice Number' | fill=FFFFFF00 | rows=[4] | cols=[2] | col_header=True | row_header=False | metadata=False
