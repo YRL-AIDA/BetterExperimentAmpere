@@ -10,9 +10,9 @@
         ],
         "xml_text_content": "Annual Returns on Investments in",
         "pdf_text_content": "Annual Returns on Investments in",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Stocks",
         "pdf_text_content": "Stocks",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "T.Bills",
         "pdf_text_content": "T.Bills",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "T.Bonds",
         "pdf_text_content": "T.Bonds",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4339,7 +4339,7 @@
         ],
         "xml_text_content": "stocks",
         "pdf_text_content": "stocks",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4352,7 +4352,7 @@
         ],
         "xml_text_content": "tbills",
         "pdf_text_content": "tbills",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4365,7 +4365,7 @@
         ],
         "xml_text_content": "tbonds",
         "pdf_text_content": "tbonds",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

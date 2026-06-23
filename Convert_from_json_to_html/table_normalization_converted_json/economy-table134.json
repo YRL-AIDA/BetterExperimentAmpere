@@ -722,7 +722,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -735,7 +735,7 @@
         "pdf_text_content": "Region and area size(2)",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7027,7 +7027,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7040,7 +7040,7 @@
         "pdf_text_content": "Size classes",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7651,7 +7651,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7664,7 +7664,7 @@
         "pdf_text_content": "Selected local areas",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

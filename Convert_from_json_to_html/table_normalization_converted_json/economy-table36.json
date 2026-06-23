@@ -222,7 +222,7 @@
         ],
         "xml_text_content": "Galvalume",
         "pdf_text_content": "Galvalume",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -235,7 +235,7 @@
         ],
         "xml_text_content": "Painted",
         "pdf_text_content": "Painted",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -274,7 +274,7 @@
         ],
         "xml_text_content": "Galvalume",
         "pdf_text_content": "Galvalume",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -287,7 +287,7 @@
         ],
         "xml_text_content": "Painted",
         "pdf_text_content": "Painted",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -300,7 +300,7 @@
         ],
         "xml_text_content": "Galvalume",
         "pdf_text_content": "Galvalume",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -313,7 +313,7 @@
         ],
         "xml_text_content": "Painted",
         "pdf_text_content": "Painted",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -326,7 +326,7 @@
         ],
         "xml_text_content": "Galvalume",
         "pdf_text_content": "Galvalume",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -339,7 +339,7 @@
         ],
         "xml_text_content": "Painted",
         "pdf_text_content": "Painted",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

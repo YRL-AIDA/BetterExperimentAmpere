@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Total bankruptcies [note 8]",
         "pdf_text_content": "Total bankruptcies [note 8]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Creditors' petitions [note 2]",
         "pdf_text_content": "Creditors' petitions [note 2]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Debtors' applications [note 3]",
         "pdf_text_content": "Debtors' applications [note 3]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

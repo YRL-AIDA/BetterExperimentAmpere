@@ -4181,7 +4181,7 @@
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {

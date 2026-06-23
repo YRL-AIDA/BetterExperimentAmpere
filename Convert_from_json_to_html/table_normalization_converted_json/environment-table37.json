@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Moisture (%)",
         "pdf_text_content": "Moisture (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Volatiles (%)",
         "pdf_text_content": "Volatiles (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Fixed Carbon (%)",
         "pdf_text_content": "Fixed Carbon (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Ash (%)",
         "pdf_text_content": "Ash (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -101,7 +101,7 @@
         ],
         "xml_text_content": "Sulfur (%)",
         "pdf_text_content": "Sulfur (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Carbon (%)",
         "pdf_text_content": "Carbon (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -127,7 +127,7 @@
         ],
         "xml_text_content": "Hydrogen (%)",
         "pdf_text_content": "Hydrogen (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -140,7 +140,7 @@
         ],
         "xml_text_content": "Nitrogen (%)",
         "pdf_text_content": "Nitrogen (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -153,7 +153,7 @@
         ],
         "xml_text_content": "Oxygen (%)",
         "pdf_text_content": "Oxygen (%)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },

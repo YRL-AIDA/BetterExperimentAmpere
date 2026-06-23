@@ -155,7 +155,7 @@
         "pdf_text_content": "242.25",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -168,7 +168,7 @@
         "pdf_text_content": "534.5",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -181,7 +181,7 @@
         "pdf_text_content": "2473.5",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6901,8 +6901,8 @@
         "xml_text_content": "TOTAL:",
         "pdf_text_content": "TOTAL:",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6915,7 +6915,7 @@
         "pdf_text_content": "0.999999999999999",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6928,7 +6928,7 @@
         "pdf_text_content": "1720",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       }
     ],
     "structure_id": "economy-table66",

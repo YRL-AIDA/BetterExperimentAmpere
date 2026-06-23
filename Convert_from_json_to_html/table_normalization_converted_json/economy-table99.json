@@ -23,7 +23,7 @@
         ],
         "xml_text_content": "Residential",
         "pdf_text_content": "Residential",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Commercial",
         "pdf_text_content": "Commercial",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Retail",
         "pdf_text_content": "Retail",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Light Industrial",
         "pdf_text_content": "Light Industrial",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Industrial",
         "pdf_text_content": "Industrial",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Education",
         "pdf_text_content": "Education",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -101,7 +101,7 @@
         ],
         "xml_text_content": "Public",
         "pdf_text_content": "Public",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Other",
         "pdf_text_content": "Other",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -127,7 +127,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

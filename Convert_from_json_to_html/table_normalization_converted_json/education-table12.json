@@ -74,7 +74,7 @@
         ],
         "xml_text_content": "General FE College incl Tertiary",
         "pdf_text_content": "General FE College incl Tertiary",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -87,7 +87,7 @@
         ],
         "xml_text_content": "Sixth form college",
         "pdf_text_content": "Sixth form college",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -100,7 +100,7 @@
         ],
         "xml_text_content": "Special colleges",
         "pdf_text_content": "Special colleges",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -113,7 +113,7 @@
         ],
         "xml_text_content": "Other Public Funded",
         "pdf_text_content": "Other Public Funded",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -126,7 +126,7 @@
         ],
         "xml_text_content": "Schools",
         "pdf_text_content": "Schools",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -139,7 +139,7 @@
         ],
         "xml_text_content": "Private Sector Public Funded",
         "pdf_text_content": "Private Sector Public Funded",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -152,7 +152,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -165,7 +165,7 @@
         ],
         "xml_text_content": "General FE College incl Tertiary",
         "pdf_text_content": "General FE College incl Tertiary",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -178,7 +178,7 @@
         ],
         "xml_text_content": "Sixth form college",
         "pdf_text_content": "Sixth form college",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -191,7 +191,7 @@
         ],
         "xml_text_content": "Special colleges",
         "pdf_text_content": "Special colleges",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -204,7 +204,7 @@
         ],
         "xml_text_content": "Other Public Funded",
         "pdf_text_content": "Other Public Funded",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -217,7 +217,7 @@
         ],
         "xml_text_content": "Schools",
         "pdf_text_content": "Schools",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -230,7 +230,7 @@
         ],
         "xml_text_content": "Private Sector Public Funded",
         "pdf_text_content": "Private Sector Public Funded",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -243,7 +243,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -842,7 +842,7 @@
         "xml_text_content": "Total Learners",
         "pdf_text_content": "Total Learners",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -1037,7 +1037,7 @@
         "xml_text_content": "Total Learners",
         "pdf_text_content": "Total Learners",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {

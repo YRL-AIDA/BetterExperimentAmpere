@@ -163,7 +163,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -176,7 +176,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -189,7 +189,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -202,7 +202,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -215,7 +215,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -228,7 +228,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -241,7 +241,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -254,7 +254,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -267,7 +267,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -280,7 +280,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -293,7 +293,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -306,7 +306,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -319,7 +319,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -332,7 +332,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -345,7 +345,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -358,7 +358,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -371,7 +371,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -384,7 +384,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -397,7 +397,7 @@
         ],
         "xml_text_content": "Births",
         "pdf_text_content": "Births",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -410,7 +410,7 @@
         ],
         "xml_text_content": "2009 Stock",
         "pdf_text_content": "2009 Stock",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1516,7 +1516,7 @@
         "xml_text_content": "CASE",
         "pdf_text_content": "CASE",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {

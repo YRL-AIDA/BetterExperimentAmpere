@@ -107,7 +107,7 @@
         ],
         "xml_text_content": "AVG JAN-MARCH",
         "pdf_text_content": "AVG JAN-MARCH",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -120,7 +120,7 @@
         ],
         "xml_text_content": "AVG APRIL-JUNE",
         "pdf_text_content": "AVG APRIL-JUNE",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -133,7 +133,7 @@
         ],
         "xml_text_content": "AVG JAN-JUNE",
         "pdf_text_content": "AVG JAN-JUNE",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -789,7 +789,7 @@
         ],
         "xml_text_content": "AVG JUL-SEP",
         "pdf_text_content": "AVG JUL-SEP",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -802,7 +802,7 @@
         ],
         "xml_text_content": "AVG OCT-DEC",
         "pdf_text_content": "AVG OCT-DEC",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -815,7 +815,7 @@
         ],
         "xml_text_content": "AVG JUL-DEC",
         "pdf_text_content": "AVG JUL-DEC",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

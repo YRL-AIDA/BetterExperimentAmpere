@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Jul-23",
         "pdf_text_content": "Jul-23",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Aug-23",
         "pdf_text_content": "Aug-23",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Sep-23",
         "pdf_text_content": "Sep-23",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Oct-23",
         "pdf_text_content": "Oct-23",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -88,7 +88,7 @@
         ],
         "xml_text_content": "Nov-23",
         "pdf_text_content": "Nov-23",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -101,7 +101,7 @@
         ],
         "xml_text_content": "Dec-23",
         "pdf_text_content": "Dec-23",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Jan-24",
         "pdf_text_content": "Jan-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -127,7 +127,7 @@
         ],
         "xml_text_content": "Feb-24",
         "pdf_text_content": "Feb-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -140,7 +140,7 @@
         ],
         "xml_text_content": "Mar-24",
         "pdf_text_content": "Mar-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -153,7 +153,7 @@
         ],
         "xml_text_content": "Apr-24",
         "pdf_text_content": "Apr-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -166,7 +166,7 @@
         ],
         "xml_text_content": "May-24",
         "pdf_text_content": "May-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -179,7 +179,7 @@
         ],
         "xml_text_content": "Jun-24",
         "pdf_text_content": "Jun-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -192,7 +192,7 @@
         ],
         "xml_text_content": "Jul-24",
         "pdf_text_content": "Jul-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -205,7 +205,7 @@
         ],
         "xml_text_content": "Aug-24",
         "pdf_text_content": "Aug-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -218,7 +218,7 @@
         ],
         "xml_text_content": "Sep-24",
         "pdf_text_content": "Sep-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -231,7 +231,7 @@
         ],
         "xml_text_content": "Oct-24",
         "pdf_text_content": "Oct-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -244,7 +244,7 @@
         ],
         "xml_text_content": "Nov-24",
         "pdf_text_content": "Nov-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -257,7 +257,7 @@
         ],
         "xml_text_content": "Dec-24",
         "pdf_text_content": "Dec-24",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -270,7 +270,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -283,7 +283,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -296,7 +296,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -309,7 +309,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -322,7 +322,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -335,7 +335,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -348,7 +348,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -361,7 +361,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -374,7 +374,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -387,7 +387,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -400,7 +400,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -413,7 +413,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -426,7 +426,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -439,7 +439,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -452,7 +452,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -465,7 +465,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -478,7 +478,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -491,7 +491,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -504,7 +504,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -517,7 +517,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -530,7 +530,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -543,7 +543,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -556,7 +556,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -569,7 +569,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -582,7 +582,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -595,7 +595,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -608,7 +608,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -621,7 +621,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -634,7 +634,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -647,7 +647,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -660,7 +660,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -673,7 +673,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -686,7 +686,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -699,7 +699,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -712,7 +712,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -725,7 +725,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -738,7 +738,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -751,7 +751,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -764,7 +764,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -777,7 +777,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -790,7 +790,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -803,7 +803,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -816,7 +816,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -829,7 +829,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -842,7 +842,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -855,7 +855,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -868,7 +868,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -881,7 +881,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -894,7 +894,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -907,7 +907,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -920,7 +920,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -933,7 +933,7 @@
         ],
         "xml_text_content": "Lower",
         "pdf_text_content": "Lower",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -946,7 +946,7 @@
         ],
         "xml_text_content": "Mid",
         "pdf_text_content": "Mid",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -959,7 +959,7 @@
         ],
         "xml_text_content": "Upper",
         "pdf_text_content": "Upper",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

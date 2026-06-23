@@ -218,7 +218,7 @@
         ],
         "xml_text_content": "CURRENT EXPENDITURE",
         "pdf_text_content": "CURRENT EXPENDITURE",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -479,8 +479,8 @@
         "xml_text_content": "Total resource DEL",
         "pdf_text_content": "Total resource DEL",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -493,7 +493,7 @@
         "pdf_text_content": "300105",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -506,7 +506,7 @@
         "pdf_text_content": "313275",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -519,7 +519,7 @@
         "pdf_text_content": "333172",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -532,7 +532,7 @@
         "pdf_text_content": "345844",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -545,7 +545,7 @@
         "pdf_text_content": "340711",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -558,7 +558,7 @@
         "pdf_text_content": "345300",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -571,7 +571,7 @@
         "pdf_text_content": "348300",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -584,7 +584,7 @@
         "pdf_text_content": "346300",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1663,7 +1663,7 @@
         "pdf_text_content": "Total resource departmental AME",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1676,7 +1676,7 @@
         "pdf_text_content": "218151",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1689,7 +1689,7 @@
         "pdf_text_content": "270173",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1702,7 +1702,7 @@
         "pdf_text_content": "217223",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1715,7 +1715,7 @@
         "pdf_text_content": "166869",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1728,7 +1728,7 @@
         "pdf_text_content": "251056",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1741,7 +1741,7 @@
         "pdf_text_content": "274523",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1754,7 +1754,7 @@
         "pdf_text_content": "261933",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -1767,7 +1767,7 @@
         "pdf_text_content": "267202",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2260,8 +2260,8 @@
         "xml_text_content": "Total resource other AME",
         "pdf_text_content": "Total resource other AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2274,7 +2274,7 @@
         "pdf_text_content": "17910",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2287,7 +2287,7 @@
         "pdf_text_content": "-18719",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2300,7 +2300,7 @@
         "pdf_text_content": "51909",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2313,7 +2313,7 @@
         "pdf_text_content": "118651",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2326,7 +2326,7 @@
         "pdf_text_content": "53921",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2339,7 +2339,7 @@
         "pdf_text_content": "44834",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2352,7 +2352,7 @@
         "pdf_text_content": "63229",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2365,7 +2365,7 @@
         "pdf_text_content": "72831",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2377,8 +2377,8 @@
         "xml_text_content": "Total resource AME",
         "pdf_text_content": "Total resource AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2391,7 +2391,7 @@
         "pdf_text_content": "236060",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2404,7 +2404,7 @@
         "pdf_text_content": "251453",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2417,7 +2417,7 @@
         "pdf_text_content": "269132",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2430,7 +2430,7 @@
         "pdf_text_content": "285520",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2443,7 +2443,7 @@
         "pdf_text_content": "304977",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2456,7 +2456,7 @@
         "pdf_text_content": "319357",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2469,7 +2469,7 @@
         "pdf_text_content": "325162",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2482,7 +2482,7 @@
         "pdf_text_content": "340033",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2610,7 +2610,7 @@
         ],
         "xml_text_content": "CAPITAL EXPENDITURE",
         "pdf_text_content": "CAPITAL EXPENDITURE",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -2637,8 +2637,8 @@
         "xml_text_content": "Total capital DEL",
         "pdf_text_content": "Total capital DEL",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2651,7 +2651,7 @@
         "pdf_text_content": "44821",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2664,7 +2664,7 @@
         "pdf_text_content": "48511",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2677,7 +2677,7 @@
         "pdf_text_content": "56959",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2690,7 +2690,7 @@
         "pdf_text_content": "49815",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2703,7 +2703,7 @@
         "pdf_text_content": "42156",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2716,7 +2716,7 @@
         "pdf_text_content": "43800",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2729,7 +2729,7 @@
         "pdf_text_content": "40900",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -2742,7 +2742,7 @@
         "pdf_text_content": "41300",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3352,8 +3352,8 @@
         "xml_text_content": "Total capital departmental AME",
         "pdf_text_content": "Total capital departmental AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3366,7 +3366,7 @@
         "pdf_text_content": "6005",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3379,7 +3379,7 @@
         "pdf_text_content": "90866",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3392,7 +3392,7 @@
         "pdf_text_content": "47694",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3405,7 +3405,7 @@
         "pdf_text_content": "3802",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3418,7 +3418,7 @@
         "pdf_text_content": "3488",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3431,7 +3431,7 @@
         "pdf_text_content": "10198",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3444,7 +3444,7 @@
         "pdf_text_content": "12100",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3457,7 +3457,7 @@
         "pdf_text_content": "13888",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3833,8 +3833,8 @@
         "xml_text_content": "Total capital other AME",
         "pdf_text_content": "Total capital other AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3847,7 +3847,7 @@
         "pdf_text_content": "-4055",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3860,7 +3860,7 @@
         "pdf_text_content": "-74359",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3873,7 +3873,7 @@
         "pdf_text_content": "-36808",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3886,7 +3886,7 @@
         "pdf_text_content": "4653",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3899,7 +3899,7 @@
         "pdf_text_content": "3556",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3912,7 +3912,7 @@
         "pdf_text_content": "-35269",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3925,7 +3925,7 @@
         "pdf_text_content": "-6532",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3938,7 +3938,7 @@
         "pdf_text_content": "-8256",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3950,8 +3950,8 @@
         "xml_text_content": "Total capital AME",
         "pdf_text_content": "Total capital AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3964,7 +3964,7 @@
         "pdf_text_content": "1951",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3977,7 +3977,7 @@
         "pdf_text_content": "16506",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -3990,7 +3990,7 @@
         "pdf_text_content": "10887",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4003,7 +4003,7 @@
         "pdf_text_content": "8455",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4016,7 +4016,7 @@
         "pdf_text_content": "7044",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4029,7 +4029,7 @@
         "pdf_text_content": "-25071",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4042,7 +4042,7 @@
         "pdf_text_content": "5568",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4055,7 +4055,7 @@
         "pdf_text_content": "5632",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4548,8 +4548,8 @@
         "xml_text_content": "Total DEL (6)",
         "pdf_text_content": "Total DEL (6)",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4562,7 +4562,7 @@
         "pdf_text_content": "333142",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4575,7 +4575,7 @@
         "pdf_text_content": "349396",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4588,7 +4588,7 @@
         "pdf_text_content": "376288",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4601,7 +4601,7 @@
         "pdf_text_content": "375061",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4614,7 +4614,7 @@
         "pdf_text_content": "364015",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4627,7 +4627,7 @@
         "pdf_text_content": "371000",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4640,7 +4640,7 @@
         "pdf_text_content": "371100",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4653,7 +4653,7 @@
         "pdf_text_content": "368300",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4665,8 +4665,8 @@
         "xml_text_content": "Departmental AME",
         "pdf_text_content": "Departmental AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4679,7 +4679,7 @@
         "pdf_text_content": "224156",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4692,7 +4692,7 @@
         "pdf_text_content": "361039",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4705,7 +4705,7 @@
         "pdf_text_content": "264918",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4718,7 +4718,7 @@
         "pdf_text_content": "170671",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4731,7 +4731,7 @@
         "pdf_text_content": "254544",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4744,7 +4744,7 @@
         "pdf_text_content": "284721",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4757,7 +4757,7 @@
         "pdf_text_content": "274032",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4770,7 +4770,7 @@
         "pdf_text_content": "281090",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4782,8 +4782,8 @@
         "xml_text_content": "Other AME",
         "pdf_text_content": "Other AME",
         "is_column_header": false,
-        "is_projected_row_header": true,
-        "is_metadata": false
+        "is_projected_row_header": false,
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4796,7 +4796,7 @@
         "pdf_text_content": "25639",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4809,7 +4809,7 @@
         "pdf_text_content": "-80690",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4822,7 +4822,7 @@
         "pdf_text_content": "28944",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4835,7 +4835,7 @@
         "pdf_text_content": "143902",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4848,7 +4848,7 @@
         "pdf_text_content": "76329",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4861,7 +4861,7 @@
         "pdf_text_content": "27665",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4874,7 +4874,7 @@
         "pdf_text_content": "74797",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [
@@ -4887,7 +4887,7 @@
         "pdf_text_content": "83775",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": false
+        "is_metadata": true
       },
       {
         "row_nums": [

@@ -48,7 +48,7 @@
         ],
         "xml_text_content": "Total\nat\nwork",
         "pdf_text_content": "Total\nat\nwork",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -64,7 +64,7 @@
         ],
         "xml_text_content": "Worked 1 to 34 hours",
         "pdf_text_content": "Worked 1 to 34 hours",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -79,7 +79,7 @@
         ],
         "xml_text_content": "Worked\n35 hours\nor more",
         "pdf_text_content": "Worked\n35 hours\nor more",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -107,7 +107,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -121,7 +121,7 @@
         ],
         "xml_text_content": "For\neconomic\nreasons",
         "pdf_text_content": "For\neconomic\nreasons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -135,7 +135,7 @@
         ],
         "xml_text_content": "For noneconomic\nreasons",
         "pdf_text_content": "For noneconomic\nreasons",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -176,7 +176,7 @@
         ],
         "xml_text_content": "Usually work full time",
         "pdf_text_content": "Usually work full time",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -189,7 +189,7 @@
         ],
         "xml_text_content": "Usually work part time",
         "pdf_text_content": "Usually work part time",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

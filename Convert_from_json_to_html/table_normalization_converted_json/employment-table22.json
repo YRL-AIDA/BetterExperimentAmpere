@@ -105,7 +105,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -118,7 +118,7 @@
         ],
         "xml_text_content": "Usually\nwork\nfull time",
         "pdf_text_content": "Usually\nwork\nfull time",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -131,7 +131,7 @@
         ],
         "xml_text_content": "Usually\nwork\npart time",
         "pdf_text_content": "Usually\nwork\npart time",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -144,7 +144,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -157,7 +157,7 @@
         ],
         "xml_text_content": "Usually\nwork\nfull time",
         "pdf_text_content": "Usually\nwork\nfull time",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -170,7 +170,7 @@
         ],
         "xml_text_content": "Usually\nwork\npart time",
         "pdf_text_content": "Usually\nwork\npart time",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

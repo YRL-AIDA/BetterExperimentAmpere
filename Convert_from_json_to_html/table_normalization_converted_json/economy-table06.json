@@ -114,7 +114,7 @@
         ],
         "xml_text_content": "Total individual insolvencies",
         "pdf_text_content": "Total individual insolvencies",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -140,7 +140,7 @@
         ],
         "xml_text_content": "Bankruptcies  [note 2][note 3]",
         "pdf_text_content": "Bankruptcies  [note 2][note 3]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -166,7 +166,7 @@
         ],
         "xml_text_content": "Debt relief orders [note 5]",
         "pdf_text_content": "Debt relief orders [note 5]",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -192,7 +192,7 @@
         ],
         "xml_text_content": "Individual voluntary arrangements",
         "pdf_text_content": "Individual voluntary arrangements",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

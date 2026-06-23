@@ -89,7 +89,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -104,7 +104,7 @@
         ],
         "xml_text_content": "Wage and\nsalary\nworkers(1)",
         "pdf_text_content": "Wage and\nsalary\nworkers(1)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -119,7 +119,7 @@
         ],
         "xml_text_content": "Self-\nemployed\nworkers,\nunincor-\nporated",
         "pdf_text_content": "Self-\nemployed\nworkers,\nunincor-\nporated",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -134,7 +134,7 @@
         ],
         "xml_text_content": "Unpaid\nfamily\nworkers",
         "pdf_text_content": "Unpaid\nfamily\nworkers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -149,7 +149,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -166,7 +166,7 @@
         ],
         "xml_text_content": "Wage and salary workers(1)",
         "pdf_text_content": "Wage and salary workers(1)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -181,7 +181,7 @@
         ],
         "xml_text_content": "Self-\nemployed\nworkers,\nunincor-\nporated",
         "pdf_text_content": "Self-\nemployed\nworkers,\nunincor-\nporated",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -196,7 +196,7 @@
         ],
         "xml_text_content": "Unpaid\nfamily\nworkers",
         "pdf_text_content": "Unpaid\nfamily\nworkers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -210,7 +210,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -225,7 +225,7 @@
         ],
         "xml_text_content": "Private industries",
         "pdf_text_content": "Private industries",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -239,7 +239,7 @@
         ],
         "xml_text_content": "Govern-\nment",
         "pdf_text_content": "Govern-\nment",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -252,7 +252,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -265,7 +265,7 @@
         ],
         "xml_text_content": "Private\nhousehold\nworkers",
         "pdf_text_content": "Private\nhousehold\nworkers",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -278,7 +278,7 @@
         ],
         "xml_text_content": "Other\nprivate\nindustries",
         "pdf_text_content": "Other\nprivate\nindustries",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

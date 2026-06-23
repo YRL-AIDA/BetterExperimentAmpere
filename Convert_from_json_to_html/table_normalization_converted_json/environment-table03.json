@@ -27,7 +27,7 @@
         ],
         "xml_text_content": "Pearson correlation coefficients",
         "pdf_text_content": "Pearson correlation coefficients",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -41,7 +41,7 @@
         "xml_text_content": "PAR",
         "pdf_text_content": "PAR",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -67,7 +67,7 @@
         "xml_text_content": "Ta",
         "pdf_text_content": "Ta",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -106,7 +106,7 @@
         "xml_text_content": "VPD",
         "pdf_text_content": "VPD",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -158,7 +158,7 @@
         "xml_text_content": "Sal",
         "pdf_text_content": "Sal",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -223,7 +223,7 @@
         "xml_text_content": "WL",
         "pdf_text_content": "WL",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -382,7 +382,7 @@
         ],
         "xml_text_content": "Statistical significance (p-value)",
         "pdf_text_content": "Statistical significance (p-value)",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -396,7 +396,7 @@
         "xml_text_content": "PAR",
         "pdf_text_content": "PAR",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -422,7 +422,7 @@
         "xml_text_content": "Ta",
         "pdf_text_content": "Ta",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -461,7 +461,7 @@
         "xml_text_content": "VPD",
         "pdf_text_content": "VPD",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -513,7 +513,7 @@
         "xml_text_content": "Sal",
         "pdf_text_content": "Sal",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -578,7 +578,7 @@
         "xml_text_content": "WL",
         "pdf_text_content": "WL",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {

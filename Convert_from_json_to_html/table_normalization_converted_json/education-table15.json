@@ -23,7 +23,7 @@
         ],
         "xml_text_content": "Maths",
         "pdf_text_content": "Maths",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "English",
         "pdf_text_content": "English",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Science",
         "pdf_text_content": "Science",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "History",
         "pdf_text_content": "History",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

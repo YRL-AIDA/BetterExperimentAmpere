@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "2016 Commission",
         "pdf_text_content": "2016 Commission",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "2017 Commission",
         "pdf_text_content": "2017 Commission",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

@@ -271,7 +271,7 @@
         "xml_text_content": "All",
         "pdf_text_content": "All",
         "is_column_header": false,
-        "is_projected_row_header": true,
+        "is_projected_row_header": false,
         "is_metadata": false
       },
       {
@@ -426,7 +426,7 @@
         ],
         "xml_text_content": "Employment size group",
         "pdf_text_content": "Employment size group",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1219,7 +1219,7 @@
         ],
         "xml_text_content": "Country",
         "pdf_text_content": "Country",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1856,7 +1856,7 @@
         ],
         "xml_text_content": "English Region",
         "pdf_text_content": "English Region",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -3273,7 +3273,7 @@
         ],
         "xml_text_content": "Broad sectors",
         "pdf_text_content": "Broad sectors",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4378,7 +4378,7 @@
         ],
         "xml_text_content": "Production / construction or distribution / service industry",
         "pdf_text_content": "Production / construction or distribution / service industry",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4703,7 +4703,7 @@
         ],
         "xml_text_content": "Sampling sectors",
         "pdf_text_content": "Sampling sectors",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

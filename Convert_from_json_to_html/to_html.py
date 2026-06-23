@@ -106,4 +106,4 @@ def convert_folder(input_folder, output_folder):
 
 
 # === запуск ===
-convert_folder(r"C:\Users\Юзя\Desktop\BetterExperimentAmpere\Get_500_Tables_from_PubTables\JSON_Complex_TOP500_normalized", r"C:\Users\Юзя\Desktop\BetterExperimentAmpere\Get_500_Tables_from_PubTables\JSON_Complex_TOP500_normalized_html")
+convert_folder(r"C:\Users\Юзя\Desktop\BetterExperimentAmpere\Convert_from_json_to_html\table_normalization_converted_json", r"C:\Users\Юзя\Desktop\BetterExperimentAmpere\Convert_from_json_to_html\table_normalization_converted_html")

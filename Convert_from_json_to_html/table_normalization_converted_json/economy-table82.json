@@ -25,7 +25,7 @@
         ],
         "xml_text_content": "Heirs rate\nsecond floor",
         "pdf_text_content": "Heirs rate\nsecond floor",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -39,7 +39,7 @@
         ],
         "xml_text_content": "Heirs rate\nthird floor",
         "pdf_text_content": "Heirs rate\nthird floor",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -52,7 +52,7 @@
         ],
         "xml_text_content": "Heirs rate\nfirst floor",
         "pdf_text_content": "Heirs rate\nfirst floor",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -65,7 +65,7 @@
         ],
         "xml_text_content": "Internal heirs",
         "pdf_text_content": "Internal heirs",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -78,7 +78,7 @@
         ],
         "xml_text_content": "Heirs foreigner",
         "pdf_text_content": "Heirs foreigner",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -91,7 +91,7 @@
         ],
         "xml_text_content": "Internal heirs",
         "pdf_text_content": "Internal heirs",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -104,7 +104,7 @@
         ],
         "xml_text_content": "Heirs foreigner",
         "pdf_text_content": "Heirs foreigner",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

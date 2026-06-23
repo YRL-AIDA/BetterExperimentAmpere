@@ -12,7 +12,7 @@
         "pdf_text_content": "Holiday Inn Docklands",
         "is_column_header": true,
         "is_projected_row_header": true,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

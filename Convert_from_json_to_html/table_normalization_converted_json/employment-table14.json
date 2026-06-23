@@ -32,7 +32,7 @@
         ],
         "xml_text_content": "Hispanic or Latino ethnicity",
         "pdf_text_content": "Hispanic or Latino ethnicity",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -556,7 +556,7 @@
         ],
         "xml_text_content": "OCCUPATION",
         "pdf_text_content": "OCCUPATION",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -3962,7 +3962,7 @@
         ],
         "xml_text_content": "CLASS OF WORKER(2)",
         "pdf_text_content": "CLASS OF WORKER(2)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -4937,7 +4937,7 @@
         ],
         "xml_text_content": "FULL- OR PART-TIME STATUS(4)",
         "pdf_text_content": "FULL- OR PART-TIME STATUS(4)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

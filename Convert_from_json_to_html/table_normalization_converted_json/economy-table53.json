@@ -135,7 +135,7 @@
         ],
         "xml_text_content": "Corner Notch's",
         "pdf_text_content": "Corner Notch's",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -149,7 +149,7 @@
         ],
         "xml_text_content": "Cut - Outs",
         "pdf_text_content": "Cut - Outs",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -163,7 +163,7 @@
         ],
         "xml_text_content": "Holes 6 -15 mm",
         "pdf_text_content": "Holes 6 -15 mm",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -177,7 +177,7 @@
         ],
         "xml_text_content": "Holes 16 -38 mm",
         "pdf_text_content": "Holes 16 -38 mm",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

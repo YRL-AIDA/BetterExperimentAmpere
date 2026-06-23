@@ -1346,8 +1346,8 @@
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1360,7 +1360,7 @@
         "pdf_text_content": "405",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1477,7 +1477,7 @@
         "pdf_text_content": "15",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       }
     ],
     "structure_id": "economy-table73",

@@ -575,7 +575,7 @@
         ],
         "xml_text_content": "Howard",
         "pdf_text_content": "Howard",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -588,7 +588,7 @@
         ],
         "xml_text_content": "Howard",
         "pdf_text_content": "Howard",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -601,7 +601,7 @@
         ],
         "xml_text_content": "Frankston",
         "pdf_text_content": "Frankston",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -614,7 +614,7 @@
         ],
         "xml_text_content": "Frankston",
         "pdf_text_content": "Frankston",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -627,7 +627,7 @@
         ],
         "xml_text_content": "Sold April",
         "pdf_text_content": "Sold April",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -640,7 +640,7 @@
         ],
         "xml_text_content": "Sold April",
         "pdf_text_content": "Sold April",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -653,7 +653,7 @@
         ],
         "xml_text_content": "12900",
         "pdf_text_content": "12900",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -666,7 +666,7 @@
         ],
         "xml_text_content": "12900",
         "pdf_text_content": "12900",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -680,7 +680,7 @@
         "xml_text_content": "Total planned for week",
         "pdf_text_content": "Total planned for week",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {

@@ -64,7 +64,7 @@
         "xml_text_content": "Time period",
         "pdf_text_content": "Time period",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -152,8 +152,8 @@
         ],
         "xml_text_content": "Accounting entry",
         "pdf_text_content": "Accounting entry",
-        "is_column_header": true,
-        "is_projected_row_header": false,
+        "is_column_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -165,7 +165,7 @@
         ],
         "xml_text_content": "Balance (revenue minus expenditure)",
         "pdf_text_content": "Balance (revenue minus expenditure)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -178,7 +178,7 @@
         ],
         "xml_text_content": "Revenue",
         "pdf_text_content": "Revenue",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -191,7 +191,7 @@
         ],
         "xml_text_content": "Expenditure",
         "pdf_text_content": "Expenditure",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -204,7 +204,7 @@
         ],
         "xml_text_content": "Balance (revenue minus expenditure)",
         "pdf_text_content": "Balance (revenue minus expenditure)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -217,7 +217,7 @@
         ],
         "xml_text_content": "Revenue",
         "pdf_text_content": "Revenue",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -230,7 +230,7 @@
         ],
         "xml_text_content": "Expenditure",
         "pdf_text_content": "Expenditure",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -243,7 +243,7 @@
         ],
         "xml_text_content": "Balance (revenue minus expenditure)",
         "pdf_text_content": "Balance (revenue minus expenditure)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -256,7 +256,7 @@
         ],
         "xml_text_content": "Revenue",
         "pdf_text_content": "Revenue",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -269,7 +269,7 @@
         ],
         "xml_text_content": "Expenditure",
         "pdf_text_content": "Expenditure",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -282,7 +282,7 @@
         ],
         "xml_text_content": "Balance (revenue minus expenditure)",
         "pdf_text_content": "Balance (revenue minus expenditure)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -295,7 +295,7 @@
         ],
         "xml_text_content": "Revenue",
         "pdf_text_content": "Revenue",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -308,7 +308,7 @@
         ],
         "xml_text_content": "Expenditure",
         "pdf_text_content": "Expenditure",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -321,7 +321,7 @@
         ],
         "xml_text_content": "Balance (revenue minus expenditure)",
         "pdf_text_content": "Balance (revenue minus expenditure)",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -334,7 +334,7 @@
         ],
         "xml_text_content": "Revenue",
         "pdf_text_content": "Revenue",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -347,7 +347,7 @@
         ],
         "xml_text_content": "Expenditure",
         "pdf_text_content": "Expenditure",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -390,7 +390,7 @@
         "pdf_text_content": "Institutional sector: Total economy > General government",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7685,7 +7685,7 @@
         "pdf_text_content": "Institutional sector: Central government",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -15370,7 +15370,7 @@
         "pdf_text_content": "Institutional sector: Local government",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -23055,7 +23055,7 @@
         "pdf_text_content": "Institutional sector: Social security funds",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

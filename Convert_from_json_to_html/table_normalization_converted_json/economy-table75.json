@@ -200,7 +200,7 @@
         ],
         "xml_text_content": "1",
         "pdf_text_content": "1",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -213,7 +213,7 @@
         ],
         "xml_text_content": "2",
         "pdf_text_content": "2",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -226,7 +226,7 @@
         ],
         "xml_text_content": "3",
         "pdf_text_content": "3",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -3436,7 +3436,7 @@
         ],
         "xml_text_content": "2013-02-01 00:00:00",
         "pdf_text_content": "2013-02-01 00:00:00",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -5215,7 +5215,7 @@
         ],
         "xml_text_content": "2013-05-02 00:00:00",
         "pdf_text_content": "2013-05-02 00:00:00",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -5848,7 +5848,7 @@
         ],
         "xml_text_content": "2013-01-01 00:00:00",
         "pdf_text_content": "2013-01-01 00:00:00",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -8552,7 +8552,7 @@
         ],
         "xml_text_content": "2012-10-01 00:00:00",
         "pdf_text_content": "2012-10-01 00:00:00",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

@@ -37,9 +37,9 @@
         ],
         "xml_text_content": "Room Seasons Ltd.",
         "pdf_text_content": "Room Seasons Ltd.",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -51,8 +51,8 @@
         "xml_text_content": "From",
         "pdf_text_content": "From",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -65,7 +65,7 @@
         "pdf_text_content": "2015-09-21",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -77,8 +77,8 @@
         "xml_text_content": "to",
         "pdf_text_content": "to",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -91,7 +91,7 @@
         "pdf_text_content": "2015-09-28",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -103,8 +103,8 @@
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -117,7 +117,7 @@
         "pdf_text_content": "411.5",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -130,7 +130,7 @@
         "pdf_text_content": "20",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -143,7 +143,7 @@
         "pdf_text_content": "20.575",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

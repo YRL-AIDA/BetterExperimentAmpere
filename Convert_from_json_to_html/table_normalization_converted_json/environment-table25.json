@@ -140,7 +140,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -153,7 +153,7 @@
         ],
         "xml_text_content": "General safety/efficacy evaluation",
         "pdf_text_content": "General safety/efficacy evaluation",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -166,7 +166,7 @@
         ],
         "xml_text_content": "Pharmaceutical safety/efficacy evaluation",
         "pdf_text_content": "Pharmaceutical safety/efficacy evaluation",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -179,7 +179,7 @@
         ],
         "xml_text_content": "Other purposes",
         "pdf_text_content": "Other purposes",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -6068,7 +6068,7 @@
         ],
         "xml_text_content": "Total",
         "pdf_text_content": "Total",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -6081,7 +6081,7 @@
         ],
         "xml_text_content": "General safety/efficacy evaluation",
         "pdf_text_content": "General safety/efficacy evaluation",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -6094,7 +6094,7 @@
         ],
         "xml_text_content": "Pharmaceutical safety/efficacy evaluation",
         "pdf_text_content": "Pharmaceutical safety/efficacy evaluation",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -6107,7 +6107,7 @@
         ],
         "xml_text_content": "Other purposes",
         "pdf_text_content": "Other purposes",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

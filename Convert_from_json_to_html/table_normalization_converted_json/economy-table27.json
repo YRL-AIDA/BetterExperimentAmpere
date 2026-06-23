@@ -176,7 +176,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -195,7 +195,7 @@
         "pdf_text_content": "Unit of measure: National currency",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -214,7 +214,7 @@
         "pdf_text_content": "Price base: Chain linked volume",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -233,7 +233,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1877,7 +1877,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1896,7 +1896,7 @@
         "pdf_text_content": "Unit of measure: National currency",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1915,7 +1915,7 @@
         "pdf_text_content": "Price base: Chain linked volume (rebased)",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -1934,7 +1934,7 @@
         "pdf_text_content": "Transformation: Annual levels",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2538,7 +2538,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2557,7 +2557,7 @@
         "pdf_text_content": "Unit of measure: National currency",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2576,7 +2576,7 @@
         "pdf_text_content": "Price base: Current prices",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -2595,7 +2595,7 @@
         "pdf_text_content": "Transformation: Annual levels",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3199,7 +3199,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3218,7 +3218,7 @@
         "pdf_text_content": "Unit of measure: National currency",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3237,7 +3237,7 @@
         "pdf_text_content": "Price base: Current prices",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -3256,7 +3256,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5199,7 +5199,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5218,7 +5218,7 @@
         "pdf_text_content": "Unit of measure: US dollars, PPP converted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5237,7 +5237,7 @@
         "pdf_text_content": "Price base: Chain linked volume (rebased)",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5256,7 +5256,7 @@
         "pdf_text_content": "Transformation: Annual levels",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5860,7 +5860,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5879,7 +5879,7 @@
         "pdf_text_content": "Unit of measure: US dollars, PPP converted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5898,7 +5898,7 @@
         "pdf_text_content": "Price base: Current prices",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -5917,7 +5917,7 @@
         "pdf_text_content": "Transformation: Annual levels",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6443,7 +6443,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6462,7 +6462,7 @@
         "pdf_text_content": "Unit of measure: US dollars per person, PPP converted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6481,7 +6481,7 @@
         "pdf_text_content": "Price base: Chain linked volume (rebased)",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6500,7 +6500,7 @@
         "pdf_text_content": "Transformation: Annual levels",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6597,7 +6597,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6616,7 +6616,7 @@
         "pdf_text_content": "Unit of measure: US dollars per person, PPP converted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6635,7 +6635,7 @@
         "pdf_text_content": "Price base: Current prices",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6654,7 +6654,7 @@
         "pdf_text_content": "Transformation: Annual levels",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6751,7 +6751,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6770,7 +6770,7 @@
         "pdf_text_content": "Unit of measure: National currency per US dollar",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6789,7 +6789,7 @@
         "pdf_text_content": "Price base: Current prices",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6808,7 +6808,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6905,7 +6905,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6924,7 +6924,7 @@
         "pdf_text_content": "Unit of measure: Percentage change",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6943,7 +6943,7 @@
         "pdf_text_content": "Price base: Chain linked volume",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -6962,7 +6962,7 @@
         "pdf_text_content": "Transformation: Growth rate, period on period",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7566,7 +7566,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7585,7 +7585,7 @@
         "pdf_text_content": "Unit of measure: Percentage change",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7604,7 +7604,7 @@
         "pdf_text_content": "Price base: Chain linked volume",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -7623,7 +7623,7 @@
         "pdf_text_content": "Transformation: Cumulative growth rate since base period",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8227,7 +8227,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8246,7 +8246,7 @@
         "pdf_text_content": "Unit of measure: Percentage change",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8265,7 +8265,7 @@
         "pdf_text_content": "Price base: Chain linked volume",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8284,7 +8284,7 @@
         "pdf_text_content": "Transformation: Growth rate, over 1 year",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8888,7 +8888,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8907,7 +8907,7 @@
         "pdf_text_content": "Unit of measure: Index",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8926,7 +8926,7 @@
         "pdf_text_content": "Price base: Chain linked volume (rebased)",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -8945,7 +8945,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9549,7 +9549,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9568,7 +9568,7 @@
         "pdf_text_content": "Unit of measure: Index",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9587,7 +9587,7 @@
         "pdf_text_content": "Price base: Deflator",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -9606,7 +9606,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10353,7 +10353,7 @@
         "pdf_text_content": "Adjustment: Calendar and seasonally adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10372,7 +10372,7 @@
         "pdf_text_content": "Unit of measure: Index",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10391,7 +10391,7 @@
         "pdf_text_content": "Price base: Deflator (rebased)",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -10410,7 +10410,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -11014,7 +11014,7 @@
         "pdf_text_content": "Adjustment: Neither seasonally adjusted nor calendar adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -11033,7 +11033,7 @@
         "pdf_text_content": "Unit of measure: National currency",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -11052,7 +11052,7 @@
         "pdf_text_content": "Price base: Chain linked volume",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -11071,7 +11071,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12598,7 +12598,7 @@
         "pdf_text_content": "Adjustment: Neither seasonally adjusted nor calendar adjusted",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12617,7 +12617,7 @@
         "pdf_text_content": "Unit of measure: National currency",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12636,7 +12636,7 @@
         "pdf_text_content": "Price base: Current prices",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -12655,7 +12655,7 @@
         "pdf_text_content": "Transformation: Non transformed data",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [

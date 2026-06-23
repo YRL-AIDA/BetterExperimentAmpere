@@ -65,7 +65,7 @@
         ],
         "xml_text_content": "Cases",
         "pdf_text_content": "Cases",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -91,7 +91,7 @@
         ],
         "xml_text_content": "Cases",
         "pdf_text_content": "Cases",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -419,7 +419,7 @@
         ],
         "xml_text_content": "Recovered %",
         "pdf_text_content": "Recovered %",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -445,7 +445,7 @@
         ],
         "xml_text_content": "Recovered %",
         "pdf_text_content": "Recovered %",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -773,7 +773,7 @@
         ],
         "xml_text_content": "Death %",
         "pdf_text_content": "Death %",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -799,7 +799,7 @@
         ],
         "xml_text_content": "Death %",
         "pdf_text_content": "Death %",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1127,7 +1127,7 @@
         ],
         "xml_text_content": "Active %",
         "pdf_text_content": "Active %",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -1153,7 +1153,7 @@
         ],
         "xml_text_content": "Active %",
         "pdf_text_content": "Active %",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

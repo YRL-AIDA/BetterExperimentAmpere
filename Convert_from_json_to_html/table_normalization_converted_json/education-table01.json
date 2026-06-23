@@ -27,7 +27,7 @@
         ],
         "xml_text_content": "Mean Estimates",
         "pdf_text_content": "Mean Estimates",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -44,7 +44,7 @@
         ],
         "xml_text_content": "Lower 95% CI Estimates",
         "pdf_text_content": "Lower 95% CI Estimates",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -61,7 +61,7 @@
         ],
         "xml_text_content": "Upper 95% CI Estimates",
         "pdf_text_content": "Upper 95% CI Estimates",
-        "is_column_header": false,
+        "is_column_header": true,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -113,7 +113,7 @@
         ],
         "xml_text_content": "EL1 and below",
         "pdf_text_content": "EL1 and below",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -126,7 +126,7 @@
         ],
         "xml_text_content": "EL2",
         "pdf_text_content": "EL2",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -139,7 +139,7 @@
         ],
         "xml_text_content": "EL3",
         "pdf_text_content": "EL3",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -152,7 +152,7 @@
         ],
         "xml_text_content": "L1",
         "pdf_text_content": "L1",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -165,7 +165,7 @@
         ],
         "xml_text_content": "L2 and above",
         "pdf_text_content": "L2 and above",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -178,7 +178,7 @@
         ],
         "xml_text_content": "EL1 and below",
         "pdf_text_content": "EL1 and below",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -191,7 +191,7 @@
         ],
         "xml_text_content": "EL2",
         "pdf_text_content": "EL2",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -204,7 +204,7 @@
         ],
         "xml_text_content": "EL3",
         "pdf_text_content": "EL3",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -217,7 +217,7 @@
         ],
         "xml_text_content": "L1",
         "pdf_text_content": "L1",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -230,7 +230,7 @@
         ],
         "xml_text_content": "L2 and above",
         "pdf_text_content": "L2 and above",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -243,7 +243,7 @@
         ],
         "xml_text_content": "EL1 and below",
         "pdf_text_content": "EL1 and below",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -256,7 +256,7 @@
         ],
         "xml_text_content": "EL2",
         "pdf_text_content": "EL2",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -269,7 +269,7 @@
         ],
         "xml_text_content": "EL3",
         "pdf_text_content": "EL3",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -282,7 +282,7 @@
         ],
         "xml_text_content": "L1",
         "pdf_text_content": "L1",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -295,7 +295,7 @@
         ],
         "xml_text_content": "L2 and above",
         "pdf_text_content": "L2 and above",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

@@ -190,7 +190,7 @@
         "xml_text_content": "Total, 16 years and over (in thousands)",
         "pdf_text_content": "Total, 16 years and over (in thousands)",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -281,7 +281,7 @@
         "xml_text_content": "Percent of total employed",
         "pdf_text_content": "Percent of total employed",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -1659,7 +1659,7 @@
         "xml_text_content": "Total, 16 years and over (in thousands)",
         "pdf_text_content": "Total, 16 years and over (in thousands)",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -1750,7 +1750,7 @@
         "xml_text_content": "Percent of total employed",
         "pdf_text_content": "Percent of total employed",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -3128,7 +3128,7 @@
         "xml_text_content": "Total, 16 years and over (in thousands)",
         "pdf_text_content": "Total, 16 years and over (in thousands)",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -3219,7 +3219,7 @@
         "xml_text_content": "Percent of total employed",
         "pdf_text_content": "Percent of total employed",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -4597,7 +4597,7 @@
         "xml_text_content": "Total, 16 years and over (in thousands)",
         "pdf_text_content": "Total, 16 years and over (in thousands)",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -4688,7 +4688,7 @@
         "xml_text_content": "Percent of total employed",
         "pdf_text_content": "Percent of total employed",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -6066,7 +6066,7 @@
         "xml_text_content": "Total, 16 years and over (in thousands)",
         "pdf_text_content": "Total, 16 years and over (in thousands)",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -6157,7 +6157,7 @@
         "xml_text_content": "Percent of total employed",
         "pdf_text_content": "Percent of total employed",
         "is_column_header": false,
-        "is_projected_row_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {

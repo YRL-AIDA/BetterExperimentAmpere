@@ -4253,8 +4253,8 @@
         "xml_text_content": "TOTAL",
         "pdf_text_content": "TOTAL",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4267,7 +4267,7 @@
         "pdf_text_content": "0",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4280,7 +4280,7 @@
         "pdf_text_content": "12258.3560606061",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4293,7 +4293,7 @@
         "pdf_text_content": "3740",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4306,7 +4306,7 @@
         "pdf_text_content": "4081.71",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -4319,7 +4319,7 @@
         "pdf_text_content": "11916.6460606061",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       }
     ],
     "structure_id": "economy-table64",

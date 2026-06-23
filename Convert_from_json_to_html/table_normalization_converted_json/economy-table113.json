@@ -23,8 +23,8 @@
         ],
         "xml_text_content": "Present",
         "pdf_text_content": "Present",
-        "is_column_header": true,
-        "is_projected_row_header": false,
+        "is_column_header": false,
+        "is_projected_row_header": true,
         "is_metadata": false
       },
       {
@@ -36,7 +36,7 @@
         ],
         "xml_text_content": "Level 3: Mgr 3 Name",
         "pdf_text_content": "Level 3: Mgr 3 Name",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -49,7 +49,7 @@
         ],
         "xml_text_content": "Level 2: Mgr 2 Name",
         "pdf_text_content": "Level 2: Mgr 2 Name",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -62,7 +62,7 @@
         ],
         "xml_text_content": "Level 1: Mgr1 Name",
         "pdf_text_content": "Level 1: Mgr1 Name",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },
@@ -75,7 +75,7 @@
         ],
         "xml_text_content": "Level 0: Employees",
         "pdf_text_content": "Level 0: Employees",
-        "is_column_header": true,
+        "is_column_header": false,
         "is_projected_row_header": false,
         "is_metadata": false
       },

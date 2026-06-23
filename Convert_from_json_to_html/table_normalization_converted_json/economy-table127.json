@@ -14,7 +14,7 @@
         "pdf_text_content": "Showroom:",
         "is_column_header": true,
         "is_projected_row_header": true,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -28,7 +28,7 @@
         "pdf_text_content": "Metropolitan",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -42,8 +42,8 @@
         "xml_text_content": "Date :",
         "pdf_text_content": "Date :",
         "is_column_header": false,
-        "is_projected_row_header": false,
-        "is_metadata": true
+        "is_projected_row_header": true,
+        "is_metadata": false
       },
       {
         "row_nums": [
@@ -58,7 +58,7 @@
         "pdf_text_content": "2014-09-02 00:00:00",
         "is_column_header": false,
         "is_projected_row_header": false,
-        "is_metadata": true
+        "is_metadata": false
       },
       {
         "row_nums": [
