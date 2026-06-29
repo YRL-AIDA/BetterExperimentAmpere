@@ -219,57 +219,84 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
         error_type=classify_api_error(last_error), error_message=last_error)
 
 
+_HARD_CONTINUATION_CAP = 50
+
+
 async def _run_continuation(client, cfg, budget, messages, requested_max_tokens,
                             raw, reasoning, parsed, ok, result: ApiResult):
-    if not parsed:
-        partial = raw.strip() or reasoning.strip()
-        logging.info("Continuation tier 2 (continue thinking)")
-        r2 = await async_api_call(client, cfg, budget,
-                                  _continue_thinking_messages(messages, partial),
-                                  requested_max_tokens, allow_continuation=False)
-        _accumulate(result, r2)
-        if r2.api_success and r2.parse_success and r2.parsed_headers:
-            result.parsed_headers = r2.parsed_headers
-            result.parse_success = True
+    current = list(parsed)
+    last_raw = raw
+    last_partial = raw.strip() or reasoning.strip()
+
+    max_rounds = cfg.max_continuation_rounds if cfg.max_continuation_rounds > 0 else _HARD_CONTINUATION_CAP
+    max_rounds = min(max_rounds, _HARD_CONTINUATION_CAP)
+
+    rounds = 0
+    truncated = True
+    completed = False
+    while rounds < max_rounds:
+        rounds += 1
+        if current:
+            cont_msgs = _extend_list_messages(messages, last_raw, _last_row(current))
+            mode = "extend list"
+        else:
+            cont_msgs = _continue_thinking_messages(messages, last_partial)
+            mode = "continue thinking"
+        logging.info(f"Continuation round {rounds} ({mode})")
+        r = await async_api_call(client, cfg, budget, cont_msgs,
+                                 requested_max_tokens, allow_continuation=False)
+        _accumulate(result, r)
+        result.continuation_used = True
+        result.continuation_tier = rounds
+        if not r.api_success:
+            logging.info(f"Continuation stopped at round {rounds}: "
+                         f"{r.error_type or 'no response'} (budget likely exhausted)")
+            break
+        if r.parsed_headers:
+            seen = {(h["row"], h["col"]) for h in current}
+            for h in r.parsed_headers:
+                key = (h["row"], h["col"])
+                if key not in seen:
+                    seen.add(key)
+                    current.append(h)
+        if r.raw_response:
+            last_raw = r.raw_response
+        if r.raw_response or r.reasoning:
+            last_partial = (last_partial + "\n" + (r.raw_response or r.reasoning)).strip()
+        if r.output_complete:
+            completed = True
+            truncated = False
+            break
+        if not r.capped:
+            truncated = False
+            break
+
+    if current:
+        current.sort(key=lambda x: (x["row"], x["col"]))
+        result.parsed_headers = current
+        result.parse_success = True
+        if completed:
             result.parse_error = ""
-            result.capped = False
-            result.continuation_used = True
-            result.continuation_tier = 2
-            return
-        logging.info("Continuation tier 3 (force answer, thinking off)")
-        combined = (partial + "\n" + (r2.raw_response or "")).strip()
-        r3 = await async_api_call(client, cfg, budget,
-                                  _force_answer_messages(messages, combined),
+        result.capped = truncated
+        return
+
+    result.capped = truncated
+    if cfg.force_answer_when_exhausted:
+        logging.info("Continuation salvage: forcing an answer (thinking off)")
+        rf = await async_api_call(client, cfg, budget,
+                                  _force_answer_messages(messages, last_partial),
                                   requested_max_tokens, disable_thinking=True,
                                   allow_continuation=False)
-        _accumulate(result, r3)
+        _accumulate(result, rf)
         result.continuation_used = True
-        result.continuation_tier = 3
-        if r3.api_success and r3.parse_success and r3.parsed_headers:
-            result.parsed_headers = r3.parsed_headers
+        result.continuation_forced = True
+        if rf.api_success and rf.parse_success and rf.parsed_headers:
+            result.parsed_headers = sorted(rf.parsed_headers, key=lambda x: (x["row"], x["col"]))
             result.parse_success = True
             result.parse_error = ""
             result.capped = False
         else:
-            logging.warning("Continuation exhausted, keeping empty result")
-    elif ok and parsed:
-        last_row = _last_row(parsed)
-        logging.info("Continuation tier 1 (extend list)")
-        r1 = await async_api_call(client, cfg, budget,
-                                  _extend_list_messages(messages, raw, last_row),
-                                  requested_max_tokens, allow_continuation=False)
-        _accumulate(result, r1)
-        result.continuation_used = True
-        result.continuation_tier = 1
-        if r1.api_success and r1.parse_success:
-            seen = {(h["row"], h["col"]) for h in result.parsed_headers}
-            for h in r1.parsed_headers:
-                key = (h["row"], h["col"])
-                if key not in seen:
-                    seen.add(key)
-                    result.parsed_headers.append(h)
-            result.parsed_headers.sort(key=lambda x: (x["row"], x["col"]))
-            result.capped = False
+            logging.warning("Continuation exhausted, no parseable answer")
 
 
 def _accumulate(result: ApiResult, other: ApiResult):

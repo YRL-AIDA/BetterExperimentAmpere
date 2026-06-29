@@ -137,6 +137,7 @@ class Collector:
         n_responded = 0
         any_capped = False
         any_cont = False
+        any_forced = False
         max_tier = 0
         raw_parts = []
 
@@ -160,6 +161,7 @@ class Collector:
                                     f"{ar.parse_error}")
             any_capped = any_capped or ar.capped
             any_cont = any_cont or ar.continuation_used
+            any_forced = any_forced or ar.continuation_forced
             max_tier = max(max_tier, ar.continuation_tier)
             total_dur += ar.duration_sec or 0
             total_ret += ar.retry_attempts or 1
@@ -190,6 +192,7 @@ class Collector:
             duration_sec=total_dur, retry_attempts=total_ret,
             requested_max_tokens=requested_mt, effective_max_tokens=requested_mt,
             capped=any_capped, continuation_used=any_cont, continuation_tier=max_tier,
+            continuation_forced=any_forced,
             error_type=err_type, error_message=err_msg,
             tokens_used={"prompt": total_pt, "completion": total_ct, "total": total_pt + total_ct})
         combined.n_chunks_failed = n_failed
@@ -253,6 +256,7 @@ class Collector:
             "oob_pred_count": oob_pred_count,
             "continuation_used": ar.continuation_used,
             "continuation_tier": ar.continuation_tier,
+            "continuation_forced": ar.continuation_forced,
             "output_complete": ar.output_complete,
             "budget_clamped": ar.budget_clamped,
             "api_success": ar.api_success, "parse_success": ar.parse_success,

@@ -62,6 +62,8 @@ class Config:
 
     enable_continuation: bool = os.getenv("ENABLE_CONTINUATION", "1") == "1"
     disable_thinking_supported: bool = os.getenv("DISABLE_THINKING_SUPPORTED", "1") == "1"
+    max_continuation_rounds: int = int(os.getenv("MAX_CONTINUATION_ROUNDS", "0"))
+    force_answer_when_exhausted: bool = os.getenv("FORCE_ANSWER_WHEN_EXHAUSTED", "1") == "1"
 
     chunk_strategy: str = os.getenv("CHUNK_STRATEGY", "header_aware")
     header_zone_rows: int = int(os.getenv("HEADER_ZONE_ROWS", "6"))

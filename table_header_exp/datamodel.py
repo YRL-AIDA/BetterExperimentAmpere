@@ -19,6 +19,7 @@ class ApiResult:
     capped: bool = False
     continuation_used: bool = False
     continuation_tier: int = 0
+    continuation_forced: bool = False
     tokens_used: Optional[Dict[str, int]] = None
     error_type: str = ""
     error_message: str = ""
@@ -40,6 +41,7 @@ class ApiResult:
             "capped": self.capped,
             "continuation_used": self.continuation_used,
             "continuation_tier": self.continuation_tier,
+            "continuation_forced": self.continuation_forced,
             "tokens_used": self.tokens_used,
             "error_type": self.error_type,
             "error_message": self.error_message,

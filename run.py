@@ -29,6 +29,10 @@ def main():
     parser.add_argument("--chunk-strategy", choices=["header_aware", "whole"], default=None)
     parser.add_argument("--header-zone-rows", type=int, default=None)
     parser.add_argument("--no-continuation", action="store_true", default=False)
+    parser.add_argument("--max-continuation-rounds", type=int, default=None,
+                        metavar="N", help="0 = unlimited (bounded by context budget)")
+    parser.add_argument("--no-force-answer", action="store_true", default=False,
+                        help="do not force a thinking-off answer as a last resort")
     parser.add_argument("--no-disable-thinking", action="store_true", default=False)
     parser.add_argument("--table-seed", default=None, metavar="PATH")
     parser.add_argument("--log-level", default=None)
@@ -75,6 +79,10 @@ def main():
         cfg.header_zone_rows = args.header_zone_rows
     if args.no_continuation:
         cfg.enable_continuation = False
+    if args.max_continuation_rounds is not None:
+        cfg.max_continuation_rounds = args.max_continuation_rounds
+    if args.no_force_answer:
+        cfg.force_answer_when_exhausted = False
     if args.no_disable_thinking:
         cfg.disable_thinking_supported = False
     if args.table_seed:

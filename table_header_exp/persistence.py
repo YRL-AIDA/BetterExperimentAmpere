@@ -218,6 +218,9 @@ def build_metrics(responses, api_failed, metrics_dir: Path, meta: Dict[str, Any]
         f.write(f"  Capped rate:        {ov.get('capped_rate', 0):.1%}\n")
         f.write(f"  Budget clamped:     {ov.get('budget_clamped_rate', 0):.1%}\n")
         f.write(f"  Continuation used:  {ov.get('continuation_used_rate', 0):.1%}\n")
+        if "continuation_forced" in df.columns:
+            forced = df["continuation_forced"].astype(str).str.lower().isin(["true", "1", "1.0"])
+            f.write(f"  Forced (salvage):   {forced.mean():.1%} ({int(forced.sum())} tasks)\n")
     logging.info(f"Metrics -> {metrics_dir}")
     logging.info(f"F1(with-headers,parsed)={f1_with_headers:.4f} F1(all)={f1_all:.4f} "
                  f"api_ok={api_ok.mean():.1%} parse_ok={parse_ok.mean():.1%}")
