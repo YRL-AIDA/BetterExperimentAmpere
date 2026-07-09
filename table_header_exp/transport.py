@@ -35,7 +35,8 @@ class BudgetController:
 
 async def detect_context_limit(client: httpx.AsyncClient, cfg: Config) -> Optional[int]:
     try:
-        r = await client.get(f"{cfg.vllm_base_url}/models")
+        r = await client.get(f"{cfg.vllm_base_url}/models",
+                             headers={"Authorization": f"Bearer {cfg.vllm_api_key}"})
         if r.status_code == 200:
             for m in r.json().get("data", []):
                 ml = m.get("max_model_len")
@@ -48,6 +49,17 @@ async def detect_context_limit(client: httpx.AsyncClient, cfg: Config) -> Option
 
 def _server_root(cfg: Config) -> str:
     return cfg.vllm_base_url.rstrip("/").removesuffix("/v1")
+
+
+def _thinking_off_body(cfg: Config) -> Dict:
+    mode = cfg.thinking_off_mode
+    if mode == "chat_template":
+        return {"chat_template_kwargs": {"enable_thinking": False}}
+    if mode == "enable_thinking":
+        return {"enable_thinking": False}
+    if mode == "reasoning":
+        return {"reasoning": {"enabled": False}}
+    return {}
 
 
 async def count_prompt_tokens(client: httpx.AsyncClient, cfg: Config,
@@ -116,7 +128,7 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
     url = f"{cfg.vllm_base_url}/chat/completions"
 
     prompt_toks = known_prompt_tokens
-    if prompt_toks is None:
+    if prompt_toks is None and cfg.use_tokenizer:
         prompt_toks = await count_prompt_tokens(client, cfg, messages)
     if prompt_toks is None:
         prompt_toks = sum(len(m.get("content", "")) for m in messages) // 3
@@ -141,7 +153,9 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
     if cfg.seed is not None:
         payload["seed"] = cfg.seed
     if disable_thinking and cfg.disable_thinking_supported:
-        payload["chat_template_kwargs"] = {"enable_thinking": False}
+        payload.update(_thinking_off_body(cfg))
+    if cfg.extra_body:
+        payload.update(cfg.extra_body)
 
     hdrs = {"Content-Type": "application/json",
             "Authorization": f"Bearer {cfg.vllm_api_key}"}
@@ -151,6 +165,18 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
         try:
             t0 = time.time()
             resp = await client.post(url, json=payload, headers=hdrs)
+            if resp.status_code == 429 and cfg.honor_retry_after:
+                ra = None
+                try:
+                    ra = resp.headers.get("retry-after")
+                except Exception:
+                    ra = None
+                delay = float(ra) if (ra and str(ra).replace(".", "", 1).isdigit()) \
+                    else min(cfg.retry_backoff_base ** attempt, 60.0)
+                logging.warning(f"429 rate limited; waiting {delay:.0f}s (attempt {attempt})")
+                last_error = "HTTP 429 rate limited"
+                await asyncio.sleep(delay)
+                continue
             if resp.status_code >= 400:
                 try:
                     eb = resp.json()
@@ -195,6 +221,13 @@ async def async_api_call(client: httpx.AsyncClient, cfg: Config, budget: BudgetC
             raise
         except Exception as e:
             last_error = str(e)
+            etype = classify_api_error(last_error)
+            if etype in ("model_not_found", "insufficient_balance"):
+                logging.critical(f"Permanent error ({etype}): {last_error[:200]}")
+                return ApiResult(
+                    api_success=False, requested_max_tokens=requested_max_tokens,
+                    effective_max_tokens=effective, budget_clamped=budget_clamped,
+                    retry_attempts=attempt, error_type=etype, error_message=last_error)
             logging.warning(f"Attempt {attempt}/{cfg.max_retries} failed: {last_error[:200]}")
             ptoks, server_ctx = parse_context_overflow(last_error)
             if server_ctx is not None:

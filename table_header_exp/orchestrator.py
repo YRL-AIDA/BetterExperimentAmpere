@@ -1,4 +1,5 @@
 import asyncio
+import json
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -13,7 +14,7 @@ from .evaluation import (coords_to_set, evaluate_coord_sets, evaluate_spanning_s
                          evaluate_text_metrics)
 from .loading import TableLoader, slugify
 from .persistence import Persistence, build_metrics
-from .prompts import get_requested_max_tokens, prepare_messages
+from .prompts import get_requested_max_tokens, is_thinking_prompt, prepare_messages
 from .transport import (BudgetController, async_api_call, count_prompt_tokens,
                         detect_context_limit)
 
@@ -51,6 +52,23 @@ class Collector:
         self._abort = False
         self._lock = asyncio.Lock()
 
+        self._cache: Dict[str, Dict[str, Any]] = {}
+        self._cache_fh = None
+        if cfg.cache_dir:
+            cdir = Path(cfg.cache_dir)
+            cdir.mkdir(parents=True, exist_ok=True)
+            cpath = cdir / f"cache_{self.model_alias}.jsonl"
+            if cpath.exists():
+                with open(cpath, "r", encoding="utf-8") as f:
+                    for line in f:
+                        try:
+                            obj = json.loads(line)
+                            self._cache[obj["rid"]] = obj["record"]
+                        except Exception:
+                            continue
+                logging.info(f"Loaded {len(self._cache)} cached responses from {cpath.name}")
+            self._cache_fh = open(cpath, "a", encoding="utf-8")
+
         self.meta = {
             "model": cfg.model_name, "model_alias": self.model_alias,
             "temperature": cfg.temperature, "seed": cfg.seed,
@@ -66,12 +84,13 @@ class Collector:
                 self.budget.set_window(detected)
             else:
                 logging.warning(f"Could not auto-detect window; using {self.budget.window}")
+        hdrs = {"Authorization": f"Bearer {self.cfg.vllm_api_key}"}
         base = self.cfg.vllm_base_url.rstrip("/").removesuffix("/v1")
-        for url in [f"{base}/health", f"{base}/ping", f"{self.cfg.vllm_base_url}/models"]:
+        for url in [f"{self.cfg.vllm_base_url}/models", f"{base}/health", f"{base}/ping"]:
             try:
-                r = await client.get(url)
-                if r.status_code in (200, 405):
-                    logging.info(f"Server reachable via {url}")
+                r = await client.get(url, headers=hdrs)
+                if r.status_code < 500:
+                    logging.info(f"Server reachable via {url} ({r.status_code})")
                     return True
             except Exception:
                 continue
@@ -83,14 +102,22 @@ class Collector:
                 f"__t{tr['table_index']}__{tr['table_hash']}__{table_format}__{self.model_alias}")
         return slugify(base)
 
-    async def _measure(self, client, table_repr, info, prompt_config, table_format):
-        msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, table_format, info)
-        return await count_prompt_tokens(client, self.cfg, msgs)
+    async def _measure(self, client, table_repr, info, prompt_config, table_format,
+                       system_suffix=""):
+        msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, table_format, info,
+                                system_suffix=system_suffix)
+        if self.cfg.use_tokenizer:
+            toks = await count_prompt_tokens(client, self.cfg, msgs)
+            if toks is not None:
+                return toks
+        return sum(len(m.get("content", "")) for m in msgs) // 3
 
-    async def _call(self, client, sem, messages, requested_mt, known_prompt_tokens=None) -> ApiResult:
+    async def _call(self, client, sem, messages, requested_mt, known_prompt_tokens=None,
+                    disable_thinking=False) -> ApiResult:
         async with sem:
             res = await async_api_call(client, self.cfg, self.budget, messages,
-                                       requested_mt, known_prompt_tokens=known_prompt_tokens)
+                                       requested_mt, known_prompt_tokens=known_prompt_tokens,
+                                       disable_thinking=disable_thinking)
             if self.cfg.inter_request_delay > 0:
                 await asyncio.sleep(self.cfg.inter_request_delay)
         return res
@@ -101,30 +128,39 @@ class Collector:
             return self._make_result(prompt_idx, prompt_config, tr, ar, table_format)
 
         pname = prompt_config.get("name", "")
+        thinking = is_thinking_prompt(self.cfg, pname)
+        suffix = "" if thinking else self.cfg.direct_answer_instruction
         requested_mt = get_requested_max_tokens(
-            self.cfg, pname, tr["table_rows"], tr["table_cols"])
+            self.cfg, pname, tr["table_rows"], tr["table_cols"], thinking=thinking)
+        dt = not thinking
 
         if table_format == "html":
             table_repr = tr.get("table_html") or tr["table_json"]
-            msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, "html")
-            ar = await self._call(client, sem, msgs, requested_mt)
+            msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, "html",
+                                    system_suffix=suffix)
+            ar = await self._call(client, sem, msgs, requested_mt, disable_thinking=dt)
             return self._make_result(prompt_idx, prompt_config, tr, ar, table_format)
 
         table_repr = tr["table_json"]
         target_input = max(self.budget.window // 2,
                            self.budget.window - requested_mt - self.cfg.context_safety_margin)
-        full_msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, "json")
-        full_toks = await count_prompt_tokens(client, self.cfg, full_msgs)
+        full_msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, "json",
+                                     system_suffix=suffix)
+        full_toks = await count_prompt_tokens(client, self.cfg, full_msgs) if self.cfg.use_tokenizer else None
+        if full_toks is None:
+            full_toks = sum(len(m.get("content", "")) for m in full_msgs) // 3
 
         if full_toks is not None and full_toks <= target_input:
-            ar = await self._call(client, sem, full_msgs, requested_mt, known_prompt_tokens=full_toks)
+            ar = await self._call(client, sem, full_msgs, requested_mt,
+                                  known_prompt_tokens=full_toks, disable_thinking=dt)
             return self._make_result(prompt_idx, prompt_config, tr, ar, table_format)
 
         if self.cfg.chunk_strategy == "whole":
             chunks = whole_table_chunk(tr)
         else:
             async def measure(repr_str, info):
-                return await self._measure(client, repr_str, info, prompt_config, "json")
+                return await self._measure(client, repr_str, info, prompt_config, "json",
+                                           system_suffix=suffix)
             chunks = await header_aware_chunks(tr, self.cfg.header_zone_rows, target_input, measure)
 
         logging.info(f"Chunking {tr['source_stem']} ({tr['table_rows']}x{tr['table_cols']}, "
@@ -145,8 +181,9 @@ class Collector:
             if self._abort:
                 n_api_failed += 1
                 break
-            msgs = prepare_messages(self.system_prompt, prompt_config, chunk_repr, "json", info)
-            ar = await self._call(client, sem, msgs, requested_mt)
+            msgs = prepare_messages(self.system_prompt, prompt_config, chunk_repr, "json", info,
+                                    system_suffix=suffix)
+            ar = await self._call(client, sem, msgs, requested_mt, disable_thinking=dt)
             if not ar.api_success:
                 n_api_failed += 1
                 logging.warning(f"Chunk {ci+1}/{len(chunks)} of {tr['source_stem']} api failed: "
@@ -320,11 +357,30 @@ class Collector:
                     except asyncio.QueueEmpty:
                         return
                     pi, pc, tr, fmt = item
-                    result = await self._process_one(client, sem, pi, pc, tr, fmt)
+                    rid = self._build_request_id(pc.get("name", f"prompt_{pi}"), tr, fmt)
+                    cached = self._cache.get(rid) if self.cfg.cache_dir else None
+                    if cached is not None:
+                        result = dict(cached)
+                        result["from_cache"] = True
+                    else:
+                        result = await self._process_one(client, sem, pi, pc, tr, fmt)
                     async with self._lock:
+                        if self.cfg.cache_dir and cached is None and result.get("api_success"):
+                            self._cache[rid] = result
+                            if self._cache_fh is not None:
+                                self._cache_fh.write(json.dumps({"rid": rid, "record": result},
+                                                                ensure_ascii=False) + "\n")
+                                self._cache_fh.flush()
                         self._register(result)
-                        if (not result["api_success"]
-                                and result.get("error_type") in FATAL_ERROR_TYPES):
+                        etype = result.get("error_type")
+                        if not result["api_success"] and etype in ("model_not_found",
+                                                                   "insufficient_balance"):
+                            if not self._abort:
+                                self._abort = True
+                                logging.critical(f"ABORT: permanent error '{etype}' — "
+                                                 f"{result.get('error_message', '')[:160]}")
+                        elif (not result["api_success"]
+                                and etype in FATAL_ERROR_TYPES):
                             self._consec_fail += 1
                         else:
                             self._consec_fail = 0

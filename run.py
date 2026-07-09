@@ -34,6 +34,17 @@ def main():
     parser.add_argument("--no-force-answer", action="store_true", default=False,
                         help="do not force a thinking-off answer as a last resort")
     parser.add_argument("--no-disable-thinking", action="store_true", default=False)
+    parser.add_argument("--thinking-off-mode", default=None,
+                        choices=["chat_template", "enable_thinking", "reasoning", "none"],
+                        help="how to turn thinking off for non-reasoning prompts")
+    parser.add_argument("--max-tokens-nonthinking", type=int, default=None)
+    parser.add_argument("--no-tokenizer", action="store_true", default=False,
+                        help="skip the /tokenize endpoint (hosted APIs lack it)")
+    parser.add_argument("--cache-dir", default=None, metavar="DIR",
+                        help="cache responses by request_id to avoid re-billing on reruns")
+    parser.add_argument("--extra-body", default=None, metavar="JSON",
+                        help='extra JSON merged into every request, e.g. '
+                             '\'{"provider":{"allow_fallbacks":false,"country":"ru"}}\'')
     parser.add_argument("--table-seed", default=None, metavar="PATH")
     parser.add_argument("--log-level", default=None)
     parser.add_argument("--retry", default=None, metavar="CHECKPOINT_PATH")
@@ -85,6 +96,17 @@ def main():
         cfg.force_answer_when_exhausted = False
     if args.no_disable_thinking:
         cfg.disable_thinking_supported = False
+    if args.thinking_off_mode is not None:
+        cfg.thinking_off_mode = args.thinking_off_mode
+    if args.max_tokens_nonthinking is not None:
+        cfg.max_tokens_nonthinking = args.max_tokens_nonthinking
+    if args.no_tokenizer:
+        cfg.use_tokenizer = False
+    if args.cache_dir:
+        cfg.cache_dir = args.cache_dir
+    if args.extra_body:
+        import json as _json
+        cfg.extra_body = _json.loads(args.extra_body)
     if args.table_seed:
         cfg.table_seed_path = args.table_seed
     if args.log_level:

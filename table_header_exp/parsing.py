@@ -85,6 +85,12 @@ def classify_api_error(msg: str) -> str:
         return "connection_error"
     if "rate limit" in m or "429" in m:
         return "rate_limit"
+    if "402" in m or "insufficient" in m or "недостаточно средств" in m:
+        return "insufficient_balance"
+    if "not found" in m and "model" in m:
+        return "model_not_found"
+    if "no available provider" in m or "нет ни одного" in m or "no provider" in m:
+        return "no_provider"
     if "bad request" in m or "400" in m:
         return "bad_request"
     return "api_error"

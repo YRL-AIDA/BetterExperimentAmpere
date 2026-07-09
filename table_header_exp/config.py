@@ -28,7 +28,8 @@ MAX_TOKENS_BY_PROMPT: Dict[str, int] = {
     "fewshot_reasoning_min": 24576,
 }
 
-FATAL_ERROR_TYPES = {"connection_error", "timeout", "oom", "api_error", "rate_limit"}
+FATAL_ERROR_TYPES = {"connection_error", "timeout", "oom", "api_error", "rate_limit",
+                     "insufficient_balance", "model_not_found"}
 
 
 @dataclass
@@ -64,6 +65,19 @@ class Config:
     disable_thinking_supported: bool = os.getenv("DISABLE_THINKING_SUPPORTED", "1") == "1"
     max_continuation_rounds: int = int(os.getenv("MAX_CONTINUATION_ROUNDS", "0"))
     force_answer_when_exhausted: bool = os.getenv("FORCE_ANSWER_WHEN_EXHAUSTED", "1") == "1"
+
+    thinking_prompt_prefixes: tuple = ("reasoning",)
+    thinking_off_mode: str = os.getenv("THINKING_OFF_MODE", "chat_template")
+    direct_answer_instruction: str = os.getenv(
+        "DIRECT_ANSWER_INSTRUCTION",
+        "Answer directly and concisely. Output only the required header cell "
+        "coordinates in the requested format, with no reasoning, explanation, or "
+        "extra text.")
+    max_tokens_nonthinking: int = int(os.getenv("MAX_TOKENS_NONTHINKING", "1024"))
+    use_tokenizer: bool = os.getenv("USE_TOKENIZER", "1") == "1"
+    cache_dir: Optional[str] = None
+    honor_retry_after: bool = os.getenv("HONOR_RETRY_AFTER", "1") == "1"
+    extra_body: Optional[Dict] = None
 
     chunk_strategy: str = os.getenv("CHUNK_STRATEGY", "header_aware")
     header_zone_rows: int = int(os.getenv("HEADER_ZONE_ROWS", "6"))
