@@ -45,10 +45,15 @@ def main():
     parser.add_argument("--extra-body", default=None, metavar="JSON",
                         help='extra JSON merged into every request, e.g. '
                              '\'{"provider":{"allow_fallbacks":false,"country":"ru"}}\'')
+    parser.add_argument("--max-input-tokens", type=int, default=None, metavar="N",
+                        help="skip tables whose input exceeds N tokens (0 = no limit)")
     parser.add_argument("--table-seed", default=None, metavar="PATH")
     parser.add_argument("--log-level", default=None)
     parser.add_argument("--retry", default=None, metavar="CHECKPOINT_PATH")
     parser.add_argument("--retry-capped", default=None, metavar="CHECKPOINT_PATH")
+    parser.add_argument("--retry-list", default=None, metavar="LIST_JSON",
+                        help="run ONLY the tasks listed in a JSON file of "
+                             "{stem,prompt,fmt} objects; results saved as a new run")
     args = parser.parse_args()
 
     cfg = Config()
@@ -107,6 +112,8 @@ def main():
     if args.extra_body:
         import json as _json
         cfg.extra_body = _json.loads(args.extra_body)
+    if args.max_input_tokens is not None:
+        cfg.max_input_tokens = args.max_input_tokens
     if args.table_seed:
         cfg.table_seed_path = args.table_seed
     if args.log_level:
@@ -125,6 +132,9 @@ def main():
     elif args.retry_capped:
         logging.info(f"=== CAPPED RETRY MODE: {args.retry_capped} ===")
         collector.run_retry_capped(args.retry_capped)
+    elif args.retry_list:
+        logging.info(f"=== LIST RETRY MODE: {args.retry_list} ===")
+        collector.run_retry_list(args.retry_list)
     else:
         collector.run()
 

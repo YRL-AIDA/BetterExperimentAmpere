@@ -78,6 +78,7 @@ class Config:
     cache_dir: Optional[str] = None
     honor_retry_after: bool = os.getenv("HONOR_RETRY_AFTER", "1") == "1"
     extra_body: Optional[Dict] = None
+    max_input_tokens: int = int(os.getenv("MAX_INPUT_TOKENS", "0"))
 
     chunk_strategy: str = os.getenv("CHUNK_STRATEGY", "header_aware")
     header_zone_rows: int = int(os.getenv("HEADER_ZONE_ROWS", "6"))

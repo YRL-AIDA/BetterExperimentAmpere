@@ -134,6 +134,20 @@ class Collector:
             self.cfg, pname, tr["table_rows"], tr["table_cols"], thinking=thinking)
         dt = not thinking
 
+        if self.cfg.max_input_tokens > 0:
+            repr_for_size = (tr.get("table_html") or tr["table_json"]) \
+                if table_format == "html" else tr["table_json"]
+            est_input = len(repr_for_size) // 3
+            if est_input > self.cfg.max_input_tokens:
+                ar = ApiResult(api_success=False, parse_success=False,
+                               error_type="skipped_too_large",
+                               error_message=(f"input ~{est_input} toks exceeds "
+                                              f"max_input_tokens={self.cfg.max_input_tokens}"))
+                logging.info(f"SKIP {tr['source_stem']} [{table_format}] "
+                             f"{tr['table_rows']}x{tr['table_cols']}: "
+                             f"~{est_input} input toks > {self.cfg.max_input_tokens}")
+                return self._make_result(prompt_idx, prompt_config, tr, ar, table_format)
+
         if table_format == "html":
             table_repr = tr.get("table_html") or tr["table_json"]
             msgs = prepare_messages(self.system_prompt, prompt_config, table_repr, "html",
@@ -482,3 +496,54 @@ class Collector:
 
     def run_retry_capped(self, checkpoint_path: str):
         asyncio.run(self._run_retry_async(checkpoint_path, "capped"))
+
+    async def _run_retry_list_async(self, list_path: str):
+        import json as _json
+        ts = datetime.now().strftime("%d.%m.%Y") + "_listretry"
+        with open(list_path, "r", encoding="utf-8") as f:
+            wanted = _json.load(f)
+        norm = []
+        for w in wanted:
+            norm.append((str(w.get("stem") or w.get("source_stem") or "").strip(),
+                         str(w.get("prompt") or w.get("prompt_name") or "").strip(),
+                         str(w.get("fmt") or w.get("table_format") or "json").strip()))
+        seen = set(norm)
+        logging.info(f"Retry(list): {len(seen)} unique (stem,prompt,format) requested")
+
+        pbn = {pc["name"]: (pi, pc) for pi, pc in enumerate(self.prompts)}
+        prompt_source = {}
+        for src in self.cfg.experiment_plan():
+            for pn in src["prompts"]:
+                prompt_source[pn] = src["name"]
+        lut = self._table_lookup()
+        by_stem = {}
+        for key, tr in lut.items():
+            by_stem.setdefault((key[1], tr["source_group"]), []).append(tr)
+
+        tasks, missing = [], []
+        for stem, pname, fmt in seen:
+            if pname not in pbn:
+                missing.append((stem, pname, fmt, "unknown prompt"))
+                continue
+            sg = prompt_source.get(pname)
+            cand = by_stem.get((stem, sg))
+            if not cand:
+                missing.append((stem, pname, fmt, f"table not found in {sg}"))
+                continue
+            pi, pc = pbn[pname]
+            tasks.append((pi, pc, cand[0], fmt))
+        logging.info(f"Rebuilt {len(tasks)} tasks from list; {len(missing)} could not be matched")
+        for m in missing[:20]:
+            logging.warning(f"  unmatched: {m}")
+        if not tasks:
+            logging.info("Nothing to run")
+            return
+        self.responses, self.api_failed, self.parse_failed = [], [], []
+        self.valid_responses = []
+        self.completed = 0
+        await self._run_tasks(tasks, ts)
+        self.persistence.save_final(self.responses, self.api_failed, self.parse_failed, ts)
+        build_metrics(self.responses, self.api_failed, self.persistence.metrics_dir, self.meta)
+
+    def run_retry_list(self, list_path: str):
+        asyncio.run(self._run_retry_list_async(list_path))
